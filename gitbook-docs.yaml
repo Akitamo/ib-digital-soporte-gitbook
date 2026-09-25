@@ -4,14 +4,15 @@ site:
   structure:
     - type: section
       key: section-5
-      title: Help Center
-      path: help-center
+      title: Personas
+      path: personas
+      description: ""
       icon: life-ring
       default: true
       children:
         - type: space
           key: space-5
-          title: Help Center
+          title: Personas
           path: help-center
           default: true
           content:
