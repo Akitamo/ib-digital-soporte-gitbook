@@ -1,131 +1,52 @@
 ---
-icon: life-ring
-layout:
-  width: wide
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: false
-  outline:
-    visible: false
-  pagination:
-    visible: false
-  metadata:
-    visible: false
-  tags:
-    visible: true
-  actions:
-    visible: true
-  anchors:
-    visible: false
+description: >-
+  Punto de partida para resolver dudas sobre Ibermutua Digital Personas, el canal online de Ibermutua para personas trabajadoras protegidas.
 ---
 
-# Help Center
+# Centro de Ayuda Ibermutua Digital Personas
 
-{% columns %}
-{% column width="16.666666666666664%" %}
-
-{% endcolumn %}
-
-{% column width="66.66666666666667%" %}
-{% hint style="success" %}
-**All systems operational** — No known issues. [View status page](https://status.gitbook.com)
-{% endhint %}
-{% endcolumn %}
-
-{% column width="16.666666666666657%" %}
-
-{% endcolumn %}
-{% endcolumns %}
-
-<h2 align="center">What can we help you find?</h2>
-
-<p align="center">Browse the topics below or use the GitBook Assistant to ask anything you need help with.</p>
-
-<p align="center"><button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">How can we help?</button><a href="https://gitbook.com/" class="button secondary" data-icon="paper-plane">Contact support</a></p>
-
-&#x20;
-
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h3><i class="fa-leaf" style="color:$primary;">:leaf:</i></h3></td><td><h4><strong>Getting started</strong></h4></td><td>Get help with the basics</td><td><a href="https://app.gitbook.com/s/Z5e2C4G5OriqT5L8gO9x/getting-started">Getting started</a></td></tr><tr><td><h3><i class="fa-money-bill-wave" style="color:$primary;">:money-bill-wave:</i></h3></td><td><h4><strong>Plans and billing</strong></h4></td><td>Get help with your billing</td><td><a href="https://app.gitbook.com/s/Z5e2C4G5OriqT5L8gO9x/plans-billing">Plans and billing</a></td></tr><tr><td><h3><i class="fa-computer-mouse" style="color:$primary;">:computer-mouse:</i></h3></td><td><h4><strong>Admin</strong></h4></td><td>Manage your account</td><td><a href="https://app.gitbook.com/s/Z5e2C4G5OriqT5L8gO9x/admin">Admin</a></td></tr><tr><td><h3><i class="fa-plug" style="color:$primary;">:plug:</i></h3></td><td><h4><strong>Integrations</strong></h4></td><td>Extend your workflow</td><td><a href="https://app.gitbook.com/s/Z5e2C4G5OriqT5L8gO9x/integrations">Integrations</a></td></tr><tr><td><h3><i class="fa-bullhorn" style="color:$primary;">:bullhorn:</i></h3></td><td><h4><strong>Product updates</strong></h4></td><td>See what’s new</td><td><a href="https://app.gitbook.com/o/DaDQkGCM7r2TghFSBFLQ/s/euz6U9T9Ui1Un0dUKuuZ/">Changelog</a></td></tr><tr><td><h3><i class="fa-heart" style="color:$danger;">:heart:</i></h3></td><td><h4><strong>Community</strong></h4></td><td>Join our community</td><td><a href="https://app.gitbook.com/s/Z5e2C4G5OriqT5L8gO9x/community">Community</a></td></tr></tbody></table>
-
-&#x20;
-
-&#x20;
-
-{% columns %}
-{% column %}
-### Featured
-
-{% hint style="info" icon="right-to-bracket" %}
-Log in to see articles recommended based on your plan and recent activity.
-
-<a href="https://gitbook.com" class="button primary">Sign up</a><a href="https://gitbook.com" class="button secondary">Log in</a>
+{% hint style="info" %}
+Piloto de migración a GitBook. Este espacio contiene solo la sección «Tu Historia Clínica y Asistencias Médicas» y sus preguntas frecuentes. Los enlaces al resto de secciones llevan al Centro de Ayuda actual.
 {% endhint %}
 
-{% content-ref url="getting-started/getting-started-checklist.md" %}
-[getting-started-checklist.md](getting-started/getting-started-checklist.md)
-{% endcontent-ref %}
+## Descripción
 
-{% content-ref url="getting-started/whats-the-difference-between-a-workspace-and-a-project.md" %}
-[whats-the-difference-between-a-workspace-and-a-project.md](getting-started/whats-the-difference-between-a-workspace-and-a-project.md)
-{% endcontent-ref %}
+El **Centro de Ayuda de** [**Ibermutua Digital Personas**](https://personas.ibermutua.es/) constituye tu punto de partida para resolver dudas y aprender a usar el portal.
 
-{% content-ref url="admin/managing-api-keys.md" %}
-[managing-api-keys.md](admin/managing-api-keys.md)
-{% endcontent-ref %}
-{% endcolumn %}
+## ¿Qué es Ibermutua Digital Personas?
 
-{% column %}
-### Popular articles
+Ibermutua Digital Personas es el canal online para trabajadores protegidos por [Ibermutua](https://www.ibermutua.es/). Te permite gestionar trámites de forma ágil, consultar la historia clínica, descargar informes y comunicarte con la mutua desde la web o la aplicación móvil.
 
-{% content-ref url="admin/inviting-team-members-to-your-workspace.md" %}
-[inviting-team-members-to-your-workspace.md](admin/inviting-team-members-to-your-workspace.md)
-{% endcontent-ref %}
+{% hint style="info" %}
+Este centro de ayuda está organizado para que encuentres respuestas en segundos: emplea la búsqueda, explora por secciones o consulta las preguntas frecuentes.
+{% endhint %}
 
-{% content-ref url="integrations/why-isnt-my-integration-syncing.md" %}
-[why-isnt-my-integration-syncing.md](integrations/why-isnt-my-integration-syncing.md)
-{% endcontent-ref %}
+## Cómo usar este Centro de Ayuda
 
-{% content-ref url="plans-billing/how-do-i-change-my-plan.md" %}
-[how-do-i-change-my-plan.md](plans-billing/how-do-i-change-my-plan.md)
-{% endcontent-ref %}
+* Utiliza la barra de búsqueda: escribe palabras clave como "alta", "historia clínica" o "prestaciones económicas" para ver resultados directos.
 
-{% content-ref url="getting-started/whats-the-difference-between-a-workspace-and-a-project.md" %}
-[whats-the-difference-between-a-workspace-and-a-project.md](getting-started/whats-the-difference-between-a-workspace-and-a-project.md)
-{% endcontent-ref %}
+* Explora por secciones: accede a categorías temáticas con guías paso a paso.
 
-{% content-ref url="getting-started/setting-up-a-custom-domain.md" %}
-[setting-up-a-custom-domain.md](getting-started/setting-up-a-custom-domain.md)
-{% endcontent-ref %}
-{% endcolumn %}
+* Consulta las preguntas frecuentes: resuelve dudas rápidas con respuestas claras y concisas.
 
-{% column %}
-### Recently updated
+## Secciones
 
-{% content-ref url="integrations/connecting-a-third-party-app.md" %}
-[connecting-a-third-party-app.md](integrations/connecting-a-third-party-app.md)
-{% endcontent-ref %}
+* [¡Bienvenida/o!](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/bienvenida-o)
 
-{% content-ref url="integrations/api-rate-limits-and-quotas.md" %}
-[api-rate-limits-and-quotas.md](integrations/api-rate-limits-and-quotas.md)
-{% endcontent-ref %}
+* [Tu Alta y Acceso a Ibermutua Digital Personas](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/tu-alta-y-acceso-a-ibermutua-digital-personas)
 
-{% content-ref url="admin/sso-configuration-guide.md" %}
-[sso-configuration-guide.md](admin/sso-configuration-guide.md)
-{% endcontent-ref %}
+* [Tu Historia Clínica y Asistencias Médicas](tu-historia-clinica-y-asistencias-medicas/README.md)
 
-{% content-ref url="plans-billing/billing-faq.md" %}
-[billing-faq.md](plans-billing/billing-faq.md)
-{% endcontent-ref %}
+* [Tus Prestaciones y Gestiones Relacionadas](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/tus-prestaciones-y-gestiones-relacionadas)
 
-{% content-ref url="admin/sso-configuration-guide.md" %}
-[sso-configuration-guide.md](admin/sso-configuration-guide.md)
-{% endcontent-ref %}
-{% endcolumn %}
-{% endcolumns %}
+* [Tus Servicios Médicos Digitales](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/tus-servicios-medicos-digitales)
 
+* [Preguntas Frecuentes](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/preguntas-frecuentes)
 
+* [Canales para Resolver Dudas según el Tipo de Consulta](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/canales-para-resolver-dudas-segun-el-tipo-de-consulta)
 
-&#x20;
+* [Glosario](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/glosario)
+
+## Buscar en este espacio
+
+Introduce términos específicos (ej.: "descargar informe", "cambiar contraseña") en el buscador situado en la parte superior.

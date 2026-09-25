@@ -1,36 +1,23 @@
 # Table of contents
 
-* [Help Center](README.md)
+* [Centro de Ayuda Ibermutua Digital Personas](README.md)
+* [Tu Historia Clínica y Asistencias Médicas](tu-historia-clinica-y-asistencias-medicas/README.md)
+  * [Cómo consultar Tu Historia Clínica](tu-historia-clinica-y-asistencias-medicas/como-consultar-tu-historia-clinica.md)
+  * [Consulta de Citas Pendientes](tu-historia-clinica-y-asistencias-medicas/consulta-de-citas-pendientes.md)
+  * [Consulta del histórico de Episodios Médicos](tu-historia-clinica-y-asistencias-medicas/consulta-del-historico-de-episodios-medicos.md)
+  * [Generación y descarga del informe de Tu Historia Clínica](tu-historia-clinica-y-asistencias-medicas/generacion-y-descarga-del-informe-de-tu-historia-clinica.md)
+  * [Visualización de Pruebas Diagnósticas](tu-historia-clinica-y-asistencias-medicas/visualizacion-de-pruebas-diagnosticas.md)
+  * [Solicitud de Segunda Opinión Médica](tu-historia-clinica-y-asistencias-medicas/solicitud-de-segunda-opinion-medica.md)
+  * [Consulta y Acceso a Documentación Administrativa](tu-historia-clinica-y-asistencias-medicas/consulta-y-acceso-a-documentacion-administrativa.md)
+  * [Justificantes de Asistencia](tu-historia-clinica-y-asistencias-medicas/justificantes-de-asistencia.md)
 
-## Getting started
+## Preguntas Frecuentes
 
-* [Getting started checklist](getting-started/getting-started-checklist.md)
-* [What's the difference between a workspace and a project?](getting-started/whats-the-difference-between-a-workspace-and-a-project.md)
-* [Setting up a custom domain](getting-started/setting-up-a-custom-domain.md)
-
-## Plans and billing <a href="#plans-billing" id="plans-billing"></a>
-
-* [How do I change my plan?](plans-billing/how-do-i-change-my-plan.md)
-* [Billing FAQ](plans-billing/billing-faq.md)
-
-## Admin
-
-* [Inviting team members to your workspace](admin/inviting-team-members-to-your-workspace.md)
-* [SSO configuration guide](admin/sso-configuration-guide.md)
-* [Managing API keys](admin/managing-api-keys.md)
-
-## Integrations
-
-* [Connecting a third-party app](integrations/connecting-a-third-party-app.md)
-* [Why isn't my integration syncing?](integrations/why-isnt-my-integration-syncing.md)
-* [API rate limits and quotas](integrations/api-rate-limits-and-quotas.md)
-
-## Community
-
-* [Contributing to the platform](community/contributing-to-the-platform.md)
-* [Discord community](https://www.gitbook.com/)
-* [GitHub](https://www.gitbook.com/)
-
-***
-
-* [Product updates](https://app.gitbook.com/o/DaDQkGCM7r2TghFSBFLQ/s/euz6U9T9Ui1Un0dUKuuZ/)
+* [Preguntas sobre Historia Clínica y Asistencias Médicas](preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/README.md)
+  * [¿Qué es la segunda opinión médica?](preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/que-es-la-segunda-opinion-medica.md)
+  * [¿Qué diferencia hay entre informe de Historia Clínica e Informe de Episodio Médico?](preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/que-diferencia-hay-entre-informe-de-historia-clinica-e-informe-de-episodio-medico.md)
+  * [¿Cuándo están disponibles en Ibermutua Digital las pruebas diagnósticas?](preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/cuando-estan-disponibles-en-ibermutua-digital-las-pruebas-diagnosticas.md)
+  * [¿Puedo cambiar las citas desde Ibermutua Digital?](preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/puedo-cambiar-las-citas-desde-ibermutua-digital.md)
+  * [¿Qué tipo de pruebas diagnósticas puedo visualizar?](preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/que-tipo-de-pruebas-diagnosticas-puedo-visualizar.md)
+  * [¿Qué tipo de documentación se incluye en la Historia Clínica?](preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/que-tipo-de-documentacion-se-incluye-en-la-historia-clinica.md)
+  * [¿Cómo descargar un justificante de asistencia?](preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/como-descargar-un-justificante-de-asistencia.md)
