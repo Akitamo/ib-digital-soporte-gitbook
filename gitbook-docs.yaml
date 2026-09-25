@@ -7,7 +7,6 @@ site:
       title: Home
       path: home
       icon: house
-      default: true
       children:
         - type: space
           key: space-1
@@ -60,6 +59,7 @@ site:
       title: Help Center
       path: help-center
       icon: life-ring
+      default: true
       children:
         - type: space
           key: space-5
