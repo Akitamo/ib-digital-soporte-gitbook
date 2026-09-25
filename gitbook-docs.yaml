@@ -17,3 +17,4 @@ site:
           default: true
           content:
             directory: ./help-center
+            language: es
