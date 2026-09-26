@@ -23,7 +23,7 @@ vars:
 
 {% stepper %}
 {% step %}
-### Abre la cita
+### Abre la cita <a href="#citas-abrir" id="citas-abrir"></a>
 
 Paso de prueba 1.
 {% endstep %}
@@ -52,3 +52,7 @@ Contenido de la pestaña App.
 ## Apartado con ancla estable
 
 Texto de destino para enlaces directos.
+
+## T7 – Ancla personalizada estable <a href="#ancla-fija-prueba" id="ancla-fija-prueba"></a>
+
+Este encabezado lleva un identificador fijo, independiente de su texto.
