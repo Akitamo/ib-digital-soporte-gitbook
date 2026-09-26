@@ -21,3 +21,8 @@
   * [¿Qué tipo de pruebas diagnósticas puedo visualizar?](preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/que-tipo-de-pruebas-diagnosticas-puedo-visualizar.md)
   * [¿Qué tipo de documentación se incluye en la Historia Clínica?](preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/que-tipo-de-documentacion-se-incluye-en-la-historia-clinica.md)
   * [¿Cómo descargar un justificante de asistencia?](preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/como-descargar-un-justificante-de-asistencia.md)
+
+## Pruebas técnicas (temporal)
+
+* [Prueba de módulos](pruebas-tecnicas/modulos.md)
+* [Prueba de enlaces](pruebas-tecnicas/enlaces.md)
