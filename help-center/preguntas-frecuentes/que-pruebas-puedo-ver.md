@@ -1,9 +1,10 @@
 ---
 description: >-
   Tipos de pruebas diagnósticas visibles en Ibermutua Digital Personas: analíticas, radiografías, resonancias, ecografías, TAC e informes.
+icon: circle-question
 ---
 
-# ¿Qué tipo de pruebas diagnósticas puedo visualizar?
+# ¿Qué tipo de pruebas diagnósticas puedo ver?
 
 Respuesta:
 
@@ -25,4 +26,4 @@ En **Ibermutua Digital Personas** podrás consultar todas las pruebas diagnósti
 
 ## Información relacionada
 
-* [Tu Historia Clínica y Asistencias Médicas](../../tu-historia-clinica-y-asistencias-medicas/README.md)
+* [Consultar tu historia clínica](../tu-historia-clinica/consultar-tu-historia-clinica.md)

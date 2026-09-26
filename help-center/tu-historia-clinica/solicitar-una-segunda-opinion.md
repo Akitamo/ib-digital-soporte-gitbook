@@ -1,13 +1,14 @@
 ---
 description: >-
   Cómo solicitar una segunda opinión médica online desde un episodio de tu historia clínica, en la web o en la app, y plazos de respuesta.
+icon: user-doctor
 ---
 
-# Solicitud de Segunda Opinión Médica
+# Solicitar una segunda opinión médica
 
 Puedes solicitar una segunda opinión médica online, a través de [**Ibermutua digital Personas**](https://personas.ibermutua.es/) o bien de forma presencial, en cualquier [**centro**](https://www.ibermutua.es/red-de-centros/) de Ibermutua.
 
-La [segunda opinión médica](../preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/que-es-la-segunda-opinion-medica.md) es la **valoración realizada por un médico experto sobre el diagnóstico, pronóstico, tratamiento y orientaciones de futuro de un proceso clínico de un paciente.**
+La [segunda opinión médica](../preguntas-frecuentes/que-es-la-segunda-opinion.md) es la **valoración realizada por un médico experto sobre el diagnóstico, pronóstico, tratamiento y orientaciones de futuro de un proceso clínico de un paciente.**
 
 <figure><img src="../.gitbook/assets/c73acdb96fb9-Image_boefqzboefqzboef.webp" alt="Pantalla Solicitar segunda opinión médica en web y móvil, con las ventajas del servicio, el campo opcional Cuéntanos por qué y el botón Enviar solicitud."><figcaption><p>Solicitud de segunda opinión médica en web y móvil.</p></figcaption></figure>
 
@@ -47,5 +48,4 @@ Nos pondremos en contacto contigo en un plazo de 3 a 10 días para atender la so
 
 ## Preguntas frecuentes relacionadas
 
-* [Preguntas sobre Historia Clínica y Asistencias Médicas](../preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/README.md)
-* [¿Qué es la segunda opinión médica?](../preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/que-es-la-segunda-opinion-medica.md)
+* [¿Qué es la segunda opinión médica?](../preguntas-frecuentes/que-es-la-segunda-opinion.md)

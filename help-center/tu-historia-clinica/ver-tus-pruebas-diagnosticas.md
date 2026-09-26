@@ -1,9 +1,10 @@
 ---
 description: >-
   Cómo ver tus pruebas diagnósticas, todas o por episodio médico, y cómo funciona el visor de pruebas de imagen.
+icon: x-ray
 ---
 
-# Visualización de Pruebas Diagnósticas
+# Ver tus pruebas diagnósticas
 
 ## 1. Consulta de todas las pruebas diagnósticas de la Historia Clínica
 
@@ -22,7 +23,7 @@ Puedes visualizar todas tus pruebas diagnósticas realizadas con Ibermutua a tra
 
 ## 2. Consulta de pruebas diagnósticas por Episodio Médico
 
-Otra forma de consulta es [ir a un episodio médico concreto](README.md) y, desde ahí, consultar exclusivamente las pruebas de dicho episodio.  
+Otra forma de consulta es [ir a un episodio médico concreto](consultar-tu-historia-clinica.md) y, desde ahí, consultar exclusivamente las pruebas de dicho episodio.  
 
 {% tabs %}
 {% tab title="Acceso web" %}
@@ -43,9 +44,7 @@ Las pruebas diagnósticas de imagen (radiografía, resonancia magnética, TAC, e
 
 ## Preguntas frecuentes relacionadas
 
-* [Visualización de Pruebas Diagnósticas](visualizacion-de-pruebas-diagnosticas.md)
-* [Preguntas sobre Historia Clínica y Asistencias Médicas](../preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/README.md)
-* [¿Cuándo están disponibles en Ibermutua Digital las pruebas diagnósticas?](../preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/cuando-estan-disponibles-en-ibermutua-digital-las-pruebas-diagnosticas.md)
-* [¿Qué es la segunda opinión médica?](../preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/que-es-la-segunda-opinion-medica.md)
-* [¿Qué diferencia hay entre informe de Historia Clínica e Informe de Episodio Médico?](../preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/que-diferencia-hay-entre-informe-de-historia-clinica-e-informe-de-episodio-medico.md)
-* [¿Qué tipo de pruebas diagnósticas puedo visualizar?](../preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/que-tipo-de-pruebas-diagnosticas-puedo-visualizar.md)
+* [¿Cuándo están disponibles las pruebas diagnósticas?](../preguntas-frecuentes/cuando-estan-disponibles-las-pruebas.md)
+* [¿Qué es la segunda opinión médica?](../preguntas-frecuentes/que-es-la-segunda-opinion.md)
+* [¿Qué diferencia hay entre el informe de historia clínica y el de episodio médico?](../preguntas-frecuentes/informe-historia-clinica-o-episodio.md)
+* [¿Qué tipo de pruebas diagnósticas puedo ver?](../preguntas-frecuentes/que-pruebas-puedo-ver.md)

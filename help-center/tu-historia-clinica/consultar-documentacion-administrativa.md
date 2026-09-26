@@ -1,9 +1,10 @@
 ---
 description: >-
   Cómo consultar la documentación administrativa de tu historia clínica, por episodio y filtrando por quién la ha aportado.
+icon: folder-open
 ---
 
-# Consulta y Acceso a Documentación Administrativa
+# Consultar la documentación administrativa
 
 ## 1. Consulta de toda la documentación de la Historia Clínica
 
@@ -26,7 +27,7 @@ Se accede desde "**H. Clínica** " en la parte inferior, seleccionando "**Prueba
 
 ## 2. Consulta de documentación por Episodio
 
-Otra forma de visualizar la documentación es [ir a un episodio concreto](README.md) y, desde ahí, acceder exclusivamente a la documentación asociada a dicho episodio.  
+Otra forma de visualizar la documentación es [ir a un episodio concreto](consultar-tu-historia-clinica.md) y, desde ahí, acceder exclusivamente a la documentación asociada a dicho episodio.  
 
 {% tabs %}
 {% tab title="Acceso web" %}
@@ -58,5 +59,4 @@ Se puede **filtrar** para obtener la información por fecha, de la documentació
 
 ## Preguntas frecuentes relacionadas
 
-* [Preguntas sobre Historia Clínica y Asistencias Médicas](../preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/README.md)
-* [¿Qué tipo de documentación se incluye en la Historia Clínica?](../preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/que-tipo-de-documentacion-se-incluye-en-la-historia-clinica.md)
+* [¿Qué documentación incluye la historia clínica?](../preguntas-frecuentes/que-incluye-la-historia-clinica.md)

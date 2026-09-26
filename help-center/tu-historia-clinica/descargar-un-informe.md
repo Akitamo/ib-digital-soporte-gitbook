@@ -1,9 +1,10 @@
 ---
 description: >-
   Pasos para generar y descargar en PDF el informe de tu historia clínica o de un episodio médico concreto.
+icon: file-arrow-down
 ---
 
-# Generación y descarga del informe de Tu Historia Clínica
+# Descargar un informe
 
 ¿Necesitas ver tu informe clínico? Dirígete al menú superior y entra en **Historia Clínica \> General** . Tras seleccionar el episodio médico de tu interés (como por ejemplo el más reciente) podrás consultar el detalle del mismo. Además, desde el menú lateral derecho, podrás elegir **"Descargar informe de historia"** para obtener en PDF el documento correspondiente que incluirá tus **antecedentes personales y la información clínica** correspondiente.  
 
@@ -27,7 +28,6 @@ description: >-
 
 ## Preguntas frecuentes relacionadas
 
-* [Visualización de Pruebas Diagnósticas](visualizacion-de-pruebas-diagnosticas.md)
-* [Preguntas sobre Historia Clínica y Asistencias Médicas](../preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/README.md)
-* [¿Qué es la segunda opinión médica?](../preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/que-es-la-segunda-opinion-medica.md)
-* [¿Qué diferencia hay entre informe de Historia Clínica e Informe de Episodio Médico?](../preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/que-diferencia-hay-entre-informe-de-historia-clinica-e-informe-de-episodio-medico.md)
+* [Ver tus pruebas diagnósticas](ver-tus-pruebas-diagnosticas.md)
+* [¿Qué es la segunda opinión médica?](../preguntas-frecuentes/que-es-la-segunda-opinion.md)
+* [¿Qué diferencia hay entre el informe de historia clínica y el de episodio médico?](../preguntas-frecuentes/informe-historia-clinica-o-episodio.md)

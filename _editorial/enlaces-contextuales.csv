@@ -1,0 +1,10 @@
+id;uso_previsto;pagina;ancla;pregunta_asistente;url_publicada;estado
+PER-CITAS;Pantalla Inicio del portal y de la app (ayuda contextual);citas-y-asistencias/consultar-tus-citas.md;;;/personas/citas-y-asistencias/consultar-tus-citas;Propuesta
+PER-CITAS-DETALLES;Notificación de nueva cita;citas-y-asistencias/consultar-tus-citas.md;citas-detalles;;/personas/citas-y-asistencias/consultar-tus-citas#citas-detalles;Propuesta
+PER-CITAS-QUE-LLEVAR;Recordatorio de cita (día anterior);citas-y-asistencias/consultar-tus-citas.md;citas-que-llevar;;/personas/citas-y-asistencias/consultar-tus-citas#citas-que-llevar;Propuesta
+PER-CITAS-COMO-LLEGAR;Recordatorio de cita presencial;citas-y-asistencias/consultar-tus-citas.md;citas-como-llegar;;/personas/citas-y-asistencias/consultar-tus-citas#citas-como-llegar;Propuesta
+PER-CITAS-DOCUMENTACION;Aviso de documentación pendiente para la cita;citas-y-asistencias/consultar-tus-citas.md;citas-documentacion;;/personas/citas-y-asistencias/consultar-tus-citas#citas-documentacion;Propuesta
+PER-CITAS-CALENDARIO;Notificación de nueva cita;citas-y-asistencias/consultar-tus-citas.md;citas-calendario;;/personas/citas-y-asistencias/consultar-tus-citas#citas-calendario;Propuesta
+PER-CITAS-CAMBIAR;Respuesta de atención a «quiero cambiar mi cita»;preguntas-frecuentes/cambiar-una-cita.md;;;/personas/preguntas-frecuentes/cambiar-una-cita;Propuesta (canal pendiente de validar)
+PER-CITAS-ASISTENTE;Notificación de nueva cita (ayuda con el asistente);citas-y-asistencias/consultar-tus-citas.md;;¿Cómo añado mi cita al calendario?;/personas/citas-y-asistencias/consultar-tus-citas?ask=¿Cómo añado mi cita al calendario?;Propuesta
+PER-CONTACTO;Pie de correos y pantallas de error;README.md;contacto;;/personas#contacto;Propuesta

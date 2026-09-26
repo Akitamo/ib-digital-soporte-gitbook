@@ -1,9 +1,10 @@
 ---
 description: >-
   Guía para localizar y descargar en PDF tus justificantes de asistencia, con solución de incidencias y recomendaciones de seguridad.
+icon: file-check
 ---
 
-# Justificantes de Asistencia
+# Descargar un justificante de asistencia
 
 El justificante de asistencia es un documento oficial emitido por Ibermutua que acredita la presencia del trabajador/a en una cita, prueba o gestión sanitaria. Suele utilizarse para justificar ausencias laborales ante la empresa.
 
@@ -150,9 +151,3 @@ En la mayoría de los casos, sí. El PDF emitido por Ibermutua es válido como a
 Sí, siempre que puedas acceder a Ibermutua Digital desde un navegador móvil compatible o a través de la [app](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/alta-a-traves-de-la-app).
 
 </details>
-
----
-## Preguntas frecuentes relacionadas
-
-* [Preguntas sobre Historia Clínica y Asistencias Médicas](../preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/README.md)
-* [¿Cómo descargar un justificante de asistencia?](../preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/como-descargar-un-justificante-de-asistencia.md)

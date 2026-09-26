@@ -1,9 +1,10 @@
 ---
 description: >-
   Diferencia entre el informe de historia clínica (todos tus episodios) y el informe de un episodio médico concreto.
+icon: circle-question
 ---
 
-# ¿Qué diferencia hay entre informe de Historia Clínica e Informe de Episodio Médico?
+# ¿Qué diferencia hay entre el informe de historia clínica y el de episodio médico?
 
 Respuesta:
 
@@ -21,6 +22,6 @@ Contiene únicamente la **información médica correspondiente al episodio médi
 
 ## Páginas relacionadas
 
-* [Cómo consultar Tu Historia Clínica](../../tu-historia-clinica-y-asistencias-medicas/como-consultar-tu-historia-clinica.md)
-* [Generación y descarga del informe de Tu Historia Clínica](../../tu-historia-clinica-y-asistencias-medicas/generacion-y-descarga-del-informe-de-tu-historia-clinica.md)
-* [Solicitud de Segunda Opinión Médica](../../tu-historia-clinica-y-asistencias-medicas/solicitud-de-segunda-opinion-medica.md)
+* [Consultar tu historia clínica](../tu-historia-clinica/consultar-tu-historia-clinica.md)
+* [Descargar un informe](../tu-historia-clinica/descargar-un-informe.md)
+* [Solicitar una segunda opinión médica](../tu-historia-clinica/solicitar-una-segunda-opinion.md)

@@ -1,9 +1,10 @@
 ---
 description: >-
   Dónde consultar los episodios médicos anteriores en la web (Histórico de episodios médicos) y en la app (Episodios médicos).
+icon: clock-rotate-left
 ---
 
-# Consulta del histórico de Episodios Médicos
+# Consultar episodios anteriores
 
 Para consultar los episodios médicos ya realizados, accede a **Historia Clínica** . En la versión web, los encontrarás en la parte inferior, dentro del apartado **Histórico de episodios médicos** . Si accedes desde la aplicación móvil, podrás consultarlos en la sección **Episodios médicos**.  
 
@@ -20,5 +21,4 @@ Para consultar los episodios médicos ya realizados, accede a **Historia Clínic
 
 ## Preguntas frecuentes relacionadas
 
-* [Preguntas sobre Historia Clínica y Asistencias Médicas](../preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/README.md)
-* [¿Puedo cambiar las citas desde Ibermutua Digital?](../preguntas-frecuentes/preguntas-sobre-historia-clinica-y-asistencias-medicas/puedo-cambiar-las-citas-desde-ibermutua-digital.md)
+* [¿Puedo cambiar las citas desde Ibermutua Digital?](../preguntas-frecuentes/cambiar-una-cita.md)

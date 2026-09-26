@@ -1,6 +1,7 @@
 ---
 description: >-
   Qué es la segunda opinión médica, qué no es, qué incluye y en qué plazos se resuelve la solicitud.
+icon: circle-question
 ---
 
 # ¿Qué es la segunda opinión médica?
@@ -45,4 +46,4 @@ Para más información, puedes consultar a tu médico y/o acudir a Atención al 
 
 ## Información relacionada
 
-* [Tu Historia Clínica y Asistencias Médicas](../../tu-historia-clinica-y-asistencias-medicas/README.md)
+* [Consultar tu historia clínica](../tu-historia-clinica/consultar-tu-historia-clinica.md)

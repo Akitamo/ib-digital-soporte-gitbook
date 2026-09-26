@@ -1,6 +1,7 @@
 ---
 description: >-
   Las citas no se pueden modificar desde Ibermutua Digital Personas; cómo solicitar el cambio por teléfono o chat.
+icon: circle-question
 ---
 
 # ¿Puedo cambiar las citas desde Ibermutua Digital?
@@ -12,4 +13,4 @@ En este momento, NO está disponible la opción de modificar las citas desde Ibe
 ## Información relacionada
 
 * [Canales para Resolver Dudas según el Tipo de Consulta](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/canales-para-resolver-dudas-segun-el-tipo-de-consulta)
-* [Consulta de Citas Pendientes](../../tu-historia-clinica-y-asistencias-medicas/consulta-de-citas-pendientes.md)
+* [Consultar tus citas](../citas-y-asistencias/consultar-tus-citas.md)

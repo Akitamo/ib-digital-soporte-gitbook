@@ -1,52 +1,27 @@
 ---
 description: >-
-  Punto de partida para resolver dudas sobre Ibermutua Digital Personas, el canal online de Ibermutua para personas trabajadoras protegidas.
+  Guías para usar Ibermutua Digital Personas, el canal online de Ibermutua para
+  personas trabajadoras protegidas.
+icon: house
 ---
 
-# Centro de Ayuda Ibermutua Digital Personas
+# ¿En qué podemos ayudarte?
 
-{% hint style="info" %}
-Piloto de migración a GitBook. Este espacio contiene solo la sección «Tu Historia Clínica y Asistencias Médicas» y sus preguntas frecuentes. Los enlaces al resto de secciones llevan al Centro de Ayuda actual.
-{% endhint %}
+Elige lo que quieres hacer en [Ibermutua Digital Personas](https://personas.ibermutua.es/), en la web o en la app.
 
-## Descripción
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
+<tr><td><h3><i class="fa-calendar-check" style="color:$primary;">:calendar-check:</i></h3></td><td><strong>Consultar mis citas</strong></td><td>Día, hora, centro y qué llevar.</td><td><a href="citas-y-asistencias/consultar-tus-citas.md">consultar-tus-citas.md</a></td></tr>
+<tr><td><h3><i class="fa-file-check" style="color:$primary;">:file-check:</i></h3></td><td><strong>Descargar un justificante</strong></td><td>De una asistencia, en PDF.</td><td><a href="citas-y-asistencias/descargar-un-justificante.md">descargar-un-justificante.md</a></td></tr>
+<tr><td><h3><i class="fa-notes-medical" style="color:$primary;">:notes-medical:</i></h3></td><td><strong>Ver mi historia clínica</strong></td><td>Episodios, asistencias, pruebas y documentos.</td><td><a href="tu-historia-clinica/consultar-tu-historia-clinica.md">consultar-tu-historia-clinica.md</a></td></tr>
+<tr><td><h3><i class="fa-x-ray" style="color:$primary;">:x-ray:</i></h3></td><td><strong>Consultar mis pruebas</strong></td><td>Pruebas diagnósticas e imágenes.</td><td><a href="tu-historia-clinica/ver-tus-pruebas-diagnosticas.md">ver-tus-pruebas-diagnosticas.md</a></td></tr>
+<tr><td><h3><i class="fa-file-arrow-down" style="color:$primary;">:file-arrow-down:</i></h3></td><td><strong>Descargar un informe</strong></td><td>De tu historia clínica o de un episodio.</td><td><a href="tu-historia-clinica/descargar-un-informe.md">descargar-un-informe.md</a></td></tr>
+<tr><td><h3><i class="fa-user-doctor" style="color:$primary;">:user-doctor:</i></h3></td><td><strong>Solicitar una segunda opinión</strong></td><td>Desde un episodio médico.</td><td><a href="tu-historia-clinica/solicitar-una-segunda-opinion.md">solicitar-una-segunda-opinion.md</a></td></tr>
+</tbody></table>
 
-El **Centro de Ayuda de** [**Ibermutua Digital Personas**](https://personas.ibermutua.es/) constituye tu punto de partida para resolver dudas y aprender a usar el portal.
+<button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Pregúntale al asistente</button> <a href="#contacto" class="button secondary">Necesito contactar</a>
 
-## ¿Qué es Ibermutua Digital Personas?
+{% include ".gitbook/includes/limites-asistente.md" %}
 
-Ibermutua Digital Personas es el canal online para trabajadores protegidos por [Ibermutua](https://www.ibermutua.es/). Te permite gestionar trámites de forma ágil, consultar la historia clínica, descargar informes y comunicarte con la mutua desde la web o la aplicación móvil.
+## ¿Necesitas contactar? <a href="#contacto" id="contacto"></a>
 
-{% hint style="info" %}
-Este centro de ayuda está organizado para que encuentres respuestas en segundos: emplea la búsqueda, explora por secciones o consulta las preguntas frecuentes.
-{% endhint %}
-
-## Cómo usar este Centro de Ayuda
-
-* Utiliza la barra de búsqueda: escribe palabras clave como "alta", "historia clínica" o "prestaciones económicas" para ver resultados directos.
-
-* Explora por secciones: accede a categorías temáticas con guías paso a paso.
-
-* Consulta las preguntas frecuentes: resuelve dudas rápidas con respuestas claras y concisas.
-
-## Secciones
-
-* [¡Bienvenida/o!](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/bienvenida-o)
-
-* [Tu Alta y Acceso a Ibermutua Digital Personas](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/tu-alta-y-acceso-a-ibermutua-digital-personas)
-
-* [Tu Historia Clínica y Asistencias Médicas](tu-historia-clinica-y-asistencias-medicas/README.md)
-
-* [Tus Prestaciones y Gestiones Relacionadas](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/tus-prestaciones-y-gestiones-relacionadas)
-
-* [Tus Servicios Médicos Digitales](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/tus-servicios-medicos-digitales)
-
-* [Preguntas Frecuentes](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/preguntas-frecuentes)
-
-* [Canales para Resolver Dudas según el Tipo de Consulta](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/canales-para-resolver-dudas-segun-el-tipo-de-consulta)
-
-* [Glosario](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/glosario)
-
-## Buscar en este espacio
-
-Introduce términos específicos (ej.: "descargar informe", "cambiar contraseña") en el buscador situado en la parte superior.
+{% include ".gitbook/includes/contacto.md" %}
