@@ -1,0 +1,141 @@
+# Índice de contenidos de la sección Personas
+#
+# Una entrada por página. Lo usan:
+#  - herramientas/generar_faq.py: genera un bloque reutilizable de preguntas frecuentes por tema
+#    (.gitbook/includes/faq-<tema>.md) con las páginas de tipo «pregunta» o «concepto» de ese tema.
+#  - el análisis de enlaces por intención: «resuelve» dice qué problema resuelve cada página o ancla.
+#  - herramientas/validar.py: comprueba que el índice y las páginas coinciden.
+#
+# tipo: portada | tarea | concepto | pregunta
+# temas: temas a los que pertenece la página (una pregunta puede tener varios)
+# faq_tema: tema del bloque de preguntas frecuentes que muestra la página (solo tareas)
+# resuelve: intenciones que resuelve la página; «ancla» vacía = la página entera
+
+temas:
+  citas: Citas
+  justificantes: Justificantes de asistencia
+  historia-clinica: Historia clínica
+  episodios: Episodios médicos
+  pruebas: Pruebas diagnósticas
+  informes: Informes
+  documentacion: Documentación
+  segunda-opinion: Segunda opinión médica
+
+paginas:
+  README.md:
+    tipo: portada
+    temas: []
+    resuelve:
+      - {ancla: contacto, intencion: saber qué canal de contacto usar según la consulta}
+
+  citas-y-asistencias/consultar-tus-citas.md:
+    tipo: tarea
+    temas: [citas]
+    faq_tema: citas
+    resuelve:
+      - {ancla: "", intencion: consultar tus próximas citas}
+      - {ancla: citas-detalles, intencion: ver el día, la hora, el facultativo y el centro de una cita}
+      - {ancla: citas-como-llegar, intencion: saber cómo llegar al centro de la cita}
+      - {ancla: citas-que-llevar, intencion: saber qué llevar a la cita}
+      - {ancla: citas-documentacion, intencion: aportar documentación para una cita}
+      - {ancla: citas-calendario, intencion: añadir una cita al calendario}
+
+  citas-y-asistencias/descargar-un-justificante.md:
+    tipo: tarea
+    temas: [justificantes, citas]
+    resuelve:
+      - {ancla: "", intencion: descargar un justificante de asistencia}
+      - {ancla: justificante-recientes, intencion: descargar todos los justificantes recientes a la vez}
+
+  tu-historia-clinica/consultar-tu-historia-clinica.md:
+    tipo: tarea
+    temas: [historia-clinica]
+    faq_tema: historia-clinica
+    resuelve:
+      - {ancla: "", intencion: acceder a tu historia clínica}
+      - {ancla: historia-episodio, intencion: abrir un episodio médico en la web}
+      - {ancla: historia-episodio-app, intencion: abrir un episodio médico en la app}
+      - {ancla: historia-contenido, intencion: saber qué información muestra la historia clínica}
+
+  tu-historia-clinica/consultar-episodios-anteriores.md:
+    tipo: tarea
+    temas: [episodios, historia-clinica]
+    faq_tema: historia-clinica
+    resuelve:
+      - {ancla: "", intencion: consultar episodios médicos ya finalizados}
+
+  tu-historia-clinica/ver-tus-pruebas-diagnosticas.md:
+    tipo: tarea
+    temas: [pruebas]
+    faq_tema: pruebas
+    resuelve:
+      - {ancla: "", intencion: ver tus pruebas diagnósticas}
+      - {ancla: pruebas-episodio, intencion: ver las pruebas de un episodio}
+      - {ancla: pruebas-visor, intencion: ver una prueba de imagen}
+
+  tu-historia-clinica/descargar-un-informe.md:
+    tipo: tarea
+    temas: [informes, historia-clinica]
+    faq_tema: informes
+    resuelve:
+      - {ancla: "", intencion: descargar el informe de tu historia clínica en PDF}
+
+  tu-historia-clinica/consultar-documentacion-administrativa.md:
+    tipo: tarea
+    temas: [documentacion, historia-clinica]
+    faq_tema: documentacion
+    resuelve:
+      - {ancla: "", intencion: consultar la documentación de tu historia clínica}
+      - {ancla: documentacion-filtrar, intencion: ver por separado lo que ha subido Ibermutua y lo que has subido tú}
+
+  tu-historia-clinica/solicitar-una-segunda-opinion.md:
+    tipo: tarea
+    temas: [segunda-opinion]
+    faq_tema: segunda-opinion
+    resuelve:
+      - {ancla: "", intencion: solicitar una segunda opinión médica}
+
+  preguntas-frecuentes/cambiar-una-cita.md:
+    tipo: pregunta
+    temas: [citas]
+    resuelve:
+      - {ancla: "", intencion: saber si se puede cambiar una cita y cómo pedirlo}
+
+  preguntas-frecuentes/que-es-la-segunda-opinion.md:
+    tipo: concepto
+    temas: [segunda-opinion]
+    resuelve:
+      - {ancla: "", intencion: entender qué es la segunda opinión médica}
+      - {ancla: segunda-opinion-plazos, intencion: conocer los plazos de la segunda opinión médica}
+
+  preguntas-frecuentes/informe-historia-clinica-o-episodio.md:
+    tipo: pregunta
+    temas: [informes, historia-clinica]
+    resuelve:
+      - {ancla: "", intencion: elegir entre el informe de historia clínica y el de episodio}
+
+  preguntas-frecuentes/cuando-estan-disponibles-las-pruebas.md:
+    tipo: pregunta
+    temas: [pruebas]
+    resuelve:
+      - {ancla: "", intencion: saber cuándo se pueden ver las pruebas diagnósticas}
+
+  preguntas-frecuentes/que-pruebas-puedo-ver.md:
+    tipo: pregunta
+    temas: [pruebas]
+    resuelve:
+      - {ancla: "", intencion: saber qué tipos de pruebas se pueden ver}
+
+  preguntas-frecuentes/que-incluye-la-historia-clinica.md:
+    tipo: pregunta
+    temas: [historia-clinica, documentacion]
+    resuelve:
+      - {ancla: "", intencion: saber qué documentos incluye la historia clínica}
+
+# Destinos externos (Centro de Ayuda actual) que se pueden enlazar mientras dure el piloto
+externos:
+  chat: {url: "https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/chat-con-el-servicio-medico-de-ibermutua", intencion: hablar con el servicio médico por chat}
+  enviar-documentacion: {url: "https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/intercambio-online-de-documentacion-con-la-mutua", intencion: enviar documentación a la mutua}
+  alta: {url: "https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/tu-alta-y-acceso-a-ibermutua-digital-personas", intencion: darse de alta y acceder a Ibermutua Digital Personas}
+  alta-app: {url: "https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/alta-a-traves-de-la-app", intencion: darse de alta en la app}
+  canales: {url: "https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/canales-para-resolver-dudas-segun-el-tipo-de-consulta", intencion: elegir el canal de atención}

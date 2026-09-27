@@ -95,6 +95,10 @@ Escribe al servicio médico por el [chat](https://soporte-ibermutua-digital.scro
 
 <button type="button" class="button secondary" data-action="ask" data-icon="gitbook-assistant" data-query="¿Cómo añado mi cita al calendario?">Pregúntale al asistente sobre tus citas</button>
 
+## Preguntas frecuentes <a href="#citas-faq" id="citas-faq"></a>
+
+{% include "../.gitbook/includes/faq-citas.md" %}
+
 ## Siguientes pasos <a href="#citas-siguientes-pasos" id="citas-siguientes-pasos"></a>
 
 {% content-ref url="descargar-un-justificante.md" %}

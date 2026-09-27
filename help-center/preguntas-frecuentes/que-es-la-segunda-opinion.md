@@ -1,49 +1,53 @@
 ---
 description: >-
-  Qué es la segunda opinión médica, qué no es, qué incluye y en qué plazos se resuelve la solicitud.
+  Qué es la segunda opinión médica, cuándo está indicada, qué incluye y en qué
+  plazos se resuelve.
 icon: circle-question
 ---
 
 # ¿Qué es la segunda opinión médica?
 
-**Respuesta:**
+Es la valoración que hace un médico experto sobre el diagnóstico, el pronóstico, el tratamiento y las orientaciones de futuro de un proceso clínico.
 
-Es la valoración realizada por un médico experto sobre el diagnóstico, pronóstico, tratamiento y orientaciones de futuro de un proceso clínico de un paciente cuando, en un primer informe:
+## Cuándo está indicada <a href="#segunda-opinion-cuando" id="segunda-opinion-cuando"></a>
 
-* Ha sido diagnosticado de una enfermedad de pronóstico reservado o que afecta significativamente a su salud.
+Cuando, en un primer informe:
 
-* Se le ha indicado un tratamiento de riesgo.
+* se ha diagnosticado una enfermedad de pronóstico reservado o que afecta significativamente a la salud, o
+* se ha indicado un tratamiento de riesgo.
 
-Una vez que el diagnóstico se ha completado y siempre que no requiera tratamiento urgente, la segunda opinión médica está indicada también en procesos o procedimientos asistenciales que, a criterio del paciente, requieran ampliar o completar la información médica para resolver dudas y generar confianza y seguridad. Si comporta desplazamientos a otros centros o gastos adicionales, serán asumidos por Ibermutua.
+Una vez completado el diagnóstico, y siempre que no requiera tratamiento urgente, también está indicada en procesos o procedimientos asistenciales en los que el paciente quiera ampliar o completar la información médica para resolver dudas y tener más confianza y seguridad. Si implica desplazamientos a otros centros o gastos adicionales, los asume Ibermutua.
 
-**¿Qué no es la segunda opinión médica?**
+## Qué no es <a href="#segunda-opinion-que-no-es" id="segunda-opinion-que-no-es"></a>
 
-No debe confundirse este servicio con los procesos de impugnación de alta médica, calificación del proceso como laboral o común o los planteamientos de quejas y/o reclamaciones. Para estos casos, en el mostrador de la recepción también puede contar con nuestra ayuda para formularlos ante la autoridad competente. Tampoco debe confundirse con las derivaciones al nivel especializado, mediante interconsulta habitual.
+No debe confundirse con:
 
-**¿Qué conlleva la segunda opinión médica?**
+* la impugnación del alta médica;
+* la calificación del proceso como laboral o común;
+* las quejas o reclamaciones (en el mostrador de recepción también te pueden ayudar a formularlas ante la autoridad competente);
+* las derivaciones al nivel especializado mediante interconsulta habitual.
 
-La emisión del informe de segunda opinión médica a partir de:
+## Qué incluye <a href="#segunda-opinion-incluye" id="segunda-opinion-incluye"></a>
 
-* Una nueva valoración clínica realizada por un facultativo experto en un centro acreditado, distinto del que emitió el primer diagnóstico o propuesta terapéutica.
+Un informe de segunda opinión médica elaborado a partir de:
 
-* Un análisis de todos los antecedentes médicos de la historia clínica del paciente.
+* una nueva valoración clínica por un facultativo experto en un centro acreditado, distinto del que emitió el primer diagnóstico o propuesta terapéutica;
+* el análisis de todos los antecedentes médicos de la historia clínica;
+* un reconocimiento médico especializado;
+* todas las pruebas complementarias que sean necesarias.
 
-* Un reconocimiento médico especializado.
+## Plazos <a href="#segunda-opinion-plazos" id="segunda-opinion-plazos"></a>
 
-* La realización de todas las pruebas complementarias que resulten necesarias.
+| Fase | Plazo | Desde |
+| --- | --- | --- |
+| Notificación del centro acreditado, el facultativo experto y la fecha y hora de la cita | 3 días | La presentación de la solicitud |
+| Cita | 10 días como máximo; 3 días en casos de prioridad clínica | — |
+| Emisión del informe | 3 días | El reconocimiento médico o, si hacen falta pruebas complementarias, el final del estudio clínico |
 
-**Plazos para resolución de solicitudes**
+La solicitud la valora el director provincial de Ibermutua con el médico responsable del proceso asistencial.
 
-El director provincial de Ibermutua, valorando la solicitud con el médico responsable del proceso asistencial, notificará al paciente, en el plazo de 3 días desde su presentación, el centro sanitario acreditado y el facultativo experto que deberá emitir la segunda opinión médica, así como la fecha y hora de la cita. El plazo máximo para la cita será de 10 días, salvo en los casos de prioridad clínica, en los que se realizará en un máximo de 3 días.
+## El informe <a href="#segunda-opinion-informe" id="segunda-opinion-informe"></a>
 
-**Emisión de la segunda opinión médica**
+Lo emite por escrito el facultativo experto del centro acreditado que designe Ibermutua. Contiene una valoración argumentada del diagnóstico, el pronóstico, el tratamiento y las orientaciones de futuro, con una conclusión final en términos comprensibles. Se incorpora a la historia clínica y se entrega al interesado, dejando constancia de su recepción.
 
-La segunda opinión médica será emitida por el facultativo experto del centro sanitario acreditado designado por Ibermutua, mediante informe escrito, en el plazo de 3 días contados desde el reconocimiento médico que le realice, salvo que requiera exploraciones o pruebas complementarias, en cuyo caso el plazo se contabilizará a partir de la finalización del estudio clínico.
-
-El informe de segunda opinión médica contendrá una valoración argumentada sobre el diagnóstico, pronóstico, tratamiento y orientaciones de futuro de la enfermedad del paciente e incluirá una conclusión final, en términos comprensibles para el paciente. Este informe se incorporará a la historia clínica y se entregará al interesado, dejando constancia de su recepción.
-
-Para más información, puedes consultar a tu médico y/o acudir a Atención al Cliente de su centro asistencial de Ibermutua.
-
-## Información relacionada
-
-* [Consultar tu historia clínica](../tu-historia-clinica/consultar-tu-historia-clinica.md)
+Para más información, consulta a tu médico o acude a Atención al Cliente de tu centro de Ibermutua.

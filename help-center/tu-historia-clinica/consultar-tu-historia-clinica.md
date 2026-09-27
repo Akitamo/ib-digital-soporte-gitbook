@@ -1,54 +1,79 @@
 ---
 description: >-
-  Dónde encontrar la Historia Clínica en la web y en la app, y qué información muestra cada episodio médico: asistencias, citas, pruebas y documentos.
+  Dónde está tu historia clínica en la web y en la app, y qué información
+  muestra cada episodio médico: asistencias, citas, pruebas y documentos.
 icon: notes-medical
 ---
 
 # Consultar tu historia clínica
 
-Dispones de acceso a la información de tu [Historia Clínica](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/glosario) y toda tu Asistencia Médica dentro de [Ibermutua Digital Personas](https://personas.ibermutua.es/).
+Tu historia clínica está en **Historia clínica**, en el menú superior de la web o en **H. Clínica**, en el menú inferior de la app. Ahí ves tus episodios médicos recientes y anteriores, con sus asistencias, citas, pruebas y documentos.
 
 {% hint style="info" %}
-La [**Historia Clínica**](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/glosario) es el archivo de todos los procesos asistenciales producidos entre la mutua y el paciente. Se organiza por **Episodios Médicos** (cada cual con su diagnóstico, fecha de la baja y duración total).
+La historia clínica reúne todos los procesos asistenciales entre la mutua y tú. Se organiza por **episodios médicos**: cada uno tiene su diagnóstico, la fecha de la baja y su duración total.
 {% endhint %}
 
-## ¿Cómo puedes ver tu Historia Clínica?
-
-1. **Acceso Web** : Accede desde el menú superior \> **Historia Clínica** donde podrás consultar tu/s proceso/s médico/s reciente/s así como un histórico de los mismos, si los hubiera.
-
-2. **Acceso App**: Selecciona "Historia Clínica" en el menú inferior.
-
 {% tabs %}
-{% tab title="Acceso web" %}
+{% tab title="Web" %}
+{% stepper %}
+{% step %}
+### Entra en Historia clínica <a href="#historia-acceder" id="historia-acceder"></a>
 
-<figure><img src="../.gitbook/assets/6732aea65c1c-image-20260225-124404.webp" alt="Portal web de Ibermutua Digital Personas con el menú Historia clínica desplegado y sus opciones General, Pruebas médicas y Documentos resaltadas."><figcaption><p>Web: menú superior Historia clínica con sus tres apartados.</p></figcaption></figure>
+En el menú superior, pulsa **Historia clínica**. Verás tus episodios médicos recientes y, si los hay, el histórico de los anteriores.
+
+<figure><img src="../.gitbook/assets/6732aea65c1c-image-20260225-124404.webp" alt="Portal web de Ibermutua Digital Personas con el menú Historia clínica desplegado y sus opciones General, Pruebas médicas y Documentos resaltadas."><figcaption><p>Menú Historia clínica con sus apartados.</p></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Abre un episodio médico <a href="#historia-episodio" id="historia-episodio"></a>
+
+Pulsa el episodio que quieres consultar para ver su detalle.
+{% endstep %}
+{% endstepper %}
 {% endtab %}
-{% tab title="Acceso app" %}
 
-<figure><img src="../.gitbook/assets/4b1ae338e90f-His-C.webp" alt="App móvil, pantalla Historia Clínica: botones Descargar informe y Subir documentos, pestañas Información y Pruebas y documentos, resumen general y episodio actual."><figcaption><p>App: pestaña H. Clínica en el menú inferior.</p></figcaption></figure>
+{% tab title="App" %}
+{% stepper %}
+{% step %}
+### Entra en H. Clínica <a href="#historia-acceder-app" id="historia-acceder-app"></a>
+
+En el menú inferior, pulsa **H. Clínica**.
+
+<figure><img src="../.gitbook/assets/4b1ae338e90f-His-C.webp" alt="App móvil, pantalla Historia Clínica: botones Descargar informe y Subir documentos, pestañas Información y Pruebas y documentos, resumen general y episodio actual."><figcaption><p>Pantalla H. Clínica en la app.</p></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Abre un episodio médico <a href="#historia-episodio-app" id="historia-episodio-app"></a>
+
+Pulsa el episodio que quieres consultar para ver su detalle.
+{% endstep %}
+{% endstepper %}
 {% endtab %}
 {% endtabs %}
 
-Accede a Historia Clínica para consultar:
+## Qué encontrarás <a href="#historia-contenido" id="historia-contenido"></a>
 
-* **Listado** : en cada uno de los episodios médicos, se muestra diagnóstico, estado y periodo de baja (inicio y duración total) con la información de la última asistencia en la parte superior y el [histórico de procesos médicos](consultar-episodios-anteriores.md) en la parte inferior.
+* **Listado de episodios:** diagnóstico, estado y periodo de baja (inicio y duración total) de cada episodio. Arriba aparece la información de la última asistencia y, abajo, el histórico de episodios anteriores.
+* **Detalle de cada episodio:**
+  * **Asistencias:** consultas, urgencias, rehabilitaciones y actuaciones clínicas.
+  * **Citas:** las próximas y las pasadas de ese episodio.
+  * **Pruebas:** radiografías, resonancias, analíticas y otros informes diagnósticos.
+  * **Documentos:** informes clínicos, justificantes, altas y bajas médicas.
 
-* **Detalle**:
+## Qué puedes hacer desde aquí <a href="#historia-gestiones" id="historia-gestiones"></a>
 
-  * **Asistencias**: consultas, urgencias, rehabilitaciones y actuaciones clínicas realizadas.
+En la web, en **Tus gestiones digitales**, a la derecha de la pantalla, puedes:
 
-  * [**Citas**](../citas-y-asistencias/consultar-tus-citas.md): próximas y pasadas del proceso médico correspondiente.
-
-  * [**Pruebas**](ver-tus-pruebas-diagnosticas.md): radiografías, resonancias, analíticas y otros informes diagnósticos.
-
-  * **Documentos**: informes clínicos, justificantes, altas/bajas médicas.
-
-En "**Tus gestiones digitales**" situado en la parte derecha de la pantalla podrás:
-
-1. Descargar [informe de historia](descargar-un-informe.md).
-
-2. [Hablar con el servicio médico](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/chat-con-el-servicio-medico-de-ibermutua).
-
-3. [Enviar documentación](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/intercambio-online-de-documentacion-con-la-mutua).
+* descargar el informe de tu historia clínica;
+* hablar con el servicio médico por chat;
+* enviar documentación a la mutua.
 
 {% include "../.gitbook/includes/aviso-datos-salud.md" %}
+
+## Preguntas frecuentes <a href="#historia-faq" id="historia-faq"></a>
+
+{% include "../.gitbook/includes/faq-historia-clinica.md" %}
+
+## ¿Necesitas contactar? <a href="#contacto" id="contacto"></a>
+
+{% include "../.gitbook/includes/contacto.md" %}
