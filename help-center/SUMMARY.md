@@ -18,7 +18,7 @@
 
 ## Preguntas frecuentes
 
-* [¿Puedo cambiar una cita desde Ibermutua Digital?](preguntas-frecuentes/cambiar-una-cita.md "¿Puedo cambiar una cita?")
+* [¿Puedo cambiar las citas desde Ibermutua Digital?](preguntas-frecuentes/cambiar-una-cita.md "¿Puedo cambiar una cita?")
 * [¿Qué es la segunda opinión médica?](preguntas-frecuentes/que-es-la-segunda-opinion.md)
 * [¿Qué diferencia hay entre el informe de historia clínica y el de episodio médico?](preguntas-frecuentes/informe-historia-clinica-o-episodio.md "¿Informe de historia clínica o de episodio?")
 * [¿Cuándo están disponibles las pruebas diagnósticas?](preguntas-frecuentes/cuando-estan-disponibles-las-pruebas.md "¿Cuándo están disponibles las pruebas?")
