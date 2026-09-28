@@ -22,7 +22,7 @@
 * [¿Qué es la segunda opinión médica?](preguntas-frecuentes/que-es-la-segunda-opinion.md)
 * [¿Qué diferencia hay entre el informe de historia clínica y el de episodio médico?](preguntas-frecuentes/informe-historia-clinica-o-episodio.md "¿Informe de historia clínica o de episodio?")
 * [¿Cuándo están disponibles las pruebas diagnósticas?](preguntas-frecuentes/cuando-estan-disponibles-las-pruebas.md "¿Cuándo están disponibles las pruebas?")
-* [¿Qué tipo de pruebas diagnósticas puedo ver?](preguntas-frecuentes/tipos-de-pruebas.md "¿Qué pruebas puedo ver?")
+* [¿Qué tipo de pruebas diagnósticas puedo ver?](preguntas-frecuentes/que-pruebas-puedo-ver.md "¿Qué pruebas puedo ver?")
 * [¿Qué documentación incluye la historia clínica?](preguntas-frecuentes/que-incluye-la-historia-clinica.md "¿Qué incluye la historia clínica?")
 
 ## Otros temas
