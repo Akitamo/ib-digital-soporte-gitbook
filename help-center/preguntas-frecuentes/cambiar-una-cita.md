@@ -3,7 +3,6 @@ description: >-
   Las citas no se pueden cambiar desde Ibermutua Digital Personas; cómo pedir
   el cambio.
 icon: circle-question
-hidden: true
 ---
 
 # ¿Puedo cambiar las citas desde Ibermutua Digital?
