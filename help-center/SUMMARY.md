@@ -1,20 +1,18 @@
 # Table of contents
 
 * [¿En qué podemos ayudarte?](README.md "Inicio")
+* [Tu historia clínica](tu-historia-clinica/README.md)
+  * [Consultar tu historia clínica](tu-historia-clinica/consultar-tu-historia-clinica.md)
+  * [Consultar episodios anteriores](tu-historia-clinica/consultar-episodios-anteriores.md)
+  * [Ver tus pruebas diagnósticas](tu-historia-clinica/ver-tus-pruebas-diagnosticas.md)
+  * [Descargar un informe](tu-historia-clinica/descargar-un-informe.md)
+  * [Consultar la documentación administrativa](tu-historia-clinica/consultar-documentacion-administrativa.md)
+  * [Solicitar una segunda opinión médica](tu-historia-clinica/solicitar-una-segunda-opinion.md)
 
 ## Citas y asistencias
 
 * [Consultar tus citas](citas-y-asistencias/consultar-tus-citas.md)
 * [Descargar un justificante de asistencia](citas-y-asistencias/descargar-un-justificante.md)
-
-## Tu historia clínica
-
-* [Consultar tu historia clínica](tu-historia-clinica/consultar-tu-historia-clinica.md)
-* [Consultar episodios anteriores](tu-historia-clinica/consultar-episodios-anteriores.md)
-* [Ver tus pruebas diagnósticas](tu-historia-clinica/ver-tus-pruebas-diagnosticas.md)
-* [Descargar un informe](tu-historia-clinica/descargar-un-informe.md)
-* [Consultar la documentación administrativa](tu-historia-clinica/consultar-documentacion-administrativa.md)
-* [Solicitar una segunda opinión médica](tu-historia-clinica/solicitar-una-segunda-opinion.md)
 
 ## Preguntas frecuentes
 
