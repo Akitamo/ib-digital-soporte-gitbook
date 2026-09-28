@@ -7,7 +7,7 @@ icon: user-doctor
 
 # Solicitar una segunda opinión médica
 
-Puedes solicitar una segunda opinión médica online, desde un episodio de tu historia clínica, o en persona en cualquier [centro de Ibermutua](https://www.ibermutua.es/red-de-centros/). Online, la solicitud se hace en dos pasos y te contactarán en un plazo de 3 a 10 días.
+Puedes [solicitar una segunda opinión médica online](../preguntas-frecuentes/que-es-la-segunda-opinion.md), desde un episodio de tu historia clínica, o en persona en cualquier [centro de Ibermutua](https://www.ibermutua.es/red-de-centros/). Online, la solicitud se hace en dos pasos y [te contactarán en un plazo de 3 a 10 días](../preguntas-frecuentes/que-es-la-segunda-opinion.md#segunda-opinion-plazos).
 
 <figure><img src="../.gitbook/assets/c73acdb96fb9-Image_boefqzboefqzboef.webp" alt="Pantalla Solicitar segunda opinión médica en web y móvil, con las ventajas del servicio, el campo opcional Cuéntanos por qué y el botón Enviar solicitud."><figcaption><p>Solicitud de segunda opinión médica en web y en el móvil.</p></figcaption></figure>
 
@@ -17,7 +17,7 @@ Puedes solicitar una segunda opinión médica online, desde un episodio de tu hi
 {% step %}
 ### Abre la solicitud desde el episodio <a href="#segunda-opinion-acceder" id="segunda-opinion-acceder"></a>
 
-En **Historia clínica > General**, abre el episodio. A la derecha, pulsa **Segunda opinión médica**.
+En **Historia clínica > General**, [abre el episodio](consultar-tu-historia-clinica.md#historia-episodio). A la derecha, pulsa **Segunda opinión médica**.
 
 <figure><img src="../.gitbook/assets/78419a80c620-image-20260504-105036.webp" alt="Web, ficha de un episodio médico con la opción Segunda opinión médica señalada en Tus gestiones digitales."><figcaption><p>Segunda opinión médica, a la derecha del episodio.</p></figcaption></figure>
 {% endstep %}

@@ -7,7 +7,7 @@ icon: circle-question
 
 # ¿Qué diferencia hay entre el informe de historia clínica y el de episodio médico?
 
-En Ibermutua Digital Personas puedes solicitar y descargar dos tipos de informe:
+En Ibermutua Digital Personas puedes [solicitar y descargar](../tu-historia-clinica/descargar-un-informe.md) dos tipos de informe:
 
 | Informe | Qué incluye |
 | --- | --- |

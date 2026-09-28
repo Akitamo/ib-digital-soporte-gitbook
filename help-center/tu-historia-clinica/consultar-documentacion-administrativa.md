@@ -29,13 +29,13 @@ En el menú inferior, pulsa **H. Clínica** y, arriba, la pestaña **Pruebas y d
 
 {% tabs %}
 {% tab title="Web" %}
-Abre el episodio médico en tu historia clínica. En **Histórico de actividad** verás solo la documentación de ese episodio.
+[Abre el episodio médico en tu historia clínica](consultar-tu-historia-clinica.md#historia-episodio). En **Histórico de actividad** verás solo la documentación de ese episodio.
 
 <figure><img src="../.gitbook/assets/0dbc63e99977-image-20260227-081141.webp" alt="Web, ficha de un episodio médico con el título del episodio y el filtro Todo del Histórico de actividad señalados con flechas."><figcaption><p>Documentación de un episodio.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="App" %}
-Abre el episodio médico y entra en la pestaña **Histórico**. Puedes filtrar por tipo, fecha y quién lo ha subido.
+[Abre el episodio médico](consultar-tu-historia-clinica.md#historia-episodio-app) y entra en la pestaña **Histórico**. Puedes filtrar por tipo, fecha y quién lo ha subido.
 
 <figure><img src="../.gitbook/assets/ad71882964a8-image-20260123-124927.webp" alt="App móvil, ficha de un episodio con la pestaña Histórico, filtros Tipo, Fecha y Subido, y listado de documentos del episodio."><figcaption><p>Histórico de documentos del episodio.</p></figcaption></figure>
 {% endtab %}
@@ -43,7 +43,7 @@ Abre el episodio médico y entra en la pestaña **Histórico**. Puedes filtrar p
 
 ## Filtrar por quién ha subido el documento <a href="#documentacion-filtrar" id="documentacion-filtrar"></a>
 
-Si tienes el alta como paciente digital, puedes enviar documentación al servicio médico de la mutua. Queda archivada en tu historia clínica, y siempre puedes ver por separado la que ha incorporado el personal de la mutua y la que has adjuntado tú.
+Si [tienes el alta como paciente digital](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/tu-alta-y-acceso-a-ibermutua-digital-personas), puedes [enviar documentación al servicio médico](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/intercambio-online-de-documentacion-con-la-mutua) de la mutua. Queda archivada en tu historia clínica, y siempre puedes ver por separado la que ha incorporado el personal de la mutua y la que has adjuntado tú.
 
 {% tabs %}
 {% tab title="Web" %}

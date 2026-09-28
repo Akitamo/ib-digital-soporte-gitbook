@@ -7,8 +7,7 @@ Comprueba:
   4. Índice de contenidos: cada página está en el índice y viceversa; las anclas de «resuelve»
      existen; cada tarea con faq_tema incluye su bloque faq-<tema>.
   5. Bloques de preguntas frecuentes al día con el índice (generar_faq.py).
-  6. Enlaces propuestos: todas las propuestas pendientes se pueden aplicar.
-  7. Catálogo de enlaces contextuales: las anclas fijas existen.
+  6. Catálogo de enlaces contextuales: las anclas fijas existen.
 
 Uso: python herramientas/validar.py      (sale con código 1 si hay errores)
 """
@@ -21,7 +20,6 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 from comun import EDITORIAL, HC, anclas, bloques, frontmatter, indice, leer, norm, paginas, titulo  # noqa: E402
 import generar_faq  # noqa: E402
-import aplicar_enlaces  # noqa: E402
 
 errores, avisos = [], []
 PAGS = paginas()
@@ -113,28 +111,7 @@ for nombre, contenido in generar_faq.generar().items():
     if not os.path.exists(ruta) or leer(ruta) != contenido:
         errores.append(f"Bloque {nombre} desfasado: ejecuta herramientas/generar_faq.py")
 
-# 6. Enlaces propuestos
-externos = idx.get("externos", {})
-propuestas = aplicar_enlaces.cargar()
-for pr in propuestas:
-    if pr["destino"].startswith("externo:") and pr["destino"][8:] not in externos:
-        errores.append(f"Enlace {pr['id']}: destino externo desconocido {pr['destino']}")
-    elif not pr["destino"].startswith("externo:"):
-        ruta, _, ancla = pr["destino"].partition("#")
-        destino = norm(os.path.join(os.path.dirname(pr["pagina"]), ruta))
-        if destino not in PAGS:
-            errores.append(f"Enlace {pr['id']}: la página destino {destino} no existe")
-        elif ancla and ancla not in anclas(PAGS[destino])[1]:
-            errores.append(f"Enlace {pr['id']}: el ancla #{ancla} no existe en {destino}")
-    if pr["estado"] in ("propuesto", "aceptado"):
-        _, problema = aplicar_enlaces.aplicar(PAGS.get(pr["pagina"], ""), pr, externos)
-        if problema:
-            errores.append(f"Enlace {pr['id']} ({pr['pagina']}): {problema}")
-pendientes = sum(1 for pr in propuestas if pr["estado"] in ("propuesto", "aceptado"))
-if pendientes:
-    avisos.append(f"{pendientes} enlaces propuestos pendientes de decisión")
-
-# 7. Catálogo de enlaces contextuales
+# 6. Catálogo de enlaces contextuales
 cat = os.path.join(EDITORIAL, "enlaces-contextuales.csv")
 filas = 0
 if os.path.exists(cat):
@@ -152,8 +129,6 @@ RESUMEN = {
     "bloques": len([b for b in TODOS if b.startswith(".gitbook/")]),
     "variables": len(vars_seccion),
     "catalogo": filas,
-    "propuestas": len(propuestas),
-    "pendientes": pendientes,
     "errores": errores,
     "avisos": avisos,
 }
@@ -163,7 +138,7 @@ if __name__ == "__main__":
         print(json.dumps(RESUMEN, ensure_ascii=False, indent=1))
         sys.exit(1 if errores else 0)
     print(f"Páginas: {len(PAGS)} · Bloques reutilizables: {RESUMEN['bloques']} · Variables: {len(vars_seccion)} · "
-          f"Catálogo de enlaces: {filas} · Enlaces propuestos: {len(propuestas)} ({pendientes} pendientes)")
+          f"Catálogo de enlaces: {filas}")
     for a in avisos:
         print("AVISO  ", a)
     for e in errores:

@@ -17,4 +17,5 @@ Esta carpeta está fuera de `help-center/`, que es la única que GitBook importa
 - Cambios grandes o de estructura: por Git.
 - Retoques puntuales: en GitBook, con **Editar** (crea una solicitud de cambio que, al fusionarse, se guarda en GitHub).
 - No editar la misma página por las dos vías a la vez.
-- Antes de subir por Git: `python reorg/validar_modulos.py repo-gitbook` (menú, enlaces, anclas, bloques, variables y catálogo).
+- Preguntas frecuentes por tema: se etiqueta cada pregunta con sus temas en `indice-contenido.yaml` y se ejecuta `python herramientas/generar_faq.py`, que regenera los bloques `faq-<tema>.md` que muestran las tareas.
+- Antes de subir por Git: `python herramientas/validar.py` (menú, enlaces, anclas, imágenes, bloques, variables, índice y catálogo).

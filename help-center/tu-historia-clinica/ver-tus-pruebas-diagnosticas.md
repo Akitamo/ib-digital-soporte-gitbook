@@ -29,13 +29,13 @@ En **H. Clínica**, pulsa la pestaña **Pruebas y documentos**. Puedes filtrar p
 
 {% tabs %}
 {% tab title="Web" %}
-Abre el episodio médico en tu historia clínica. En **Histórico de actividad**, filtra por **Pruebas médicas**.
+[Abre el episodio médico en tu historia clínica](consultar-tu-historia-clinica.md#historia-episodio). En **Histórico de actividad**, filtra por **Pruebas médicas**.
 
 <figure><img src="../.gitbook/assets/0fe3d3dd7073-image-20260504-074352.webp" alt="Web, ficha de un episodio médico con el filtro Pruebas médicas señalado en el Histórico de actividad y una resonancia magnética listada."><figcaption><p>Filtro Pruebas médicas en el episodio.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="App" %}
-En **H. Clínica**, abre el episodio médico y consulta sus pruebas en **Pruebas y documentos**.
+En **H. Clínica**, [abre el episodio médico](consultar-tu-historia-clinica.md#historia-episodio-app) y consulta sus pruebas en **Pruebas y documentos**.
 {% endtab %}
 {% endtabs %}
 

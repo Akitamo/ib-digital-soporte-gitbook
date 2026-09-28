@@ -20,7 +20,7 @@ Regla: si algo aparece en dos sitios, se convierte en bloque reutilizable, varia
 
 ## Anclas fijas
 
-Todo punto que se enlaza desde correos, desde la app o desde otras páginas lleva un ancla fija con prefijo del tema: `## Título <a href="#tema-accion" id="tema-accion"></a>`. El ancla no se cambia aunque se reescriba el título. El catálogo está en `enlaces-contextuales.csv`, y `reorg/validar_modulos.py` comprueba que todas existen.
+Todo punto que se enlaza desde correos, desde la app o desde otras páginas lleva un ancla fija con prefijo del tema: `## Título <a href="#tema-accion" id="tema-accion"></a>`. El ancla no se cambia aunque se reescriba el título. El catálogo está en `enlaces-contextuales.csv`, y `herramientas/validar.py` comprueba que todas existen.
 
 | Página | Anclas fijas |
 |---|---|

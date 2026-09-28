@@ -15,3 +15,5 @@ Todas las que te ha hecho el personal de Ibermutua en cada uno de tus episodios 
 * ecografías;
 * TAC;
 * informes de pruebas (biomecánica, imagen, electromedicina…).
+
+Consulta [cómo ver tus pruebas diagnósticas](../tu-historia-clinica/ver-tus-pruebas-diagnosticas.md) en la web o en la app.

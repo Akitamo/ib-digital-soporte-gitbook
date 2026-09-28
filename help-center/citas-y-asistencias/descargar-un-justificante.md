@@ -39,7 +39,7 @@ Pulsa el justificante para abrir su ficha. Al final de la ficha, pulsa **Descarg
 
 ## Desde el episodio médico <a href="#justificante-episodio" id="justificante-episodio"></a>
 
-Abre el episodio médico, desde **Tu situación reciente** o desde **Historia clínica**. Junto al **Justificante de asistencia**, pulsa **Ver** y descarga el PDF.
+[Abre el episodio médico](../tu-historia-clinica/consultar-tu-historia-clinica.md#historia-episodio), desde **Tu situación reciente** o desde **Historia clínica**. Junto al **Justificante de asistencia**, pulsa **Ver** y descarga el PDF.
 
 ## Todos los justificantes recientes <a href="#justificante-recientes" id="justificante-recientes"></a>
 

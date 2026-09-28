@@ -49,7 +49,7 @@ En **Lo que vas a necesitar** tienes el documento de identidad que debes llevar 
 {% step %}
 ### Aporta documentación, si hace falta <a href="#citas-documentacion" id="citas-documentacion"></a>
 
-Si tu médico/a tiene que revisar alguna prueba antes o durante la cita, pulsa **Ir a mi episodio médico** y sube los documentos en la sección **Documentos** del episodio. Así estarán disponibles en la consulta.
+Si tu médico/a tiene que revisar alguna prueba antes o durante la cita, pulsa **Ir a mi episodio médico** y [sube los documentos](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/intercambio-online-de-documentacion-con-la-mutua) en la sección **Documentos** del episodio. Así estarán disponibles en la consulta.
 
 <figure><img src="../.gitbook/assets/9c803c02c2c6-image-20260224-131136.webp" alt="Panel de la cita con el apartado ¿Necesitas adjuntar documentación? y el enlace Ir a mi episodio médico."><figcaption><p>Enlace Ir a mi episodio médico.</p></figcaption></figure>
 {% endstep %}

@@ -53,20 +53,20 @@ Pulsa el episodio que quieres consultar para ver su detalle.
 
 ## Qué encontrarás <a href="#historia-contenido" id="historia-contenido"></a>
 
-* **Listado de episodios:** diagnóstico, estado y periodo de baja (inicio y duración total) de cada episodio. Arriba aparece la información de la última asistencia y, abajo, el histórico de episodios anteriores.
+* **Listado de episodios:** diagnóstico, estado y periodo de baja (inicio y duración total) de cada episodio. Arriba aparece la información de la última asistencia y, abajo, [el histórico de episodios anteriores](consultar-episodios-anteriores.md).
 * **Detalle de cada episodio:**
   * **Asistencias:** consultas, urgencias, rehabilitaciones y actuaciones clínicas.
-  * **Citas:** las próximas y las pasadas de ese episodio.
-  * **Pruebas:** radiografías, resonancias, analíticas y otros informes diagnósticos.
-  * **Documentos:** informes clínicos, justificantes, altas y bajas médicas.
+  * **Citas:** [las próximas y las pasadas de ese episodio](../citas-y-asistencias/consultar-tus-citas.md).
+  * **Pruebas:** [radiografías, resonancias, analíticas y otros informes diagnósticos](ver-tus-pruebas-diagnosticas.md).
+  * **Documentos:** [informes clínicos, justificantes, altas y bajas médicas](consultar-documentacion-administrativa.md).
 
 ## Qué puedes hacer desde aquí <a href="#historia-gestiones" id="historia-gestiones"></a>
 
 En la web, en **Tus gestiones digitales**, a la derecha de la pantalla, puedes:
 
-* descargar el informe de tu historia clínica;
-* hablar con el servicio médico por chat;
-* enviar documentación a la mutua.
+* [descargar el informe de tu historia clínica](descargar-un-informe.md);
+* [hablar con el servicio médico por chat](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/chat-con-el-servicio-medico-de-ibermutua);
+* [enviar documentación a la mutua](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/intercambio-online-de-documentacion-con-la-mutua).
 
 {% include "../.gitbook/includes/aviso-datos-salud.md" %}
 

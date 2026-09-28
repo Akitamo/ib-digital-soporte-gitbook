@@ -15,3 +15,5 @@ Toda la documentación que se incorpora a cada uno de los episodios médicos de 
 * hoja de atención sanitaria;
 * estudios complementarios;
 * informes de trabajo social.
+
+Consulta [cómo ver esta documentación](../tu-historia-clinica/consultar-documentacion-administrativa.md) en la web o en la app.

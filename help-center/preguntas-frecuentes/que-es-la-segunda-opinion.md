@@ -50,4 +50,6 @@ La solicitud la valora el director provincial de Ibermutua con el médico respon
 
 Lo emite por escrito el facultativo experto del centro acreditado que designe Ibermutua. Contiene una valoración argumentada del diagnóstico, el pronóstico, el tratamiento y las orientaciones de futuro, con una conclusión final en términos comprensibles. Se incorpora a la historia clínica y se entrega al interesado, dejando constancia de su recepción.
 
+Puedes [solicitar una segunda opinión médica](../tu-historia-clinica/solicitar-una-segunda-opinion.md) desde un episodio de tu historia clínica, en la web o en la app.
+
 Para más información, consulta a tu médico o acude a Atención al Cliente de tu centro de Ibermutua.
