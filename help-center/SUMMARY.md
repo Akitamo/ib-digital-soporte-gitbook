@@ -2,7 +2,7 @@
 
 * [¿En qué podemos ayudarte?](README.md "Inicio")
 
-## Citas y justificantes
+## Citas y asistencias
 
 * [Consultar tus citas](citas-y-asistencias/consultar-tus-citas.md)
 * [Descargar un justificante de asistencia](citas-y-asistencias/descargar-un-justificante.md)
