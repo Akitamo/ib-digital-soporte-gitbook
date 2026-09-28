@@ -18,3 +18,18 @@ site:
           content:
             directory: ./help-center
             language: es
+    - type: section
+      key: section-empresas-prueba
+      title: Empresas (prueba)
+      path: empresas-prueba
+      description: ""
+      icon: building
+      children:
+        - type: space
+          key: space-empresas-prueba
+          title: Empresas (prueba)
+          path: empresas-prueba
+          default: true
+          content:
+            directory: ./empresas-prueba
+            language: es
