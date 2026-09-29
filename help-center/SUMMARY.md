@@ -5,6 +5,7 @@
 ## Citas y asistencias
 
 * [Consultar tus citas](citas-y-asistencias/consultar-tus-citas.md)
+* [Consultar tus citas — prueba Markdown](citas-y-asistencias/consultar-tus-citas-prueba-markdown.md)
 * [Descargar un justificante de asistencia](citas-y-asistencias/descargar-un-justificante.md)
 
 ## Tu historia clínica

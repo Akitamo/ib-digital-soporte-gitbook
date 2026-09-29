@@ -40,6 +40,12 @@ paginas:
       - {ancla: citas-documentacion, intencion: aportar documentación para una cita}
       - {ancla: citas-calendario, intencion: añadir una cita al calendario}
 
+  # Copia de evaluación; no sustituye a la página ni a sus enlaces contextuales.
+  citas-y-asistencias/consultar-tus-citas-prueba-markdown.md:
+    tipo: tarea
+    temas: [citas]
+    resuelve: []
+
   citas-y-asistencias/descargar-un-justificante.md:
     tipo: tarea
     temas: [justificantes, citas]
