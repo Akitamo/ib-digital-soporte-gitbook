@@ -44,6 +44,7 @@ paginas:
   citas-y-asistencias/consultar-tus-citas-prueba-markdown.md:
     tipo: tarea
     temas: [citas]
+    faq_tema: citas
     resuelve: []
 
   citas-y-asistencias/descargar-un-justificante.md:
