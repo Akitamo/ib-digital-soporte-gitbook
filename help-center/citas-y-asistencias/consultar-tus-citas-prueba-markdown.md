@@ -53,7 +53,7 @@ En el panel de la cita encontrarás estos apartados:
 
 * **Detalles de la cita:** día, hora, facultativo, tipo de cita y centro, con un mapa.
 * **Sobre esta sesión:** el tipo de sesión (por ejemplo, presencial) y en qué consiste.
-* **Lo que vas a necesitar:** qué llevar el día de la cita.
+* **Lo que vas a necesitar:** el documento de identidad que debes llevar (DNI, NIE o pasaporte) y las indicaciones para cuando llegues al centro.
 
 {% tabs %}
 {% tab title="Web" %}
@@ -65,13 +65,13 @@ En el panel de la cita encontrarás estos apartados:
 {% endtab %}
 {% endtabs %}
 
-### Qué llevar <a href="#citas-que-llevar" id="citas-que-llevar"></a>
-
-En **Lo que vas a necesitar** tienes el documento de identidad que debes llevar (DNI, NIE o pasaporte) y las indicaciones para cuando llegues al centro.
-
 ## Qué puedes hacer desde tu cita <a href="#citas-opciones" id="citas-opciones"></a>
 
-Con la cita abierta, puedes hacer estas acciones.
+Con la cita abierta, puedes:
+
+* [Ver cómo llegar al centro](#citas-como-llegar)
+* [Aportar documentación](#citas-documentacion)
+* [Añadir la cita a tu calendario](#citas-calendario)
 
 ### Ver cómo llegar al centro <a href="#citas-como-llegar" id="citas-como-llegar"></a>
 
@@ -109,7 +109,7 @@ Si tu médico/a tiene que revisar alguna prueba antes o durante la cita:
 {% endtab %}
 {% endtabs %}
 
-### Cambiar una cita <a href="#citas-cambiar" id="citas-cambiar"></a>
+## Si necesitas cambiar la cita <a href="#citas-cambiar" id="citas-cambiar"></a>
 
 {% include "../.gitbook/includes/aviso-cambio-cita.md" %}
 
