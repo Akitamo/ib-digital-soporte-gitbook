@@ -1,35 +1,69 @@
 ---
-description: "Dónde consultar tus próximas citas en la web y en la app de Ibermutua Digital Personas."
+description: "Dónde consultar tus próximas citas en la web y en la app de Ibermutua Digital Personas, y qué puedes hacer desde cada cita."
 icon: calendar-check
 ---
 
 # Consultar tus citas — prueba Markdown
 
-Tus próximas citas aparecen en la página de inicio de Ibermutua Digital Personas, en **Tus próximas citas**, tanto en la web como en la app.
+Tus próximas citas aparecen en la página de inicio de Ibermutua Digital Personas, en **Tus próximas citas**, tanto en la web como en la app. Solo se muestran las citas pendientes: las pasadas quedan en tu historia clínica, dentro de cada episodio médico. Consulta [cómo ver tu historia clínica](../tu-historia-clinica/consultar-tu-historia-clinica.md).
 
-{% hint style="warning" %}
-**No puedes cambiar una cita desde Ibermutua Digital Personas.** Consulta [cómo solicitar el cambio](#citas-cambiar).
-{% endhint %}
-
-Elige la versión que utilizas:
+## Abre tu cita <a href="#citas-abrir" id="citas-abrir"></a>
 
 {% tabs %}
 {% tab title="Web" %}
-## Abre y consulta tu cita <a href="#citas-abrir" id="citas-abrir"></a>
+{% stepper %}
+{% step %}
+### Entra en Ibermutua Digital Personas
 
-Entra en [Ibermutua Digital Personas](https://personas.ibermutua.es/) y, en **Tus próximas citas**, pulsa la cita que quieres consultar. A la derecha se abre el panel con su información.
+Accede a [Ibermutua Digital Personas](https://personas.ibermutua.es/).
+{% endstep %}
+
+{% step %}
+### Pulsa la cita
+
+En la página de inicio, en **Tus próximas citas**, pulsa la cita que quieres consultar. A la derecha se abre el panel con su información.
 
 <figure><img src="../.gitbook/assets/d99ea5165ebb-image-20260226-082100.webp" alt="Página de inicio de la web: la tarjeta Control médico está resaltada dentro de Tus próximas citas."></figure>
+{% endstep %}
+{% endstepper %}
+{% endtab %}
 
-### Información de la cita <a href="#citas-detalles" id="citas-detalles"></a>
+{% tab title="App" %}
+{% stepper %}
+{% step %}
+### Abre la app
 
-En el panel encontrarás estos apartados:
+Abre la app en tu móvil.
+{% endstep %}
 
-* **Detalles de la cita:** día, hora, facultativo, tipo de cita y centro.
-* **Sobre esta sesión:** información sobre la sesión.
-* **Lo que vas a necesitar:** documento de identidad e indicaciones para acudir al centro.
+{% step %}
+### Busca la cita en Tus próximas citas
 
+En la pantalla de inicio, en **Tus próximas citas**, verás cada cita con su fecha, su hora y si es presencial. Si tienes varias, desliza para ver las siguientes.
+
+<figure><img width="300" src="../.gitbook/assets/aef2768ce38a-image-20260525-072958.webp" alt="Inicio de la app: tarjeta de la próxima cita Control médico, de tipo presencial, resaltada dentro de Tus próximas citas."></figure>
+{% endstep %}
+{% endstepper %}
+{% endtab %}
+{% endtabs %}
+
+## Información de la cita <a href="#citas-detalles" id="citas-detalles"></a>
+
+En el panel de la cita encontrarás estos apartados:
+
+* **Detalles de la cita:** día, hora, facultativo, tipo de cita y centro, con un mapa.
+* **Sobre esta sesión:** el tipo de sesión (por ejemplo, presencial) y en qué consiste.
+* **Lo que vas a necesitar:** qué llevar el día de la cita.
+
+{% tabs %}
+{% tab title="Web" %}
 <figure><img src="../.gitbook/assets/1a00aeed731a-image-20260224-130933.webp" alt="Panel lateral Control médico con los detalles de la cita, el mapa del centro y el apartado Sobre esta sesión."></figure>
+{% endtab %}
+
+{% tab title="App" %}
+<figure><img width="300" src="../.gitbook/assets/app-captura-pendiente.webp" alt="Imagen de la app que falta: detalle de la cita."></figure>
+{% endtab %}
+{% endtabs %}
 
 ### Qué llevar <a href="#citas-que-llevar" id="citas-que-llevar"></a>
 
@@ -37,58 +71,54 @@ En **Lo que vas a necesitar** tienes el documento de identidad que debes llevar 
 
 ## Qué puedes hacer desde tu cita <a href="#citas-opciones" id="citas-opciones"></a>
 
-Con la cita abierta, puedes realizar estas acciones. Abre la opción que te interese:
+Con la cita abierta, puedes hacer estas acciones.
 
-<details>
-
-<summary>Ver cómo llegar al centro</summary>
+### Ver cómo llegar al centro <a href="#citas-como-llegar" id="citas-como-llegar"></a>
 
 Debajo del mapa del panel, pulsa **Abrir en Google Maps** para ver la ruta hasta el centro.
 
-</details>
+### Aportar documentación <a href="#citas-documentacion" id="citas-documentacion"></a>
 
-<details>
+Si tu médico/a tiene que revisar alguna prueba antes o durante la cita:
 
-<summary>Aportar documentación</summary>
+1. En el panel de la cita, pulsa **Ir a mi episodio médico**.
+2. [Sube los documentos](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/intercambio-online-de-documentacion-con-la-mutua) en la sección **Documentos** del episodio. Así estarán disponibles en la consulta.
 
-Si tu médico/a tiene que revisar alguna prueba antes o durante la cita, pulsa **Ir a mi episodio médico** y [sube los documentos](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/intercambio-online-de-documentacion-con-la-mutua) en la sección **Documentos** del episodio.
-
-<img src="../.gitbook/assets/9c803c02c2c6-image-20260224-131136.webp" alt="Panel de la cita con el apartado ¿Necesitas adjuntar documentación? y el enlace Ir a mi episodio médico.">
-
-</details>
-
-<details>
-
-<summary>Añadir la cita a tu calendario</summary>
-
-Pulsa **Añadir al calendario** y elige Google Calendar, Office 365 o ICS (Outlook o Apple Calendar).
-
-<img src="../.gitbook/assets/5524c02adfea-image-20260224-131203.webp" alt="Menú Añadir al calendario abierto, con las opciones Google Calendar, Office 365 e ICS (Outlook, Apple Calendar).">
-
-</details>
+{% tabs %}
+{% tab title="Web" %}
+<figure><img src="../.gitbook/assets/9c803c02c2c6-image-20260224-131136.webp" alt="Panel de la cita con el apartado ¿Necesitas adjuntar documentación? y el enlace Ir a mi episodio médico."></figure>
 {% endtab %}
 
 {% tab title="App" %}
-## Consulta tu próxima cita <a href="#citas-app" id="citas-app"></a>
-
-Abre la app. En la pantalla de inicio, en **Tus próximas citas**, verás cada cita con su fecha, su hora y si es presencial. Si tienes varias, desliza para ver las siguientes.
-
-<figure><img width="300" src="../.gitbook/assets/aef2768ce38a-image-20260525-072958.webp" alt="Inicio de la app: tarjeta de la próxima cita Control médico, de tipo presencial, resaltada dentro de Tus próximas citas."></figure>
+<figure><img width="300" src="../.gitbook/assets/app-captura-pendiente.webp" alt="Imagen de la app que falta: aportar documentación desde la cita."></figure>
 {% endtab %}
 {% endtabs %}
 
-## Preguntas frecuentes sobre citas <a href="#citas-faq" id="citas-faq"></a>
+### Añadir la cita a tu calendario <a href="#citas-calendario" id="citas-calendario"></a>
 
-### ¿Buscas una cita anterior? <a href="#citas-incidencias" id="citas-incidencias"></a>
+1. En el panel de la cita, pulsa **Añadir al calendario**.
+2. Elige Google Calendar, Office 365 o ICS (Outlook o Apple Calendar).
 
-**Tus próximas citas** solo muestra las citas pendientes. Las citas pasadas quedan en tu historia clínica, dentro de cada episodio médico. Consulta [cómo ver tu historia clínica](../tu-historia-clinica/consultar-tu-historia-clinica.md).
+{% tabs %}
+{% tab title="Web" %}
+<figure><img src="../.gitbook/assets/5524c02adfea-image-20260224-131203.webp" alt="Menú Añadir al calendario abierto, con las opciones Google Calendar, Office 365 e ICS (Outlook, Apple Calendar)."></figure>
+{% endtab %}
 
-### ¿Puedo cambiar una cita? <a href="#citas-cambiar" id="citas-cambiar"></a>
+{% tab title="App" %}
+<figure><img width="300" src="../.gitbook/assets/app-captura-pendiente.webp" alt="Imagen de la app que falta: añadir la cita al calendario."></figure>
+{% endtab %}
+{% endtabs %}
 
-No. Por ahora no puedes cambiar una cita desde Ibermutua Digital Personas. Para cambiarla, ponte en contacto con el servicio médico de la mutua por teléfono o, si [tienes el alta como paciente digital](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/tu-alta-y-acceso-a-ibermutua-digital-personas), [por chat](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/chat-con-el-servicio-medico-de-ibermutua).
+### Cambiar una cita <a href="#citas-cambiar" id="citas-cambiar"></a>
+
+{% include "../.gitbook/includes/aviso-cambio-cita.md" %}
 
 ## También te puede interesar <a href="#citas-siguientes-pasos" id="citas-siguientes-pasos"></a>
 
 {% content-ref url="descargar-un-justificante.md" %}
 [Descargar un justificante de asistencia](descargar-un-justificante.md)
 {% endcontent-ref %}
+
+## ¿Necesitas contactar? <a href="#contacto" id="contacto"></a>
+
+{% include "../.gitbook/includes/contacto.md" %}
