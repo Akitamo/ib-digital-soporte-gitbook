@@ -5,7 +5,7 @@ icon: calendar-check
 
 # Consultar tus citas — prueba Markdown
 
-Tus próximas citas aparecen en la página de inicio de Ibermutua Digital Personas, en **Tus próximas citas**, tanto en la web como en la app. Solo se muestran las citas pendientes: las pasadas quedan en tu historia clínica, dentro de cada episodio médico. Consulta [cómo ver tu historia clínica](../tu-historia-clinica/consultar-tu-historia-clinica.md).
+Tus citas pendientes aparecen en la página de inicio de Ibermutua Digital Personas, en **Tus próximas citas**, tanto en la web como en la app. Las citas pasadas quedan en tu historia clínica, dentro de cada episodio médico: consulta [cómo ver tu historia clínica](../tu-historia-clinica/consultar-tu-historia-clinica.md).
 
 ## Abre tu cita <a href="#citas-abrir" id="citas-abrir"></a>
 
@@ -15,15 +15,15 @@ Tus próximas citas aparecen en la página de inicio de Ibermutua Digital Person
 {% step %}
 ### Entra en Ibermutua Digital Personas
 
-Accede a [Ibermutua Digital Personas](https://personas.ibermutua.es/).
+Accede a [Ibermutua Digital Personas](https://personas.ibermutua.es/). En la página de inicio verás **Tus próximas citas**.
 {% endstep %}
 
 {% step %}
 ### Pulsa la cita
 
-En la página de inicio, en **Tus próximas citas**, pulsa la cita que quieres consultar. A la derecha se abre el panel con su información.
+Pulsa la cita que quieres consultar. A la derecha se abre el panel con su detalle.
 
-<figure><img src="../.gitbook/assets/d99ea5165ebb-image-20260226-082100.webp" alt="Página de inicio de la web: la tarjeta Control médico está resaltada dentro de Tus próximas citas."></figure>
+<figure><img src="../.gitbook/assets/d99ea5165ebb-inicio-recorte.webp" alt="Página de inicio de la web: la cita Control médico está resaltada dentro de Tus próximas citas."></figure>
 {% endstep %}
 {% endstepper %}
 {% endtab %}
@@ -33,15 +33,15 @@ En la página de inicio, en **Tus próximas citas**, pulsa la cita que quieres c
 {% step %}
 ### Abre la app
 
-Abre la app en tu móvil.
-{% endstep %}
-
-{% step %}
-### Busca la cita en Tus próximas citas
-
 En la pantalla de inicio, en **Tus próximas citas**, verás cada cita con su fecha, su hora y si es presencial. Si tienes varias, desliza para ver las siguientes.
 
 <figure><img width="300" src="../.gitbook/assets/aef2768ce38a-image-20260525-072958.webp" alt="Inicio de la app: tarjeta de la próxima cita Control médico, de tipo presencial, resaltada dentro de Tus próximas citas."></figure>
+{% endstep %}
+
+{% step %}
+### Pulsa la cita
+
+Pulsa la cita que quieres consultar para ver su detalle.
 {% endstep %}
 {% endstepper %}
 {% endtab %}
@@ -49,7 +49,7 @@ En la pantalla de inicio, en **Tus próximas citas**, verás cada cita con su fe
 
 ## Información de la cita <a href="#citas-detalles" id="citas-detalles"></a>
 
-En el panel de la cita encontrarás estos apartados:
+En el detalle de la cita encontrarás estos apartados:
 
 * **Detalles de la cita:** día, hora, facultativo, tipo de cita y centro, con un mapa.
 * **Sobre esta sesión:** el tipo de sesión (por ejemplo, presencial) y en qué consiste.
@@ -57,9 +57,9 @@ En el panel de la cita encontrarás estos apartados:
 
 {% tabs %}
 {% tab title="Web" %}
-<figure><img src="../.gitbook/assets/1a00aeed731a-image-20260224-130933.webp" alt="Parte superior del panel de la cita: Detalles de la cita, mapa del centro con el enlace Abrir en Google Maps y apartado Sobre esta sesión."><figcaption><p>Parte superior del panel.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/1a00aeed731a-panel-superior-recorte.webp" alt="Parte superior del panel de la cita: Detalles de la cita, mapa del centro con el enlace Abrir en Google Maps, apartado Sobre esta sesión y botón Añadir al calendario."><figcaption><p>Parte superior del panel.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/9c803c02c2c6-image-20260224-131136.webp" alt="Parte inferior del panel de la cita: Lo que vas a necesitar, ¿Necesitas adjuntar documentación? con el enlace Ir a mi episodio médico y el botón Añadir al calendario."><figcaption><p>Parte inferior del panel.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/9c803c02c2c6-panel-inferior-recorte.webp" alt="Parte inferior del panel de la cita: Lo que vas a necesitar, ¿Necesitas adjuntar documentación? con el enlace Ir a mi episodio médico y el botón Añadir al calendario."><figcaption><p>Parte inferior del panel.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="App" %}
@@ -69,11 +69,11 @@ En el panel de la cita encontrarás estos apartados:
 
 ## Qué puedes hacer desde tu cita <a href="#citas-opciones" id="citas-opciones"></a>
 
-Con la cita abierta, puedes:
+Con la cita abierta, puedes hacer lo siguiente. Los controles se ven en las capturas de [Información de la cita](#citas-detalles).
 
 **A. Ver cómo llegar al centro**
 
-Debajo del mapa, pulsa **Abrir en Google Maps**.
+Pulsa **Abrir en Google Maps**, debajo del mapa del centro.
 
 **B. Aportar documentación**
 
