@@ -49,31 +49,47 @@ Pulsa la cita que quieres consultar para ver su detalle.
 
 ## Información de la cita <a href="#citas-detalles" id="citas-detalles"></a>
 
-En el detalle de la cita encontrarás estos apartados:
+En el detalle de la cita encontrarás estos apartados.
 
-* **Detalles de la cita:** día, hora, facultativo, tipo de cita y centro, con un mapa.
-* **Sobre esta sesión:** el tipo de sesión (por ejemplo, presencial) y en qué consiste.
-* **Lo que vas a necesitar:** el documento de identidad que debes llevar (DNI, NIE o pasaporte) y las indicaciones para cuando llegues al centro.
+**Detalles de la cita**
+
+Día, hora, facultativo, tipo de cita y centro, con un mapa.
 
 {% tabs %}
 {% tab title="Web" %}
-<figure><img src="../.gitbook/assets/1a00aeed731a-panel-superior-recorte.webp" alt="Parte superior del panel de la cita: Detalles de la cita, mapa del centro con el enlace Abrir en Google Maps, apartado Sobre esta sesión y botón Añadir al calendario."><figcaption><p>Parte superior del panel.</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/9c803c02c2c6-panel-inferior-recorte.webp" alt="Parte inferior del panel de la cita: Lo que vas a necesitar, ¿Necesitas adjuntar documentación? con el enlace Ir a mi episodio médico y el botón Añadir al calendario."><figcaption><p>Parte inferior del panel.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/1a00aeed731a-detalles-recorte.webp" alt="Apartado Detalles de la cita: día, hora, facultativo, tipo de cita, centro y mapa, con el enlace Abrir en Google Maps."></figure>
 {% endtab %}
 
 {% tab title="App" %}
-<figure><img width="300" src="../.gitbook/assets/app-captura-pendiente.webp" alt="Imagen de la app que falta: detalle de la cita."></figure>
+<figure><img width="300" src="../.gitbook/assets/app-zona-pendiente.webp" alt="Imagen de la app que falta: apartado Detalles de la cita."></figure>
+{% endtab %}
+{% endtabs %}
+
+**Sobre esta sesión**
+
+El tipo de sesión (por ejemplo, presencial) y en qué consiste.
+
+**Lo que vas a necesitar**
+
+El documento de identidad que debes llevar (DNI, NIE o pasaporte) y las indicaciones para cuando llegues al centro.
+
+{% tabs %}
+{% tab title="Web" %}
+<figure><img src="../.gitbook/assets/9c803c02c2c6-lo-que-necesitas-recorte.webp" alt="Apartado Lo que vas a necesitar: documento de identidad (DNI, NIE o pasaporte) e indicación de solicitar ser atendido en el mostrador del centro."></figure>
+{% endtab %}
+
+{% tab title="App" %}
+<figure><img width="300" src="../.gitbook/assets/app-zona-pendiente.webp" alt="Imagen de la app que falta: apartado Lo que vas a necesitar."></figure>
 {% endtab %}
 {% endtabs %}
 
 ## Qué puedes hacer desde tu cita <a href="#citas-opciones" id="citas-opciones"></a>
 
-Con la cita abierta, puedes hacer lo siguiente. Los controles se ven en las capturas de [Información de la cita](#citas-detalles).
+Con la cita abierta, puedes:
 
 **A. Ver cómo llegar al centro**
 
-Pulsa **Abrir en Google Maps**, debajo del mapa del centro.
+Pulsa **Abrir en Google Maps**, debajo del mapa de **Detalles de la cita**.
 
 **B. Aportar documentación**
 
@@ -82,10 +98,30 @@ Si tu médico/a tiene que revisar alguna prueba antes o durante la cita:
 1. Pulsa **Ir a mi episodio médico**.
 2. [Sube los documentos](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/intercambio-online-de-documentacion-con-la-mutua) en la sección **Documentos** del episodio. Así estarán disponibles en la consulta.
 
+{% tabs %}
+{% tab title="Web" %}
+<figure><img src="../.gitbook/assets/9c803c02c2c6-documentacion-recorte.webp" alt="Apartado ¿Necesitas adjuntar documentación? con el enlace Ir a mi episodio médico."></figure>
+{% endtab %}
+
+{% tab title="App" %}
+<figure><img width="300" src="../.gitbook/assets/app-zona-pendiente.webp" alt="Imagen de la app que falta: apartado para aportar documentación."></figure>
+{% endtab %}
+{% endtabs %}
+
 **C. Añadir la cita a tu calendario**
 
 1. Pulsa **Añadir al calendario**.
 2. Elige Google Calendar, Office 365 o ICS (Outlook o Apple Calendar).
+
+{% tabs %}
+{% tab title="Web" %}
+<figure><img src="../.gitbook/assets/5524c02adfea-calendario-recorte.webp" alt="Botón Añadir al calendario desplegado con las opciones Google Calendar, Office 365 e ICS (Outlook, Apple Calendar)."></figure>
+{% endtab %}
+
+{% tab title="App" %}
+<figure><img width="300" src="../.gitbook/assets/app-zona-pendiente.webp" alt="Imagen de la app que falta: añadir la cita al calendario."></figure>
+{% endtab %}
+{% endtabs %}
 
 ## Si necesitas cambiar la cita <a href="#citas-cambiar" id="citas-cambiar"></a>
 
