@@ -41,7 +41,7 @@ Con la cita abierta, puedes realizar estas acciones. Abre la opción que te inte
 
 <details>
 
-<summary>Ver cómo llegar al centro <a href="#citas-como-llegar" id="citas-como-llegar"></a></summary>
+<summary>Ver cómo llegar al centro</summary>
 
 Debajo del mapa del panel, pulsa **Abrir en Google Maps** para ver la ruta hasta el centro.
 
@@ -49,21 +49,21 @@ Debajo del mapa del panel, pulsa **Abrir en Google Maps** para ver la ruta hasta
 
 <details>
 
-<summary>Aportar documentación <a href="#citas-documentacion" id="citas-documentacion"></a></summary>
+<summary>Aportar documentación</summary>
 
 Si tu médico/a tiene que revisar alguna prueba antes o durante la cita, pulsa **Ir a mi episodio médico** y [sube los documentos](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/intercambio-online-de-documentacion-con-la-mutua) en la sección **Documentos** del episodio.
 
-![Panel de la cita con el apartado ¿Necesitas adjuntar documentación? y el enlace Ir a mi episodio médico.](../.gitbook/assets/9c803c02c2c6-image-20260224-131136.webp)
+<img src="../.gitbook/assets/9c803c02c2c6-image-20260224-131136.webp" alt="Panel de la cita con el apartado ¿Necesitas adjuntar documentación? y el enlace Ir a mi episodio médico.">
 
 </details>
 
 <details>
 
-<summary>Añadir la cita a tu calendario <a href="#citas-calendario" id="citas-calendario"></a></summary>
+<summary>Añadir la cita a tu calendario</summary>
 
 Pulsa **Añadir al calendario** y elige Google Calendar, Office 365 o ICS (Outlook o Apple Calendar).
 
-![Menú Añadir al calendario abierto, con las opciones Google Calendar, Office 365 e ICS (Outlook, Apple Calendar).](../.gitbook/assets/5524c02adfea-image-20260224-131203.webp)
+<img src="../.gitbook/assets/5524c02adfea-image-20260224-131203.webp" alt="Menú Añadir al calendario abierto, con las opciones Google Calendar, Office 365 e ICS (Outlook, Apple Calendar).">
 
 </details>
 {% endtab %}
