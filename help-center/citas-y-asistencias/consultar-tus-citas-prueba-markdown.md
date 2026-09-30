@@ -8,7 +8,7 @@ icon: calendar-check
 Tus próximas citas aparecen en la página de inicio de Ibermutua Digital Personas, en **Tus próximas citas**, tanto en la web como en la app.
 
 {% hint style="warning" %}
-**No puedes cambiar una cita desde Ibermutua Digital Personas.** Consulta [cómo solicitar el cambio](../preguntas-frecuentes/cambiar-una-cita.md).
+**No puedes cambiar una cita desde Ibermutua Digital Personas.** Consulta [cómo solicitar el cambio](#citas-cambiar).
 {% endhint %}
 
 Elige la versión que utilizas:
@@ -37,23 +37,35 @@ En **Lo que vas a necesitar** tienes el documento de identidad que debes llevar 
 
 ## Qué puedes hacer desde tu cita <a href="#citas-opciones" id="citas-opciones"></a>
 
-Con la cita abierta, elige lo que necesites hacer:
+Con la cita abierta, puedes realizar estas acciones. Abre la opción que te interese:
 
-### Ver cómo llegar al centro <a href="#citas-como-llegar" id="citas-como-llegar"></a>
+<details>
+
+<summary>Ver cómo llegar al centro <a href="#citas-como-llegar" id="citas-como-llegar"></a></summary>
 
 Debajo del mapa del panel, pulsa **Abrir en Google Maps** para ver la ruta hasta el centro.
 
-### Aportar documentación <a href="#citas-documentacion" id="citas-documentacion"></a>
+</details>
+
+<details>
+
+<summary>Aportar documentación <a href="#citas-documentacion" id="citas-documentacion"></a></summary>
 
 Si tu médico/a tiene que revisar alguna prueba antes o durante la cita, pulsa **Ir a mi episodio médico** y [sube los documentos](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/intercambio-online-de-documentacion-con-la-mutua) en la sección **Documentos** del episodio.
 
-<figure><img src="../.gitbook/assets/9c803c02c2c6-image-20260224-131136.webp" alt="Panel de la cita con el apartado ¿Necesitas adjuntar documentación? y el enlace Ir a mi episodio médico."></figure>
+![Panel de la cita con el apartado ¿Necesitas adjuntar documentación? y el enlace Ir a mi episodio médico.](../.gitbook/assets/9c803c02c2c6-image-20260224-131136.webp)
 
-### Añadir la cita a tu calendario <a href="#citas-calendario" id="citas-calendario"></a>
+</details>
+
+<details>
+
+<summary>Añadir la cita a tu calendario <a href="#citas-calendario" id="citas-calendario"></a></summary>
 
 Pulsa **Añadir al calendario** y elige Google Calendar, Office 365 o ICS (Outlook o Apple Calendar).
 
-<figure><img src="../.gitbook/assets/5524c02adfea-image-20260224-131203.webp" alt="Menú Añadir al calendario abierto, con las opciones Google Calendar, Office 365 e ICS (Outlook, Apple Calendar)."></figure>
+![Menú Añadir al calendario abierto, con las opciones Google Calendar, Office 365 e ICS (Outlook, Apple Calendar).](../.gitbook/assets/5524c02adfea-image-20260224-131203.webp)
+
+</details>
 {% endtab %}
 
 {% tab title="App" %}
@@ -71,18 +83,12 @@ Abre la app. En la pantalla de inicio, en **Tus próximas citas**, verás cada c
 
 **Tus próximas citas** solo muestra las citas pendientes. Las citas pasadas quedan en tu historia clínica, dentro de cada episodio médico. Consulta [cómo ver tu historia clínica](../tu-historia-clinica/consultar-tu-historia-clinica.md).
 
-Consulta también:
+### ¿Puedo cambiar una cita? <a href="#citas-cambiar" id="citas-cambiar"></a>
 
-{% include "../.gitbook/includes/faq-citas.md" %}
+No. Por ahora no puedes cambiar una cita desde Ibermutua Digital Personas. Para cambiarla, ponte en contacto con el servicio médico de la mutua por teléfono o, si [tienes el alta como paciente digital](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/tu-alta-y-acceso-a-ibermutua-digital-personas), [por chat](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/chat-con-el-servicio-medico-de-ibermutua).
 
 ## También te puede interesar <a href="#citas-siguientes-pasos" id="citas-siguientes-pasos"></a>
 
 {% content-ref url="descargar-un-justificante.md" %}
 [Descargar un justificante de asistencia](descargar-un-justificante.md)
 {% endcontent-ref %}
-
-## ¿Necesitas contactar? <a href="#contacto" id="contacto"></a>
-
-Si tienes una duda médica sobre la cita, escribe al servicio médico por el [chat](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/chat-con-el-servicio-medico-de-ibermutua), desde el episodio médico de la cita. Se responde en horario laboral, no al momento. No uses el chat para urgencias.
-
-Para otras consultas, comprueba [qué canal de atención utilizar](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/canales-para-resolver-dudas-segun-el-tipo-de-consulta).
