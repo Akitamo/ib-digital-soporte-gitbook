@@ -6,11 +6,13 @@ Esta carpeta está fuera de `help-center/`, que es la única que GitBook importa
 |---|---|
 | `guia-estilo-gitbook.md` | Copia de la guía de estilo del sitio en GitBook (reglas SG-n) |
 | `guia-de-estilo.md` | Catálogo de bloques y convenciones |
-| `plantillas/tarea.md` | Plantilla de artículo de tarea. Referencia: «Consultar tus citas» |
+| `plantillas/tarea.md` | Plantilla de artículo de tarea. Referencia: copia aprobada de «Consultar tus citas» (`consultar-tus-citas-prueba-markdown.md`) |
 | `configuracion-asistente.md` | Instrucciones, saludo y preguntas del asistente |
 | `inventario-componentes.md` | Bloques reutilizables, variables y anclas fijas |
 | `enlaces-contextuales.csv` | Catálogo de enlaces para correos, pantallas de la app y respuestas de atención |
-| `correspondencia.csv` | Página original (Scroll) → página nueva → tipo → responsable → estado |
+| `correspondencia.csv` | Página original (Scroll) → página nueva → tipo → responsable → estado. Base de las redirecciones |
+| `indice-contenido.yaml` | Páginas migradas: tipo, temas, bloque de preguntas (`faq_tema`) e intenciones que resuelven |
+| `mapa-contenido.yaml` | Plan de las 82 páginas: destino, relaciones, bloques y variables previstos. Cada entrada pasa al índice al migrar su página |
 
 ## Flujo
 

@@ -72,7 +72,7 @@ Cercana, clara y tranquila. Hablamos como una persona de atención que conoce el
 
 ## Procedimientos
 
-**SG-16.** Cada artículo de tarea empieza con la respuesta directa: qué puedes hacer y dónde. Los requisitos van justo después y solo si existen.
+**SG-16.** Cada artículo de tarea empieza con la respuesta directa: qué puedes hacer y dónde. Los requisitos que afectan a toda la tarea van justo después y solo si existen; los de un paso, en ese paso.
 
 **SG-17.** Una acción por paso, con el verbo en imperativo al principio: «Pulsa», «Elige», «Sube», «Descarga».
 
@@ -80,7 +80,7 @@ Cercana, clara y tranquila. Hablamos como una persona de atención que conoce el
 
 **SG-19.** Lo que no se puede hacer online (por ejemplo, cambiar una cita) va en un aviso de advertencia visible, antes del procedimiento. Nunca dentro de un desplegable.
 
-**SG-20.** Cada artículo termina con 2 o 3 siguientes pasos y el bloque de contacto.
+**SG-20.** Cada artículo termina con «Más sobre…»: las preguntas frecuentes del tema y hasta 3 tareas o ampliaciones útiles después. No lleva bloque de contacto: el contacto está en la navegación del sitio. Si la tarea necesita un canal, se indica en el punto donde se necesita.
 
 ## Incidencias y errores
 
@@ -90,7 +90,7 @@ Cercana, clara y tranquila. Hablamos como una persona de atención que conoce el
 
 **SG-22.** El texto de la instrucción va en el paso, nunca solo dentro de la imagen.
 
-**SG-23.** Toda imagen lleva texto alternativo que describe qué muestra la pantalla, y un pie breve que dice qué hay que mirar.
+**SG-23.** Toda imagen lleva texto alternativo que describe qué muestra la pantalla. El pie solo se añade si aporta información que no está en el texto.
 
 **SG-24.** Las capturas usan datos de demostración. No pueden mostrar nombres, diagnósticos, números de historia ni documentos reales.
 
@@ -101,3 +101,4 @@ Cercana, clara y tranquila. Hablamos como una persona de atención que conoce el
 | Fecha | Decisión |
 | --- | --- |
 | 26 de septiembre de 2026 | Versión inicial para el piloto de GitBook. |
+| 1 de octubre de 2026 | SG-16, SG-20 y SG-23 ajustadas a la plantilla de tarea aprobada. **Pendiente de aplicar en GitBook** (Mejorar → Guía de estilo). |
