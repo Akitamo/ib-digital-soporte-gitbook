@@ -125,14 +125,18 @@ Si tu médico/a tiene que revisar alguna prueba antes o durante la cita:
 
 ## Si necesitas cambiar la cita <a href="#citas-cambiar" id="citas-cambiar"></a>
 
-{% include "../.gitbook/includes/aviso-cambio-cita.md" %}
+{% hint style="warning" %}
+**No puedes cambiar una cita desde Ibermutua Digital Personas.** Consulta [cómo solicitar el cambio](../preguntas-frecuentes/cambiar-una-cita.md).
+{% endhint %}
 
-## También te puede interesar <a href="#citas-siguientes-pasos" id="citas-siguientes-pasos"></a>
+## Más sobre citas <a href="#citas-relacionado" id="citas-relacionado"></a>
+
+**Preguntas frecuentes**
+
+{% include "../.gitbook/includes/faq-citas.md" %}
+
+**También te puede interesar**
 
 {% content-ref url="descargar-un-justificante.md" %}
 [Descargar un justificante de asistencia](descargar-un-justificante.md)
 {% endcontent-ref %}
-
-## ¿Necesitas contactar? <a href="#contacto" id="contacto"></a>
-
-{% include "../.gitbook/includes/contacto.md" %}
