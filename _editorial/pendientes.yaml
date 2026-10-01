@@ -1,0 +1,26 @@
+# Pendientes del borrador completo (fuente de _editorial/pendientes.md).
+#
+# Una entrada por pendiente. Está fuera de help-center: GitBook no la importa ni la reescribe.
+# Campos: pagina (ruta en help-center) | bloque (nombre) | variable (nombre); cita (fragmento literal que
+# localiza el punto; obligatoria en páginas); tipo; texto (qué falta y su referencia Pnn).
+# Tipos: contradicción N (apartado 4 del análisis), valor provisional, app, captura dudosa,
+# captura descartada, sin verificar, decisión. Las capturas de la app que faltan se detectan solas.
+# Después de editar: python herramientas/generar_pendientes.py
+
+- bloque: aviso-cambio-cita
+  cita: llama a la Línea de Atención Telefónica Integral 24 h
+  tipo: contradicción 1
+  texto: Canal para cambiar una cita. El aviso remite al teléfono; P52 dice teléfono o chat y P80, que el chat es solo para temas médicos.
+
+- pagina: preguntas-frecuentes/cambiar-una-cita.md
+  cita: por teléfono o, si
+  tipo: contradicción 1
+  texto: La respuesta ofrece teléfono o chat (texto de P52); P80 y el aviso de citas remiten solo al teléfono.
+
+- variable: autoliquidacion_espera
+  tipo: valor provisional
+  texto: Días de espera desde la baja para pedir la autoliquidación (P34, P67, P70-P72); confirmar con negocio.
+
+- variable: autoliquidacion_plazo_abono
+  tipo: contradicción 4
+  texto: Plazo de abono. P34 dice «en un máximo de 2 días laborables» y también «en 1-2 días».
