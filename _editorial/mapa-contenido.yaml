@@ -45,7 +45,7 @@ bloques:
   contacto-tramitador:
     contenido: dónde ves el correo y el teléfono de tu tramitador/a (en tu solicitud) y su horario
     origen: [P21, P34, P80]
-    usado_en: [prestaciones/pago-directo/consultar-el-estado.md, prestaciones/solicitar-la-autoliquidacion.md, prestaciones/reclamar-una-resolucion.md, canales-de-atencion.md]
+    usado_en: [prestaciones/pago-directo/consultar-el-estado.md, prestaciones/solicitar-la-autoliquidacion.md, preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md, prestaciones/reclamar-una-resolucion.md, canales-de-atencion.md]
   rel-tipos-certificacion:
     contenido: tabla negativa / positiva / positiva diferida → qué significa → cuándo puedes finalizar la solicitud
     origen: [P29, P60, P61, P64]
@@ -64,7 +64,7 @@ bloques:
   def-autoliquidacion:
     contenido: definición breve de la autoliquidación
     origen: [P67, P81]
-    usado_en: [preguntas-frecuentes/que-es-la-autoliquidacion.md, glosario.md]
+    usado_en: [prestaciones/solicitar-la-autoliquidacion.md, preguntas-frecuentes/que-es-la-autoliquidacion.md, glosario.md]
   def-certificacion-riesgo:
     contenido: definición breve de la certificación de riesgo
     origen: [P60, P81]
@@ -84,8 +84,8 @@ bloques:
 variables:
   portal_url: {valor: "https://personas.ibermutua.es/", origen: 15 páginas, estado: existe}
   telefono_atencion: {valor: "900 23 33 33", origen: [P02, P41, P80], estado: existe}
-  autoliquidacion_espera: {valor: "7 días", origen: [P34, P67, P70, P71, P72]}
-  autoliquidacion_plazo_abono: {valor: "2 días laborables", origen: [P34, P67, P70, P71], nota: P34 dice también «1-2 días»}
+  autoliquidacion_espera: {valor: "7 días", origen: [P34, P67, P70, P71, P72], estado: creada en la prueba (01/10), provisional}
+  autoliquidacion_plazo_abono: {valor: "2 días laborables", origen: [P34, P67, P70, P71], nota: P34 dice también «1-2 días», estado: creada en la prueba (01/10), provisional}
   rel_dias_finalizar: {valor: "7 días", origen: [P29, P30, P60, P61, P64]}
   red_centros_url: {valor: "https://www.ibermutua.es/redcentros/", origen: [P14, P45, P81], nota: P14 usa /red-de-centros/}
   portal_empresas_url: {valor: "https://empresas.ibermutua.es/", origen: [P22, P28]}
@@ -345,15 +345,12 @@ paginas:
     notas: P23 (información económica de pago directo) repite la misma pantalla
 
   prestaciones/solicitar-la-autoliquidacion.md:
-    titulo: Solicitar la autoliquidación
-    tipo: tarea
+    en_indice: true
     origen: [P34]
-    temas: [autoliquidacion, pagos]
-    faq_tema: autoliquidacion
-    bloques: [autoliquidacion-requisitos, contacto-tramitador]
-    variables: [autoliquidacion_espera, autoliquidacion_plazo_abono, menu_gestiones]
+    bloques: [def-autoliquidacion, autoliquidacion-requisitos, contacto-tramitador]
+    variables: [autoliquidacion_espera, autoliquidacion_plazo_abono]
     relaciones: {incidencia: [preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md], siguiente: [prestaciones/consultar-tus-pagos.md]}
-    notas: quitar sus 2 preguntas propias (ya las responden las FAQ del tema) y el enlace a «cobro anticipado»
+    notas: prueba de la plantilla (01/10). Pagos enlaza a Scroll hasta migrarse. Sin sus 2 preguntas propias ni el enlace a «cobro anticipado»
 
   prestaciones/descargar-el-certificado-de-retenciones.md:
     titulo: Descargar el certificado de retenciones (IRPF)
@@ -487,10 +484,8 @@ paginas:
     temas: [rel]
 
   preguntas-frecuentes/que-es-la-autoliquidacion.md:
-    titulo: ¿Qué es la autoliquidación y qué condiciones tiene?
-    tipo: concepto
+    en_indice: true
     origen: [P67]
-    temas: [autoliquidacion]
     bloques: [def-autoliquidacion, autoliquidacion-requisitos]
     variables: [autoliquidacion_espera, autoliquidacion_plazo_abono]
     relaciones: {tarea: [prestaciones/solicitar-la-autoliquidacion.md]}
@@ -519,14 +514,12 @@ paginas:
     notas: corregir el ejemplo del viernes y el enlace a Historia clínica
 
   preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md:
-    titulo: ¿Por qué no puedo solicitar la autoliquidación?
-    tipo: pregunta
+    en_indice: true
     origen: [P72]
-    temas: [autoliquidacion]
-    bloques: [autoliquidacion-requisitos]
+    bloques: [autoliquidacion-requisitos, contacto-tramitador]
     variables: [autoliquidacion_espera]
     relaciones: {tarea: [prestaciones/solicitar-la-autoliquidacion.md]}
-    notas: «habitualmente 5 días» frente a 7 (ver informe)
+    notas: los «5 días» de P72 son los días que faltan en el ejemplo del aviso, no otra regla. Su captura parece retocada («Persenes», «6:00h»); no se usa
 
   preguntas-frecuentes/hasta-que-fecha-paga-la-autoliquidacion.md:
     titulo: ¿Hasta qué fecha se paga la autoliquidación?

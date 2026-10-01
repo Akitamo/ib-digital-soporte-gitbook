@@ -17,6 +17,10 @@
 * [Consultar la documentación administrativa](tu-historia-clinica/consultar-documentacion-administrativa.md)
 * [Solicitar una segunda opinión médica](tu-historia-clinica/solicitar-una-segunda-opinion.md)
 
+## Prestaciones económicas
+
+* [Solicitar la autoliquidación](prestaciones/solicitar-la-autoliquidacion.md)
+
 ## Preguntas frecuentes
 
 * [¿Puedo cambiar las citas desde Ibermutua Digital?](preguntas-frecuentes/cambiar-una-cita.md "¿Puedo cambiar una cita?")
@@ -25,6 +29,8 @@
 * [¿Cuándo están disponibles las pruebas diagnósticas?](preguntas-frecuentes/cuando-estan-disponibles-las-pruebas.md "¿Cuándo están disponibles las pruebas?")
 * [¿Qué tipo de pruebas diagnósticas puedo ver?](preguntas-frecuentes/que-pruebas-puedo-ver.md "¿Qué pruebas puedo ver?")
 * [¿Qué documentación incluye la historia clínica?](preguntas-frecuentes/que-incluye-la-historia-clinica.md "¿Qué incluye la historia clínica?")
+* [¿Qué es la autoliquidación y qué condiciones tiene?](preguntas-frecuentes/que-es-la-autoliquidacion.md "¿Qué es la autoliquidación?")
+* [¿Por qué no puedo solicitar la autoliquidación?](preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md)
 
 ## Otros temas
 

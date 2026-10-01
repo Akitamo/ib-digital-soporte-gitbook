@@ -20,6 +20,7 @@ temas:
   informes: Informes
   documentacion: Documentación
   segunda-opinion: Segunda opinión médica
+  autoliquidacion: Autoliquidación
 
 paginas:
   README.md:
@@ -102,6 +103,16 @@ paginas:
     resuelve:
       - {ancla: "", intencion: solicitar una segunda opinión médica}
 
+  # Prueba de la plantilla en autoliquidación (01/10/2026): tarea secuencial y dos preguntas.
+  prestaciones/solicitar-la-autoliquidacion.md:
+    tipo: tarea
+    temas: [autoliquidacion]
+    faq_tema: autoliquidacion
+    resuelve:
+      - {ancla: "", intencion: pedir el cobro por adelantado de la prestación económica}
+      - {ancla: autoliquidacion-pedir, intencion: saber cómo pedir la autoliquidación}
+      - {ancla: autoliquidacion-seguimiento, intencion: saber cuándo llega el ingreso y seguir la solicitud}
+
   preguntas-frecuentes/cambiar-una-cita.md:
     tipo: pregunta
     temas: [citas]
@@ -138,6 +149,20 @@ paginas:
     temas: [historia-clinica, documentacion]
     resuelve:
       - {ancla: "", intencion: saber qué documentos incluye la historia clínica}
+
+  preguntas-frecuentes/que-es-la-autoliquidacion.md:
+    tipo: concepto
+    temas: [autoliquidacion]
+    resuelve:
+      - {ancla: "", intencion: saber qué es la autoliquidación}
+      - {ancla: autoliquidacion-condiciones, intencion: conocer las condiciones para pedir la autoliquidación}
+
+  preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md:
+    tipo: pregunta
+    temas: [autoliquidacion]
+    resuelve:
+      - {ancla: "", intencion: saber por qué no se puede pedir la autoliquidación}
+      - {ancla: autoliquidacion-aviso-espera, intencion: entender el aviso de espera de la autoliquidación}
 
 # Destinos externos (Centro de Ayuda actual) que se pueden enlazar mientras dure el piloto
 externos:
