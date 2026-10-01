@@ -193,3 +193,225 @@
   cita: https://www.ibermutua.es/redcentros/
   tipo: contradicción 6
   texto: Red de centros. P45 enlaza a /redcentros/ y P14 a /red-de-centros/.
+
+# --- Sección 3: prestaciones económicas ---
+
+- bloque: abrir-solicitud-prestacion
+  cita: Solicitar nueva prestación económica
+  tipo: contradicción 9
+  texto: Etiquetas del botón y del menú, tomadas de las capturas («Solicitar nueva prestación económica»; «Prestaciones económicas» > «Solicitudes»). P27 dice «Solicitar nueva prestación» y «Solicitar una nueva prestación»; P57, «Prestaciones» > «Solicitar nueva prestación». En P32 y su captura, «Solicitudes» lleva directamente a las tarjetas de las prestaciones.
+
+- bloque: abrir-solicitud-prestacion
+  cita: no se pueden hacer desde la app
+  tipo: app
+  texto: P19 y P27 dicen que «en este momento» la solicitud no está disponible en la app. Confirmar si sigue igual.
+
+- pagina: prestaciones-economicas/pago-directo/rellenar-la-solicitud.md
+  cita: "## Completa el formulario"
+  tipo: captura descartada
+  texto: No se usan los GIF de P20 (verificación previa, modelo 145, declaración de actividad, documentación adicional y firma OTP) ni la etiqueta 6e773b71d630, de 2021, con la interfaz anterior; tampoco 18d6a0b8de0a (datos de contacto), con la marca ✦ de imagen generada o retocada con IA.
+
+- pagina: prestaciones-economicas/pago-directo/rellenar-la-solicitud.md
+  cita: Los documentos marcados como obligatorios
+  tipo: sin verificar
+  texto: P20 identifica los documentos obligatorios con una etiqueta (imagen de 2021) cuyo texto no consta. Confirmar cómo se marcan en la pantalla actual.
+
+- pagina: prestaciones-economicas/pago-directo/solicitar-como-representante.md
+  cita: "[Ibermutua Digital Asesorías](https://empresas.ibermutua.es/)"
+  tipo: decisión
+  texto: El mapa prevé las variables portal_empresas_url y portal_digital_url. Los enlaces llevan la dirección escrita, como en portal_url y red_centros_url (pendiente de la sección 1).
+
+- pagina: prestaciones-economicas/pago-directo/solicitar-como-representante.md
+  cita: pulsa **Gestión por representante**
+  tipo: contradicción 9
+  texto: P22 dice «Gestión por representación» y «Obtener código para representante»; las capturas, «Gestión por representante» y «Generar código». Se usan las de las capturas.
+
+- pagina: prestaciones-economicas/pago-directo/solicitar-como-representante.md
+  cita: "[abre una solicitud nueva](solicitar-el-pago-directo.md#pago-directo-empezar)"
+  tipo: sin verificar
+  texto: Las capturas de P19 (marzo de 2026) muestran la tarjeta del pago directo solo con «Comenzar trámite» y, en «Tu solicitud», la opción «Un representante»; las de P22 (abril) añaden el botón «Gestión por representante». Confirmar la pantalla actual y el camino para generar el código.
+
+- pagina: prestaciones-economicas/pago-directo/solicitar-como-representante.md
+  cita: puede revocarlo mientras no se haya usado
+  tipo: sin verificar
+  texto: P22 no explica dónde se revoca el código (solo «desde la propia prestación»).
+
+- pagina: prestaciones-economicas/pago-directo/solicitar-como-representante.md
+  cita: 2983c2259569-acceder-representante-recorte.webp
+  tipo: captura dudosa
+  texto: Capturas de 2021 (acceso como representante y avisos de SMS, 4aa56c3fecb9). Confirmar que las pantallas siguen igual. No se usa ef56624f71d9 (inicio de sesión del portal de representantes, de 2021).
+
+- pagina: prestaciones-economicas/pago-directo/consultar-el-estado.md
+  cita: Para abrirla, en el menú superior
+  tipo: sin verificar
+  texto: P21 no dice cómo se abre la solicitud. Se toma de la pantalla de Solicitudes (26ecaafc47b6, con «Abrir ficha de la prestación económica»), que no se usa como captura porque muestra importes y fechas de una prestación.
+
+- pagina: prestaciones-economicas/pago-directo/consultar-el-estado.md
+  cita: En la página de tu solicitud ves en qué fase está
+  tipo: app
+  texto: P21 solo describe la web. Confirmar si el estado de la solicitud se consulta en la app.
+
+- pagina: prestaciones-economicas/pago-directo/consultar-el-estado.md
+  cita: 7abeab527adb-prestacion-reconocida-recorte.webp
+  tipo: captura dudosa
+  texto: El histórico muestra una fecha de 2020 y el título «Historico» sin tilde. Confirmar que es la pantalla actual.
+
+- pagina: prestaciones-economicas/pago-directo/consultar-el-estado.md
+  cita: "## Sigue las fases de tu solicitud"
+  tipo: captura descartada
+  texto: 9420b05b11fd (página de la solicitud con nombres sin difuminar). 9b5014ad1939 y e3cc05cd6b8c son correos (justificante y resolución), no pantallas del portal.
+
+- pagina: prestaciones-economicas/pago-directo/subsanar-documentacion.md
+  cita: dentro del plazo que indica la tarea
+  tipo: sin verificar
+  texto: La tarea de la captura (ee0d8f03b328) da 10 días desde la carta de subsanación y avisa de que, si no, se da por desistida la petición; P24 no lo menciona. No se ha escrito el plazo.
+
+- pagina: prestaciones-economicas/pago-directo/subsanar-documentacion.md
+  cita: Puedes hacerlo todo online
+  tipo: app
+  texto: P24 solo describe la web. Confirmar si la subsanación se puede hacer desde la app.
+
+- pagina: prestaciones-economicas/pago-directo/subsanar-documentacion.md
+  cita: "## Envía la documentación"
+  tipo: captura descartada
+  texto: 7e8da3b19d42 (correo), e8352f18fdf2 (correo de justificante) y 84d3b37e0321 (histórico), con la marca ✦ de imagen generada o retocada con IA. 61357bf7da7e muestra un aviso temporal de mantenimiento de la firma y es de una solicitud de lactancia.
+
+- pagina: prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md
+  cita: "## Fases del trámite"
+  tipo: decisión
+  texto: Menú. Las cuatro fases van como páginas al mismo nivel, justo después de esta. Alternativa, subpáginas de esta página (prueba D de paginas-y-grupos.md, quedan plegadas en el menú).
+
+- pagina: prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md
+  cita: Puedes solicitar online la
+  tipo: app
+  texto: P27 dice que la solicitud no está disponible en la app. Confirmar si tampoco se pueden seguir las fases (certificación, finalizar y resolución).
+
+- pagina: prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md
+  cita: a partir de la semana 16 del parto
+  tipo: sin verificar
+  texto: Redacción de P32 («a partir de la semana 16 del parto o de la 18 si es embarazo múltiple»). Confirmar el plazo.
+
+- pagina: prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md
+  cita: "## Si la pides por lactancia"
+  tipo: captura descartada
+  texto: d4850c6c5b44, 3fab6bb323fc y 1c12de808964 (requisitos e informe médico de la lactancia), con la marca ✦. cc7af9527203 es la misma captura que d5fda311735e.
+
+- pagina: prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md
+  cita: "[Ibermutua Digital](https://digital.ibermutua.es/)"
+  tipo: decisión
+  texto: Variable portal_digital_url del mapa; el enlace lleva la dirección escrita (ver el pendiente de solicitar como representante).
+
+- pagina: prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md
+  cita: marca **Yo** y pulsa **Iniciar solicitud**
+  tipo: sin verificar
+  texto: La pantalla ofrece también «Un representante»; las fuentes solo explican la representación en el pago directo (P22).
+
+- pagina: prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md
+  cita: "### Adjunta el informe médico"
+  tipo: captura descartada
+  texto: a259b3793bc9 (informe médico), 0be5668e99d7 (calculadora de fechas) y 5892e10da72b (datos bancarios), con la marca ✦. be00dbf0f033 muestra el explorador de archivos del equipo con un nombre de fichero que incluye un identificador; cba303738d8a y 0d0256e61fa8 tienen la marca ✦ y el mismo nombre de fichero.
+
+- pagina: prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md
+  cita: "## Después de enviarla"
+  tipo: captura descartada
+  texto: 1a4721f5d29f y 7241fb467526 (solicitud enviada e histórico), con la marca ✦. 7629f958b5de es el correo del justificante, no una pantalla del portal.
+
+- pagina: prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md
+  cita: puedes hacer gestiones como
+  tipo: sin verificar
+  texto: El desplegable «Más información sobre Otras acciones disponibles» de P29 está vacío en la extracción. La lista sale de la captura 4a26a572bfb1.
+
+- pagina: prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md
+  cita: 94bb53c3ecea-certificacion-diferida-recorte.webp
+  tipo: captura dudosa
+  texto: Captura de baja resolución (587 px de ancho); el texto se lee con dificultad.
+
+- pagina: prestaciones-economicas/riesgo-embarazo-lactancia/finalizar-la-solicitud.md
+  cita: Como con la declaración empresarial
+  tipo: sin verificar
+  texto: El desplegable «Descubre aquí los pasos para realizar la solicitud online de esta documentación» de P30 está vacío en la extracción.
+
+- pagina: prestaciones-economicas/riesgo-embarazo-lactancia/finalizar-la-solicitud.md
+  cita: "### Envía la solicitud"
+  tipo: captura descartada
+  texto: cbca6915818c (modificar la declaración, con la marca ✦ y un nombre de fichero con identificador); 27ec26005514, 108c93f10e1d y aa924d334fd2, con la marca ✦; 4ab81515e4c7, con texto deformado («Contacta con nuestro de taler/Cese»). 1943708883f9 repite la certificación positiva y a6f50f561506 es el correo del justificante.
+
+- pagina: prestaciones-economicas/riesgo-embarazo-lactancia/resolucion.md
+  cita: fb73d6f6bca2-rel-reconocida-recorte.webp
+  tipo: captura dudosa
+  texto: Captura de baja resolución (660 px de ancho).
+
+- pagina: prestaciones-economicas/riesgo-embarazo-lactancia/resolucion.md
+  cita: "## Consulta la resolución"
+  tipo: captura descartada
+  texto: c15afa7b0dab (marca ✦ y texto «(nombre personale)») y fd8fc3b023ba (histórico con la carta de reconocimiento, marca ✦).
+
+- pagina: prestaciones-economicas/consultar-tus-pagos.md
+  cita: En **Pagos** ves el estado de abono
+  tipo: app
+  texto: P33 y P23 solo describen la web. Confirmar si los pagos se consultan en la app.
+
+- pagina: prestaciones-economicas/consultar-tus-pagos.md
+  cita: "## Consulta tus pagos"
+  tipo: captura descartada
+  texto: 76b94cf13394 (menú y pagos), con la marca ✦; 43d8a294bc90 (correo real de un gestor); 2f47f1b3ebd8 y 0ec96a7c12a0 (pantalla anterior «Datos Económicos», en el menú Gestiones); 26ecaafc47b6 (importes y fechas de una prestación).
+
+- pagina: prestaciones-economicas/descargar-el-certificado-de-retenciones.md
+  cita: pulsa el icono de descarga
+  tipo: sin verificar
+  texto: P35 habla de elegir el ejercicio y de los botones «Ver» y «Descargar»; la pantalla muestra el último ejercicio y un histórico, cada uno con un icono de descarga.
+
+- pagina: prestaciones-economicas/descargar-el-certificado-de-retenciones.md
+  cita: Se abre la pestaña **Retenciones**
+  tipo: contradicción 9
+  texto: Menú «Certificados de retenciones» y pestaña «Retenciones».
+
+- pagina: prestaciones-economicas/descargar-el-certificado-de-retenciones.md
+  cita: Cada año se publica el del ejercicio anterior
+  tipo: contradicción 10
+  texto: No se incluyen los requisitos, las incidencias, el contacto por ticket con el NIF ni el enlace de P35 a sí misma, contenido genérico sin verificar.
+
+- pagina: prestaciones-economicas/descargar-el-certificado-de-retenciones.md
+  cita: También puedes descargarlo desde el navegador del móvil
+  tipo: app
+  texto: P35 dice que el portal se usa desde el navegador del móvil; no menciona la app.
+
+- pagina: prestaciones-economicas/reclamar-una-resolucion.md
+  cita: Si tienes dudas sobre tu reclamación, contacta con tu tramitador/a
+  tipo: contradicción 2
+  texto: P63 recomienda el chat con el servicio médico para las dudas de una reclamación; P80 dice que el chat no es para prestaciones. Se remite al tramitador/a.
+
+- pagina: prestaciones-economicas/reclamar-una-resolucion.md
+  cita: Elige qué quieres que se modifique
+  tipo: sin verificar
+  texto: P63 describe la reclamación de la certificación sin capturas de sus pantallas.
+
+- pagina: prestaciones-economicas/reclamar-una-resolucion.md
+  cita: Hazlo desde la página de tu solicitud, donde ves la resolución
+  tipo: sin verificar
+  texto: No hay captura de la opción para reclamar la resolución final; P63 dice que está «en la propia página de la resolución».
+
+- pagina: prestaciones-economicas/solicitar-la-autoliquidacion.md
+  cita: Pendiente de confirmar si la autoliquidación se puede pedir desde la app
+  tipo: app
+  texto: Texto visible de la pestaña App en la página de prueba (P34 solo describe la web).
+
+- pagina: prestaciones-economicas/solicitar-la-autoliquidacion.md
+  cita: "**Prestaciones económicas** > **Autoliquidación**"
+  tipo: contradicción 5
+  texto: Nombre de la opción. El menú de las capturas de marzo de 2026 (9e5f5f992ca2, d5fda311735e), usado en pagos y retenciones, dice «Autopagos»; esta página y la captura descartada 76b94cf13394, «Autoliquidación».
+
+- pagina: preguntas-frecuentes/que-prestaciones-puedo-pedir.md
+  cita: También puede hacerla en tu nombre un representante
+  tipo: sin verificar
+  texto: P57 dice que el representante se habilita «desde tu perfil» y que también puede tramitarla la empresa; P22 explica un código que se genera en la solicitud. Se sigue P22.
+
+- pagina: preguntas-frecuentes/importe-de-la-autoliquidacion.md
+  cita: En **Autoliquidación** ves el periodo
+  tipo: sin verificar
+  texto: P68 dice que indicas la fecha de solicitud y el sistema calcula el importe; la pantalla de la página de autoliquidación muestra el periodo y el importe sin pedir fecha. Se sigue la pantalla.
+
+- pagina: preguntas-frecuentes/cuando-recibo-la-autoliquidacion.md
+  cita: "## Cada cuánto puedes pedirla"
+  tipo: contradicción 4
+  texto: Se omite el ejemplo del viernes de P71, mal redactado, hasta confirmar cómo se cuentan los días.

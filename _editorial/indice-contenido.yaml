@@ -21,6 +21,10 @@ temas:
   informes: Informes
   documentacion: Documentación
   segunda-opinion: Segunda opinión médica
+  prestaciones: Prestaciones económicas
+  pago-directo: Pago directo
+  rel: Riesgo durante el embarazo o la lactancia
+  pagos: Pagos y retenciones
   autoliquidacion: Autoliquidación
 
 paginas:
@@ -159,6 +163,119 @@ paginas:
       - {ancla: autoliquidacion-pedir, intencion: saber cómo pedir la autoliquidación}
       - {ancla: autoliquidacion-seguimiento, intencion: saber cuándo llega el ingreso y seguir la solicitud}
 
+  prestaciones-economicas/pago-directo/solicitar-el-pago-directo.md:
+    tipo: tarea
+    temas: [pago-directo, prestaciones]
+    faq_tema: pago-directo
+    resuelve:
+      - {ancla: "", intencion: solicitar el pago directo de la prestación por incapacidad temporal}
+      - {ancla: pago-directo-empezar, intencion: abrir una solicitud de pago directo}
+
+  prestaciones-economicas/pago-directo/rellenar-la-solicitud.md:
+    tipo: tarea
+    temas: [pago-directo]
+    faq_tema: pago-directo
+    resuelve:
+      - {ancla: "", intencion: rellenar el formulario de la solicitud de pago directo}
+      - {ancla: formulario-pasos, intencion: saber qué pide cada paso del formulario y cómo se firma}
+
+  prestaciones-economicas/pago-directo/solicitar-como-representante.md:
+    tipo: tarea
+    temas: [pago-directo]
+    faq_tema: pago-directo
+    resuelve:
+      - {ancla: "", intencion: solicitar el pago directo en nombre de otra persona}
+      - {ancla: representante-acceder, intencion: acceder como representante}
+      - {ancla: representante-codigo, intencion: conseguir el código de autorización del representante}
+      - {ancla: representante-tramitar, intencion: tramitar la solicitud como representante}
+
+  prestaciones-economicas/pago-directo/consultar-el-estado.md:
+    tipo: tarea
+    temas: [pago-directo]
+    faq_tema: pago-directo
+    resuelve:
+      - {ancla: "", intencion: consultar el estado de la solicitud de pago directo}
+      - {ancla: estado-justificante, intencion: descargar el justificante de la solicitud}
+      - {ancla: estado-resolucion, intencion: consultar y descargar la resolución}
+      - {ancla: estado-tramitador, intencion: contactar con el tramitador/a de la solicitud}
+
+  prestaciones-economicas/pago-directo/subsanar-documentacion.md:
+    tipo: tarea
+    temas: [pago-directo]
+    faq_tema: pago-directo
+    resuelve:
+      - {ancla: "", intencion: enviar la documentación que pide la mutua para la solicitud de pago directo}
+      - {ancla: subsanar-enviar, intencion: subsanar y firmar la documentación}
+
+  prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md:
+    tipo: tarea
+    temas: [rel, prestaciones]
+    faq_tema: rel
+    resuelve:
+      - {ancla: "", intencion: solicitar la prestación por riesgo durante el embarazo o la lactancia}
+      - {ancla: rel-fases, intencion: conocer las fases del trámite}
+      - {ancla: rel-lactancia, intencion: saber qué cambia si se pide por lactancia}
+
+  prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md:
+    tipo: tarea
+    temas: [rel]
+    faq_tema: rel
+    resuelve:
+      - {ancla: "", intencion: iniciar la solicitud por riesgo durante el embarazo o la lactancia}
+      - {ancla: rel-iniciar-abrir, intencion: abrir el trámite y elegir el tipo de prestación}
+      - {ancla: rel-iniciar-completar, intencion: aportar el informe médico, la declaración empresarial y los datos}
+
+  prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md:
+    tipo: tarea
+    temas: [rel]
+    faq_tema: rel
+    resuelve:
+      - {ancla: "", intencion: seguir la certificación de riesgo}
+      - {ancla: certificacion-evaluacion, intencion: saber qué se puede hacer mientras se evalúa el riesgo}
+      - {ancla: certificacion-tipos, intencion: entender el resultado de la certificación}
+      - {ancla: certificacion-reclamar, intencion: reclamar la certificación de riesgo}
+
+  prestaciones-economicas/riesgo-embarazo-lactancia/finalizar-la-solicitud.md:
+    tipo: tarea
+    temas: [rel]
+    faq_tema: rel
+    resuelve:
+      - {ancla: "", intencion: finalizar la solicitud por riesgo durante el embarazo o la lactancia}
+      - {ancla: finalizar-enviar, intencion: aportar la documentación final y enviar la solicitud}
+
+  prestaciones-economicas/riesgo-embarazo-lactancia/resolucion.md:
+    tipo: tarea
+    temas: [rel]
+    faq_tema: rel
+    resuelve:
+      - {ancla: "", intencion: consultar la resolución de la prestación por riesgo}
+      - {ancla: resolucion-reclamar, intencion: saber qué hacer si no se está de acuerdo con la resolución}
+
+  prestaciones-economicas/consultar-tus-pagos.md:
+    tipo: tarea
+    temas: [pagos, prestaciones]
+    faq_tema: pagos
+    resuelve:
+      - {ancla: "", intencion: consultar los pagos de las prestaciones económicas}
+      - {ancla: pagos-consultar, intencion: ver el detalle de los pagos y descargarlo en Excel}
+      - {ancla: pagos-estados, intencion: entender el estado de un pago}
+
+  prestaciones-economicas/descargar-el-certificado-de-retenciones.md:
+    tipo: tarea
+    temas: [pagos]
+    faq_tema: pagos
+    resuelve:
+      - {ancla: "", intencion: descargar el certificado de retenciones del IRPF}
+
+  prestaciones-economicas/reclamar-una-resolucion.md:
+    tipo: tarea
+    temas: [prestaciones, rel, pago-directo]
+    faq_tema: prestaciones
+    resuelve:
+      - {ancla: "", intencion: reclamar una resolución de la mutua}
+      - {ancla: reclamar-que, intencion: saber qué resoluciones se pueden reclamar y cómo}
+      - {ancla: reclamar-seguimiento, intencion: seguir una reclamación}
+
   preguntas-frecuentes/no-puedo-darme-de-alta.md:
     tipo: pregunta
     temas: [acceso]
@@ -221,6 +338,82 @@ paginas:
     resuelve:
       - {ancla: "", intencion: saber por qué no se puede pedir la autoliquidación}
       - {ancla: autoliquidacion-aviso, intencion: entender el aviso que impide solicitar la autoliquidación}
+
+  preguntas-frecuentes/que-prestaciones-puedo-pedir.md:
+    tipo: concepto
+    temas: [prestaciones, pago-directo, rel]
+    resuelve:
+      - {ancla: "", intencion: saber qué prestaciones se pueden pedir online}
+      - {ancla: prestaciones-empezar, intencion: saber cómo empezar una solicitud de prestación}
+
+  preguntas-frecuentes/que-es-el-pago-directo.md:
+    tipo: concepto
+    temas: [pago-directo, prestaciones]
+    resuelve:
+      - {ancla: "", intencion: entender qué es el pago directo}
+      - {ancla: pago-directo-casos, intencion: saber en qué casos se cobra por pago directo}
+
+  preguntas-frecuentes/que-es-la-certificacion-de-riesgo.md:
+    tipo: concepto
+    temas: [rel]
+    resuelve:
+      - {ancla: "", intencion: entender qué es la certificación de riesgo}
+      - {ancla: certificacion-riesgo-tipos, intencion: conocer los tipos de certificación de riesgo}
+
+  preguntas-frecuentes/fecha-de-riesgo-certificada.md:
+    tipo: pregunta
+    temas: [rel]
+    resuelve:
+      - {ancla: "", intencion: saber qué efectos tiene la fecha de riesgo certificada}
+
+  preguntas-frecuentes/cuanto-tarda-la-certificacion.md:
+    tipo: pregunta
+    temas: [rel]
+    resuelve:
+      - {ancla: "", intencion: saber cuánto tarda la certificación de riesgo}
+
+  preguntas-frecuentes/cuando-puedo-finalizar-la-solicitud.md:
+    tipo: pregunta
+    temas: [rel]
+    resuelve:
+      - {ancla: "", intencion: saber cuándo se puede finalizar la solicitud por riesgo}
+
+  preguntas-frecuentes/calculo-y-abono-rel.md:
+    tipo: pregunta
+    temas: [rel, pagos]
+    resuelve:
+      - {ancla: "", intencion: saber cómo se calcula y se paga la prestación por riesgo}
+
+  preguntas-frecuentes/hasta-cuando-dura-la-prestacion-rel.md:
+    tipo: pregunta
+    temas: [rel]
+    resuelve:
+      - {ancla: "", intencion: saber hasta cuándo dura la prestación por riesgo}
+
+  preguntas-frecuentes/importe-de-la-autoliquidacion.md:
+    tipo: pregunta
+    temas: [autoliquidacion]
+    resuelve:
+      - {ancla: "", intencion: saber qué importe y qué días cubre la autoliquidación}
+
+  preguntas-frecuentes/aprobacion-de-la-autoliquidacion.md:
+    tipo: pregunta
+    temas: [autoliquidacion]
+    resuelve:
+      - {ancla: "", intencion: saber si la autoliquidación necesita aprobación}
+
+  preguntas-frecuentes/cuando-recibo-la-autoliquidacion.md:
+    tipo: pregunta
+    temas: [autoliquidacion]
+    resuelve:
+      - {ancla: "", intencion: saber cuándo llega el ingreso de la autoliquidación}
+      - {ancla: autoliquidacion-frecuencia, intencion: saber cada cuánto se puede pedir la autoliquidación}
+
+  preguntas-frecuentes/hasta-que-fecha-paga-la-autoliquidacion.md:
+    tipo: pregunta
+    temas: [autoliquidacion]
+    resuelve:
+      - {ancla: "", intencion: entender hasta qué fecha se paga la autoliquidación}
 
 # Destinos externos (Centro de Ayuda actual) que se pueden enlazar mientras dure el piloto
 externos:

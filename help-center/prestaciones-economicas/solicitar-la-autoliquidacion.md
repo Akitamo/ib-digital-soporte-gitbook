@@ -59,7 +59,7 @@ Pendiente de confirmar si la autoliquidación se puede pedir desde la app y con 
 
 El ingreso llega en un plazo máximo de <code class="expression">space.vars.autoliquidacion_plazo_abono</code> desde que confirmas; según la hora de la solicitud, puede llegar al día siguiente. En **Fecha prevista de ingreso** verás el día estimado, que también depende de tu banco.
 
-Para seguir la solicitud, vuelve a **Autoliquidación**: verás el importe solicitado y su estado, por ejemplo **Autorizado pendiente de pago**. Cuando se paga, aparece en [tus pagos](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/pagos).
+Para seguir la solicitud, vuelve a **Autoliquidación**: verás el importe solicitado y su estado, por ejemplo **Autorizado pendiente de pago**. Cuando se paga, aparece en [tus pagos](consultar-tus-pagos.md).
 
 {% tabs %}
 {% tab title="Web" %}
