@@ -8,6 +8,8 @@ Comprueba:
      existen; cada tarea con faq_tema incluye su bloque faq-<tema>.
   5. Bloques de preguntas frecuentes al día con el índice (generar_faq.py).
   6. Catálogo de enlaces contextuales: las anclas fijas existen.
+  7. Pendientes: marcadores bien formados y _editorial/pendientes.md al día (generar_pendientes.py).
+     No modifica ningún archivo.
 
 Uso: python herramientas/validar.py      (sale con código 1 si hay errores)
 """
@@ -20,6 +22,7 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 from comun import EDITORIAL, HC, anclas, bloques, frontmatter, indice, leer, norm, paginas, titulo  # noqa: E402
 import generar_faq  # noqa: E402
+import generar_pendientes  # noqa: E402
 
 errores, avisos = [], []
 PAGS = paginas()
@@ -123,6 +126,12 @@ if os.path.exists(cat):
                 errores.append(f"Catálogo {fila['id']}: la página {pagina} no existe")
             elif ancla and ancla not in anclas(PAGS[pagina])[0]:
                 errores.append(f"Catálogo {fila['id']}: el ancla fija #{ancla} no existe en {pagina}")
+
+# 7. Pendientes
+errores += generar_pendientes.errores_marcas()
+pend = os.path.join(EDITORIAL, "pendientes.md")
+if not os.path.exists(pend) or leer(pend) != generar_pendientes.generar():
+    errores.append("_editorial/pendientes.md desfasado: ejecuta herramientas/generar_pendientes.py")
 
 RESUMEN = {
     "paginas": len(PAGS),

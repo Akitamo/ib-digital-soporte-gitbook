@@ -101,4 +101,4 @@ Cercana, clara y tranquila. Hablamos como una persona de atención que conoce el
 | Fecha | Decisión |
 | --- | --- |
 | 26 de septiembre de 2026 | Versión inicial para el piloto de GitBook. |
-| 1 de octubre de 2026 | SG-16, SG-18, SG-19, SG-20 y SG-23 ajustadas a la plantilla de tarea aprobada. **Pendiente de aplicar en GitBook** (Mejorar → Guía de estilo) cuando se cierre el documento maestro. |
+| 1 de octubre de 2026 | SG-16, SG-18, SG-19, SG-20 y SG-23 ajustadas a la plantilla de tarea aprobada. Aplicadas en GitBook (Improve → Style guide) el 1 de octubre de 2026. |
