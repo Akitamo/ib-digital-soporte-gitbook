@@ -7,4 +7,12 @@ icon: circle-question
 
 # ¿Puedo cambiar las citas desde Ibermutua Digital?
 
-No. Por ahora no puedes cambiar una cita desde Ibermutua Digital Personas. Para cambiarla, ponte en contacto con el servicio médico de la mutua por teléfono o, si [tienes el alta como paciente digital](../alta-y-acceso/darte-de-alta.md), [por chat](../servicios-medicos-digitales/chat-con-el-servicio-medico.md).
+No. Por ahora no puedes cambiar una cita desde Ibermutua Digital Personas.
+
+## Cómo pedir el cambio <a href="#cita-cambio" id="cita-cambio"></a>
+
+{% include "../.gitbook/includes/aviso-cambio-cita.md" %}
+
+Si [tienes el alta como paciente digital](../alta-y-acceso/darte-de-alta.md), también puedes pedirlo [por chat](../servicios-medicos-digitales/chat-con-el-servicio-medico.md).
+
+Puedes [consultar tus citas](../citas-y-asistencias/consultar-tus-citas.md) en la web o en la app.

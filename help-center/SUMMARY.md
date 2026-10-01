@@ -51,6 +51,7 @@
 
 ## Preguntas frecuentes
 
+* [Preguntas frecuentes](preguntas-frecuentes/README.md "Todas las preguntas")
 * [¿Qué hago si no puedo darme de alta con el DNI o no tengo certificado digital?](preguntas-frecuentes/no-puedo-darme-de-alta.md "No puedo darme de alta")
 * [¿Qué certificados digitales sirven para darte de alta?](preguntas-frecuentes/certificados-validos.md "Certificados válidos")
 * [¿Puedo cambiar las citas desde Ibermutua Digital?](preguntas-frecuentes/cambiar-una-cita.md "¿Puedo cambiar una cita?")

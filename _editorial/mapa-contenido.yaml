@@ -101,8 +101,7 @@ paginas:
     notas: P02 (Bienvenida) se fusiona en la portada; se quitan el contacto (va en la navegación) y «Buscar en este espacio» (Confluence)
 
   preguntas-frecuentes/README.md:
-    titulo: Preguntas frecuentes
-    tipo: referencia
+    en_indice: true
     origen: [P41, P42, P48, P56, P74]
     notas: contenido = los bloques faq-<tema> bajo un encabezado por tema; sin mantenimiento propio. P42, P48, P56 y P74 eran índices por tema
 

@@ -6,7 +6,7 @@
 #  - el análisis de enlaces por intención: «resuelve» dice qué problema resuelve cada página o ancla.
 #  - herramientas/validar.py: comprueba que el índice y las páginas coinciden.
 #
-# tipo: portada | tarea | concepto | pregunta
+# tipo: portada | tarea | concepto | pregunta | referencia
 # temas: temas a los que pertenece la página (una pregunta puede tener varios)
 # faq_tema: tema del bloque de preguntas frecuentes que muestra la página (solo tareas)
 # resuelve: intenciones que resuelve la página; «ancla» vacía = la página entera
@@ -304,6 +304,12 @@ paginas:
       - {ancla: "", intencion: hacer la rehabilitación online}
       - {ancla: rehabilitacion-ejercicios, intencion: hacer los ejercicios de hoy con Fisio Digital}
 
+  preguntas-frecuentes/README.md:
+    tipo: referencia
+    temas: []
+    resuelve:
+      - {ancla: "", intencion: ver todas las preguntas frecuentes por tema}
+
   preguntas-frecuentes/no-puedo-darme-de-alta.md:
     tipo: pregunta
     temas: [acceso]
@@ -320,7 +326,8 @@ paginas:
     tipo: pregunta
     temas: [citas]
     resuelve:
-      - {ancla: "", intencion: saber si se puede cambiar una cita y cómo pedirlo}
+      - {ancla: "", intencion: saber si se puede cambiar una cita}
+      - {ancla: cita-cambio, intencion: saber cómo pedir el cambio de una cita}
 
   preguntas-frecuentes/que-es-la-segunda-opinion.md:
     tipo: concepto
@@ -334,6 +341,7 @@ paginas:
     temas: [informes, historia-clinica]
     resuelve:
       - {ancla: "", intencion: elegir entre el informe de historia clínica y el de episodio}
+      - {ancla: informes-diferencia, intencion: saber qué incluye cada tipo de informe}
 
   preguntas-frecuentes/cuando-estan-disponibles-las-pruebas.md:
     tipo: pregunta

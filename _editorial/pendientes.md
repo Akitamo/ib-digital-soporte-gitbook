@@ -2,7 +2,7 @@
 
 Lista generada por `herramientas/generar_pendientes.py` a partir de `_editorial/pendientes.yaml` y de los marcadores de captura de la app. No se edita a mano: se corrige la fuente y se vuelve a generar. GitBook no importa esta carpeta.
 
-**101 pendientes**: 95 en páginas y 6 en bloques o variables compartidos, que se repiten en cada página donde se usan. 41 páginas afectadas.
+**103 pendientes**: 97 en páginas y 6 en bloques o variables compartidos, que se repiten en cada página donde se usan. 42 páginas afectadas.
 
 | Tipo | Qué significa | Número |
 |---|---|---|
@@ -13,7 +13,7 @@ Lista generada por `herramientas/generar_pendientes.py` a partir de `_editorial/
 | captura dudosa | captura usada que conviene revisar | 9 |
 | captura descartada | captura original no usada, con el motivo | 16 |
 | sin verificar | contenido funcional sin fuente o genérico | 24 |
-| decisión | decisión editorial o de estructura pendiente de Sergio | 5 |
+| decisión | decisión editorial o de estructura pendiente de Sergio | 7 |
 
 ## Bloques y variables compartidos
 
@@ -32,7 +32,7 @@ Páginas afectadas: [¿Qué prestaciones puedo pedir desde Ibermutua Digital Per
 |---|---|---|
 | contradicción 1 | Canal para cambiar una cita. El aviso remite al teléfono; P52 dice teléfono o chat y P80, que el chat es solo para temas médicos. | [L6](../help-center/.gitbook/includes/aviso-cambio-cita.md#L6) |
 
-Páginas afectadas: ninguna.
+Páginas afectadas: [¿Puedo cambiar las citas desde Ibermutua Digital?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cambiar-una-cita) › [Cómo pedir el cambio](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cambiar-una-cita#cita-cambio).
 
 ### Bloque `canal-chat`
 
@@ -373,6 +373,14 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 | Inicio de la página | captura descartada | 3dc810a9efd1 (fotografía de una persona); 5162f9cf0155, ef14e18c1470, aea9e4c68c66 y 4ee4367b2fba (pantallas de ejercicio con personas); 7780dd43fc83 (nombre de la persona); f32be98e234e (lista de ejercicios con un comentario del personal médico); 91e19c2706d0, 960187fc9b84 y 5a82ab52b836 son versiones de mayo de 2025 de pantallas con captura más reciente. | [L14](../help-center/servicios-medicos-digitales/rehabilitacion-online.md#L14) |
 | [Haz los ejercicios de hoy](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/rehabilitacion-online#rehabilitacion-ejercicios) | app | P40 y P75 describen la web. Confirmar si los ejercicios se pueden hacer desde la app. | [L20](../help-center/servicios-medicos-digitales/rehabilitacion-online.md#L20) |
 
+### [Preguntas frecuentes](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes)
+
+`preguntas-frecuentes/README.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| [Prestaciones económicas](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes#faq-prestaciones) | decisión | Portada con un bloque faq-<tema> por tema. Se omiten faq-informes, faq-documentacion, faq-pago-directo y faq-pagos, porque sus preguntas ya salen en otros temas. «¿Qué prestaciones puedo pedir…?» aparece dos veces (prestaciones y riesgo). | [L34](../help-center/preguntas-frecuentes/README.md#L34) |
+
 ### [¿Qué hago si no puedo darme de alta con el DNI o no tengo certificado digital?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-darme-de-alta)
 
 `preguntas-frecuentes/no-puedo-darme-de-alta.md`
@@ -387,7 +395,9 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
-| Inicio de la página | contradicción 1 | La respuesta ofrece teléfono o chat (texto de P52); P80 y el aviso de citas remiten solo al teléfono. | [L10](../help-center/preguntas-frecuentes/cambiar-una-cita.md#L10) |
+| Inicio de la página | decisión | Con la plantilla de pregunta, la respuesta directa y el aviso compartido repiten «No puedes cambiar una cita». Valorar si el aviso sobra en esta página. | [L12](../help-center/preguntas-frecuentes/cambiar-una-cita.md#L12) |
+| [Cómo pedir el cambio](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cambiar-una-cita#cita-cambio) | contradicción 1 | Bloque `aviso-cambio-cita`: Canal para cambiar una cita. El aviso remite al teléfono; P52 dice teléfono o chat y P80, que el chat es solo para temas médicos. | [L6](../help-center/.gitbook/includes/aviso-cambio-cita.md#L6) |
+| [Cómo pedir el cambio](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cambiar-una-cita#cita-cambio) | contradicción 1 | La respuesta usa el aviso compartido (teléfono, como P80) y mantiene la opción del chat de P52. Se resuelve junto con el canal del aviso. | [L16](../help-center/preguntas-frecuentes/cambiar-una-cita.md#L16) |
 
 ### [¿Qué prestaciones puedo pedir desde Ibermutua Digital Personas?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-prestaciones-puedo-pedir)
 
