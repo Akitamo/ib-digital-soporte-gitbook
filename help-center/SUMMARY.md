@@ -2,6 +2,15 @@
 
 * [¿En qué podemos ayudarte?](README.md "Inicio")
 
+## Alta y acceso
+
+* [Darte de alta en Ibermutua Digital Personas](alta-y-acceso/darte-de-alta.md "Darte de alta")
+* [Acceder con biometría](alta-y-acceso/acceder-con-biometria.md)
+* [Verificar tu identidad con el doble factor](alta-y-acceso/doble-factor-de-seguridad.md "Doble factor de seguridad")
+* [Cambiar tu contraseña](alta-y-acceso/cambiar-tu-contrasena.md)
+* [Recuperar tu contraseña](alta-y-acceso/recuperar-tu-contrasena.md)
+* [Cambiar tus datos de contacto](alta-y-acceso/cambiar-tus-datos-de-contacto.md)
+
 ## Citas y asistencias
 
 * [Consultar tus citas](citas-y-asistencias/consultar-tus-citas.md)
@@ -23,6 +32,8 @@
 
 ## Preguntas frecuentes
 
+* [¿Qué hago si no puedo darme de alta con el DNI o no tengo certificado digital?](preguntas-frecuentes/no-puedo-darme-de-alta.md "No puedo darme de alta")
+* [¿Qué certificados digitales sirven para darte de alta?](preguntas-frecuentes/certificados-validos.md "Certificados válidos")
 * [¿Puedo cambiar las citas desde Ibermutua Digital?](preguntas-frecuentes/cambiar-una-cita.md "¿Puedo cambiar una cita?")
 * [¿Qué es la segunda opinión médica?](preguntas-frecuentes/que-es-la-segunda-opinion.md)
 * [¿Qué diferencia hay entre el informe de historia clínica y el de episodio médico?](preguntas-frecuentes/informe-historia-clinica-o-episodio.md "¿Informe de historia clínica o de episodio?")
@@ -34,7 +45,6 @@
 
 ## Otros temas
 
-* [Alta y acceso](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/tu-alta-y-acceso-a-ibermutua-digital-personas)
 * [Prestaciones y gestiones](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/tus-prestaciones-y-gestiones-relacionadas)
 * [Servicios médicos digitales](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/tus-servicios-medicos-digitales)
 * [Canales de atención](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/canales-para-resolver-dudas-segun-el-tipo-de-consulta)

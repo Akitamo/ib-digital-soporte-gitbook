@@ -43,7 +43,7 @@ En el menú inferior, pulsa **H. Clínica** y, arriba, la pestaña **Pruebas y d
 
 ## Filtrar por quién ha subido el documento <a href="#documentacion-filtrar" id="documentacion-filtrar"></a>
 
-Si [tienes el alta como paciente digital](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/tu-alta-y-acceso-a-ibermutua-digital-personas), puedes [enviar documentación al servicio médico](enviar-documentacion.md) de la mutua. Queda archivada en tu historia clínica, y siempre puedes ver por separado la que ha incorporado el personal de la mutua y la que has adjuntado tú.
+Si [tienes el alta como paciente digital](../alta-y-acceso/darte-de-alta.md), puedes [enviar documentación al servicio médico](enviar-documentacion.md) de la mutua. Queda archivada en tu historia clínica, y siempre puedes ver por separado la que ha incorporado el personal de la mutua y la que has adjuntado tú.
 
 {% tabs %}
 {% tab title="Web" %}

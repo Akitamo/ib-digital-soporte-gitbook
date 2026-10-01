@@ -130,56 +130,38 @@ paginas:
 
   # --- Alta y acceso ---
   alta-y-acceso/darte-de-alta.md:
-    titulo: Darte de alta en Ibermutua Digital Personas
-    tipo: tarea
+    en_indice: true
     origen: [P04, P05, P03]
-    temas: [acceso]
-    faq_tema: acceso
     relaciones: {concepto: [preguntas-frecuentes/certificados-validos.md], incidencia: [preguntas-frecuentes/no-puedo-darme-de-alta.md], siguiente: [alta-y-acceso/acceder-con-biometria.md, alta-y-acceso/doble-factor-de-seguridad.md]}
     variables: [portal_url]
     notas: alta web y alta app en pestañas Web/App (regla aprobada); P03 era índice
 
   alta-y-acceso/acceder-con-biometria.md:
-    titulo: Acceder con biometría
-    tipo: tarea
+    en_indice: true
     origen: [P06]
-    temas: [acceso]
-    faq_tema: acceso
     relaciones: {requisito: [alta-y-acceso/darte-de-alta.md]}
     notas: solo App; sin pestañas, con la indicación «Solo en la App»
 
   alta-y-acceso/doble-factor-de-seguridad.md:
-    titulo: Verificar tu identidad con el doble factor
-    tipo: tarea
+    en_indice: true
     origen: [P07]
-    temas: [acceso]
-    faq_tema: acceso
     relaciones: {incidencia: [alta-y-acceso/cambiar-tus-datos-de-contacto.md]}
 
   alta-y-acceso/cambiar-tu-contrasena.md:
-    titulo: Cambiar tu contraseña
-    tipo: tarea
+    en_indice: true
     origen: [P43]
-    temas: [acceso]
-    faq_tema: acceso
     relaciones: {alternativa: [alta-y-acceso/recuperar-tu-contrasena.md]}
     notas: era pregunta frecuente; es una tarea
 
   alta-y-acceso/recuperar-tu-contrasena.md:
-    titulo: Recuperar tu contraseña
-    tipo: tarea
+    en_indice: true
     origen: [P44]
-    temas: [acceso]
-    faq_tema: acceso
     relaciones: {alternativa: [alta-y-acceso/cambiar-tu-contrasena.md]}
     notas: era pregunta frecuente; es una tarea
 
   alta-y-acceso/cambiar-tus-datos-de-contacto.md:
-    titulo: Cambiar tus datos de contacto
-    tipo: tarea
+    en_indice: true
     origen: [P46]
-    temas: [acceso]
-    faq_tema: acceso
     relaciones: {concepto: [alta-y-acceso/doble-factor-de-seguridad.md]}
     notas: era pregunta frecuente; es una tarea
 
@@ -406,18 +388,14 @@ paginas:
   preguntas-frecuentes/que-incluye-la-historia-clinica.md: {en_indice: true, origen: [P54]}
 
   preguntas-frecuentes/no-puedo-darme-de-alta.md:
-    titulo: ¿Qué hago si no puedo darme de alta con el DNI o no tengo certificado digital?
-    tipo: pregunta
+    en_indice: true
     origen: [P45]
-    temas: [acceso]
-    variables: [red_centros_url]
     relaciones: {tarea: [alta-y-acceso/darte-de-alta.md]}
+    variables: [red_centros_url]
 
   preguntas-frecuentes/certificados-validos.md:
-    titulo: ¿Qué certificados digitales sirven para darte de alta?
-    tipo: pregunta
+    en_indice: true
     origen: [P47]
-    temas: [acceso]
     relaciones: {tarea: [alta-y-acceso/darte-de-alta.md]}
 
   preguntas-frecuentes/que-prestaciones-puedo-pedir.md:

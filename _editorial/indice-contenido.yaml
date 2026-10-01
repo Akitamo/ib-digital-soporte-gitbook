@@ -12,6 +12,7 @@
 # resuelve: intenciones que resuelve la página; «ancla» vacía = la página entera
 
 temas:
+  acceso: Alta y acceso
   citas: Citas
   justificantes: Justificantes de asistencia
   historia-clinica: Historia clínica
@@ -28,6 +29,52 @@ paginas:
     temas: []
     resuelve:
       - {ancla: contacto, intencion: saber qué canal de contacto usar según la consulta}
+
+  alta-y-acceso/darte-de-alta.md:
+    tipo: tarea
+    temas: [acceso]
+    faq_tema: acceso
+    resuelve:
+      - {ancla: "", intencion: darse de alta como paciente digital}
+      - {ancla: alta-registro, intencion: registrarse en la web o en la app con DNI o certificado digital}
+      - {ancla: alta-acceso, intencion: entrar en Ibermutua Digital Personas}
+
+  alta-y-acceso/acceder-con-biometria.md:
+    tipo: tarea
+    temas: [acceso]
+    faq_tema: acceso
+    resuelve:
+      - {ancla: "", intencion: entrar en la app con biometría}
+
+  alta-y-acceso/doble-factor-de-seguridad.md:
+    tipo: tarea
+    temas: [acceso]
+    faq_tema: acceso
+    resuelve:
+      - {ancla: "", intencion: verificar la identidad con el código del doble factor}
+      - {ancla: doble-factor-cuando, intencion: saber cuándo se pide el código y por dónde llega}
+      - {ancla: doble-factor-codigo, intencion: introducir el código o pedir uno nuevo}
+
+  alta-y-acceso/cambiar-tu-contrasena.md:
+    tipo: tarea
+    temas: [acceso]
+    faq_tema: acceso
+    resuelve:
+      - {ancla: "", intencion: cambiar la contraseña}
+
+  alta-y-acceso/recuperar-tu-contrasena.md:
+    tipo: tarea
+    temas: [acceso]
+    faq_tema: acceso
+    resuelve:
+      - {ancla: "", intencion: recuperar la contraseña olvidada}
+
+  alta-y-acceso/cambiar-tus-datos-de-contacto.md:
+    tipo: tarea
+    temas: [acceso]
+    faq_tema: acceso
+    resuelve:
+      - {ancla: "", intencion: cambiar el teléfono móvil o el correo electrónico}
 
   citas-y-asistencias/consultar-tus-citas.md:
     tipo: tarea
@@ -112,6 +159,18 @@ paginas:
       - {ancla: autoliquidacion-pedir, intencion: saber cómo pedir la autoliquidación}
       - {ancla: autoliquidacion-seguimiento, intencion: saber cuándo llega el ingreso y seguir la solicitud}
 
+  preguntas-frecuentes/no-puedo-darme-de-alta.md:
+    tipo: pregunta
+    temas: [acceso]
+    resuelve:
+      - {ancla: "", intencion: saber qué hacer si no se puede dar de alta con DNI ni certificado}
+
+  preguntas-frecuentes/certificados-validos.md:
+    tipo: pregunta
+    temas: [acceso]
+    resuelve:
+      - {ancla: "", intencion: saber qué certificados digitales sirven para el alta}
+
   preguntas-frecuentes/cambiar-una-cita.md:
     tipo: pregunta
     temas: [citas]
@@ -166,6 +225,4 @@ paginas:
 # Destinos externos (Centro de Ayuda actual) que se pueden enlazar mientras dure el piloto
 externos:
   chat: {url: "https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/chat-con-el-servicio-medico-de-ibermutua", intencion: hablar con el servicio médico por chat}
-  alta: {url: "https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/tu-alta-y-acceso-a-ibermutua-digital-personas", intencion: darse de alta y acceder a Ibermutua Digital Personas}
-  alta-app: {url: "https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/alta-a-traves-de-la-app", intencion: darse de alta en la app}
   canales: {url: "https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/canales-para-resolver-dudas-segun-el-tipo-de-consulta", intencion: elegir el canal de atención}

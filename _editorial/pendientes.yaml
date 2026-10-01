@@ -121,3 +121,75 @@
   cita: Desde la ficha de un episodio, el botón es **Enviar documentos**.
   tipo: app
   texto: Tomado de las capturas de la ficha del episodio en la app (P14 y P15); P37 no lo describe.
+
+# --- Sección 2: alta y acceso ---
+
+- pagina: alta-y-acceso/darte-de-alta.md
+  cita: Abre la app, pulsa **Crear cuenta** y sigue los pasos del registro.
+  tipo: app
+  texto: Faltan los pasos y las capturas del alta en la app; P05 solo muestra la portada y los enlaces de descarga.
+
+- pagina: alta-y-acceso/darte-de-alta.md
+  cita: Completa los campos obligatorios
+  tipo: sin verificar
+  texto: El formulario y las capturas son del registro con DNI. Falta cómo sigue el registro con certificado digital.
+
+- pagina: alta-y-acceso/darte-de-alta.md
+  cita: Recibirás una contraseña temporal para el primer acceso
+  tipo: sin verificar
+  texto: Lo dice P44 («el proceso es el mismo que para el alta»); P04 no describe el final del alta ni cómo llega la contraseña temporal.
+
+- pagina: alta-y-acceso/darte-de-alta.md
+  cita: Pulsa **Iniciar sesión** y escribe tus datos.
+  tipo: app
+  texto: Confirmar el inicio de sesión en la app y sus pantallas.
+
+- pagina: alta-y-acceso/darte-de-alta.md
+  cita: "## Regístrate"
+  tipo: captura descartada
+  texto: Originales no usados de P04 y P05. 74df252ef3e4 (inicio tras entrar) muestra un diagnóstico y una cita; ffb6c450c6d2 y b4ae3218e619 repiten la pantalla de inicio de sesión; 770dd5c08837 y c8d6fce2a2d9 repiten la portada de la app; 5d8eeaae6b5e es una maqueta promocional con textos deformados y nombres, parece retocada.
+
+- pagina: alta-y-acceso/acceder-con-biometria.md
+  cita: Cuando la app te ofrezca activar el acceso biométrico
+  tipo: captura descartada
+  texto: Originales 4fcf87346f29 y c985cf1f12ee. Son composiciones con textos deformados («digitol», «biométrice», «He obrdado mi contraseña») y nombres; parecen retocadas. Hacen falta capturas reales de activar la biometría y del aviso de dispositivo sin biometría.
+
+- pagina: alta-y-acceso/doble-factor-de-seguridad.md
+  cita: puedes pedir uno nuevo
+  tipo: sin verificar
+  texto: P07 no indica cómo se pide un código nuevo; la captura no muestra esa opción.
+
+- pagina: alta-y-acceso/doble-factor-de-seguridad.md
+  cita: Escribe el código que te hemos enviado y pulsa **Validar**.
+  tipo: app
+  texto: P07 solo muestra la web. Confirmar el doble factor en la app.
+
+- pagina: alta-y-acceso/cambiar-tu-contrasena.md
+  cita: Puedes cambiar tu contraseña cuando quieras
+  tipo: app
+  texto: P43 solo describe la web. Confirmar si se puede cambiar la contraseña desde la app y cómo.
+
+- pagina: alta-y-acceso/cambiar-tu-contrasena.md
+  cita: 4dcacb5696c3-menu-cuenta-recorte.webp
+  tipo: captura dudosa
+  texto: El nombre de la cuenta está difuminado en el recorte. P43 llama «Datos Personales» a lo que la pantalla titula «Mi cuenta».
+
+- pagina: alta-y-acceso/recuperar-tu-contrasena.md
+  cita: En la página de inicio de sesión de
+  tipo: app
+  texto: P44 solo describe la web. Confirmar la recuperación en la app.
+
+- pagina: alta-y-acceso/cambiar-tus-datos-de-contacto.md
+  cita: Puedes cambiar tu teléfono móvil y tu correo electrónico
+  tipo: app
+  texto: P46 solo describe la web. Confirmar si se pueden cambiar desde la app y cómo.
+
+- pagina: alta-y-acceso/cambiar-tus-datos-de-contacto.md
+  cita: d66d26fd67e2-datos-personales-recorte.webp
+  tipo: captura dudosa
+  texto: Recorte con el nombre difuminado; el resto de datos ya venía difuminado. No se usa e41588a63945 (composición borrosa con nombre) y la ventana del correo (9662f39002a6) es igual que la del móvil.
+
+- pagina: preguntas-frecuentes/no-puedo-darme-de-alta.md
+  cita: https://www.ibermutua.es/redcentros/
+  tipo: contradicción 6
+  texto: Red de centros. P45 enlaza a /redcentros/ y P14 a /red-de-centros/.

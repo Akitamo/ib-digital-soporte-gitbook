@@ -2,17 +2,17 @@
 
 Lista generada por `herramientas/generar_pendientes.py` a partir de `_editorial/pendientes.yaml` y de los marcadores de captura de la app. No se edita a mano: se corrige la fuente y se vuelve a generar. GitBook no importa esta carpeta.
 
-**30 pendientes**: 27 en páginas y 3 en bloques o variables compartidos, que se repiten en cada página donde se usan. 12 páginas afectadas.
+**45 pendientes**: 42 en páginas y 3 en bloques o variables compartidos, que se repiten en cada página donde se usan. 19 páginas afectadas.
 
 | Tipo | Qué significa | Número |
 |---|---|---|
-| contradicción | incoherencia de negocio del análisis de contenido, apartado 4 (con su número) | 6 |
+| contradicción | incoherencia de negocio del análisis de contenido, apartado 4 (con su número) | 7 |
 | valor provisional | dato que figura en la ayuda pero falta confirmar | 1 |
-| app | funcionamiento o texto de la app sin confirmar | 7 |
-| captura de la app | falta la captura de la app (marcador de imagen) | 7 |
-| captura dudosa | captura usada que conviene revisar | 1 |
-| captura descartada | captura original no usada, con el motivo | 2 |
-| sin verificar | contenido funcional sin fuente o genérico | 4 |
+| app | funcionamiento o texto de la app sin confirmar | 13 |
+| captura de la app | falta la captura de la app (marcador de imagen) | 8 |
+| captura dudosa | captura usada que conviene revisar | 3 |
+| captura descartada | captura original no usada, con el motivo | 4 |
+| sin verificar | contenido funcional sin fuente o genérico | 7 |
 | decisión | decisión editorial o de estructura pendiente de Sergio | 2 |
 
 ## Bloques y variables compartidos
@@ -42,6 +42,62 @@ Páginas afectadas: [¿Por qué no puedo solicitar la autoliquidación?](https:/
 Páginas afectadas: [¿Qué es la autoliquidación y qué condiciones tiene?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-es-la-autoliquidacion) › [Cómo se comprueban](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-es-la-autoliquidacion#autoliquidacion-comprobacion); [Solicitar la autoliquidación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion) › [Cuándo cobras y cómo sigues la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion#autoliquidacion-seguimiento).
 
 ## Por página
+
+### [Darte de alta en Ibermutua Digital Personas](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/alta-y-acceso/darte-de-alta)
+
+`alta-y-acceso/darte-de-alta.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| Inicio de la página | captura descartada | Originales no usados de P04 y P05. 74df252ef3e4 (inicio tras entrar) muestra un diagnóstico y una cita; ffb6c450c6d2 y b4ae3218e619 repiten la pantalla de inicio de sesión; 770dd5c08837 y c8d6fce2a2d9 repiten la portada de la app; 5d8eeaae6b5e es una maqueta promocional con textos deformados y nombres, parece retocada. | [L14](../help-center/alta-y-acceso/darte-de-alta.md#L14) |
+| [Regístrate](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/alta-y-acceso/darte-de-alta#alta-registro) | sin verificar | El formulario y las capturas son del registro con DNI. Falta cómo sigue el registro con certificado digital. | [L38](../help-center/alta-y-acceso/darte-de-alta.md#L38) |
+| [Regístrate](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/alta-y-acceso/darte-de-alta#alta-registro) | sin verificar | Lo dice P44 («el proceso es el mismo que para el alta»); P04 no describe el final del alta ni cómo llega la contraseña temporal. | [L46](../help-center/alta-y-acceso/darte-de-alta.md#L46) |
+| [Regístrate](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/alta-y-acceso/darte-de-alta#alta-registro) | app | Faltan los pasos y las capturas del alta en la app; P05 solo muestra la portada y los enlaces de descarga. | [L64](../help-center/alta-y-acceso/darte-de-alta.md#L64) |
+| [Entra en Ibermutua Digital Personas](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/alta-y-acceso/darte-de-alta#alta-acceso) | app | Confirmar el inicio de sesión en la app y sus pantallas. | [L82](../help-center/alta-y-acceso/darte-de-alta.md#L82) |
+
+### [Acceder con biometría](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/alta-y-acceso/acceder-con-biometria)
+
+`alta-y-acceso/acceder-con-biometria.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| [Activa el acceso biométrico](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/alta-y-acceso/acceder-con-biometria#biometria-activar) | captura descartada | Originales 4fcf87346f29 y c985cf1f12ee. Son composiciones con textos deformados («digitol», «biométrice», «He obrdado mi contraseña») y nombres; parecen retocadas. Hacen falta capturas reales de activar la biometría y del aviso de dispositivo sin biometría. | [L19](../help-center/alta-y-acceso/acceder-con-biometria.md#L19) |
+| [Activa el acceso biométrico](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/alta-y-acceso/acceder-con-biometria#biometria-activar) | captura de la app | pantalla para activar el acceso biométrico. | [L23](../help-center/alta-y-acceso/acceder-con-biometria.md#L23) |
+
+### [Verificar tu identidad con el doble factor](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/alta-y-acceso/doble-factor-de-seguridad)
+
+`alta-y-acceso/doble-factor-de-seguridad.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| [Introduce el código](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/alta-y-acceso/doble-factor-de-seguridad#doble-factor-codigo) | app | P07 solo muestra la web. Confirmar el doble factor en la app. | [L22](../help-center/alta-y-acceso/doble-factor-de-seguridad.md#L22) |
+| [Introduce el código](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/alta-y-acceso/doble-factor-de-seguridad#doble-factor-codigo) | sin verificar | P07 no indica cómo se pide un código nuevo; la captura no muestra esa opción. | [L26](../help-center/alta-y-acceso/doble-factor-de-seguridad.md#L26) |
+
+### [Cambiar tu contraseña](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/alta-y-acceso/cambiar-tu-contrasena)
+
+`alta-y-acceso/cambiar-tu-contrasena.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| Inicio de la página | app | P43 solo describe la web. Confirmar si se puede cambiar la contraseña desde la app y cómo. | [L10](../help-center/alta-y-acceso/cambiar-tu-contrasena.md#L10) |
+| [Cambia la contraseña](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/alta-y-acceso/cambiar-tu-contrasena#contrasena-cambiar) | captura dudosa | El nombre de la cuenta está difuminado en el recorte. P43 llama «Datos Personales» a lo que la pantalla titula «Mi cuenta». | [L20](../help-center/alta-y-acceso/cambiar-tu-contrasena.md#L20) |
+
+### [Recuperar tu contraseña](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/alta-y-acceso/recuperar-tu-contrasena)
+
+`alta-y-acceso/recuperar-tu-contrasena.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| [Genera una contraseña nueva](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/alta-y-acceso/recuperar-tu-contrasena#contrasena-recuperar) | app | P44 solo describe la web. Confirmar la recuperación en la app. | [L18](../help-center/alta-y-acceso/recuperar-tu-contrasena.md#L18) |
+
+### [Cambiar tus datos de contacto](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/alta-y-acceso/cambiar-tus-datos-de-contacto)
+
+`alta-y-acceso/cambiar-tus-datos-de-contacto.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| Inicio de la página | app | P46 solo describe la web. Confirmar si se pueden cambiar desde la app y cómo. | [L10](../help-center/alta-y-acceso/cambiar-tus-datos-de-contacto.md#L10) |
+| [Cambia el teléfono o el correo](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/alta-y-acceso/cambiar-tus-datos-de-contacto#datos-cambiar) | captura dudosa | Recorte con el nombre difuminado; el resto de datos ya venía difuminado. No se usa e41588a63945 (composición borrosa con nombre) y la ventana del correo (9662f39002a6) es igual que la del móvil. | [L28](../help-center/alta-y-acceso/cambiar-tus-datos-de-contacto.md#L28) |
 
 ### [Consultar tus citas](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/citas-y-asistencias/consultar-tus-citas)
 
@@ -133,6 +189,14 @@ Páginas afectadas: [¿Qué es la autoliquidación y qué condiciones tiene?](ht
 | [Pide la autoliquidación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion#autoliquidacion-pedir) | captura de la app | acceso a Autoliquidación. | [L54](../help-center/prestaciones-economicas/solicitar-la-autoliquidacion.md#L54) |
 | [Cuándo cobras y cómo sigues la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion#autoliquidacion-seguimiento) | contradicción 4 | Variable `autoliquidacion_plazo_abono`: Plazo de abono. P34 dice «en un máximo de 2 días laborables» y también «en 1-2 días». | [L4](../help-center/.gitbook/vars.yaml#L4) |
 | [Cuándo cobras y cómo sigues la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion#autoliquidacion-seguimiento) | captura de la app | estado de la autoliquidación. | [L70](../help-center/prestaciones-economicas/solicitar-la-autoliquidacion.md#L70) |
+
+### [¿Qué hago si no puedo darme de alta con el DNI o no tengo certificado digital?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-darme-de-alta)
+
+`preguntas-frecuentes/no-puedo-darme-de-alta.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| Inicio de la página | contradicción 6 | Red de centros. P45 enlaza a /redcentros/ y P14 a /red-de-centros/. | [L10](../help-center/preguntas-frecuentes/no-puedo-darme-de-alta.md#L10) |
 
 ### [¿Puedo cambiar las citas desde Ibermutua Digital?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cambiar-una-cita)
 
