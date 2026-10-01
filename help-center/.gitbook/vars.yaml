@@ -1,6 +1,4 @@
 portal_url: https://personas.ibermutua.es/
 telefono_atencion: 900 23 33 33
-# PENDIENTE [valor provisional]: días de espera desde la baja para pedir la autoliquidación (P34, P67, P70-P72); confirmar con negocio.
 autoliquidacion_espera: 7 días
-# PENDIENTE [contradicción 4]: plazo de abono; P34 dice «en un máximo de 2 días laborables» y también «en 1-2 días».
 autoliquidacion_plazo_abono: 2 días laborables
