@@ -1,0 +1,532 @@
+# Mapa de contenido de la sección Personas: las 82 páginas de Confluence y su destino en GitBook
+#
+# Es el plan de migración. Una entrada por página nueva, con los mismos campos que
+# indice-contenido.yaml para pasarla tal cual al índice cuando la página se migre.
+# Las páginas ya migradas (en_indice: true) solo llevan aquí origen y relaciones: sus temas y
+# su faq_tema están en el índice, que es la fuente.
+#
+# origen: páginas de Confluence (Pnn = orden de extracciones/…/indice.md). La primera es la
+#   principal; las demás se fusionan o se redirigen a esta página (ver correspondencia.csv).
+# tipo: portada | tarea | concepto | pregunta | referencia
+# temas / faq_tema: igual que en el índice (el bloque faq-<tema> que muestra la tarea).
+# relaciones: enlaces de página a página que no da ya el bloque de preguntas del tema.
+#   requisito (lo que necesitas antes: va arriba, tras la introducción)
+#   siguiente | alternativa | concepto | incidencia | tarea (van en «También te puede interesar»)
+# bloques / variables: los del catálogo de abajo que usa la página.
+#
+# Estado: propuesta del 01/10/2026, pendiente de validar. No cambia ninguna página.
+
+temas_nuevos:
+  acceso: Alta y acceso
+  prestaciones: Prestaciones económicas
+  pago-directo: Pago directo
+  rel: Riesgo durante el embarazo o la lactancia
+  pagos: Pagos y retenciones
+  autoliquidacion: Autoliquidación
+  chat: Chat con el servicio médico
+  videoconsulta: Videoconsulta
+  rehabilitacion: Rehabilitación online
+
+# Bloques reutilizables (.gitbook/includes). Regla: párrafo o aviso que se repite igual en varias páginas.
+bloques:
+  abrir-solicitud-prestacion:
+    contenido: aviso «no disponible en la App, usa la web desde el móvil» y las dos formas de abrir una solicitud (Tus gestiones digitales o Prestaciones económicas)
+    origen: [P19, P27, P57]
+    usado_en: [prestaciones/pago-directo/solicitar-el-pago-directo.md, prestaciones/riesgo-embarazo-lactancia/iniciar-la-solicitud.md, preguntas-frecuentes/que-prestaciones-puedo-pedir.md]
+  canal-chat:
+    contenido: para qué es el chat (solo dudas médicas, ligado a un episodio, no urgencias, respuesta en horario laboral)
+    origen: [P02, P38, P77, P80]
+    usado_en: [servicios-digitales/chat-con-el-servicio-medico.md, canales-de-atencion.md, preguntas-frecuentes/cuando-responden-el-chat.md]
+  contacto-tramitador:
+    contenido: dónde ves el correo y el teléfono de tu tramitador/a (en tu solicitud) y su horario
+    origen: [P21, P34, P80]
+    usado_en: [prestaciones/pago-directo/consultar-el-estado.md, prestaciones/solicitar-la-autoliquidacion.md, prestaciones/reclamar-una-resolucion.md, canales-de-atencion.md]
+  rel-tipos-certificacion:
+    contenido: tabla negativa / positiva / positiva diferida → qué significa → cuándo puedes finalizar la solicitud
+    origen: [P29, P60, P61, P64]
+    usado_en: [prestaciones/riesgo-embarazo-lactancia/certificacion-de-riesgo.md, preguntas-frecuentes/que-es-la-certificacion-de-riesgo.md, preguntas-frecuentes/cuando-puedo-finalizar-la-solicitud.md]
+  autoliquidacion-requisitos:
+    contenido: las cuatro condiciones (prestación activa, días de espera, sin embargos, último parte de confirmación) y qué pasa si no se cumplen
+    origen: [P34, P67, P70, P71, P72]
+    usado_en: [prestaciones/solicitar-la-autoliquidacion.md, preguntas-frecuentes/que-es-la-autoliquidacion.md, preguntas-frecuentes/aprobacion-de-la-autoliquidacion.md, preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md]
+  # Existentes
+  aviso-cambio-cita: {usado_en: [citas-y-asistencias/consultar-tus-citas.md, preguntas-frecuentes/cambiar-una-cita.md], nota: texto pendiente de validar el canal}
+  contacto: {nota: se retira de las páginas (contacto en la navegación); su contenido pasa a canales-de-atencion.md con canal-chat y contacto-tramitador}
+
+# Variables de sección (.gitbook/vars.yaml). Regla: dato que puede cambiar y aparece en frases distintas de varias páginas.
+# No funcionan en títulos: los títulos no llevan datos.
+variables:
+  portal_url: {valor: "https://personas.ibermutua.es/", origen: 15 páginas, estado: existe}
+  telefono_atencion: {valor: "900 23 33 33", origen: [P02, P41, P80], estado: existe}
+  autoliquidacion_espera: {valor: "7 días", origen: [P34, P67, P70, P71, P72]}
+  autoliquidacion_plazo_abono: {valor: "2 días laborables", origen: [P34, P67, P70, P71], nota: P34 dice también «1-2 días»}
+  rel_dias_finalizar: {valor: "7 días", origen: [P29, P30, P60, P61, P64]}
+  red_centros_url: {valor: "https://www.ibermutua.es/redcentros/", origen: [P14, P45, P81], nota: P14 usa /red-de-centros/}
+  portal_empresas_url: {valor: "https://empresas.ibermutua.es/", origen: [P22, P28]}
+  portal_digital_url: {valor: "https://digital.ibermutua.es/", origen: [P22, P28]}
+  menu_gestiones: {valor: "Tus gestiones digitales", origen: [P02, P09, P16, P19, P27, P34, P37, P38, P55], estado: a decidir (etiqueta de la interfaz más repetida)}
+
+paginas:
+  # --- Portada y referencia ---
+  README.md:
+    en_indice: true
+    origen: [P01, P02]
+    notas: P02 (Bienvenida) se fusiona en la portada; se quitan el contacto (va en la navegación) y «Buscar en este espacio» (Confluence)
+
+  preguntas-frecuentes/README.md:
+    titulo: Preguntas frecuentes
+    tipo: referencia
+    origen: [P41, P42, P48, P56, P74]
+    notas: contenido = los bloques faq-<tema> bajo un encabezado por tema; sin mantenimiento propio. P42, P48, P56 y P74 eran índices por tema
+
+  canales-de-atencion.md:
+    titulo: Canales de atención
+    tipo: referencia
+    origen: [P80]
+    bloques: [canal-chat, contacto-tramitador]
+    variables: [telefono_atencion]
+    notas: es el destino del enlace de contacto de la navegación
+
+  glosario.md:
+    titulo: Glosario
+    tipo: referencia
+    origen: [P81]
+    variables: [red_centros_url]
+    notas: definiciones de una frase con enlace a la página que lo explica (segunda opinión, autoliquidación, certificación de riesgo, pago directo están duplicadas)
+
+  politica-de-cookies.md:
+    titulo: Política de cookies
+    tipo: referencia
+    origen: [P82]
+    notas: reescribir; habla de Confluence. Validar con Legal
+
+  # --- Alta y acceso ---
+  alta-y-acceso/darte-de-alta.md:
+    titulo: Darte de alta en Ibermutua Digital Personas
+    tipo: tarea
+    origen: [P04, P05, P03]
+    temas: [acceso]
+    faq_tema: acceso
+    relaciones: {siguiente: [alta-y-acceso/acceder-con-biometria.md, alta-y-acceso/doble-factor-de-seguridad.md]}
+    variables: [portal_url]
+    notas: alta web y alta app en pestañas Web/App (regla aprobada); P03 era índice
+
+  alta-y-acceso/acceder-con-biometria.md:
+    titulo: Acceder con biometría
+    tipo: tarea
+    origen: [P06]
+    temas: [acceso]
+    faq_tema: acceso
+    relaciones: {requisito: [alta-y-acceso/darte-de-alta.md]}
+    notas: solo App; sin pestañas, con la indicación «Solo en la App»
+
+  alta-y-acceso/doble-factor-de-seguridad.md:
+    titulo: Verificar tu identidad con el doble factor
+    tipo: tarea
+    origen: [P07]
+    temas: [acceso]
+    faq_tema: acceso
+    relaciones: {incidencia: [alta-y-acceso/cambiar-tus-datos-de-contacto.md]}
+
+  alta-y-acceso/cambiar-tu-contrasena.md:
+    titulo: Cambiar tu contraseña
+    tipo: tarea
+    origen: [P43]
+    temas: [acceso]
+    faq_tema: acceso
+    relaciones: {alternativa: [alta-y-acceso/recuperar-tu-contrasena.md]}
+    notas: era pregunta frecuente; es una tarea
+
+  alta-y-acceso/recuperar-tu-contrasena.md:
+    titulo: Recuperar tu contraseña
+    tipo: tarea
+    origen: [P44]
+    temas: [acceso]
+    faq_tema: acceso
+    relaciones: {alternativa: [alta-y-acceso/cambiar-tu-contrasena.md]}
+    notas: era pregunta frecuente; es una tarea
+
+  alta-y-acceso/cambiar-tus-datos-de-contacto.md:
+    titulo: Cambiar tus datos de contacto
+    tipo: tarea
+    origen: [P46]
+    temas: [acceso]
+    faq_tema: acceso
+    relaciones: {concepto: [alta-y-acceso/doble-factor-de-seguridad.md]}
+    notas: era pregunta frecuente; es una tarea
+
+  # --- Citas y asistencias ---
+  citas-y-asistencias/consultar-tus-citas.md:
+    en_indice: true
+    origen: [P10]
+    bloques: [aviso-cambio-cita]
+    relaciones: {siguiente: [citas-y-asistencias/descargar-un-justificante.md, servicios-digitales/videoconsulta.md]}
+
+  citas-y-asistencias/descargar-un-justificante.md:
+    en_indice: true
+    origen: [P16, P55]
+    variables: [menu_gestiones]
+    notas: revisar «Solución de incidencias» y «Dudas frecuentes» de P16 (contenido genérico, sin verificar)
+
+  # --- Tu historia clínica ---
+  tu-historia-clinica/consultar-tu-historia-clinica.md:
+    en_indice: true
+    origen: [P09, P08]
+    relaciones: {siguiente: [tu-historia-clinica/consultar-episodios-anteriores.md, tu-historia-clinica/descargar-un-informe.md]}
+
+  tu-historia-clinica/consultar-episodios-anteriores.md:
+    en_indice: true
+    origen: [P11]
+    relaciones: {siguiente: [tu-historia-clinica/descargar-un-informe.md]}
+
+  tu-historia-clinica/ver-tus-pruebas-diagnosticas.md:
+    en_indice: true
+    origen: [P13]
+    relaciones: {siguiente: [tu-historia-clinica/descargar-un-informe.md]}
+
+  tu-historia-clinica/descargar-un-informe.md:
+    en_indice: true
+    origen: [P12]
+    relaciones: {concepto: [tu-historia-clinica/consultar-episodios-anteriores.md]}
+
+  tu-historia-clinica/consultar-documentacion-administrativa.md:
+    en_indice: true
+    origen: [P15]
+    relaciones: {alternativa: [tu-historia-clinica/enviar-documentacion.md]}
+
+  tu-historia-clinica/solicitar-una-segunda-opinion.md:
+    en_indice: true
+    origen: [P14]
+    variables: [portal_url, red_centros_url]
+    notas: plazo por validar (ver informe); el enlace de acceso lleva parámetros de sesión → portal_url
+
+  tu-historia-clinica/enviar-documentacion.md:
+    titulo: Enviar documentación a la mutua
+    tipo: tarea
+    origen: [P37]
+    temas: [documentacion, historia-clinica]
+    faq_tema: documentacion
+    relaciones: {siguiente: [tu-historia-clinica/consultar-documentacion-administrativa.md], alternativa: [citas-y-asistencias/consultar-tus-citas.md]}
+    variables: [menu_gestiones]
+    notas: en Confluence estaba en Servicios médicos digitales; se hace desde Historia Clínica (ubicación a validar)
+
+  # --- Prestaciones: pago directo ---
+  prestaciones/pago-directo/solicitar-el-pago-directo.md:
+    titulo: Solicitar el pago directo por incapacidad temporal
+    tipo: tarea
+    origen: [P19, P18]
+    temas: [pago-directo, prestaciones]
+    faq_tema: pago-directo
+    bloques: [abrir-solicitud-prestacion]
+    relaciones: {siguiente: [prestaciones/pago-directo/rellenar-la-solicitud.md], alternativa: [prestaciones/pago-directo/solicitar-como-representante.md]}
+    variables: [menu_gestiones]
+    notas: P18 era índice; su introducción pasa aquí
+
+  prestaciones/pago-directo/rellenar-la-solicitud.md:
+    titulo: Rellenar la solicitud de pago directo
+    tipo: tarea
+    origen: [P20]
+    temas: [pago-directo]
+    faq_tema: pago-directo
+    relaciones: {requisito: [prestaciones/pago-directo/solicitar-el-pago-directo.md], siguiente: [prestaciones/pago-directo/consultar-el-estado.md]}
+    notas: común a la persona trabajadora y al representante. Las FAQ de REL la enlazaban por error
+
+  prestaciones/pago-directo/solicitar-como-representante.md:
+    titulo: Solicitar el pago directo como representante
+    tipo: tarea
+    origen: [P22]
+    temas: [pago-directo]
+    faq_tema: pago-directo
+    relaciones: {siguiente: [prestaciones/pago-directo/rellenar-la-solicitud.md], alternativa: [prestaciones/pago-directo/solicitar-el-pago-directo.md]}
+    variables: [portal_empresas_url, portal_digital_url]
+    notas: sus 4 preguntas propias (código, revocar, SMS, información sanitaria) → candidatas a pregunta frecuente
+
+  prestaciones/pago-directo/consultar-el-estado.md:
+    titulo: Consultar el estado de tu solicitud
+    tipo: tarea
+    origen: [P21]
+    temas: [pago-directo]
+    faq_tema: pago-directo
+    bloques: [contacto-tramitador]
+    relaciones: {siguiente: [prestaciones/consultar-tus-pagos.md], incidencia: [prestaciones/pago-directo/subsanar-documentacion.md, prestaciones/reclamar-una-resolucion.md]}
+
+  prestaciones/pago-directo/subsanar-documentacion.md:
+    titulo: Subsanar la documentación de tu solicitud
+    tipo: tarea
+    origen: [P24]
+    temas: [pago-directo]
+    faq_tema: pago-directo
+    relaciones: {siguiente: [prestaciones/pago-directo/consultar-el-estado.md]}
+
+  # --- Prestaciones: riesgo durante el embarazo o la lactancia (REL) ---
+  prestaciones/riesgo-embarazo-lactancia/solicitar-la-prestacion.md:
+    titulo: Solicitar la prestación por riesgo durante el embarazo o la lactancia
+    tipo: tarea
+    origen: [P26, P25, P32]
+    temas: [rel, prestaciones]
+    faq_tema: rel
+    relaciones: {siguiente: [prestaciones/riesgo-embarazo-lactancia/iniciar-la-solicitud.md]}
+    notas: stepper con las 4 fases que muestra la pantalla (iniciar, certificación, finalizar, resolución); las diferencias de la lactancia (P32) en una sección propia
+
+  prestaciones/riesgo-embarazo-lactancia/iniciar-la-solicitud.md:
+    titulo: Iniciar la solicitud
+    tipo: tarea
+    origen: [P28, P27]
+    temas: [rel]
+    faq_tema: rel
+    bloques: [abrir-solicitud-prestacion]
+    relaciones: {siguiente: [prestaciones/riesgo-embarazo-lactancia/certificacion-de-riesgo.md]}
+    variables: [portal_empresas_url, portal_digital_url, menu_gestiones]
+    notas: P27 (acceso) es el primer paso; queda en el bloque abrir-solicitud-prestacion
+
+  prestaciones/riesgo-embarazo-lactancia/certificacion-de-riesgo.md:
+    titulo: Certificación de riesgo
+    tipo: tarea
+    origen: [P29]
+    temas: [rel]
+    faq_tema: rel
+    bloques: [rel-tipos-certificacion]
+    relaciones: {siguiente: [prestaciones/riesgo-embarazo-lactancia/finalizar-la-solicitud.md], incidencia: [prestaciones/reclamar-una-resolucion.md]}
+
+  prestaciones/riesgo-embarazo-lactancia/finalizar-la-solicitud.md:
+    titulo: Finalizar la solicitud
+    tipo: tarea
+    origen: [P30]
+    temas: [rel]
+    faq_tema: rel
+    variables: [rel_dias_finalizar]
+    relaciones: {siguiente: [prestaciones/riesgo-embarazo-lactancia/resolucion.md]}
+
+  prestaciones/riesgo-embarazo-lactancia/resolucion.md:
+    titulo: Resolución de la prestación
+    tipo: tarea
+    origen: [P31]
+    temas: [rel]
+    faq_tema: rel
+    relaciones: {siguiente: [prestaciones/consultar-tus-pagos.md], incidencia: [prestaciones/reclamar-una-resolucion.md]}
+
+  # --- Prestaciones: pagos y gestiones ---
+  prestaciones/consultar-tus-pagos.md:
+    titulo: Consultar tus pagos
+    tipo: tarea
+    origen: [P33, P23]
+    temas: [pagos, prestaciones]
+    faq_tema: pagos
+    relaciones: {siguiente: [prestaciones/descargar-el-certificado-de-retenciones.md], alternativa: [prestaciones/solicitar-la-autoliquidacion.md]}
+    notas: P23 (información económica de pago directo) repite la misma pantalla
+
+  prestaciones/solicitar-la-autoliquidacion.md:
+    titulo: Solicitar la autoliquidación
+    tipo: tarea
+    origen: [P34]
+    temas: [autoliquidacion, pagos]
+    faq_tema: autoliquidacion
+    bloques: [autoliquidacion-requisitos, contacto-tramitador]
+    variables: [autoliquidacion_espera, autoliquidacion_plazo_abono, menu_gestiones]
+    relaciones: {siguiente: [prestaciones/consultar-tus-pagos.md]}
+    notas: quitar sus 2 preguntas propias (ya las responden las FAQ del tema) y el enlace a «cobro anticipado»
+
+  prestaciones/descargar-el-certificado-de-retenciones.md:
+    titulo: Descargar el certificado de retenciones (IRPF)
+    tipo: tarea
+    origen: [P35, P59]
+    temas: [pagos]
+    faq_tema: pagos
+    relaciones: {concepto: [prestaciones/consultar-tus-pagos.md]}
+    notas: P59 es la misma respuesta. Revisar contenido genérico de P35 (ticket, NIF, enlace a sí misma)
+
+  prestaciones/reclamar-una-resolucion.md:
+    titulo: Reclamar una resolución de la mutua
+    tipo: tarea
+    origen: [P63]
+    temas: [prestaciones, rel, pago-directo]
+    faq_tema: prestaciones
+    bloques: [contacto-tramitador]
+    relaciones: {concepto: [prestaciones/riesgo-embarazo-lactancia/certificacion-de-riesgo.md]}
+    notas: era pregunta frecuente; es una tarea. Sus 3 preguntas propias ya están en el texto
+
+  # --- Servicios médicos digitales ---
+  servicios-digitales/chat-con-el-servicio-medico.md:
+    titulo: Hablar con el servicio médico por chat
+    tipo: tarea
+    origen: [P38, P36]
+    temas: [chat]
+    faq_tema: chat
+    bloques: [canal-chat]
+    variables: [menu_gestiones]
+    relaciones: {concepto: [canales-de-atencion.md]}
+    notas: P36 era índice de la sección
+
+  servicios-digitales/videoconsulta.md:
+    titulo: Hacer una videoconsulta
+    tipo: tarea
+    origen: [P39]
+    temas: [videoconsulta]
+    faq_tema: videoconsulta
+    relaciones: {requisito: [citas-y-asistencias/consultar-tus-citas.md]}
+
+  servicios-digitales/rehabilitacion-online.md:
+    titulo: Hacer tu rehabilitación online
+    tipo: tarea
+    origen: [P40, P75]
+    temas: [rehabilitacion]
+    faq_tema: rehabilitacion
+    notas: P75 son los pasos (stepper); P40 la introducción
+
+  # --- Preguntas frecuentes (tipo pregunta o concepto; aparecen en las tareas por su tema) ---
+  preguntas-frecuentes/cambiar-una-cita.md: {en_indice: true, origen: [P52], bloques: [aviso-cambio-cita], notas: canal por validar}
+  preguntas-frecuentes/que-es-la-segunda-opinion.md: {en_indice: true, origen: [P49]}
+  preguntas-frecuentes/informe-historia-clinica-o-episodio.md: {en_indice: true, origen: [P50]}
+  preguntas-frecuentes/cuando-estan-disponibles-las-pruebas.md: {en_indice: true, origen: [P51]}
+  preguntas-frecuentes/que-pruebas-puedo-ver.md: {en_indice: true, origen: [P53]}
+  preguntas-frecuentes/que-incluye-la-historia-clinica.md: {en_indice: true, origen: [P54]}
+
+  preguntas-frecuentes/no-puedo-darme-de-alta.md:
+    titulo: ¿Qué hago si no puedo darme de alta con el DNI o no tengo certificado digital?
+    tipo: pregunta
+    origen: [P45]
+    temas: [acceso]
+    variables: [red_centros_url]
+    relaciones: {tarea: [alta-y-acceso/darte-de-alta.md]}
+
+  preguntas-frecuentes/certificados-validos.md:
+    titulo: ¿Qué certificados digitales sirven para darte de alta?
+    tipo: pregunta
+    origen: [P47]
+    temas: [acceso]
+    relaciones: {tarea: [alta-y-acceso/darte-de-alta.md]}
+
+  preguntas-frecuentes/que-prestaciones-puedo-pedir.md:
+    titulo: ¿Qué prestaciones puedo pedir desde Ibermutua Digital Personas?
+    tipo: concepto
+    origen: [P57, P17]
+    temas: [prestaciones, pago-directo, rel]
+    bloques: [abrir-solicitud-prestacion]
+    relaciones: {tarea: [prestaciones/pago-directo/solicitar-el-pago-directo.md, prestaciones/riesgo-embarazo-lactancia/solicitar-la-prestacion.md]}
+    notas: P17 era índice de Prestaciones
+
+  preguntas-frecuentes/que-es-el-pago-directo.md:
+    titulo: ¿Qué es el pago directo?
+    tipo: concepto
+    origen: [P58]
+    temas: [pago-directo, prestaciones]
+    relaciones: {tarea: [prestaciones/pago-directo/solicitar-el-pago-directo.md]}
+
+  preguntas-frecuentes/que-es-la-certificacion-de-riesgo.md:
+    titulo: ¿Qué es la certificación de riesgo en el embarazo o la lactancia?
+    tipo: concepto
+    origen: [P60]
+    temas: [rel]
+    bloques: [rel-tipos-certificacion]
+    relaciones: {tarea: [prestaciones/riesgo-embarazo-lactancia/certificacion-de-riesgo.md]}
+
+  preguntas-frecuentes/fecha-de-riesgo-certificada.md:
+    titulo: ¿Qué implica la fecha de riesgo certificada?
+    tipo: pregunta
+    origen: [P61]
+    temas: [rel]
+    variables: [rel_dias_finalizar]
+    notas: dejar solo lo propio (efectos en el contrato y en el cobro); el resto lo cubren P60, P64 y P65
+
+  preguntas-frecuentes/cuanto-tarda-la-certificacion.md:
+    titulo: ¿Cuánto tarda la mutua en emitir la certificación de riesgo?
+    tipo: pregunta
+    origen: [P62]
+    temas: [rel]
+
+  preguntas-frecuentes/cuando-puedo-finalizar-la-solicitud.md:
+    titulo: ¿Cuándo puedo finalizar la solicitud por riesgo durante el embarazo o la lactancia?
+    tipo: pregunta
+    origen: [P64]
+    temas: [rel]
+    bloques: [rel-tipos-certificacion]
+    relaciones: {tarea: [prestaciones/riesgo-embarazo-lactancia/finalizar-la-solicitud.md]}
+
+  preguntas-frecuentes/calculo-y-abono-rel.md:
+    titulo: ¿Cómo se calcula y se paga la prestación por riesgo durante el embarazo o la lactancia?
+    tipo: pregunta
+    origen: [P65]
+    temas: [rel, pagos]
+    relaciones: {tarea: [prestaciones/consultar-tus-pagos.md]}
+    notas: quitar sus 3 preguntas propias (ya están en el texto)
+
+  preguntas-frecuentes/hasta-cuando-dura-la-prestacion-rel.md:
+    titulo: ¿Hasta cuándo dura la prestación por riesgo durante el embarazo o la lactancia?
+    tipo: pregunta
+    origen: [P66]
+    temas: [rel]
+
+  preguntas-frecuentes/que-es-la-autoliquidacion.md:
+    titulo: ¿Qué es la autoliquidación y qué condiciones tiene?
+    tipo: concepto
+    origen: [P67]
+    temas: [autoliquidacion]
+    bloques: [autoliquidacion-requisitos]
+    variables: [autoliquidacion_espera, autoliquidacion_plazo_abono]
+    relaciones: {tarea: [prestaciones/solicitar-la-autoliquidacion.md]}
+
+  preguntas-frecuentes/importe-de-la-autoliquidacion.md:
+    titulo: ¿Qué importe recibiré con la autoliquidación?
+    tipo: pregunta
+    origen: [P68, P69]
+    temas: [autoliquidacion]
+    notas: P69 (cómo se cuentan los días) repite el cálculo y el ejemplo de P68
+
+  preguntas-frecuentes/aprobacion-de-la-autoliquidacion.md:
+    titulo: ¿La autoliquidación necesita aprobación?
+    tipo: pregunta
+    origen: [P70]
+    temas: [autoliquidacion]
+    bloques: [autoliquidacion-requisitos]
+    variables: [autoliquidacion_plazo_abono]
+
+  preguntas-frecuentes/cuando-recibo-la-autoliquidacion.md:
+    titulo: ¿Cuándo recibo la autoliquidación?
+    tipo: pregunta
+    origen: [P71]
+    temas: [autoliquidacion]
+    variables: [autoliquidacion_espera, autoliquidacion_plazo_abono]
+    notas: corregir el ejemplo del viernes y el enlace a Historia clínica
+
+  preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md:
+    titulo: ¿Por qué no puedo solicitar la autoliquidación?
+    tipo: pregunta
+    origen: [P72]
+    temas: [autoliquidacion]
+    bloques: [autoliquidacion-requisitos]
+    variables: [autoliquidacion_espera]
+    relaciones: {tarea: [prestaciones/solicitar-la-autoliquidacion.md]}
+    notas: «habitualmente 5 días» frente a 7 (ver informe)
+
+  preguntas-frecuentes/hasta-que-fecha-paga-la-autoliquidacion.md:
+    titulo: ¿Hasta qué fecha se paga la autoliquidación?
+    tipo: pregunta
+    origen: [P73]
+    temas: [autoliquidacion]
+
+  preguntas-frecuentes/ventajas-de-la-rehabilitacion-online.md:
+    titulo: ¿Qué ventajas tiene la rehabilitación online?
+    tipo: concepto
+    origen: [P76]
+    temas: [rehabilitacion]
+    notas: 640 palabras genéricas; reducir a lo esencial
+
+  preguntas-frecuentes/cuando-responden-el-chat.md:
+    titulo: ¿El chat se responde al momento?
+    tipo: pregunta
+    origen: [P77]
+    temas: [chat]
+    bloques: [canal-chat]
+
+  preguntas-frecuentes/cuando-se-cierra-un-chat.md:
+    titulo: ¿Cuándo se cierra un chat?
+    tipo: pregunta
+    origen: [P78]
+    temas: [chat]
+
+  preguntas-frecuentes/que-necesito-para-una-videoconsulta.md:
+    titulo: ¿Qué necesito para hacer una videoconsulta?
+    tipo: pregunta
+    origen: [P79]
+    temas: [videoconsulta]
+    relaciones: {tarea: [servicios-digitales/videoconsulta.md]}
