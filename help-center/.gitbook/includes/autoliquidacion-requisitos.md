@@ -9,4 +9,4 @@ Para pedir la autoliquidación tienen que cumplirse estas condiciones:
 * No tienes embargos ni otras limitaciones que impidan el pago.
 * Consta tu último parte de confirmación, si tu prestación lo necesita para mantener el derecho al cobro.
 
-Si no se cumple alguna, la opción no aparece en Ibermutua Digital Personas.
+Si no se cumple alguna, no podrás solicitarla.

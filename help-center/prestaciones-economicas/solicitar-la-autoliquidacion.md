@@ -11,7 +11,7 @@ Se pide en Ibermutua Digital Personas, en **Prestaciones económicas** > **Autol
 
 {% include "../.gitbook/includes/autoliquidacion-requisitos.md" %}
 
-Si la opción no te aparece, consulta [por qué no puedes solicitar la autoliquidación](../preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md).
+Si no puedes solicitarla, consulta [por qué no puedes solicitar la autoliquidación](../preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md).
 
 ## Pide la autoliquidación <a href="#autoliquidacion-pedir" id="autoliquidacion-pedir"></a>
 
@@ -29,11 +29,11 @@ Entra en [Ibermutua Digital Personas](https://personas.ibermutua.es/) y, en el m
 {% step %}
 ### Revisa el periodo y el importe
 
-En **Periodo que puedes cobrar ahora** verás las fechas que se pagan y, en **Importe neto disponible**, la cantidad. Pulsa **¿Por qué esta fecha?** para saber por qué el periodo termina ese día, y **Ver desglose** para ver el detalle del importe.
+En **Periodo que puedes cobrar ahora** verás las fechas que se pagan y, en **Importe neto disponible**, la cantidad. Si quieres, puedes pulsar **¿Por qué esta fecha?** para saber por qué el periodo termina ese día, o **Ver desglose** para ver el detalle del importe.
 
 <figure><img src="../.gitbook/assets/a114fc1c24c6-periodo-importe-recorte.webp" alt="Apartado de autoliquidación: periodo que puedes cobrar ahora, importe neto disponible, botón Transferir el importe y fecha prevista de ingreso."></figure>
 
-Si el periodo o el importe no son los que esperas, consulta a tu tramitador/a antes de seguir.
+Si el periodo o el importe no son los que esperas, consulta a tu tramitador/a antes de seguir. En esta pantalla, su teléfono está a la derecha, en **Contacta con el tramitador de tu prestación económica**.
 
 {% include "../.gitbook/includes/contacto-tramitador.md" %}
 {% endstep %}

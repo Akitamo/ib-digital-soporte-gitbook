@@ -13,6 +13,6 @@ icon: circle-question
 
 ## Cómo se comprueban <a href="#autoliquidacion-comprobacion" id="autoliquidacion-comprobacion"></a>
 
-La comprobación es automática: si ves la opción y puedes confirmarla, cumples las condiciones. No hay una aprobación posterior, y el ingreso llega en un plazo máximo de <code class="expression">space.vars.autoliquidacion_plazo_abono</code> desde que confirmas.
+La comprobación es automática: si puedes pulsar **Transferir el importe** y confirmar, cumples las condiciones. No hay una aprobación posterior, y el ingreso llega en un plazo máximo de <code class="expression">space.vars.autoliquidacion_plazo_abono</code> desde que confirmas.
 
 Puedes [solicitar la autoliquidación](../prestaciones-economicas/solicitar-la-autoliquidacion.md) en **Prestaciones económicas** > **Autoliquidación**.

@@ -17,7 +17,8 @@ Cada cosa donde se necesita (regla 13): lo que condiciona toda la página, arrib
 Mostrar o enlazar (regla 14): se muestra en ese punto lo mínimo necesario para continuar, no un bloque
   completo porque contenga parte de la respuesta; otra tarea o una explicación extensa se enlaza. Una pregunta frecuente se enlaza donde surge la duda y además sale en el cierre.
 Texto compartido (regla 15): explicación breve que debe ser igual en varias páginas → bloque reutilizable
-  de .gitbook/includes/, en el punto donde se lee. Variables (regla 16): solo el valor sale de la variable;
+  de .gitbook/includes/, en el punto donde se lee. Debe encajar en todas sus páginas: sin indicaciones de
+  una sola plataforma o pantalla si se usa fuera de ellas. Variables (regla 16): solo el valor sale de la variable;
   la condición se escribe completa. No van en títulos.
 Relaciones, bloques y variables previstos para cada página: _editorial/mapa-contenido.yaml. Al migrar la
   página, su entrada pasa a _editorial/indice-contenido.yaml (con faq_tema).

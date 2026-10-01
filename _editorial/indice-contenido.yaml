@@ -162,7 +162,7 @@ paginas:
     temas: [autoliquidacion]
     resuelve:
       - {ancla: "", intencion: saber por qué no se puede pedir la autoliquidación}
-      - {ancla: autoliquidacion-aviso-espera, intencion: entender el aviso de espera de la autoliquidación}
+      - {ancla: autoliquidacion-aviso, intencion: entender el aviso que impide solicitar la autoliquidación}
 
 # Destinos externos (Centro de Ayuda actual) que se pueden enlazar mientras dure el piloto
 externos:
