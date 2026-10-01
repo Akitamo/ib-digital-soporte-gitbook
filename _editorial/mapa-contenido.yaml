@@ -230,11 +230,8 @@ paginas:
     notas: plazo por validar (ver informe); el enlace de acceso lleva parámetros de sesión → portal_url
 
   tu-historia-clinica/enviar-documentacion.md:
-    titulo: Enviar documentación a la mutua
-    tipo: tarea
+    en_indice: true
     origen: [P37]
-    temas: [documentacion, historia-clinica]
-    faq_tema: documentacion
     relaciones: {siguiente: [tu-historia-clinica/consultar-documentacion-administrativa.md], alternativa: [citas-y-asistencias/consultar-tus-citas.md]}
     variables: [menu_gestiones]
     notas: en Confluence estaba en Servicios médicos digitales; se hace desde Historia Clínica (ubicación a validar)

@@ -1,64 +1,53 @@
 ---
 description: >-
-  Cómo descargar en PDF un justificante de asistencia: desde Documentos, desde
-  el episodio médico o todos los recientes a la vez.
+  Cómo descargar en PDF un justificante de asistencia desde Documentos o desde
+  el episodio médico, y todos los recientes a la vez.
 icon: file-check
 ---
 
 # Descargar un justificante de asistencia
 
-Puedes descargar en PDF cualquier justificante de asistencia desde **Historia clínica > Documentos** o desde el episodio médico. También puedes descargar todos los justificantes recientes a la vez.
+El justificante de asistencia acredita que acudiste a una cita, una prueba o una gestión sanitaria, y suele usarse para justificar la ausencia ante tu empresa. Puedes descargarlo en PDF desde **Historia clínica > Documentos** o desde el episodio médico, y también descargar a la vez todos los justificantes recientes.
 
-{% hint style="info" %}
-El justificante de asistencia es un documento de Ibermutua que acredita que acudiste a una cita, prueba o gestión sanitaria. Suele usarse para justificar la ausencia ante tu empresa.
-{% endhint %}
-
-## Desde Documentos <a href="#justificante-documentos" id="justificante-documentos"></a>
+## Descarga el justificante <a href="#justificante-documentos" id="justificante-documentos"></a>
 
 {% stepper %}
 {% step %}
-### Entra en Documentos <a href="#justificante-acceder" id="justificante-acceder"></a>
+### Entra en Documentos
 
 Entra en [Ibermutua Digital Personas](https://personas.ibermutua.es/) con tu DNI y tu contraseña. En el menú superior, pulsa **Historia clínica** y elige **Documentos**.
+
+<figure><img src="../.gitbook/assets/121548f8f6b1-menu-documentos-recorte.webp" alt="Menú Historia clínica desplegado con la opción Documentos señalada."></figure>
 {% endstep %}
 
 {% step %}
-### Busca el justificante <a href="#justificante-buscar" id="justificante-buscar"></a>
+### Busca el justificante
 
 Localiza el justificante de asistencia en el listado. Para encontrarlo antes, filtra por tipo de documento o por fecha.
 
-<figure><img src="../.gitbook/assets/7e633e5b7ee3-image-20260513-055843.webp" alt="Web, Historia clínica > Documentos con un Justificante de asistencia señalado en el histórico de actividad."><figcaption><p>Justificante de asistencia en Documentos.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/7e633e5b7ee3-justificante-listado-recorte.webp" alt="Listado de documentos con un Justificante de asistencia señalado y su enlace Ver."></figure>
 {% endstep %}
 
 {% step %}
-### Abre su ficha y descárgalo <a href="#justificante-descargar" id="justificante-descargar"></a>
+### Abre su ficha y descárgalo
 
-Pulsa el justificante para abrir su ficha. Al final de la ficha, pulsa **Descargar documento**.
+Pulsa el justificante para abrir su ficha. Al final de la ficha, pulsa **Descargar documento**. Antes de enviarlo a tu empresa, comprueba que la fecha, la hora y el centro son correctos.
 {% endstep %}
 {% endstepper %}
 
-## Desde el episodio médico <a href="#justificante-episodio" id="justificante-episodio"></a>
+## Otras formas de descargarlo <a href="#justificante-episodio" id="justificante-episodio"></a>
 
-[Abre el episodio médico](../tu-historia-clinica/consultar-tu-historia-clinica.md#historia-episodio), desde **Tu situación reciente** o desde **Historia clínica**. Junto al **Justificante de asistencia**, pulsa **Ver** y descarga el PDF.
+**A. Desde el episodio médico**
 
-## Todos los justificantes recientes <a href="#justificante-recientes" id="justificante-recientes"></a>
+[Abre el episodio médico](../tu-historia-clinica/consultar-tu-historia-clinica.md#historia-abrir) desde **Tu situación reciente** o desde **Historia clínica**. Junto al **Justificante de asistencia**, pulsa **Ver** y descarga el PDF.
 
-En el episodio, en **Tus gestiones digitales**, a la derecha, pulsa **Descargar justificantes de asistencia recientes**. Se descargan los últimos justificantes en un archivo ZIP.
+**B. Todos los justificantes recientes a la vez**
 
-<figure><img src="../.gitbook/assets/ca06a46f94db-image-20260902-080749.webp" alt="Web, ficha de un episodio con el justificante de asistencia en el histórico y la opción Descargar justificantes de asistencia recientes señalada."><figcaption><p>Justificantes desde el episodio y descarga de los recientes.</p></figcaption></figure>
+En el episodio, en **Tus gestiones digitales**, pulsa **Descargar justificantes de asistencia recientes**. Se descargan los últimos justificantes en un archivo ZIP.
 
-{% hint style="success" %}
-**Al terminar** tendrás el justificante en PDF en tu dispositivo. Antes de enviarlo a tu empresa, comprueba que la fecha, la hora y el centro son correctos.
-{% endhint %}
+<figure><img src="../.gitbook/assets/ca06a46f94db-justificantes-recientes-recorte.webp" alt="Opción Descargar justificantes de asistencia recientes, señalada en Tus gestiones digitales del episodio."></figure>
 
-## Consejos <a href="#justificante-consejos" id="justificante-consejos"></a>
-
-* Al guardarlo, ponle un nombre fácil de encontrar, por ejemplo `Justificante_asistencia_Apellido_Nombre.pdf`.
-* Si necesitas varios justificantes (por ejemplo, de varias pruebas el mismo día), descarga cada uno desde su ficha.
-* Guarda una copia en un lugar seguro.
-* No edites el PDF: cualquier cambio puede invalidar el justificante. Compártelo solo con quien deba recibirlo y por canales seguros.
-
-## Si algo no sale como esperas <a href="#justificante-incidencias" id="justificante-incidencias"></a>
+## Dudas e incidencias <a href="#justificante-incidencias" id="justificante-incidencias"></a>
 
 <details>
 
@@ -96,8 +85,6 @@ Abre la ficha de la cita de ese día y descarga el documento asociado a esa aten
 
 </details>
 
-## Dudas frecuentes <a href="#justificante-dudas" id="justificante-dudas"></a>
-
 <details>
 
 <summary>¿Puedo descargar justificantes de fechas pasadas?</summary>
@@ -108,34 +95,30 @@ Sí, siempre que el episodio o la asistencia consten en tu historial. Usa el fil
 
 <details>
 
-<summary>¿En qué formato se descarga?</summary>
+<summary>¿En qué formato se descarga y le sirve a mi empresa?</summary>
 
-En PDF firmado digitalmente. Conserva el archivo original para mantener su validez.
-
-</details>
-
-<details>
-
-<summary>¿Le sirve el PDF a mi empresa?</summary>
-
-En la mayoría de los casos, sí: el PDF que emite Ibermutua es válido como acreditación de la asistencia. Consulta si tu empresa pide un canal de envío concreto.
+En PDF firmado digitalmente. En la mayoría de los casos, el PDF que emite Ibermutua es válido como acreditación de la asistencia; consulta si tu empresa pide un canal de envío concreto. Conserva el archivo original y no lo edites: cualquier cambio puede invalidar el justificante.
 
 </details>
 
 <details>
 
-<summary>¿Puedo descargarlo desde el móvil?</summary>
+<summary>Consejos para guardarlo y enviarlo</summary>
 
-Sí, desde un navegador móvil compatible o desde la app.
+* Al guardarlo, ponle un nombre fácil de encontrar, por ejemplo `Justificante_asistencia_Apellido_Nombre.pdf`.
+* Si necesitas varios justificantes (por ejemplo, de varias pruebas el mismo día), descarga cada uno desde su ficha.
+* Contiene datos de salud: compártelo solo con quien deba recibirlo y por canales seguros.
 
 </details>
 
-## Siguientes pasos <a href="#justificante-siguientes-pasos" id="justificante-siguientes-pasos"></a>
+## Más sobre justificantes <a href="#justificante-relacionado" id="justificante-relacionado"></a>
+
+**También te puede interesar**
 
 {% content-ref url="consultar-tus-citas.md" %}
-[consultar-tus-citas.md](consultar-tus-citas.md)
+[Consultar tus citas](consultar-tus-citas.md)
 {% endcontent-ref %}
 
-## ¿Necesitas contactar? <a href="#contacto" id="contacto"></a>
-
-{% include "../.gitbook/includes/contacto.md" %}
+{% content-ref url="../tu-historia-clinica/consultar-documentacion-administrativa.md" %}
+[Consultar la documentación administrativa](../tu-historia-clinica/consultar-documentacion-administrativa.md)
+{% endcontent-ref %}

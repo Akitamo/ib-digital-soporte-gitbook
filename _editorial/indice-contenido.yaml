@@ -35,25 +35,16 @@ paginas:
     faq_tema: citas
     resuelve:
       - {ancla: "", intencion: consultar tus próximas citas}
-      - {ancla: citas-detalles, intencion: ver el día, la hora, el facultativo y el centro de una cita}
-      - {ancla: citas-como-llegar, intencion: saber cómo llegar al centro de la cita}
-      - {ancla: citas-que-llevar, intencion: saber qué llevar a la cita}
-      - {ancla: citas-documentacion, intencion: aportar documentación para una cita}
-      - {ancla: citas-calendario, intencion: añadir una cita al calendario}
-
-  # Copia de evaluación; no sustituye a la página ni a sus enlaces contextuales.
-  citas-y-asistencias/consultar-tus-citas-prueba-markdown.md:
-    tipo: tarea
-    temas: [citas]
-    faq_tema: citas
-    resuelve: []
+      - {ancla: citas-abrir, intencion: abrir una cita en la web o en la app}
+      - {ancla: citas-detalles, intencion: ver el día, la hora, el facultativo, el centro y qué llevar a una cita}
+      - {ancla: citas-opciones, intencion: saber cómo llegar al centro, aportar documentación o añadir la cita al calendario}
 
   citas-y-asistencias/descargar-un-justificante.md:
     tipo: tarea
     temas: [justificantes, citas]
     resuelve:
       - {ancla: "", intencion: descargar un justificante de asistencia}
-      - {ancla: justificante-recientes, intencion: descargar todos los justificantes recientes a la vez}
+      - {ancla: justificante-episodio, intencion: descargar un justificante desde el episodio o todos los recientes a la vez}
 
   tu-historia-clinica/consultar-tu-historia-clinica.md:
     tipo: tarea
@@ -61,8 +52,8 @@ paginas:
     faq_tema: historia-clinica
     resuelve:
       - {ancla: "", intencion: acceder a tu historia clínica}
-      - {ancla: historia-episodio, intencion: abrir un episodio médico en la web}
-      - {ancla: historia-episodio-app, intencion: abrir un episodio médico en la app}
+      - {ancla: historia-abrir, intencion: abrir tu historia clínica y un episodio médico en la web o en la app}
+      - {ancla: historia-gestiones, intencion: descargar el informe, hablar por chat o enviar documentación desde la historia clínica}
       - {ancla: historia-contenido, intencion: saber qué información muestra la historia clínica}
 
   tu-historia-clinica/consultar-episodios-anteriores.md:
@@ -102,6 +93,14 @@ paginas:
     faq_tema: segunda-opinion
     resuelve:
       - {ancla: "", intencion: solicitar una segunda opinión médica}
+
+  tu-historia-clinica/enviar-documentacion.md:
+    tipo: tarea
+    temas: [documentacion, historia-clinica]
+    faq_tema: documentacion
+    resuelve:
+      - {ancla: "", intencion: enviar documentación a la mutua}
+      - {ancla: documentacion-despues, intencion: saber dónde queda la documentación enviada y si se puede eliminar}
 
   # Prueba de la plantilla en autoliquidación (01/10/2026): tarea secuencial y dos preguntas.
   prestaciones-economicas/solicitar-la-autoliquidacion.md:
@@ -167,7 +166,6 @@ paginas:
 # Destinos externos (Centro de Ayuda actual) que se pueden enlazar mientras dure el piloto
 externos:
   chat: {url: "https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/chat-con-el-servicio-medico-de-ibermutua", intencion: hablar con el servicio médico por chat}
-  enviar-documentacion: {url: "https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/intercambio-online-de-documentacion-con-la-mutua", intencion: enviar documentación a la mutua}
   alta: {url: "https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/tu-alta-y-acceso-a-ibermutua-digital-personas", intencion: darse de alta y acceder a Ibermutua Digital Personas}
   alta-app: {url: "https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/alta-a-traves-de-la-app", intencion: darse de alta en la app}
   canales: {url: "https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/canales-para-resolver-dudas-segun-el-tipo-de-consulta", intencion: elegir el canal de atención}

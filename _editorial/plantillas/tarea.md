@@ -7,7 +7,7 @@ icon: [icono Font Awesome sin «fa-», p. ej. calendar-check]
 
 <!--
 PLANTILLA DE TAREA – Ayuda de Ibermutua Digital Personas (v0.3, 01/10/2026)
-Página de referencia: citas-y-asistencias/consultar-tus-citas-prueba-markdown.md (copia aprobada).
+Página de referencia: citas-y-asistencias/consultar-tus-citas.md (copia aprobada, que sustituyó a la página original el 01/10/2026).
 Criterios: «Plantilla de página de tarea», reglas 1 a 16, en funcionalidades-gitbook/diseno-del-contenido.md
   (fuera del repositorio). Redacción: _editorial/guia-estilo-gitbook.md (SG-n). Sintaxis: guía de edición.
 Una tarea que es una secuencia completa (enviar una solicitud) usa el mismo esquema sin descripción de

@@ -24,3 +24,100 @@
 - variable: autoliquidacion_plazo_abono
   tipo: contradicción 4
   texto: Plazo de abono. P34 dice «en un máximo de 2 días laborables» y también «en 1-2 días».
+
+# --- Sección 1: citas e historia clínica ---
+
+- pagina: citas-y-asistencias/consultar-tus-citas.md
+  cita: Las citas pasadas quedan en tu historia clínica
+  tipo: sin verificar
+  texto: Confirmar que las citas pasadas se ven dentro de cada episodio de la historia clínica (ficha de diseño, pendiente 2).
+
+- pagina: citas-y-asistencias/consultar-tus-citas.md
+  cita: Pulsa la cita que quieres consultar para ver su detalle.
+  tipo: app
+  texto: Confirmar «Pulsa la cita» en la app y cómo es su detalle; no hay capturas del detalle de la cita en la app.
+
+- pagina: citas-y-asistencias/descargar-un-justificante.md
+  cita: Puedes descargarlo en PDF desde
+  tipo: app
+  texto: P16 y P55 solo describen la web. Falta cómo se descarga un justificante en la app.
+
+- pagina: citas-y-asistencias/descargar-un-justificante.md
+  cita: "## Dudas e incidencias"
+  tipo: contradicción 10
+  texto: Incidencias, dudas y consejos de P16, genéricos y sin verificar (PDF firmado, validez ante la empresa, filtros, nombre del archivo).
+
+- pagina: tu-historia-clinica/consultar-tu-historia-clinica.md
+  cita: En la web, en **Tus gestiones digitales**
+  tipo: app
+  texto: Las opciones se describen solo para la web. En la app, H. Clínica muestra Descargar informe y Subir documentos (captura de P09); confirmar qué opciones tiene.
+
+- pagina: tu-historia-clinica/consultar-episodios-anteriores.md
+  cita: 16ed4c17ed69-historico-recorte.webp
+  tipo: captura dudosa
+  texto: La tarjeta del episodio muestra un diagnóstico. Confirmar que son datos de demostración o difuminarlo.
+
+- pagina: tu-historia-clinica/ver-tus-pruebas-diagnosticas.md
+  cita: consulta sus pruebas en **Pruebas y documentos**
+  tipo: app
+  texto: En la app, la ficha del episodio muestra las pestañas Información e Histórico (captura de P15). Confirmar dónde se ven las pruebas de un episodio.
+
+- pagina: tu-historia-clinica/descargar-un-informe.md
+  cita: Se hace desde **Historia clínica > General**
+  tipo: app
+  texto: P12 solo describe la web. La app muestra el botón Descargar informe en H. Clínica; confirmar el recorrido.
+
+- pagina: tu-historia-clinica/descargar-un-informe.md
+  cita: pulsa **Descargar informe de historia**
+  tipo: sin verificar
+  texto: P12 indica abrir el episodio y pulsar Descargar informe de historia. En las capturas, ese botón está en Historia clínica > General; en la ficha del episodio el botón es Descargar informe de episodio médico (ver P50).
+
+- pagina: tu-historia-clinica/descargar-un-informe.md
+  cita: El informe se descarga en PDF.
+  tipo: captura descartada
+  texto: Original 84d336033c70 (ejemplo de informe en PDF). Muestra diagnósticos, medicación y antecedentes; hace falta un informe de demostración.
+
+- pagina: tu-historia-clinica/solicitar-una-segunda-opinion.md
+  cita: te contactarán en un plazo de 3 a 10 días
+  tipo: contradicción 3
+  texto: P14 y la confirmación dicen «3 a 10 días»; el formulario, «3 a 10 días hábiles»; P49 da los plazos de la norma.
+
+- pagina: tu-historia-clinica/solicitar-una-segunda-opinion.md
+  cita: https://www.ibermutua.es/red-de-centros/
+  tipo: contradicción 6
+  texto: Red de centros. P14 enlaza a /red-de-centros/ y otras páginas a /redcentros/.
+
+- pagina: tu-historia-clinica/solicitar-una-segunda-opinion.md
+  cita: "[centro de Ibermutua]("
+  tipo: decisión
+  texto: El mapa prevé las variables portal_url y red_centros_url. En los enlaces se usa la dirección escrita, como en la copia aprobada de citas; comprobar si GitBook admite variables en la dirección de un enlace.
+
+- pagina: tu-historia-clinica/solicitar-una-segunda-opinion.md
+  cita: "## Solicita la segunda opinión"
+  tipo: captura descartada
+  texto: Original c73acdb96fb9 (composición web y móvil). Muestra un diagnóstico y un texto con datos de salud; el formulario ya aparece en cada paso.
+
+- pagina: tu-historia-clinica/solicitar-una-segunda-opinion.md
+  cita: Selecciona el episodio. Si quieres, explica
+  tipo: app
+  texto: P14 dice que se selecciona el episodio, pero la captura de la app lo muestra ya seleccionado. Falta el control intermedio.
+
+- pagina: tu-historia-clinica/enviar-documentacion.md
+  cita: Puedes enviar al servicio médico
+  tipo: decisión
+  texto: Ubicación. En Confluence (P37) estaba en Servicios médicos digitales; aquí va en Tu historia clínica, donde se hace la gestión.
+
+- pagina: tu-historia-clinica/enviar-documentacion.md
+  cita: También puedes entrar desde un episodio médico activo
+  tipo: sin verificar
+  texto: P37 indica este acceso, pero su captura (860e61dd68c1, no usada) solo muestra el filtro Documentos del histórico, sin el control para enviar.
+
+- pagina: tu-historia-clinica/enviar-documentacion.md
+  cita: pulsa **explorar**
+  tipo: sin verificar
+  texto: Peso máximo del archivo. La captura web indica 0,5 MB y la de la app, 5 MB; no se menciona en el texto.
+
+- pagina: tu-historia-clinica/enviar-documentacion.md
+  cita: Desde la ficha de un episodio, el botón es **Enviar documentos**.
+  tipo: app
+  texto: Tomado de las capturas de la ficha del episodio en la app (P14 y P15); P37 no lo describe.

@@ -5,7 +5,6 @@
 ## Citas y asistencias
 
 * [Consultar tus citas](citas-y-asistencias/consultar-tus-citas.md)
-* [Consultar tus citas — prueba Markdown](citas-y-asistencias/consultar-tus-citas-prueba-markdown.md)
 * [Descargar un justificante de asistencia](citas-y-asistencias/descargar-un-justificante.md)
 
 ## Tu historia clínica
@@ -16,6 +15,7 @@
 * [Descargar un informe](tu-historia-clinica/descargar-un-informe.md)
 * [Consultar la documentación administrativa](tu-historia-clinica/consultar-documentacion-administrativa.md)
 * [Solicitar una segunda opinión médica](tu-historia-clinica/solicitar-una-segunda-opinion.md)
+* [Enviar documentación a la mutua](tu-historia-clinica/enviar-documentacion.md)
 
 ## Prestaciones económicas
 
