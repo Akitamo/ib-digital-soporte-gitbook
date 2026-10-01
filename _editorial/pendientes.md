@@ -381,13 +381,13 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 | Inicio de la página | captura descartada | 3dc810a9efd1 (fotografía de una persona); 5162f9cf0155, ef14e18c1470, aea9e4c68c66 y 4ee4367b2fba (pantallas de ejercicio con personas); 7780dd43fc83 (nombre de la persona); f32be98e234e (lista de ejercicios con un comentario del personal médico); 91e19c2706d0, 960187fc9b84 y 5a82ab52b836 son versiones de mayo de 2025 de pantallas con captura más reciente. | [L14](../help-center/servicios-medicos-digitales/rehabilitacion-online.md#L14) |
 | [Haz los ejercicios de hoy](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/rehabilitacion-online#rehabilitacion-ejercicios) | app | P40 y P75 describen la web. Confirmar si los ejercicios se pueden hacer desde la app. | [L20](../help-center/servicios-medicos-digitales/rehabilitacion-online.md#L20) |
 
-### [Preguntas frecuentes](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes)
+### [Preguntas frecuentes](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/preguntas-frecuentes)
 
 `preguntas-frecuentes/README.md`
 
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
-| [Prestaciones económicas](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes#faq-prestaciones) | decisión | Portada con un bloque faq-<tema> por tema. Se omiten faq-informes, faq-documentacion, faq-pago-directo y faq-pagos, porque sus preguntas ya salen en otros temas. «¿Qué prestaciones puedo pedir…?» aparece dos veces (prestaciones y riesgo). | [L34](../help-center/preguntas-frecuentes/README.md#L34) |
+| [Prestaciones económicas](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/preguntas-frecuentes#faq-prestaciones) | decisión | Portada con un bloque faq-<tema> por tema. Se omiten faq-informes, faq-documentacion, faq-pago-directo y faq-pagos, porque sus preguntas ya salen en otros temas. «¿Qué prestaciones puedo pedir…?» aparece dos veces (prestaciones y riesgo). | [L34](../help-center/preguntas-frecuentes/README.md#L34) |
 
 ### [¿Qué hago si no puedo darme de alta con el DNI o no tengo certificado digital?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-darme-de-alta)
 

@@ -84,13 +84,13 @@ def grupos_menu():
 def url_pagina(ruta):
     if ruta == "README.md":
         return GITBOOK
-    if ruta.endswith("/README.md"):
-        return GITBOOK + ruta[: -len("/README.md")]
     grupos = grupos_menu()
     if ruta not in grupos:
         return GITBOOK + ruta[:-3]
     grupo = grupos[ruta]
-    return GITBOOK + (grupo + "/" if grupo else "") + os.path.basename(ruta)[:-3]
+    # Un README dentro de una carpeta toma el slug de su título (comprobado el 01/10/2026).
+    pagina = slug(titulo(leer(os.path.join(HC, ruta)))) if ruta.endswith("/README.md") else os.path.basename(ruta)[:-3]
+    return GITBOOK + (grupo + "/" if grupo else "") + pagina
 
 
 def seccion(ruta, texto, pos):
