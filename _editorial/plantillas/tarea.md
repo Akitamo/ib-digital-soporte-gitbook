@@ -14,8 +14,8 @@ Una tarea que es una secuencia completa (enviar una solicitud) usa el mismo esqu
   pantalla ni opciones: el stepper es el cuerpo de la página.
 Cada cosa donde se necesita (regla 13): lo que condiciona toda la página, arriba; lo que afecta a un paso,
   una zona o una opción, en ese punto; lo que sirve después de terminar, en el cierre.
-Mostrar o enlazar (regla 14): lo necesario para continuar se muestra en ese punto; otra tarea o una
-  explicación extensa se enlaza. Una pregunta frecuente se enlaza donde surge la duda y además sale en el cierre.
+Mostrar o enlazar (regla 14): se muestra en ese punto lo mínimo necesario para continuar, no un bloque
+  completo porque contenga parte de la respuesta; otra tarea o una explicación extensa se enlaza. Una pregunta frecuente se enlaza donde surge la duda y además sale en el cierre.
 Texto compartido (regla 15): explicación breve que debe ser igual en varias páginas → bloque reutilizable
   de .gitbook/includes/, en el punto donde se lee. Variables (regla 16): solo el valor sale de la variable;
   la condición se escribe completa. No van en títulos.

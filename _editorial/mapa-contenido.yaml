@@ -49,13 +49,14 @@ bloques:
   rel-tipos-certificacion:
     contenido: tabla negativa / positiva / positiva diferida → qué significa → cuándo puedes finalizar la solicitud
     origen: [P29, P60, P61, P64]
-    usado_en: [prestaciones/riesgo-embarazo-lactancia/certificacion-de-riesgo.md, prestaciones/riesgo-embarazo-lactancia/finalizar-la-solicitud.md, preguntas-frecuentes/que-es-la-certificacion-de-riesgo.md, preguntas-frecuentes/cuando-puedo-finalizar-la-solicitud.md]
+    usado_en: [prestaciones/riesgo-embarazo-lactancia/certificacion-de-riesgo.md, preguntas-frecuentes/que-es-la-certificacion-de-riesgo.md, preguntas-frecuentes/cuando-puedo-finalizar-la-solicitud.md]
   autoliquidacion-requisitos:
     contenido: las cuatro condiciones (prestación activa, días de espera, sin embargos, último parte de confirmación) y qué pasa si no se cumplen
     origen: [P34, P67, P70, P71, P72]
     usado_en: [prestaciones/solicitar-la-autoliquidacion.md, preguntas-frecuentes/que-es-la-autoliquidacion.md, preguntas-frecuentes/aprobacion-de-la-autoliquidacion.md, preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md]
   # Definiciones que se repiten en su página y en el glosario: si el resumen debe cambiar con la página,
-  # es texto compartido. Un bloque no cabe en una celda de tabla: esas entradas del glosario van fuera de la tabla.
+  # es texto compartido (propuesta). Un bloque no cabe en una celda de tabla: la presentación del glosario
+  # completo se decide al trabajar esa página.
   def-segunda-opinion:
     contenido: definición breve de la segunda opinión médica
     origen: [P49, P81]
@@ -118,7 +119,7 @@ paginas:
     origen: [P81]
     bloques: [def-segunda-opinion, def-autoliquidacion, def-certificacion-riesgo, def-pago-directo]
     variables: [red_centros_url]
-    notas: las cuatro definiciones repetidas en su página salen de bloques compartidos, con enlace a la página; el resto de términos, con texto propio
+    notas: propuesta de compartir las cuatro definiciones repetidas en su página; el resto de términos, con texto propio. Como un bloque no cabe en una celda de tabla, la presentación del glosario completo se decide al trabajar esta página
 
   politica-de-cookies.md:
     titulo: Política de cookies
@@ -321,10 +322,9 @@ paginas:
     origen: [P30]
     temas: [rel]
     faq_tema: rel
-    bloques: [rel-tipos-certificacion]
     variables: [rel_dias_finalizar]
     relaciones: {siguiente: [prestaciones/riesgo-embarazo-lactancia/resolucion.md]}
-    notas: cuándo se puede finalizar es necesario para continuar; se muestra con el bloque, no se enlaza
+    notas: cuándo se habilita el paso es necesario para continuar; se muestra en una frase con la variable (positiva, de inmediato; diferida, desde los días previos a la fecha), no con el bloque de tipos de certificación
 
   prestaciones/riesgo-embarazo-lactancia/resolucion.md:
     titulo: Resolución de la prestación

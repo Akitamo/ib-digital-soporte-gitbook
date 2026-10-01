@@ -76,9 +76,9 @@ Cercana, clara y tranquila. Hablamos como una persona de atención que conoce el
 
 **SG-17.** Una acción por paso, con el verbo en imperativo al principio: «Pulsa», «Elige», «Sube», «Descarga».
 
-**SG-18.** Si la tarea se hace en la web y en la app, usa dos pestañas, «Web» y «App», con el procedimiento completo en cada una.
+**SG-18.** Si algo cambia entre la web y la app, también la captura, usa dos pestañas, «Web» y «App». Lo común va fuera de las pestañas, en vocabulario neutro. Si la ruta cambia, cada pestaña lleva su recorrido completo; no repartas un mismo procedimiento entre las dos.
 
-**SG-19.** Lo que no se puede hacer online (por ejemplo, cambiar una cita) va en un aviso de advertencia visible, antes del procedimiento. Nunca dentro de un desplegable.
+**SG-19.** Lo que no se puede hacer online (por ejemplo, cambiar una cita) va en un aviso de advertencia visible: antes del procedimiento si afecta a toda la página; junto al paso o la opción si solo afecta a ese punto. Nunca dentro de un desplegable.
 
 **SG-20.** Cada artículo termina con «Más sobre…»: las preguntas frecuentes del tema y hasta 3 tareas o ampliaciones útiles después. No lleva bloque de contacto: el contacto está en la navegación del sitio. Si la tarea necesita un canal, se indica en el punto donde se necesita.
 
@@ -101,4 +101,4 @@ Cercana, clara y tranquila. Hablamos como una persona de atención que conoce el
 | Fecha | Decisión |
 | --- | --- |
 | 26 de septiembre de 2026 | Versión inicial para el piloto de GitBook. |
-| 1 de octubre de 2026 | SG-16, SG-20 y SG-23 ajustadas a la plantilla de tarea aprobada. **Pendiente de aplicar en GitBook** (Mejorar → Guía de estilo). |
+| 1 de octubre de 2026 | SG-16, SG-18, SG-19, SG-20 y SG-23 ajustadas a la plantilla de tarea aprobada. **Pendiente de aplicar en GitBook** (Mejorar → Guía de estilo) cuando se cierre el documento maestro. |
