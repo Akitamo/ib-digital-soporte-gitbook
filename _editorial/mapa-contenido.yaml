@@ -17,7 +17,8 @@
 #   ese límite no afecta a los enlaces del texto.
 # bloques / variables: los del catálogo de abajo que usa la página (reglas 15 y 16).
 #
-# Estado: propuesta del 01/10/2026, pendiente de validar; criterios ajustados a las reglas 13 a 16 el mismo día.
+# Estado: versión 1 validada por Sergio el 01/10/2026 (secciones, fusiones, bloques y variables), con valores
+# pendientes de negocio identificados. Criterios: reglas 13 a 16 de la plantilla de tarea.
 # No cambia ninguna página.
 
 temas_nuevos:
@@ -90,7 +91,7 @@ variables:
   red_centros_url: {valor: "https://www.ibermutua.es/redcentros/", origen: [P14, P45, P81], nota: P14 usa /red-de-centros/}
   portal_empresas_url: {valor: "https://empresas.ibermutua.es/", origen: [P22, P28]}
   portal_digital_url: {valor: "https://digital.ibermutua.es/", origen: [P22, P28]}
-  menu_gestiones: {valor: "Tus gestiones digitales", origen: [P02, P09, P16, P19, P27, P34, P37, P38, P55], estado: a decidir (etiqueta de la interfaz más repetida)}
+  menu_gestiones: {valor: "Tus gestiones digitales", origen: [P02, P09, P16, P19, P27, P34, P37, P38, P55], estado: pospuesta (si la app usa otro nombre, puede haber una variable solo para la web)}
 
 paginas:
   # --- Portada y referencia ---
