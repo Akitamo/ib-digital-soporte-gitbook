@@ -7,4 +7,4 @@ PER-CITAS-DOCUMENTACION;Aviso de documentación pendiente para la cita;citas-y-a
 PER-CITAS-CALENDARIO;Notificación de nueva cita;citas-y-asistencias/consultar-tus-citas.md;citas-opciones;;/personas/citas-y-asistencias/consultar-tus-citas#citas-opciones;Propuesta
 PER-CITAS-CAMBIAR;Respuesta de atención a «quiero cambiar mi cita»;preguntas-frecuentes/cambiar-una-cita.md;;;/personas/preguntas-frecuentes/cambiar-una-cita;Propuesta (canal pendiente de validar)
 PER-CITAS-ASISTENTE;Notificación de nueva cita (ayuda con el asistente);citas-y-asistencias/consultar-tus-citas.md;;¿Cómo añado mi cita al calendario?;/personas/citas-y-asistencias/consultar-tus-citas?ask=¿Cómo añado mi cita al calendario?;Propuesta
-PER-CONTACTO;Pie de correos y pantallas de error;README.md;contacto;;/personas#contacto;Propuesta
+PER-CONTACTO;Pie de correos y pantallas de error;canales-de-atencion.md;;;/personas/otros-temas/canales-de-atencion;Propuesta

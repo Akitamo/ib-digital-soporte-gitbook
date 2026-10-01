@@ -106,24 +106,21 @@ paginas:
     notas: contenido = los bloques faq-<tema> bajo un encabezado por tema; sin mantenimiento propio. P42, P48, P56 y P74 eran índices por tema
 
   canales-de-atencion.md:
-    titulo: Canales de atención
-    tipo: referencia
+    en_indice: true
     origen: [P80]
     bloques: [canal-chat, contacto-tramitador]
     variables: [telefono_atencion]
     notas: es el destino del enlace de contacto de la navegación
 
   glosario.md:
-    titulo: Glosario
-    tipo: referencia
+    en_indice: true
     origen: [P81]
     bloques: [def-segunda-opinion, def-autoliquidacion, def-certificacion-riesgo, def-pago-directo]
     variables: [red_centros_url]
     notas: propuesta de compartir las cuatro definiciones repetidas en su página; el resto de términos, con texto propio. Como un bloque no cabe en una celda de tabla, la presentación del glosario completo se decide al trabajar esta página
 
   politica-de-cookies.md:
-    titulo: Política de cookies
-    tipo: referencia
+    en_indice: true
     origen: [P82]
     notas: reescribir; habla de Confluence. Validar con Legal
 

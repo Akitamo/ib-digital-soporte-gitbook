@@ -53,7 +53,7 @@ Cuando el servicio médico te responde, verás un aviso de mensajes sin leer: un
 {% endstep %}
 {% endstepper %}
 
-Los chats cerrados solo se pueden consultar: consulta [cuándo se cierra un chat](../preguntas-frecuentes/cuando-se-cierra-un-chat.md). Si tu consulta no es médica, consulta [qué canal usar](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/canales-para-resolver-dudas-segun-el-tipo-de-consulta).
+Los chats cerrados solo se pueden consultar: consulta [cuándo se cierra un chat](../preguntas-frecuentes/cuando-se-cierra-un-chat.md). Si tu consulta no es médica, consulta [qué canal usar](../canales-de-atencion.md).
 
 ## Más sobre el chat <a href="#chat-relacionado" id="chat-relacionado"></a>
 

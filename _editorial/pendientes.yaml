@@ -489,3 +489,45 @@
   cita: "## Cómo pedir el cambio"
   tipo: decisión
   texto: Con la plantilla de pregunta, la respuesta directa y el aviso compartido repiten «No puedes cambiar una cita». Valorar si el aviso sobra en esta página.
+
+# --- Sección 6: portada, canales, glosario y cookies ---
+
+- pagina: README.md
+  cita: Necesito contactar
+  tipo: decisión
+  texto: Portada sin muestra aprobada, para revisar aparte. Nueve tarjetas con las gestiones de P02 (citas, historia clínica, informe, documentación, chat, rehabilitación, prestaciones, pagos y certificado). Se quita la sección de contacto (va en la navegación) y el botón «Necesito contactar» lleva a Canales de atención.
+
+- pagina: canales-de-atencion.md
+  cita: "## Qué canal usar"
+  tipo: decisión
+  texto: Página de referencia sin muestra aprobada, para revisar aparte. Tabla de canales (P80) y una sección por canal con los bloques canal-chat y contacto-tramitador; recoge el contenido del bloque contacto de la portada.
+
+- pagina: canales-de-atencion.md
+  cita: cambios de datos u otros trámites
+  tipo: sin verificar
+  texto: P80 remite los cambios de datos al teléfono, pero el móvil y el correo se cambian en Mi cuenta (P46). Confirmar qué datos se cambian por teléfono.
+
+- pagina: canales-de-atencion.md
+  cita: 8db5a3fba393-tramitador-recorte.webp
+  tipo: captura descartada
+  texto: No se usa 8795ab9cd23b, con datos del tramitador/a y de la persona solo en parte difuminados; se reutiliza el recorte de la página de estado de la solicitud. 74b500660222 repite la página de inicio con el chat.
+
+- pagina: glosario.md
+  cita: "## A-D"
+  tipo: decisión
+  texto: Presentación. Secciones por letras con cada término en negrita y su definición, en lugar de la tabla de P81, porque un bloque no cabe en una celda. Autoliquidación, certificación de riesgo, pago directo y segunda opinión usan las definiciones compartidas, que sustituyen las de P81 (la de pago directo añadía ejemplos de cuándo se aplica). «Gran invalidez» pasa de A-D a E-K.
+
+- pagina: glosario.md
+  cita: 1,8 millones
+  tipo: valor provisional
+  texto: Cifras de Ibermutua de P81 (más de 1,8 millones de trabajadores y cerca de 170.500 empresas asociadas). Confirmar o quitar.
+
+- pagina: glosario.md
+  cita: "[red de centros](https://www.ibermutua.es/redcentros/)"
+  tipo: contradicción 6
+  texto: P81 enlaza a /redcentros, sin barra final; se usa la misma dirección que en el resto de páginas.
+
+- pagina: politica-de-cookies.md
+  cita: "## Qué son las cookies"
+  tipo: contradicción 11
+  texto: P82 describe Confluence. Falta el apartado de qué cookies usa el sitio en GitBook, para redactar con Legal. Solo se conservan las partes genéricas (qué son y cómo desactivarlas).

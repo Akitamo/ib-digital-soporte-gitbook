@@ -35,7 +35,28 @@ paginas:
     tipo: portada
     temas: []
     resuelve:
-      - {ancla: contacto, intencion: saber qué canal de contacto usar según la consulta}
+      - {ancla: "", intencion: elegir qué hacer en Ibermutua Digital Personas}
+
+  canales-de-atencion.md:
+    tipo: referencia
+    temas: []
+    resuelve:
+      - {ancla: "", intencion: saber qué canal de contacto usar según la consulta}
+      - {ancla: canales-chat, intencion: saber para qué es el chat con el servicio médico}
+      - {ancla: canales-tramitador, intencion: contactar con el tramitador/a de una prestación}
+      - {ancla: canales-telefono, intencion: llamar a la Línea de Atención Telefónica Integral 24 h}
+
+  glosario.md:
+    tipo: referencia
+    temas: []
+    resuelve:
+      - {ancla: "", intencion: saber qué significa un término}
+
+  politica-de-cookies.md:
+    tipo: referencia
+    temas: []
+    resuelve:
+      - {ancla: "", intencion: conocer la política de cookies del centro de ayuda}
 
   alta-y-acceso/darte-de-alta.md:
     tipo: tarea
@@ -474,7 +495,3 @@ paginas:
     temas: [videoconsulta]
     resuelve:
       - {ancla: "", intencion: saber qué se necesita para una videoconsulta}
-
-# Destinos externos (Centro de Ayuda actual) que se pueden enlazar mientras dure el piloto
-externos:
-  canales: {url: "https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/canales-para-resolver-dudas-segun-el-tipo-de-consulta", intencion: elegir el canal de atención}

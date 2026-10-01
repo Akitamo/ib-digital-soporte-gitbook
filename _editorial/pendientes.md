@@ -2,18 +2,18 @@
 
 Lista generada por `herramientas/generar_pendientes.py` a partir de `_editorial/pendientes.yaml` y de los marcadores de captura de la app. No se edita a mano: se corrige la fuente y se vuelve a generar. GitBook no importa esta carpeta.
 
-**103 pendientes**: 97 en páginas y 6 en bloques o variables compartidos, que se repiten en cada página donde se usan. 42 páginas afectadas.
+**111 pendientes**: 105 en páginas y 6 en bloques o variables compartidos, que se repiten en cada página donde se usan. 46 páginas afectadas.
 
 | Tipo | Qué significa | Número |
 |---|---|---|
-| contradicción | incoherencia de negocio del análisis de contenido, apartado 4 (con su número) | 16 |
-| valor provisional | dato que figura en la ayuda pero falta confirmar | 1 |
+| contradicción | incoherencia de negocio del análisis de contenido, apartado 4 (con su número) | 18 |
+| valor provisional | dato que figura en la ayuda pero falta confirmar | 2 |
 | app | funcionamiento o texto de la app sin confirmar | 22 |
 | captura de la app | falta la captura de la app (marcador de imagen) | 8 |
 | captura dudosa | captura usada que conviene revisar | 9 |
-| captura descartada | captura original no usada, con el motivo | 16 |
-| sin verificar | contenido funcional sin fuente o genérico | 24 |
-| decisión | decisión editorial o de estructura pendiente de Sergio | 7 |
+| captura descartada | captura original no usada, con el motivo | 17 |
+| sin verificar | contenido funcional sin fuente o genérico | 25 |
+| decisión | decisión editorial o de estructura pendiente de Sergio | 10 |
 
 ## Bloques y variables compartidos
 
@@ -40,7 +40,7 @@ Páginas afectadas: [¿Puedo cambiar las citas desde Ibermutua Digital?](https:/
 |---|---|---|
 | contradicción 1 | P38 incluye las citas entre las dudas que se pueden plantear por chat; P80 y el aviso de citas las remiten al teléfono. El bloque no menciona las citas. | [L6](../help-center/.gitbook/includes/canal-chat.md#L6) |
 
-Páginas afectadas: [¿El chat se responde al momento?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-responden-el-chat) › [Para qué es el chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-responden-el-chat#chat-uso); [Hablar con el servicio médico por chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/chat-con-el-servicio-medico).
+Páginas afectadas: [Canales de atención](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/canales-de-atencion) › [Chat con el servicio médico](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/canales-de-atencion#canales-chat); [¿El chat se responde al momento?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-responden-el-chat) › [Para qué es el chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-responden-el-chat#chat-uso); [Hablar con el servicio médico por chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/chat-con-el-servicio-medico).
 
 ### Variable `autoliquidacion_espera`
 
@@ -59,6 +59,14 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/aprobacion-de-la-autoliquidacion); [¿Cuándo recibo la autoliquidación?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-recibo-la-autoliquidacion); [¿Qué es la autoliquidación y qué condiciones tiene?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-es-la-autoliquidacion) › [Cómo se comprueban](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-es-la-autoliquidacion#autoliquidacion-comprobacion); [Solicitar la autoliquidación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion) › [Cuándo cobras y cómo sigues la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion#autoliquidacion-seguimiento).
 
 ## Por página
+
+### [¿En qué podemos ayudarte?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/)
+
+`README.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| Inicio de la página | decisión | Portada sin muestra aprobada, para revisar aparte. Nueve tarjetas con las gestiones de P02 (citas, historia clínica, informe, documentación, chat, rehabilitación, prestaciones, pagos y certificado). Se quita la sección de contacto (va en la navegación) y el botón «Necesito contactar» lleva a Canales de atención. | [L24](../help-center/README.md#L24) |
 
 ### [Darte de alta en Ibermutua Digital Personas](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/alta-y-acceso/darte-de-alta)
 
@@ -469,3 +477,32 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
 | Inicio de la página | contradicción 10 | P76 son unas 640 palabras genéricas; se ha reducido a lo esencial. Confirmar que no falta nada que negocio quiera mantener. | [L10](../help-center/preguntas-frecuentes/ventajas-de-la-rehabilitacion-online.md#L10) |
+
+### [Canales de atención](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/canales-de-atencion)
+
+`canales-de-atencion.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| Inicio de la página | decisión | Página de referencia sin muestra aprobada, para revisar aparte. Tabla de canales (P80) y una sección por canal con los bloques canal-chat y contacto-tramitador; recoge el contenido del bloque contacto de la portada. | [L10](../help-center/canales-de-atencion.md#L10) |
+| [Chat con el servicio médico](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/canales-de-atencion#canales-chat) | contradicción 1 | Bloque `canal-chat`: P38 incluye las citas entre las dudas que se pueden plantear por chat; P80 y el aviso de citas las remiten al teléfono. El bloque no menciona las citas. | [L6](../help-center/.gitbook/includes/canal-chat.md#L6) |
+| [Tu tramitador/a](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/canales-de-atencion#canales-tramitador) | captura descartada | No se usa 8795ab9cd23b, con datos del tramitador/a y de la persona solo en parte difuminados; se reutiliza el recorte de la página de estado de la solicitud. 74b500660222 repite la página de inicio con el chat. | [L30](../help-center/canales-de-atencion.md#L30) |
+| [Línea de Atención Telefónica Integral 24 h](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/canales-de-atencion#canales-telefono) | sin verificar | P80 remite los cambios de datos al teléfono, pero el móvil y el correo se cambian en Mi cuenta (P46). Confirmar qué datos se cambian por teléfono. | [L34](../help-center/canales-de-atencion.md#L34) |
+
+### [Glosario](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/glosario)
+
+`glosario.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| Inicio de la página | decisión | Presentación. Secciones por letras con cada término en negrita y su definición, en lugar de la tabla de P81, porque un bloque no cabe en una celda. Autoliquidación, certificación de riesgo, pago directo y segunda opinión usan las definiciones compartidas, que sustituyen las de P81 (la de pago directo añadía ejemplos de cuándo se aplica). «Gran invalidez» pasa de A-D a E-K. | [L10](../help-center/glosario.md#L10) |
+| [E-K](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/glosario#glosario-e-k) | valor provisional | Cifras de Ibermutua de P81 (más de 1,8 millones de trabajadores y cerca de 170.500 empresas asociadas). Confirmar o quitar. | [L76](../help-center/glosario.md#L76) |
+| [P-R](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/glosario#glosario-p-r) | contradicción 6 | P81 enlaza a /redcentros, sin barra final; se usa la misma dirección que en el resto de páginas. | [L146](../help-center/glosario.md#L146) |
+
+### [Política de cookies](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/politica-de-cookies)
+
+`politica-de-cookies.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| Inicio de la página | contradicción 11 | P82 describe Confluence. Falta el apartado de qué cookies usa el sitio en GitBook, para redactar con Legal. Solo se conservan las partes genéricas (qué son y cómo desactivarlas). | [L10](../help-center/politica-de-cookies.md#L10) |

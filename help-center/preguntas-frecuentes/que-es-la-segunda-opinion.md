@@ -7,7 +7,7 @@ icon: circle-question
 
 # ¿Qué es la segunda opinión médica?
 
-Es la valoración que hace un médico experto sobre el diagnóstico, el pronóstico, el tratamiento y las orientaciones de futuro de un proceso clínico.
+{% include "../.gitbook/includes/def-segunda-opinion.md" %}
 
 ## Cuándo está indicada <a href="#segunda-opinion-cuando" id="segunda-opinion-cuando"></a>
 

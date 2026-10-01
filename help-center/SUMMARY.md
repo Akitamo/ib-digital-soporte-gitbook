@@ -81,4 +81,6 @@
 
 ## Otros temas
 
-* [Canales de atención](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/canales-para-resolver-dudas-segun-el-tipo-de-consulta)
+* [Canales de atención](canales-de-atencion.md)
+* [Glosario](glosario.md)
+* [Política de cookies](politica-de-cookies.md)
