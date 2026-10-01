@@ -7,6 +7,10 @@ icon: calendar-check
 
 Tus citas pendientes aparecen en la página de inicio de Ibermutua Digital Personas, en **Tus próximas citas**, tanto en la web como en la app. Las citas pasadas quedan en tu historia clínica, dentro de cada episodio médico: consulta [cómo ver tu historia clínica](../tu-historia-clinica/consultar-tu-historia-clinica.md).
 
+{% hint style="warning" %}
+**No puedes cambiar una cita desde Ibermutua Digital Personas.** Consulta [cómo solicitar el cambio](../preguntas-frecuentes/cambiar-una-cita.md).
+{% endhint %}
+
 ## Abre tu cita <a href="#citas-abrir" id="citas-abrir"></a>
 
 {% tabs %}
@@ -122,12 +126,6 @@ Si tu médico/a tiene que revisar alguna prueba antes o durante la cita:
 <figure><img width="300" src="../.gitbook/assets/app-zona-pendiente.webp" alt="Imagen de la app que falta: añadir la cita al calendario."></figure>
 {% endtab %}
 {% endtabs %}
-
-## Si necesitas cambiar la cita <a href="#citas-cambiar" id="citas-cambiar"></a>
-
-{% hint style="warning" %}
-**No puedes cambiar una cita desde Ibermutua Digital Personas.** Consulta [cómo solicitar el cambio](../preguntas-frecuentes/cambiar-una-cita.md).
-{% endhint %}
 
 ## Más sobre citas <a href="#citas-relacionado" id="citas-relacionado"></a>
 
