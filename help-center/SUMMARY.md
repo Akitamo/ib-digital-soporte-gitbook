@@ -19,7 +19,7 @@
 
 ## Prestaciones económicas
 
-* [Solicitar la autoliquidación](prestaciones/solicitar-la-autoliquidacion.md)
+* [Solicitar la autoliquidación](prestaciones-economicas/solicitar-la-autoliquidacion.md)
 
 ## Preguntas frecuentes
 

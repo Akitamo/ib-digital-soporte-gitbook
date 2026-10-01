@@ -40,7 +40,7 @@ Este archivo recoge lo que la guía del sitio no contiene: el catálogo de bloqu
 
 ## Convenciones
 
-**URL y carpetas.** `/personas/<grupo>/<tarea>`. El nombre del archivo es el slug: verbo en infinitivo y palabras clave, sin artículos innecesarios (`consultar-tus-citas.md`). El menú refleja las carpetas. Mientras el sitio no esté publicado, las URL se pueden cambiar sin redirecciones; después de publicarlo, cada cambio exige una redirección.
+**URL y carpetas.** `/personas/<grupo>/<tarea>`. El nombre del archivo es el slug: verbo en infinitivo y palabras clave, sin artículos innecesarios (`consultar-tus-citas.md`). El menú refleja las carpetas. GitBook forma la dirección con el título del grupo del menú, no con la carpeta: la carpeta se llama igual que el grupo (`## Prestaciones económicas` → `prestaciones-economicas/`). Mientras el sitio no esté publicado, las URL se pueden cambiar sin redirecciones; después de publicarlo, cada cambio exige una redirección.
 
 **Imágenes.** Capturas recortadas a la zona útil, en ficheros nuevos de `.gitbook/assets/` con el origen y la zona (`1a00aeed731a-detalles-recorte.webp`). WebP, 1600 px de ancho como máximo. Si falta la de la app: `app-captura-pendiente.webp` o `app-zona-pendiente.webp`.
 

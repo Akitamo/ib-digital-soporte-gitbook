@@ -37,23 +37,23 @@ bloques:
   abrir-solicitud-prestacion:
     contenido: aviso «no disponible en la App, usa la web desde el móvil» y las dos formas de abrir una solicitud (Tus gestiones digitales o Prestaciones económicas)
     origen: [P19, P27, P57]
-    usado_en: [prestaciones/pago-directo/solicitar-el-pago-directo.md, prestaciones/riesgo-embarazo-lactancia/iniciar-la-solicitud.md, preguntas-frecuentes/que-prestaciones-puedo-pedir.md]
+    usado_en: [prestaciones-economicas/pago-directo/solicitar-el-pago-directo.md, prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md, preguntas-frecuentes/que-prestaciones-puedo-pedir.md]
   canal-chat:
     contenido: para qué es el chat (solo dudas médicas, ligado a un episodio, no urgencias, respuesta en horario laboral)
     origen: [P02, P38, P77, P80]
-    usado_en: [servicios-digitales/chat-con-el-servicio-medico.md, canales-de-atencion.md, preguntas-frecuentes/cuando-responden-el-chat.md]
+    usado_en: [servicios-medicos-digitales/chat-con-el-servicio-medico.md, canales-de-atencion.md, preguntas-frecuentes/cuando-responden-el-chat.md]
   contacto-tramitador:
     contenido: dónde ves el correo y el teléfono de tu tramitador/a (en tu solicitud) y su horario
     origen: [P21, P34, P80]
-    usado_en: [prestaciones/pago-directo/consultar-el-estado.md, prestaciones/solicitar-la-autoliquidacion.md, preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md, prestaciones/reclamar-una-resolucion.md, canales-de-atencion.md]
+    usado_en: [prestaciones-economicas/pago-directo/consultar-el-estado.md, prestaciones-economicas/solicitar-la-autoliquidacion.md, preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md, prestaciones-economicas/reclamar-una-resolucion.md, canales-de-atencion.md]
   rel-tipos-certificacion:
     contenido: tabla negativa / positiva / positiva diferida → qué significa → cuándo puedes finalizar la solicitud
     origen: [P29, P60, P61, P64]
-    usado_en: [prestaciones/riesgo-embarazo-lactancia/certificacion-de-riesgo.md, preguntas-frecuentes/que-es-la-certificacion-de-riesgo.md, preguntas-frecuentes/cuando-puedo-finalizar-la-solicitud.md]
+    usado_en: [prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md, preguntas-frecuentes/que-es-la-certificacion-de-riesgo.md, preguntas-frecuentes/cuando-puedo-finalizar-la-solicitud.md]
   autoliquidacion-requisitos:
     contenido: las cuatro condiciones (prestación activa, días de espera, sin embargos, último parte de confirmación) y qué pasa si no se cumplen
     origen: [P34, P67, P70, P71, P72]
-    usado_en: [prestaciones/solicitar-la-autoliquidacion.md, preguntas-frecuentes/que-es-la-autoliquidacion.md, preguntas-frecuentes/aprobacion-de-la-autoliquidacion.md, preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md]
+    usado_en: [prestaciones-economicas/solicitar-la-autoliquidacion.md, preguntas-frecuentes/que-es-la-autoliquidacion.md, preguntas-frecuentes/aprobacion-de-la-autoliquidacion.md, preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md]
   # Definiciones que se repiten en su página y en el glosario: si el resumen debe cambiar con la página,
   # es texto compartido (propuesta). Un bloque no cabe en una celda de tabla: la presentación del glosario
   # completo se decide al trabajar esa página.
@@ -64,7 +64,7 @@ bloques:
   def-autoliquidacion:
     contenido: definición breve de la autoliquidación
     origen: [P67, P81]
-    usado_en: [prestaciones/solicitar-la-autoliquidacion.md, preguntas-frecuentes/que-es-la-autoliquidacion.md, glosario.md]
+    usado_en: [prestaciones-economicas/solicitar-la-autoliquidacion.md, preguntas-frecuentes/que-es-la-autoliquidacion.md, glosario.md]
   def-certificacion-riesgo:
     contenido: definición breve de la certificación de riesgo
     origen: [P60, P81]
@@ -187,7 +187,7 @@ paginas:
     en_indice: true
     origen: [P10]
     bloques: [aviso-cambio-cita]
-    relaciones: {incidencia: [preguntas-frecuentes/cambiar-una-cita.md], siguiente: [citas-y-asistencias/descargar-un-justificante.md, servicios-digitales/videoconsulta.md]}
+    relaciones: {incidencia: [preguntas-frecuentes/cambiar-una-cita.md], siguiente: [citas-y-asistencias/descargar-un-justificante.md, servicios-medicos-digitales/videoconsulta.md]}
 
   citas-y-asistencias/descargar-un-justificante.md:
     en_indice: true
@@ -239,140 +239,140 @@ paginas:
     notas: en Confluence estaba en Servicios médicos digitales; se hace desde Historia Clínica (ubicación a validar)
 
   # --- Prestaciones: pago directo ---
-  prestaciones/pago-directo/solicitar-el-pago-directo.md:
+  prestaciones-economicas/pago-directo/solicitar-el-pago-directo.md:
     titulo: Solicitar el pago directo por incapacidad temporal
     tipo: tarea
     origen: [P19, P18]
     temas: [pago-directo, prestaciones]
     faq_tema: pago-directo
     bloques: [abrir-solicitud-prestacion]
-    relaciones: {concepto: [preguntas-frecuentes/que-es-el-pago-directo.md], siguiente: [prestaciones/pago-directo/rellenar-la-solicitud.md], alternativa: [prestaciones/pago-directo/solicitar-como-representante.md]}
+    relaciones: {concepto: [preguntas-frecuentes/que-es-el-pago-directo.md], siguiente: [prestaciones-economicas/pago-directo/rellenar-la-solicitud.md], alternativa: [prestaciones-economicas/pago-directo/solicitar-como-representante.md]}
     variables: [menu_gestiones]
     notas: P18 era índice; su introducción pasa aquí
 
-  prestaciones/pago-directo/rellenar-la-solicitud.md:
+  prestaciones-economicas/pago-directo/rellenar-la-solicitud.md:
     titulo: Rellenar la solicitud de pago directo
     tipo: tarea
     origen: [P20]
     temas: [pago-directo]
     faq_tema: pago-directo
-    relaciones: {requisito: [prestaciones/pago-directo/solicitar-el-pago-directo.md], siguiente: [prestaciones/pago-directo/consultar-el-estado.md]}
+    relaciones: {requisito: [prestaciones-economicas/pago-directo/solicitar-el-pago-directo.md], siguiente: [prestaciones-economicas/pago-directo/consultar-el-estado.md]}
     notas: común a la persona trabajadora y al representante. Las FAQ de REL la enlazaban por error
 
-  prestaciones/pago-directo/solicitar-como-representante.md:
+  prestaciones-economicas/pago-directo/solicitar-como-representante.md:
     titulo: Solicitar el pago directo como representante
     tipo: tarea
     origen: [P22]
     temas: [pago-directo]
     faq_tema: pago-directo
-    relaciones: {siguiente: [prestaciones/pago-directo/rellenar-la-solicitud.md], alternativa: [prestaciones/pago-directo/solicitar-el-pago-directo.md]}
+    relaciones: {siguiente: [prestaciones-economicas/pago-directo/rellenar-la-solicitud.md], alternativa: [prestaciones-economicas/pago-directo/solicitar-el-pago-directo.md]}
     variables: [portal_empresas_url, portal_digital_url]
     notas: sus 4 preguntas propias (código, revocar, SMS, información sanitaria) → candidatas a pregunta frecuente
 
-  prestaciones/pago-directo/consultar-el-estado.md:
+  prestaciones-economicas/pago-directo/consultar-el-estado.md:
     titulo: Consultar el estado de tu solicitud
     tipo: tarea
     origen: [P21]
     temas: [pago-directo]
     faq_tema: pago-directo
     bloques: [contacto-tramitador]
-    relaciones: {siguiente: [prestaciones/consultar-tus-pagos.md], incidencia: [prestaciones/pago-directo/subsanar-documentacion.md, prestaciones/reclamar-una-resolucion.md]}
+    relaciones: {siguiente: [prestaciones-economicas/consultar-tus-pagos.md], incidencia: [prestaciones-economicas/pago-directo/subsanar-documentacion.md, prestaciones-economicas/reclamar-una-resolucion.md]}
 
-  prestaciones/pago-directo/subsanar-documentacion.md:
+  prestaciones-economicas/pago-directo/subsanar-documentacion.md:
     titulo: Subsanar la documentación de tu solicitud
     tipo: tarea
     origen: [P24]
     temas: [pago-directo]
     faq_tema: pago-directo
-    relaciones: {siguiente: [prestaciones/pago-directo/consultar-el-estado.md]}
+    relaciones: {siguiente: [prestaciones-economicas/pago-directo/consultar-el-estado.md]}
 
   # --- Prestaciones: riesgo durante el embarazo o la lactancia (REL) ---
-  prestaciones/riesgo-embarazo-lactancia/solicitar-la-prestacion.md:
+  prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md:
     titulo: Solicitar la prestación por riesgo durante el embarazo o la lactancia
     tipo: tarea
     origen: [P26, P25, P32]
     temas: [rel, prestaciones]
     faq_tema: rel
-    relaciones: {siguiente: [prestaciones/riesgo-embarazo-lactancia/iniciar-la-solicitud.md]}
+    relaciones: {siguiente: [prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md]}
     notas: stepper con las 4 fases que muestra la pantalla (iniciar, certificación, finalizar, resolución); las diferencias de la lactancia (P32) en una sección propia
 
-  prestaciones/riesgo-embarazo-lactancia/iniciar-la-solicitud.md:
+  prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md:
     titulo: Iniciar la solicitud
     tipo: tarea
     origen: [P28, P27]
     temas: [rel]
     faq_tema: rel
     bloques: [abrir-solicitud-prestacion]
-    relaciones: {siguiente: [prestaciones/riesgo-embarazo-lactancia/certificacion-de-riesgo.md]}
+    relaciones: {siguiente: [prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md]}
     variables: [portal_empresas_url, portal_digital_url, menu_gestiones]
     notas: P27 (acceso) es el primer paso; queda en el bloque abrir-solicitud-prestacion
 
-  prestaciones/riesgo-embarazo-lactancia/certificacion-de-riesgo.md:
+  prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md:
     titulo: Certificación de riesgo
     tipo: tarea
     origen: [P29]
     temas: [rel]
     faq_tema: rel
     bloques: [rel-tipos-certificacion]
-    relaciones: {siguiente: [prestaciones/riesgo-embarazo-lactancia/finalizar-la-solicitud.md], incidencia: [prestaciones/reclamar-una-resolucion.md]}
+    relaciones: {siguiente: [prestaciones-economicas/riesgo-embarazo-lactancia/finalizar-la-solicitud.md], incidencia: [prestaciones-economicas/reclamar-una-resolucion.md]}
 
-  prestaciones/riesgo-embarazo-lactancia/finalizar-la-solicitud.md:
+  prestaciones-economicas/riesgo-embarazo-lactancia/finalizar-la-solicitud.md:
     titulo: Finalizar la solicitud
     tipo: tarea
     origen: [P30]
     temas: [rel]
     faq_tema: rel
     variables: [rel_dias_finalizar]
-    relaciones: {siguiente: [prestaciones/riesgo-embarazo-lactancia/resolucion.md]}
+    relaciones: {siguiente: [prestaciones-economicas/riesgo-embarazo-lactancia/resolucion.md]}
     notas: cuándo se habilita el paso es necesario para continuar; se muestra en una frase con la variable (positiva, de inmediato; diferida, desde los días previos a la fecha), no con el bloque de tipos de certificación
 
-  prestaciones/riesgo-embarazo-lactancia/resolucion.md:
+  prestaciones-economicas/riesgo-embarazo-lactancia/resolucion.md:
     titulo: Resolución de la prestación
     tipo: tarea
     origen: [P31]
     temas: [rel]
     faq_tema: rel
-    relaciones: {siguiente: [prestaciones/consultar-tus-pagos.md], incidencia: [prestaciones/reclamar-una-resolucion.md]}
+    relaciones: {siguiente: [prestaciones-economicas/consultar-tus-pagos.md], incidencia: [prestaciones-economicas/reclamar-una-resolucion.md]}
 
   # --- Prestaciones: pagos y gestiones ---
-  prestaciones/consultar-tus-pagos.md:
+  prestaciones-economicas/consultar-tus-pagos.md:
     titulo: Consultar tus pagos
     tipo: tarea
     origen: [P33, P23]
     temas: [pagos, prestaciones]
     faq_tema: pagos
-    relaciones: {siguiente: [prestaciones/descargar-el-certificado-de-retenciones.md], alternativa: [prestaciones/solicitar-la-autoliquidacion.md]}
+    relaciones: {siguiente: [prestaciones-economicas/descargar-el-certificado-de-retenciones.md], alternativa: [prestaciones-economicas/solicitar-la-autoliquidacion.md]}
     notas: P23 (información económica de pago directo) repite la misma pantalla
 
-  prestaciones/solicitar-la-autoliquidacion.md:
+  prestaciones-economicas/solicitar-la-autoliquidacion.md:
     en_indice: true
     origen: [P34]
     bloques: [def-autoliquidacion, autoliquidacion-requisitos, contacto-tramitador]
     variables: [autoliquidacion_espera, autoliquidacion_plazo_abono]
-    relaciones: {incidencia: [preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md], siguiente: [prestaciones/consultar-tus-pagos.md]}
+    relaciones: {incidencia: [preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md], siguiente: [prestaciones-economicas/consultar-tus-pagos.md]}
     notas: prueba de la plantilla (01/10). Pagos enlaza a Scroll hasta migrarse. Sin sus 2 preguntas propias ni el enlace a «cobro anticipado»
 
-  prestaciones/descargar-el-certificado-de-retenciones.md:
+  prestaciones-economicas/descargar-el-certificado-de-retenciones.md:
     titulo: Descargar el certificado de retenciones (IRPF)
     tipo: tarea
     origen: [P35, P59]
     temas: [pagos]
     faq_tema: pagos
-    relaciones: {concepto: [prestaciones/consultar-tus-pagos.md]}
+    relaciones: {concepto: [prestaciones-economicas/consultar-tus-pagos.md]}
     notas: P59 es la misma respuesta. Revisar contenido genérico de P35 (ticket, NIF, enlace a sí misma)
 
-  prestaciones/reclamar-una-resolucion.md:
+  prestaciones-economicas/reclamar-una-resolucion.md:
     titulo: Reclamar una resolución de la mutua
     tipo: tarea
     origen: [P63]
     temas: [prestaciones, rel, pago-directo]
     faq_tema: prestaciones
     bloques: [contacto-tramitador]
-    relaciones: {concepto: [prestaciones/riesgo-embarazo-lactancia/certificacion-de-riesgo.md]}
+    relaciones: {concepto: [prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md]}
     notas: era pregunta frecuente; es una tarea. Sus 3 preguntas propias ya están en el texto
 
   # --- Servicios médicos digitales ---
-  servicios-digitales/chat-con-el-servicio-medico.md:
+  servicios-medicos-digitales/chat-con-el-servicio-medico.md:
     titulo: Hablar con el servicio médico por chat
     tipo: tarea
     origen: [P38, P36]
@@ -383,7 +383,7 @@ paginas:
     relaciones: {concepto: [canales-de-atencion.md]}
     notas: P36 era índice de la sección
 
-  servicios-digitales/videoconsulta.md:
+  servicios-medicos-digitales/videoconsulta.md:
     titulo: Hacer una videoconsulta
     tipo: tarea
     origen: [P39]
@@ -391,7 +391,7 @@ paginas:
     faq_tema: videoconsulta
     relaciones: {requisito: [citas-y-asistencias/consultar-tus-citas.md]}
 
-  servicios-digitales/rehabilitacion-online.md:
+  servicios-medicos-digitales/rehabilitacion-online.md:
     titulo: Hacer tu rehabilitación online
     tipo: tarea
     origen: [P40, P75]
@@ -428,7 +428,7 @@ paginas:
     origen: [P57, P17]
     temas: [prestaciones, pago-directo, rel]
     bloques: [abrir-solicitud-prestacion]
-    relaciones: {tarea: [prestaciones/pago-directo/solicitar-el-pago-directo.md, prestaciones/riesgo-embarazo-lactancia/solicitar-la-prestacion.md]}
+    relaciones: {tarea: [prestaciones-economicas/pago-directo/solicitar-el-pago-directo.md, prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md]}
     notas: P17 era índice de Prestaciones
 
   preguntas-frecuentes/que-es-el-pago-directo.md:
@@ -437,7 +437,7 @@ paginas:
     origen: [P58]
     temas: [pago-directo, prestaciones]
     bloques: [def-pago-directo]
-    relaciones: {tarea: [prestaciones/pago-directo/solicitar-el-pago-directo.md]}
+    relaciones: {tarea: [prestaciones-economicas/pago-directo/solicitar-el-pago-directo.md]}
 
   preguntas-frecuentes/que-es-la-certificacion-de-riesgo.md:
     titulo: ¿Qué es la certificación de riesgo en el embarazo o la lactancia?
@@ -445,7 +445,7 @@ paginas:
     origen: [P60]
     temas: [rel]
     bloques: [def-certificacion-riesgo, rel-tipos-certificacion]
-    relaciones: {tarea: [prestaciones/riesgo-embarazo-lactancia/certificacion-de-riesgo.md]}
+    relaciones: {tarea: [prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md]}
 
   preguntas-frecuentes/fecha-de-riesgo-certificada.md:
     titulo: ¿Qué implica la fecha de riesgo certificada?
@@ -467,14 +467,14 @@ paginas:
     origen: [P64]
     temas: [rel]
     bloques: [rel-tipos-certificacion]
-    relaciones: {tarea: [prestaciones/riesgo-embarazo-lactancia/finalizar-la-solicitud.md]}
+    relaciones: {tarea: [prestaciones-economicas/riesgo-embarazo-lactancia/finalizar-la-solicitud.md]}
 
   preguntas-frecuentes/calculo-y-abono-rel.md:
     titulo: ¿Cómo se calcula y se paga la prestación por riesgo durante el embarazo o la lactancia?
     tipo: pregunta
     origen: [P65]
     temas: [rel, pagos]
-    relaciones: {tarea: [prestaciones/consultar-tus-pagos.md]}
+    relaciones: {tarea: [prestaciones-economicas/consultar-tus-pagos.md]}
     notas: quitar sus 3 preguntas propias (ya están en el texto)
 
   preguntas-frecuentes/hasta-cuando-dura-la-prestacion-rel.md:
@@ -488,7 +488,7 @@ paginas:
     origen: [P67]
     bloques: [def-autoliquidacion, autoliquidacion-requisitos]
     variables: [autoliquidacion_espera, autoliquidacion_plazo_abono]
-    relaciones: {tarea: [prestaciones/solicitar-la-autoliquidacion.md]}
+    relaciones: {tarea: [prestaciones-economicas/solicitar-la-autoliquidacion.md]}
 
   preguntas-frecuentes/importe-de-la-autoliquidacion.md:
     titulo: ¿Qué importe recibiré con la autoliquidación?
@@ -518,7 +518,7 @@ paginas:
     origen: [P72]
     bloques: [autoliquidacion-requisitos, contacto-tramitador]
     variables: [autoliquidacion_espera]
-    relaciones: {tarea: [prestaciones/solicitar-la-autoliquidacion.md]}
+    relaciones: {tarea: [prestaciones-economicas/solicitar-la-autoliquidacion.md]}
     notas: los «5 días» de P72 son los días que faltan en el ejemplo del aviso, no otra regla. Su captura parece retocada («Persenes», «6:00h»); no se usa
 
   preguntas-frecuentes/hasta-que-fecha-paga-la-autoliquidacion.md:
@@ -552,4 +552,4 @@ paginas:
     tipo: pregunta
     origen: [P79]
     temas: [videoconsulta]
-    relaciones: {tarea: [servicios-digitales/videoconsulta.md]}
+    relaciones: {tarea: [servicios-medicos-digitales/videoconsulta.md]}

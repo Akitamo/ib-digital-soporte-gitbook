@@ -21,4 +21,4 @@ Consúltalo con tu tramitador/a.
 
 {% include "../.gitbook/includes/contacto-tramitador.md" %}
 
-Cuando se cumplan las condiciones, puedes [solicitar la autoliquidación](../prestaciones/solicitar-la-autoliquidacion.md).
+Cuando se cumplan las condiciones, puedes [solicitar la autoliquidación](../prestaciones-economicas/solicitar-la-autoliquidacion.md).
