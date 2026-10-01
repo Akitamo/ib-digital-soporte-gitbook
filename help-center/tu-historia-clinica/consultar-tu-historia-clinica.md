@@ -72,7 +72,7 @@ Consulta [cómo descargar el informe](descargar-un-informe.md).
 
 **B. Hablar con el servicio médico por chat**
 
-Para dudas médicas sobre tu episodio. Consulta [cómo usar el chat](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/chat-con-el-servicio-medico-de-ibermutua).
+Para dudas médicas sobre tu episodio. Consulta [cómo usar el chat](../servicios-medicos-digitales/chat-con-el-servicio-medico.md).
 
 **C. Enviar documentación a la mutua**
 

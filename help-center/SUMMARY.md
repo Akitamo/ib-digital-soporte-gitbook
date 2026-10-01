@@ -43,6 +43,12 @@
 * [Descargar el certificado de retenciones (IRPF)](prestaciones-economicas/descargar-el-certificado-de-retenciones.md "Certificado de retenciones")
 * [Reclamar una resolución de la mutua](prestaciones-economicas/reclamar-una-resolucion.md "Reclamar una resolución")
 
+## Servicios médicos digitales
+
+* [Hablar con el servicio médico por chat](servicios-medicos-digitales/chat-con-el-servicio-medico.md "Chat con el servicio médico")
+* [Hacer una videoconsulta](servicios-medicos-digitales/videoconsulta.md)
+* [Hacer tu rehabilitación online](servicios-medicos-digitales/rehabilitacion-online.md "Rehabilitación online")
+
 ## Preguntas frecuentes
 
 * [¿Qué hago si no puedo darme de alta con el DNI o no tengo certificado digital?](preguntas-frecuentes/no-puedo-darme-de-alta.md "No puedo darme de alta")
@@ -67,8 +73,11 @@
 * [¿Cuándo recibo la autoliquidación?](preguntas-frecuentes/cuando-recibo-la-autoliquidacion.md)
 * [¿Hasta qué fecha se paga la autoliquidación?](preguntas-frecuentes/hasta-que-fecha-paga-la-autoliquidacion.md)
 * [¿Por qué no puedo solicitar la autoliquidación?](preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md)
+* [¿El chat se responde al momento?](preguntas-frecuentes/cuando-responden-el-chat.md)
+* [¿Cuándo se cierra un chat?](preguntas-frecuentes/cuando-se-cierra-un-chat.md)
+* [¿Qué necesito para hacer una videoconsulta?](preguntas-frecuentes/que-necesito-para-una-videoconsulta.md "¿Qué necesito para una videoconsulta?")
+* [¿Qué ventajas tiene la rehabilitación online?](preguntas-frecuentes/ventajas-de-la-rehabilitacion-online.md)
 
 ## Otros temas
 
-* [Servicios médicos digitales](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/tus-servicios-medicos-digitales)
 * [Canales de atención](https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/canales-para-resolver-dudas-segun-el-tipo-de-consulta)

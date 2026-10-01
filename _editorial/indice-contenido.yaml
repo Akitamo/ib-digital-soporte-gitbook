@@ -26,6 +26,9 @@ temas:
   rel: Riesgo durante el embarazo o la lactancia
   pagos: Pagos y retenciones
   autoliquidacion: Autoliquidación
+  chat: Chat con el servicio médico
+  videoconsulta: Videoconsulta
+  rehabilitacion: Rehabilitación online
 
 paginas:
   README.md:
@@ -276,6 +279,31 @@ paginas:
       - {ancla: reclamar-que, intencion: saber qué resoluciones se pueden reclamar y cómo}
       - {ancla: reclamar-seguimiento, intencion: seguir una reclamación}
 
+  servicios-medicos-digitales/chat-con-el-servicio-medico.md:
+    tipo: tarea
+    temas: [chat]
+    faq_tema: chat
+    resuelve:
+      - {ancla: "", intencion: hablar con el servicio médico por chat}
+      - {ancla: chat-abrir, intencion: abrir el chat en la web o en la app}
+      - {ancla: chat-escribir, intencion: escribir y enviar un mensaje al servicio médico}
+
+  servicios-medicos-digitales/videoconsulta.md:
+    tipo: tarea
+    temas: [videoconsulta]
+    faq_tema: videoconsulta
+    resuelve:
+      - {ancla: "", intencion: hacer una videoconsulta}
+      - {ancla: videoconsulta-entrar, intencion: entrar en la sala y aceptar la videollamada}
+
+  servicios-medicos-digitales/rehabilitacion-online.md:
+    tipo: tarea
+    temas: [rehabilitacion]
+    faq_tema: rehabilitacion
+    resuelve:
+      - {ancla: "", intencion: hacer la rehabilitación online}
+      - {ancla: rehabilitacion-ejercicios, intencion: hacer los ejercicios de hoy con Fisio Digital}
+
   preguntas-frecuentes/no-puedo-darme-de-alta.md:
     tipo: pregunta
     temas: [acceso]
@@ -415,7 +443,30 @@ paginas:
     resuelve:
       - {ancla: "", intencion: entender hasta qué fecha se paga la autoliquidación}
 
+  preguntas-frecuentes/ventajas-de-la-rehabilitacion-online.md:
+    tipo: concepto
+    temas: [rehabilitacion]
+    resuelve:
+      - {ancla: "", intencion: conocer las ventajas de la rehabilitación online}
+
+  preguntas-frecuentes/cuando-responden-el-chat.md:
+    tipo: pregunta
+    temas: [chat]
+    resuelve:
+      - {ancla: "", intencion: saber cuándo se responde el chat}
+
+  preguntas-frecuentes/cuando-se-cierra-un-chat.md:
+    tipo: pregunta
+    temas: [chat]
+    resuelve:
+      - {ancla: "", intencion: saber cuándo se cierra un chat y qué hacer después}
+
+  preguntas-frecuentes/que-necesito-para-una-videoconsulta.md:
+    tipo: pregunta
+    temas: [videoconsulta]
+    resuelve:
+      - {ancla: "", intencion: saber qué se necesita para una videoconsulta}
+
 # Destinos externos (Centro de Ayuda actual) que se pueden enlazar mientras dure el piloto
 externos:
-  chat: {url: "https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/chat-con-el-servicio-medico-de-ibermutua", intencion: hablar con el servicio médico por chat}
   canales: {url: "https://soporte-ibermutua-digital.scroll.site/soporte-ibermutua-digital/canales-para-resolver-dudas-segun-el-tipo-de-consulta", intencion: elegir el canal de atención}

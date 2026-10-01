@@ -314,30 +314,21 @@ paginas:
 
   # --- Servicios médicos digitales ---
   servicios-medicos-digitales/chat-con-el-servicio-medico.md:
-    titulo: Hablar con el servicio médico por chat
-    tipo: tarea
+    en_indice: true
     origen: [P38, P36]
-    temas: [chat]
-    faq_tema: chat
+    relaciones: {concepto: [canales-de-atencion.md]}
     bloques: [canal-chat]
     variables: [menu_gestiones]
-    relaciones: {concepto: [canales-de-atencion.md]}
     notas: P36 era índice de la sección
 
   servicios-medicos-digitales/videoconsulta.md:
-    titulo: Hacer una videoconsulta
-    tipo: tarea
+    en_indice: true
     origen: [P39]
-    temas: [videoconsulta]
-    faq_tema: videoconsulta
     relaciones: {requisito: [citas-y-asistencias/consultar-tus-citas.md]}
 
   servicios-medicos-digitales/rehabilitacion-online.md:
-    titulo: Hacer tu rehabilitación online
-    tipo: tarea
+    en_indice: true
     origen: [P40, P75]
-    temas: [rehabilitacion]
-    faq_tema: rehabilitacion
     notas: P75 son los pasos (stepper); P40 la introducción
 
   # --- Preguntas frecuentes (tipo pregunta o concepto; aparecen en las tareas por su tema) ---
@@ -441,28 +432,20 @@ paginas:
     origen: [P73]
 
   preguntas-frecuentes/ventajas-de-la-rehabilitacion-online.md:
-    titulo: ¿Qué ventajas tiene la rehabilitación online?
-    tipo: concepto
+    en_indice: true
     origen: [P76]
-    temas: [rehabilitacion]
     notas: 640 palabras genéricas; reducir a lo esencial
 
   preguntas-frecuentes/cuando-responden-el-chat.md:
-    titulo: ¿El chat se responde al momento?
-    tipo: pregunta
+    en_indice: true
     origen: [P77]
-    temas: [chat]
     bloques: [canal-chat]
 
   preguntas-frecuentes/cuando-se-cierra-un-chat.md:
-    titulo: ¿Cuándo se cierra un chat?
-    tipo: pregunta
+    en_indice: true
     origen: [P78]
-    temas: [chat]
 
   preguntas-frecuentes/que-necesito-para-una-videoconsulta.md:
-    titulo: ¿Qué necesito para hacer una videoconsulta?
-    tipo: pregunta
+    en_indice: true
     origen: [P79]
-    temas: [videoconsulta]
     relaciones: {tarea: [servicios-medicos-digitales/videoconsulta.md]}

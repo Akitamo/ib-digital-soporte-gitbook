@@ -2,17 +2,17 @@
 
 Lista generada por `herramientas/generar_pendientes.py` a partir de `_editorial/pendientes.yaml` y de los marcadores de captura de la app. No se edita a mano: se corrige la fuente y se vuelve a generar. GitBook no importa esta carpeta.
 
-**89 pendientes**: 84 en páginas y 5 en bloques o variables compartidos, que se repiten en cada página donde se usan. 36 páginas afectadas.
+**101 pendientes**: 95 en páginas y 6 en bloques o variables compartidos, que se repiten en cada página donde se usan. 41 páginas afectadas.
 
 | Tipo | Qué significa | Número |
 |---|---|---|
-| contradicción | incoherencia de negocio del análisis de contenido, apartado 4 (con su número) | 14 |
+| contradicción | incoherencia de negocio del análisis de contenido, apartado 4 (con su número) | 16 |
 | valor provisional | dato que figura en la ayuda pero falta confirmar | 1 |
-| app | funcionamiento o texto de la app sin confirmar | 20 |
+| app | funcionamiento o texto de la app sin confirmar | 22 |
 | captura de la app | falta la captura de la app (marcador de imagen) | 8 |
-| captura dudosa | captura usada que conviene revisar | 7 |
-| captura descartada | captura original no usada, con el motivo | 13 |
-| sin verificar | contenido funcional sin fuente o genérico | 21 |
+| captura dudosa | captura usada que conviene revisar | 9 |
+| captura descartada | captura original no usada, con el motivo | 16 |
+| sin verificar | contenido funcional sin fuente o genérico | 24 |
 | decisión | decisión editorial o de estructura pendiente de Sergio | 5 |
 
 ## Bloques y variables compartidos
@@ -33,6 +33,14 @@ Páginas afectadas: [¿Qué prestaciones puedo pedir desde Ibermutua Digital Per
 | contradicción 1 | Canal para cambiar una cita. El aviso remite al teléfono; P52 dice teléfono o chat y P80, que el chat es solo para temas médicos. | [L6](../help-center/.gitbook/includes/aviso-cambio-cita.md#L6) |
 
 Páginas afectadas: ninguna.
+
+### Bloque `canal-chat`
+
+| Tipo | Pendiente | Línea |
+|---|---|---|
+| contradicción 1 | P38 incluye las citas entre las dudas que se pueden plantear por chat; P80 y el aviso de citas las remiten al teléfono. El bloque no menciona las citas. | [L6](../help-center/.gitbook/includes/canal-chat.md#L6) |
+
+Páginas afectadas: [¿El chat se responde al momento?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-responden-el-chat) › [Para qué es el chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-responden-el-chat#chat-uso); [Hablar con el servicio médico por chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/chat-con-el-servicio-medico).
 
 ### Variable `autoliquidacion_espera`
 
@@ -333,6 +341,38 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 | [Qué puedes reclamar](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/reclamar-una-resolucion#reclamar-que) | sin verificar | No hay captura de la opción para reclamar la resolución final; P63 dice que está «en la propia página de la resolución». | [L29](../help-center/prestaciones-economicas/reclamar-una-resolucion.md#L29) |
 | [Sigue tu reclamación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/reclamar-una-resolucion#reclamar-seguimiento) | contradicción 2 | P63 recomienda el chat con el servicio médico para las dudas de una reclamación; P80 dice que el chat no es para prestaciones. Se remite al tramitador/a. | [L42](../help-center/prestaciones-economicas/reclamar-una-resolucion.md#L42) |
 
+### [Hablar con el servicio médico por chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/chat-con-el-servicio-medico)
+
+`servicios-medicos-digitales/chat-con-el-servicio-medico.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| Inicio de la página | contradicción 1 | Bloque `canal-chat`: P38 incluye las citas entre las dudas que se pueden plantear por chat; P80 y el aviso de citas las remiten al teléfono. El bloque no menciona las citas. | [L6](../help-center/.gitbook/includes/canal-chat.md#L6) |
+| Inicio de la página | captura descartada | 32f7d6046783 (marca ✦ y nombres de chats con diagnósticos); 344e9b3ad1e6 (móvil, con diagnósticos y de baja resolución); 584541297a10 (marca ✦, nombre de una profesional y contenido de salud en la conversación); 117a11ec61f6 (app con diagnósticos y un nombre); 79896a7c87b4 repite la página de inicio. | [L12](../help-center/servicios-medicos-digitales/chat-con-el-servicio-medico.md#L12) |
+| [Abre el chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/chat-con-el-servicio-medico#chat-abrir) | sin verificar | P38 no da el nombre de la opción. En las capturas se llama «Habla con el servicio médico» (32478f0944c3, descartada) y, con mensajes sin leer, «Tienes mensajes nuevos» (e4a40a28b488). | [L16](../help-center/servicios-medicos-digitales/chat-con-el-servicio-medico.md#L16) |
+| [Abre el chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/chat-con-el-servicio-medico#chat-abrir) | sin verificar | P38 lo dice, pero no hay captura del acceso al chat desde el episodio. | [L16](../help-center/servicios-medicos-digitales/chat-con-el-servicio-medico.md#L16) |
+| [Abre el chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/chat-con-el-servicio-medico#chat-abrir) | captura dudosa | En este recorte y en el de la app (25de37a4cc4e) se han difuminado los nombres de los chats, que son diagnósticos, y los textos de los mensajes. | [L22](../help-center/servicios-medicos-digitales/chat-con-el-servicio-medico.md#L22) |
+
+### [Hacer una videoconsulta](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/videoconsulta)
+
+`servicios-medicos-digitales/videoconsulta.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| Inicio de la página | captura descartada | 32478f0944c3 (marca ✦, nombre de la persona y diagnóstico del episodio) y a591a6ff977f (marca ✦ e imagen de la videollamada con personas). | [L12](../help-center/servicios-medicos-digitales/videoconsulta.md#L12) |
+| [Consulta los detalles de la cita](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/videoconsulta#videoconsulta-detalles) | app | P39 muestra la app solo en el detalle de la cita. Confirmar los pasos de la sala de espera en la app. | [L18](../help-center/servicios-medicos-digitales/videoconsulta.md#L18) |
+| [Entra en la videoconsulta](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/videoconsulta#videoconsulta-entrar) | sin verificar | P39 no da el nombre del botón para entrar en la sala y no hay captura. | [L24](../help-center/servicios-medicos-digitales/videoconsulta.md#L24) |
+| [Entra en la videoconsulta](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/videoconsulta#videoconsulta-entrar) | captura dudosa | Recortes de la sala de espera; se ha difuminado el nombre de la doctora. El resto de la captura muestra a una persona y el chat de la videoconsulta. | [L40](../help-center/servicios-medicos-digitales/videoconsulta.md#L40) |
+
+### [Hacer tu rehabilitación online](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/rehabilitacion-online)
+
+`servicios-medicos-digitales/rehabilitacion-online.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| Inicio de la página | captura descartada | 3dc810a9efd1 (fotografía de una persona); 5162f9cf0155, ef14e18c1470, aea9e4c68c66 y 4ee4367b2fba (pantallas de ejercicio con personas); 7780dd43fc83 (nombre de la persona); f32be98e234e (lista de ejercicios con un comentario del personal médico); 91e19c2706d0, 960187fc9b84 y 5a82ab52b836 son versiones de mayo de 2025 de pantallas con captura más reciente. | [L14](../help-center/servicios-medicos-digitales/rehabilitacion-online.md#L14) |
+| [Haz los ejercicios de hoy](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/rehabilitacion-online#rehabilitacion-ejercicios) | app | P40 y P75 describen la web. Confirmar si los ejercicios se pueden hacer desde la app. | [L20](../help-center/servicios-medicos-digitales/rehabilitacion-online.md#L20) |
+
 ### [¿Qué hago si no puedo darme de alta con el DNI o no tengo certificado digital?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-darme-de-alta)
 
 `preguntas-frecuentes/no-puedo-darme-de-alta.md`
@@ -403,3 +443,19 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 |---|---|---|---|
 | Inicio de la página | valor provisional | Variable `autoliquidacion_espera`: Días de espera desde la baja para pedir la autoliquidación (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
 | [Qué se comprueba](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion#autoliquidacion-que-se-comprueba) | valor provisional | Variable `autoliquidacion_espera`: Días de espera desde la baja para pedir la autoliquidación (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
+
+### [¿El chat se responde al momento?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-responden-el-chat)
+
+`preguntas-frecuentes/cuando-responden-el-chat.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| [Para qué es el chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-responden-el-chat#chat-uso) | contradicción 1 | Bloque `canal-chat`: P38 incluye las citas entre las dudas que se pueden plantear por chat; P80 y el aviso de citas las remiten al teléfono. El bloque no menciona las citas. | [L6](../help-center/.gitbook/includes/canal-chat.md#L6) |
+
+### [¿Qué ventajas tiene la rehabilitación online?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/ventajas-de-la-rehabilitacion-online)
+
+`preguntas-frecuentes/ventajas-de-la-rehabilitacion-online.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| Inicio de la página | contradicción 10 | P76 son unas 640 palabras genéricas; se ha reducido a lo esencial. Confirmar que no falta nada que negocio quiera mantener. | [L10](../help-center/preguntas-frecuentes/ventajas-de-la-rehabilitacion-online.md#L10) |

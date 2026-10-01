@@ -138,3 +138,7 @@ Si tu médico/a tiene que revisar alguna prueba antes o durante la cita:
 {% content-ref url="descargar-un-justificante.md" %}
 [Descargar un justificante de asistencia](descargar-un-justificante.md)
 {% endcontent-ref %}
+
+{% content-ref url="../servicios-medicos-digitales/videoconsulta.md" %}
+[Hacer una videoconsulta](../servicios-medicos-digitales/videoconsulta.md)
+{% endcontent-ref %}

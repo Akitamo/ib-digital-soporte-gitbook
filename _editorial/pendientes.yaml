@@ -415,3 +415,65 @@
   cita: "## Cada cuánto puedes pedirla"
   tipo: contradicción 4
   texto: Se omite el ejemplo del viernes de P71, mal redactado, hasta confirmar cómo se cuentan los días.
+
+# --- Sección 4: servicios médicos digitales ---
+
+- bloque: canal-chat
+  cita: como síntomas, tratamiento, pruebas o seguimiento
+  tipo: contradicción 1
+  texto: P38 incluye las citas entre las dudas que se pueden plantear por chat; P80 y el aviso de citas las remiten al teléfono. El bloque no menciona las citas.
+
+- pagina: servicios-medicos-digitales/chat-con-el-servicio-medico.md
+  cita: o la opción del chat en **Tus gestiones digitales**
+  tipo: sin verificar
+  texto: P38 no da el nombre de la opción. En las capturas se llama «Habla con el servicio médico» (32478f0944c3, descartada) y, con mensajes sin leer, «Tienes mensajes nuevos» (e4a40a28b488).
+
+- pagina: servicios-medicos-digitales/chat-con-el-servicio-medico.md
+  cita: También puedes abrirlo desde el propio episodio médico
+  tipo: sin verificar
+  texto: P38 lo dice, pero no hay captura del acceso al chat desde el episodio.
+
+- pagina: servicios-medicos-digitales/chat-con-el-servicio-medico.md
+  cita: 3b48b57336a2-tus-mensajes-web-recorte.webp
+  tipo: captura dudosa
+  texto: En este recorte y en el de la app (25de37a4cc4e) se han difuminado los nombres de los chats, que son diagnósticos, y los textos de los mensajes.
+
+- pagina: servicios-medicos-digitales/chat-con-el-servicio-medico.md
+  cita: "## Abre el chat"
+  tipo: captura descartada
+  texto: 32f7d6046783 (marca ✦ y nombres de chats con diagnósticos); 344e9b3ad1e6 (móvil, con diagnósticos y de baja resolución); 584541297a10 (marca ✦, nombre de una profesional y contenido de salud en la conversación); 117a11ec61f6 (app con diagnósticos y un nombre); 79896a7c87b4 repite la página de inicio.
+
+- pagina: servicios-medicos-digitales/videoconsulta.md
+  cita: entra en la sala desde la cita
+  tipo: sin verificar
+  texto: P39 no da el nombre del botón para entrar en la sala y no hay captura.
+
+- pagina: servicios-medicos-digitales/videoconsulta.md
+  cita: "## Entra en la videoconsulta"
+  tipo: app
+  texto: P39 muestra la app solo en el detalle de la cita. Confirmar los pasos de la sala de espera en la app.
+
+- pagina: servicios-medicos-digitales/videoconsulta.md
+  cita: 866867976fb7-videollamada-entrante-recorte.webp
+  tipo: captura dudosa
+  texto: Recortes de la sala de espera; se ha difuminado el nombre de la doctora. El resto de la captura muestra a una persona y el chat de la videoconsulta.
+
+- pagina: servicios-medicos-digitales/videoconsulta.md
+  cita: "## Consulta los detalles de la cita"
+  tipo: captura descartada
+  texto: 32478f0944c3 (marca ✦, nombre de la persona y diagnóstico del episodio) y a591a6ff977f (marca ✦ e imagen de la videollamada con personas).
+
+- pagina: servicios-medicos-digitales/rehabilitacion-online.md
+  cita: En la página de inicio de [Ibermutua Digital Personas]
+  tipo: app
+  texto: P40 y P75 describen la web. Confirmar si los ejercicios se pueden hacer desde la app.
+
+- pagina: servicios-medicos-digitales/rehabilitacion-online.md
+  cita: "## Haz los ejercicios de hoy"
+  tipo: captura descartada
+  texto: 3dc810a9efd1 (fotografía de una persona); 5162f9cf0155, ef14e18c1470, aea9e4c68c66 y 4ee4367b2fba (pantallas de ejercicio con personas); 7780dd43fc83 (nombre de la persona); f32be98e234e (lista de ejercicios con un comentario del personal médico); 91e19c2706d0, 960187fc9b84 y 5a82ab52b836 son versiones de mayo de 2025 de pantallas con captura más reciente.
+
+- pagina: preguntas-frecuentes/ventajas-de-la-rehabilitacion-online.md
+  cita: "## Principales ventajas"
+  tipo: contradicción 10
+  texto: P76 son unas 640 palabras genéricas; se ha reducido a lo esencial. Confirmar que no falta nada que negocio quiera mantener.
