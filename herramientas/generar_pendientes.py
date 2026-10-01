@@ -69,12 +69,28 @@ def fuente():
     return yaml.safe_load(leer(FUENTE)) or []
 
 
+def grupos_menu():
+    """{ruta: slug del grupo de SUMMARY.md}. En GitBook la URL es grupo/página, no la carpeta."""
+    res, grupo = {}, ""
+    for linea in leer(os.path.join(HC, "SUMMARY.md")).splitlines():
+        if linea.startswith("## "):
+            grupo = slug(linea[3:])
+        m = re.match(r"\s*\* \[[^\]]*\]\(([^)\s]+\.md)", linea)
+        if m:
+            res[m.group(1)] = grupo
+    return res
+
+
 def url_pagina(ruta):
     if ruta == "README.md":
         return GITBOOK
     if ruta.endswith("/README.md"):
         return GITBOOK + ruta[: -len("/README.md")]
-    return GITBOOK + ruta[:-3]
+    grupos = grupos_menu()
+    if ruta not in grupos:
+        return GITBOOK + ruta[:-3]
+    grupo = grupos[ruta]
+    return GITBOOK + (grupo + "/" if grupo else "") + os.path.basename(ruta)[:-3]
 
 
 def seccion(ruta, texto, pos):
