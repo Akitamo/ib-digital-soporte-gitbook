@@ -471,11 +471,6 @@
   texto: No se usa 8795ab9cd23b, con datos del tramitador/a y de la persona solo en parte difuminados; se reutiliza el recorte de la página de estado de la solicitud. 74b500660222 repite la página de inicio con el chat.
 
 - pagina: glosario.md
-  cita: "## A-D"
-  tipo: decisión
-  texto: Presentación. Secciones por letras con cada término en negrita y su definición, en lugar de la tabla de P81, porque un bloque no cabe en una celda. Autoliquidación, certificación de riesgo, pago directo y segunda opinión usan las definiciones compartidas, que sustituyen las de P81 (la de pago directo añadía ejemplos de cuándo se aplica). «Gran invalidez» pasa de A-D a E-K.
-
-- pagina: glosario.md
   cita: 1,8 millones
   tipo: valor provisional
   texto: Cifras de Ibermutua de P81 (más de 1,8 millones de trabajadores y cerca de 170.500 empresas asociadas). Confirmar o quitar.

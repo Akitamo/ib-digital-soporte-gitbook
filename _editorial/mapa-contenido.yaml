@@ -117,7 +117,7 @@ paginas:
     origen: [P81]
     bloques: [def-segunda-opinion, def-autoliquidacion, def-certificacion-riesgo, def-pago-directo]
     variables: [red_centros_url]
-    notas: propuesta de compartir las cuatro definiciones repetidas en su página; el resto de términos, con texto propio. Como un bloque no cabe en una celda de tabla, la presentación del glosario completo se decide al trabajar esta página
+    notas: decisión de Sergio del 02/10, se queda tal como está (secciones por letras, cada término en negrita y las cuatro definiciones compartidas) como página de consulta aparte, sin enlaces desde las páginas a sus términos
 
   politica-de-cookies.md:
     en_indice: true

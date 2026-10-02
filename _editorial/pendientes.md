@@ -2,7 +2,7 @@
 
 Lista generada por `herramientas/generar_pendientes.py` a partir de `_editorial/pendientes.yaml` y de los marcadores de captura de la app. No se edita a mano: se corrige la fuente y se vuelve a generar. GitBook no importa esta carpeta.
 
-**104 pendientes**: 98 en páginas y 6 en bloques o variables compartidos, que se repiten en cada página donde se usan. 44 páginas afectadas.
+**103 pendientes**: 97 en páginas y 6 en bloques o variables compartidos, que se repiten en cada página donde se usan. 44 páginas afectadas.
 
 | Tipo | Qué significa | Número |
 |---|---|---|
@@ -13,7 +13,7 @@ Lista generada por `herramientas/generar_pendientes.py` a partir de `_editorial/
 | captura dudosa | captura usada que conviene revisar | 8 |
 | captura descartada | captura original no usada, con el motivo | 17 |
 | sin verificar | contenido funcional sin fuente o genérico | 25 |
-| decisión | decisión editorial o de estructura pendiente de Sergio | 3 |
+| decisión | decisión editorial o de estructura pendiente de Sergio | 2 |
 
 ## Bloques y variables compartidos
 
@@ -474,7 +474,6 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
-| Inicio de la página | decisión | Presentación. Secciones por letras con cada término en negrita y su definición, en lugar de la tabla de P81, porque un bloque no cabe en una celda. Autoliquidación, certificación de riesgo, pago directo y segunda opinión usan las definiciones compartidas, que sustituyen las de P81 (la de pago directo añadía ejemplos de cuándo se aplica). «Gran invalidez» pasa de A-D a E-K. | [L10](../help-center/glosario.md#L10) |
 | [E-K](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/glosario#glosario-e-k) | valor provisional | Cifras de Ibermutua de P81 (más de 1,8 millones de trabajadores y cerca de 170.500 empresas asociadas). Confirmar o quitar. | [L76](../help-center/glosario.md#L76) |
 | [P-R](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/glosario#glosario-p-r) | contradicción 6 | P81 enlaza a /redcentros, sin barra final; se usa la misma dirección que en el resto de páginas. | [L146](../help-center/glosario.md#L146) |
 
