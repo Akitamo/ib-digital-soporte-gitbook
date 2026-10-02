@@ -10,6 +10,7 @@ Este README describe los ficheros del repositorio, el entorno y los comandos. La
 |---|---|---|
 | `gitbook-docs.yaml` | Estructura del sitio para Git Sync (sección Personas → `help-center`) | A mano; conservar las claves de sección y espacio |
 | `help-center/` | Lo único que importa GitBook | — |
+| `help-center/.gitbook.yaml` | Configuración del espacio para Git Sync: raíz, portada (`README.md`) y menú (`SUMMARY.md`) | No se toca |
 | `help-center/SUMMARY.md` | Menú. La dirección de cada página sigue el menú: grupo, páginas padre y nombre del fichero | A mano |
 | `help-center/README.md` | Portada | A mano |
 | `help-center/<grupo>/<página>.md` | Páginas de tarea, preguntas frecuentes y referencia | A mano, salvo la parte «Preguntas frecuentes» del cierre de las tareas, que es generada |
