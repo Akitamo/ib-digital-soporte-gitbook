@@ -80,7 +80,7 @@ Cercana, clara y tranquila. Hablamos como una persona de atención que conoce el
 
 **SG-19.** Lo que no se puede hacer online (por ejemplo, cambiar una cita) va en un aviso de advertencia visible: antes del procedimiento si afecta a toda la página; junto al paso o la opción si solo afecta a ese punto. Nunca dentro de un desplegable.
 
-**SG-20.** Cada artículo termina con «Más sobre…»: las preguntas frecuentes del tema y hasta 3 tareas o ampliaciones útiles después. No lleva bloque de contacto: el contacto está en la navegación del sitio. Si la tarea necesita un canal, se indica en el punto donde se necesita.
+**SG-20.** Una tarea termina con «Más sobre…» solo si aporta algo: las preguntas de su tema que ayuden en esa página, hasta 3 tareas o ampliaciones útiles, o ambas. Un enlace del texto puede repetirse en el cierre si da un acceso útil. Las preguntas frecuentes terminan con el enlace a su tarea. Sin bloque de contacto: el contacto está en la navegación, y si la tarea necesita un canal, se indica en ese punto.
 
 ## Incidencias y errores
 
@@ -102,3 +102,4 @@ Cercana, clara y tranquila. Hablamos como una persona de atención que conoce el
 | --- | --- |
 | 26 de septiembre de 2026 | Versión inicial para el piloto de GitBook. |
 | 1 de octubre de 2026 | SG-16, SG-18, SG-19, SG-20 y SG-23 ajustadas a la plantilla de tarea aprobada. Aplicadas en GitBook (Improve → Style guide) el 1 de octubre de 2026. |
+| 2 de octubre de 2026 | SG-20: el cierre «Más sobre…» deja de ser obligatorio y solo se pone si aporta (criterios C1 a C3 de la revisión de enlaces, aprobados por Sergio). Aplicada en GitBook (Improve → Style guide) el 2 de octubre de 2026. |
