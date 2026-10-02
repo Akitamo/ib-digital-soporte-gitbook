@@ -16,7 +16,7 @@ Este README describe los ficheros del repositorio, el entorno y los comandos. La
 | `help-center/preguntas-frecuentes/README.md` | Portada de preguntas frecuentes | **Generada** |
 | `help-center/.gitbook/includes/faq-*.md` | Bloques de preguntas por tema | **Generados** |
 | `help-center/.gitbook/includes/*.md` (resto) | Bloques reutilizables: un texto compartido por varias páginas | A mano; su catálogo está en `_editorial/mapa-contenido.yaml` |
-| `help-center/.gitbook/vars.yaml` | Variables: un mismo dato usado en frases distintas | A mano. Al fusionar una solicitud de cambio en GitBook vuelve sin comentarios |
+| `help-center/.gitbook/vars.yaml` | Variables: un mismo dato usado en frases distintas | A mano. Al fusionar una solicitud de cambio en GitBook vuelve sin comentarios. Dónde sale un valor: `grep -rn "vars.<nombre>" help-center` y, si sale en un bloque, las páginas que lo incluyen |
 | `help-center/.gitbook/assets/` | Imágenes | Recortes nuevos con nombre propio; no sobrescribir originales |
 | `_editorial/` | Material de trabajo; GitBook no lo importa | — |
 | `_editorial/indice-contenido.yaml` | Fuente: tipo, temas y preguntas que muestra cada página (`faq_tema`, `cierre`); secciones de la portada de preguntas (`portada_faq`) | A mano; después, `generar_faq.py` |
@@ -40,7 +40,7 @@ Este README describe los ficheros del repositorio, el entorno y los comandos. La
 | Portada de preguntas frecuentes | `portada_faq` en `indice-contenido.yaml` | `generar_faq.py` |
 | `_editorial/pendientes.md` | `_editorial/pendientes.yaml` y los marcadores «Imagen de la app que falta» | `generar_pendientes.py` |
 
-El resto del cierre («También te puede interesar») se edita a mano. Si un tema se queda sin preguntas, `generar_faq.py` avisa de que su bloque sobra: se borra con `git rm`.
+El resto del cierre («También te puede interesar») se edita a mano. Cuando un tema recibe su primera pregunta, `generar_faq.py` crea su bloque y añade la parte de preguntas al cierre de todas las tareas con ese `faq_tema` (con el encabezado de `cierre` si la tarea no lo tiene): revisar ese diff. Si un tema se queda sin preguntas, `generar_faq.py` avisa de que su bloque sobra: se borra con `git rm`.
 
 ## Entorno
 
@@ -56,12 +56,14 @@ Desde la raíz del repositorio, en este orden:
 | Comando | Qué hace | ¿Modifica ficheros? |
 |---|---|---|
 | `python herramientas/generar_faq.py` | Bloques de preguntas por tema, parte de preguntas del cierre de las tareas y portada de preguntas | Sí. Con `--comprobar`, solo comprueba |
-| `python herramientas/generar_pendientes.py` | `_editorial/pendientes.md` | Sí |
+| `python herramientas/generar_pendientes.py` | `_editorial/pendientes.md` | Sí. Con `--comprobar`, solo comprueba |
 | `python herramientas/validar.py` | Menú, enlaces, imágenes, anclas, bloques y su estructura, variables, índice, preguntas al día, catálogo de enlaces y coherencia de pendientes | No. Sale con 1 si hay errores |
+
+Python crea `herramientas/__pycache__/`, que Git ignora; con `python -B` no se escribe nada.
 
 Antes de cada subida, `validar.py` debe terminar en «Resultado: correcto» y `git diff --stat` solo debe mostrar los ficheros previstos.
 
-`validar.py` no comprueba que las relaciones del mapa estén enlazadas, la pertinencia de un enlace o de un cierre, los destinos de `correspondencia.csv` ni las imágenes sin uso.
+`validar.py` no comprueba que las relaciones del mapa estén enlazadas, la pertinencia de un enlace o de un cierre, los destinos de `correspondencia.csv`, las imágenes sin uso ni el catálogo de `mapa-contenido.yaml` (dónde se usan bloques y variables).
 
 ## Subir y comprobar
 
