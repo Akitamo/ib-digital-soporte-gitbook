@@ -89,7 +89,7 @@ Abre la ficha de la cita de ese día y descarga el documento asociado a esa aten
 
 <summary>¿Puedo descargar justificantes de fechas pasadas?</summary>
 
-Sí, siempre que el episodio o la asistencia consten en tu historial. Usa el filtro de fechas para localizarlo. Si no aparece, contacta con Ibermutua o con tu centro asistencial para comprobar que se ha emitido.
+Sí, siempre que el episodio o la asistencia consten en tu historial. Usa el filtro de fechas para localizarlo. Si no aparece, [contacta con Ibermutua](../canales-de-atencion.md) o con tu centro asistencial para comprobar que se ha emitido.
 
 </details>
 

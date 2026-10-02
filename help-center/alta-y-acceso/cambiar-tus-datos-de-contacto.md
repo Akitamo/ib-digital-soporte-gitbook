@@ -36,9 +36,3 @@ Escribe el nuevo teléfono o el nuevo correo y pulsa **Continuar**. Recibirás u
 <figure><img src="../.gitbook/assets/73be164442bf-editar-movil-recorte.webp" alt="Ventana Editar móvil con el campo para el nuevo número y el botón Continuar."></figure>
 {% endstep %}
 {% endstepper %}
-
-## Más sobre alta y acceso <a href="#datos-relacionado" id="datos-relacionado"></a>
-
-**Preguntas frecuentes**
-
-{% include "../.gitbook/includes/faq-acceso.md" %}

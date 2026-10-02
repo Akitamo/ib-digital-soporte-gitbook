@@ -7,7 +7,7 @@ icon: file-arrow-down
 
 # Descargar un informe
 
-Puedes descargar en PDF el informe de tu historia clínica, con tus antecedentes personales y la información clínica. Se hace desde **Historia clínica > General**, en **Tus gestiones digitales**.
+Puedes descargar en PDF el informe de tu historia clínica, con tus antecedentes personales y la información clínica. Se hace desde **Historia clínica > General**, en **Tus gestiones digitales**. Si no sabes qué informe necesitas, consulta [la diferencia entre el informe de historia clínica y el de episodio](../preguntas-frecuentes/informe-historia-clinica-o-episodio.md).
 
 ## Descarga el informe <a href="#informe-descargar" id="informe-descargar"></a>
 

@@ -9,7 +9,7 @@ Las preguntas más habituales sobre Ibermutua Digital Personas, ordenadas por te
 
 ## Alta y acceso <a href="#faq-acceso" id="faq-acceso"></a>
 
-{% include "../.gitbook/includes/faq-acceso.md" %}
+{% include "../.gitbook/includes/faq-alta.md" %}
 
 ## Citas <a href="#faq-citas" id="faq-citas"></a>
 

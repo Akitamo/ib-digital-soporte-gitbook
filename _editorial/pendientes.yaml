@@ -25,6 +25,14 @@
   tipo: contradicción 4
   texto: Plazo de abono. P34 dice «en un máximo de 2 días laborables» y también «en 1-2 días».
 
+- variable: rel_lactancia_semana
+  tipo: sin verificar
+  texto: Semana del parto desde la que se puede pedir la prestación por lactancia. Redacción de P32 («a partir de la semana 16 del parto»); confirmar el plazo.
+
+- variable: rel_lactancia_semana_multiple
+  tipo: sin verificar
+  texto: Semana del parto desde la que se puede pedir por lactancia si fue un embarazo múltiple. Redacción de P32 («o de la 18 si es embarazo múltiple»); confirmar el plazo.
+
 # --- Sección 1: citas e historia clínica ---
 
 - pagina: citas-y-asistencias/consultar-tus-citas.md
@@ -247,11 +255,6 @@
   texto: P27 dice que la solicitud no está disponible en la app. Confirmar si tampoco se pueden seguir las fases (certificación, finalizar y resolución).
 
 - pagina: prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md
-  cita: a partir de la semana 16 del parto
-  tipo: sin verificar
-  texto: Redacción de P32 («a partir de la semana 16 del parto o de la 18 si es embarazo múltiple»). Confirmar el plazo.
-
-- pagina: prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md
   cita: "## Si la pides por lactancia"
   tipo: captura descartada
   texto: d4850c6c5b44, 3fab6bb323fc y 1c12de808964 (requisitos e informe médico de la lactancia), con la marca ✦. cc7af9527203 es la misma captura que d5fda311735e.
@@ -412,6 +415,11 @@
   cita: Desde la ficha de un episodio, el botón es **Enviar documentos**.
   tipo: app
   texto: Tomado de las capturas de la ficha del episodio en la app (P14 y P15); P37 no lo describe.
+
+- pagina: preguntas-frecuentes/cuando-se-cierra-un-chat.md
+  cita: consulta los [canales de atención](../canales-de-atencion.md)
+  tipo: app
+  texto: El aviso de chat cerrado de la app remite a la «sección de ayuda» o al teléfono. La página enlaza a Canales de atención como interpretación, sin confirmar; comprobar a qué se refiere la «sección de ayuda».
 
 - pagina: servicios-medicos-digitales/videoconsulta.md
   cita: Cuando se abra la sala, entra desde la cita

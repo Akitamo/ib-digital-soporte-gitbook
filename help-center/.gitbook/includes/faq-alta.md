@@ -1,5 +1,5 @@
 ---
-title: Preguntas frecuentes – Alta y acceso
+title: Preguntas frecuentes – Alta
 ---
 
 * [¿Qué hago si no puedo darme de alta con el DNI o no tengo certificado digital?](../../preguntas-frecuentes/no-puedo-darme-de-alta.md)

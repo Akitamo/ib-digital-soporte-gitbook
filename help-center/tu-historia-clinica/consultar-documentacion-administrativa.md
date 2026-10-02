@@ -7,7 +7,7 @@ icon: folder-open
 
 # Consultar la documentación administrativa
 
-Puedes consultar toda la documentación de tu historia clínica o solo la de un episodio médico, y ver por separado la que ha incorporado Ibermutua y la que has enviado tú.
+Puedes consultar [toda la documentación de tu historia clínica](../preguntas-frecuentes/que-incluye-la-historia-clinica.md) o solo la de un episodio médico, y ver por separado la que ha incorporado Ibermutua y la que has enviado tú.
 
 ## Ver toda la documentación <a href="#documentacion-toda" id="documentacion-toda"></a>
 
@@ -69,4 +69,8 @@ Usa el filtro **Subido** y elige **Mostrar todos**, **Subido por ti** o **Subido
 
 {% content-ref url="../servicios-medicos-digitales/enviar-documentacion.md" %}
 [Enviar documentación a la mutua](../servicios-medicos-digitales/enviar-documentacion.md)
+{% endcontent-ref %}
+
+{% content-ref url="../citas-y-asistencias/descargar-un-justificante.md" %}
+[Descargar un justificante de asistencia](../citas-y-asistencias/descargar-un-justificante.md)
 {% endcontent-ref %}

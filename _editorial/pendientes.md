@@ -2,17 +2,17 @@
 
 Lista generada por `herramientas/generar_pendientes.py` a partir de `_editorial/pendientes.yaml` y de los marcadores de captura de la app. No se edita a mano: se corrige la fuente y se vuelve a generar. GitBook no importa esta carpeta.
 
-**103 pendientes**: 97 en páginas y 6 en bloques o variables compartidos, que se repiten en cada página donde se usan. 44 páginas afectadas.
+**105 pendientes**: 97 en páginas y 8 en bloques o variables compartidos, que se repiten en cada página donde se usan. 45 páginas afectadas.
 
 | Tipo | Qué significa | Número |
 |---|---|---|
 | contradicción | incoherencia de negocio del análisis de contenido, apartado 4 (con su número) | 18 |
 | valor provisional | dato que figura en la ayuda pero falta confirmar | 2 |
-| app | funcionamiento o texto de la app sin confirmar | 22 |
+| app | funcionamiento o texto de la app sin confirmar | 23 |
 | captura de la app | falta la captura de la app (marcador de imagen) | 9 |
 | captura dudosa | captura usada que conviene revisar | 8 |
 | captura descartada | captura original no usada, con el motivo | 17 |
-| sin verificar | contenido funcional sin fuente o genérico | 25 |
+| sin verificar | contenido funcional sin fuente o genérico | 26 |
 | decisión | decisión editorial o de estructura pendiente de Sergio | 2 |
 
 ## Bloques y variables compartidos
@@ -57,6 +57,22 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 | contradicción 4 | Plazo de abono. P34 dice «en un máximo de 2 días laborables» y también «en 1-2 días». | [L4](../help-center/.gitbook/vars.yaml#L4) |
 
 Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/aprobacion-de-la-autoliquidacion); [¿Cuándo recibo la autoliquidación?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-recibo-la-autoliquidacion); [¿Qué es la autoliquidación y qué condiciones tiene?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-es-la-autoliquidacion) › [Cómo se comprueban](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-es-la-autoliquidacion#autoliquidacion-comprobacion); [Solicitar la autoliquidación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion) › [Cuándo cobras y cómo sigues la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion#autoliquidacion-seguimiento).
+
+### Variable `rel_lactancia_semana_multiple`
+
+| Tipo | Pendiente | Línea |
+|---|---|---|
+| sin verificar | Semana del parto desde la que se puede pedir por lactancia si fue un embarazo múltiple. Redacción de P32 («o de la 18 si es embarazo múltiple»); confirmar el plazo. | [L7](../help-center/.gitbook/vars.yaml#L7) |
+
+Páginas afectadas: [Iniciar la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud) › [Abre el trámite](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud#rel-iniciar-abrir); [Solicitar la prestación por riesgo durante el embarazo o la lactancia](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion) › [Si la pides por lactancia](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion#rel-lactancia).
+
+### Variable `rel_lactancia_semana`
+
+| Tipo | Pendiente | Línea |
+|---|---|---|
+| sin verificar | Semana del parto desde la que se puede pedir la prestación por lactancia. Redacción de P32 («a partir de la semana 16 del parto»); confirmar el plazo. | [L6](../help-center/.gitbook/vars.yaml#L6) |
+
+Páginas afectadas: [Iniciar la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud) › [Abre el trámite](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud#rel-iniciar-abrir); [Solicitar la prestación por riesgo durante el embarazo o la lactancia](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion) › [Si la pides por lactancia](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion#rel-lactancia).
 
 ## Por página
 
@@ -242,7 +258,8 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 |---|---|---|---|
 | Inicio de la página | app | P27 dice que la solicitud no está disponible en la app. Confirmar si tampoco se pueden seguir las fases (certificación, finalizar y resolución). | [L8](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md#L8) |
 | [Fases del trámite](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion#rel-fases) | captura descartada | d4850c6c5b44, 3fab6bb323fc y 1c12de808964 (requisitos e informe médico de la lactancia), con la marca ✦. cc7af9527203 es la misma captura que d5fda311735e. | [L42](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md#L42) |
-| [Si la pides por lactancia](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion#rel-lactancia) | sin verificar | Redacción de P32 («a partir de la semana 16 del parto o de la 18 si es embarazo múltiple»). Confirmar el plazo. | [L46](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md#L46) |
+| [Si la pides por lactancia](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion#rel-lactancia) | sin verificar | Variable `rel_lactancia_semana`: Semana del parto desde la que se puede pedir la prestación por lactancia. Redacción de P32 («a partir de la semana 16 del parto»); confirmar el plazo. | [L6](../help-center/.gitbook/vars.yaml#L6) |
+| [Si la pides por lactancia](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion#rel-lactancia) | sin verificar | Variable `rel_lactancia_semana_multiple`: Semana del parto desde la que se puede pedir por lactancia si fue un embarazo múltiple. Redacción de P32 («o de la 18 si es embarazo múltiple»); confirmar el plazo. | [L7](../help-center/.gitbook/vars.yaml#L7) |
 
 ### [Iniciar la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud)
 
@@ -253,8 +270,10 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 | [Abre el trámite](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud#rel-iniciar-abrir) | contradicción 9 | Bloque `abrir-solicitud-prestacion`: Etiquetas del botón y del menú, tomadas de las capturas («Solicitar nueva prestación económica»; «Prestaciones económicas» > «Solicitudes»). P27 dice «Solicitar nueva prestación» y «Solicitar una nueva prestación»; P57, «Prestaciones» > «Solicitar nueva prestación». En P32 y su captura, «Solicitudes» lleva directamente a las tarjetas de las prestaciones. | [L11](../help-center/.gitbook/includes/abrir-solicitud-prestacion.md#L11) |
 | [Abre el trámite](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud#rel-iniciar-abrir) | app | Bloque `abrir-solicitud-prestacion`: P19 y P27 dicen que «en este momento» la solicitud no está disponible en la app. Confirmar si sigue igual. | [L6](../help-center/.gitbook/includes/abrir-solicitud-prestacion.md#L6) |
 | [Abre el trámite](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud#rel-iniciar-abrir) | sin verificar | La pantalla ofrece también «Un representante»; las fuentes solo explican la representación en el pago directo (P22). | [L32](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md#L32) |
-| [Completa la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud#rel-iniciar-completar) | captura descartada | a259b3793bc9 (informe médico), 0be5668e99d7 (calculadora de fechas) y 5892e10da72b (datos bancarios), con la marca ✦. be00dbf0f033 muestra el explorador de archivos del equipo con un nombre de fichero que incluye un identificador; cba303738d8a y 0d0256e61fa8 tienen la marca ✦ y el mismo nombre de fichero. | [L54](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md#L54) |
-| [Completa la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud#rel-iniciar-completar) | captura descartada | 1a4721f5d29f y 7241fb467526 (solicitud enviada e histórico), con la marca ✦. 7629f958b5de es el correo del justificante, no una pantalla del portal. | [L106](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md#L106) |
+| [Abre el trámite](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud#rel-iniciar-abrir) | sin verificar | Variable `rel_lactancia_semana`: Semana del parto desde la que se puede pedir la prestación por lactancia. Redacción de P32 («a partir de la semana 16 del parto»); confirmar el plazo. | [L6](../help-center/.gitbook/vars.yaml#L6) |
+| [Abre el trámite](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud#rel-iniciar-abrir) | sin verificar | Variable `rel_lactancia_semana_multiple`: Semana del parto desde la que se puede pedir por lactancia si fue un embarazo múltiple. Redacción de P32 («o de la 18 si es embarazo múltiple»); confirmar el plazo. | [L7](../help-center/.gitbook/vars.yaml#L7) |
+| [Completa la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud#rel-iniciar-completar) | captura descartada | a259b3793bc9 (informe médico), 0be5668e99d7 (calculadora de fechas) y 5892e10da72b (datos bancarios), con la marca ✦. be00dbf0f033 muestra el explorador de archivos del equipo con un nombre de fichero que incluye un identificador; cba303738d8a y 0d0256e61fa8 tienen la marca ✦ y el mismo nombre de fichero. | [L56](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md#L56) |
+| [Completa la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud#rel-iniciar-completar) | captura descartada | 1a4721f5d29f y 7241fb467526 (solicitud enviada e histórico), con la marca ✦. 7629f958b5de es el correo del justificante, no una pantalla del portal. | [L108](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md#L108) |
 
 ### [Certificación de riesgo](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/certificacion-de-riesgo)
 
@@ -448,6 +467,14 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
 | [Para qué es el chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-responden-el-chat#chat-uso) | contradicción 1 | Bloque `canal-chat`: P38 incluye las citas entre las dudas que se pueden plantear por chat; P80 y el aviso de citas las remiten al teléfono. El bloque no menciona las citas. | [L6](../help-center/.gitbook/includes/canal-chat.md#L6) |
+
+### [¿Cuándo se cierra un chat?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-se-cierra-un-chat)
+
+`preguntas-frecuentes/cuando-se-cierra-un-chat.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| [Si tu chat está cerrado](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-se-cierra-un-chat#chat-cerrado) | app | El aviso de chat cerrado de la app remite a la «sección de ayuda» o al teléfono. La página enlaza a Canales de atención como interpretación, sin confirmar; comprobar a qué se refiere la «sección de ayuda». | [L13](../help-center/preguntas-frecuentes/cuando-se-cierra-un-chat.md#L13) |
 
 ### [¿Qué ventajas tiene la rehabilitación online?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/ventajas-de-la-rehabilitacion-online)
 

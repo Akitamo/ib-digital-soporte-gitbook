@@ -49,7 +49,7 @@ Escribe en **Escribe un mensaje aquí** y pulsa el botón de enviar, a la derech
 {% step %}
 ### Espera la respuesta
 
-Cuando el servicio médico te responde, verás un aviso de mensajes sin leer: un punto rojo en el icono del chat o, en la app, en **Mensajes**.
+La respuesta no es inmediata: consulta [cuándo responde el servicio médico](../preguntas-frecuentes/cuando-responden-el-chat.md). Cuando el servicio médico te responde, verás un aviso de mensajes sin leer: un punto rojo en el icono del chat o, en la app, en **Mensajes**.
 {% endstep %}
 {% endstepper %}
 
@@ -60,3 +60,9 @@ Los chats cerrados solo se pueden consultar: consulta [cuándo se cierra un chat
 **Preguntas frecuentes**
 
 {% include "../.gitbook/includes/faq-chat.md" %}
+
+**También te puede interesar**
+
+{% content-ref url="enviar-documentacion.md" %}
+[Enviar documentación a la mutua](enviar-documentacion.md)
+{% endcontent-ref %}

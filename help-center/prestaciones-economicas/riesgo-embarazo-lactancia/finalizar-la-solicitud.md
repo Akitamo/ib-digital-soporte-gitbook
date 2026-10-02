@@ -5,7 +5,7 @@ icon: flag-checkered
 
 # Finalizar la solicitud
 
-Con la certificación de riesgo positiva se habilita **Finalizar solicitud**: de inmediato si es positiva y, si es diferida, <code class="expression">space.vars.rel_dias_finalizar</code> antes de la fecha de riesgo certificada.
+Con la certificación de riesgo positiva se habilita **Finalizar solicitud**: de inmediato si es positiva y, si es diferida, <code class="expression">space.vars.rel_dias_finalizar</code> antes de la [fecha de riesgo certificada](../../preguntas-frecuentes/fecha-de-riesgo-certificada.md).
 
 ## Completa y envía la solicitud <a href="#finalizar-enviar" id="finalizar-enviar"></a>
 

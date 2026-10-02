@@ -43,7 +43,7 @@ El equipo de Prestaciones de Ibermutua te comunica si te reconoce la prestación
 
 Los pasos son los mismos que en el embarazo, con estas diferencias:
 
-* Puedes pedirla a partir de la semana 16 del parto, o de la 18 si fue un embarazo múltiple.
+* Puedes pedirla a partir de la <code class="expression">space.vars.rel_lactancia_semana</code> del parto, o de la <code class="expression">space.vars.rel_lactancia_semana_multiple</code> si fue un embarazo múltiple.
 * Con el informe médico tienes que aportar también el certificado de maternidad.
 * La certificación de riesgo solo puede ser positiva o negativa: no hay certificación diferida.
 

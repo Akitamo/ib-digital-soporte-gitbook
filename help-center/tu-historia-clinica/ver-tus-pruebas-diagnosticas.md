@@ -7,7 +7,7 @@ icon: x-ray
 
 # Ver tus pruebas diagnósticas
 
-Puedes ver todas las pruebas diagnósticas que te ha hecho Ibermutua o solo las de un episodio médico. Las pruebas de imagen se abren en un visor especial.
+Puedes ver todas las pruebas diagnósticas que te ha hecho Ibermutua o solo las de un episodio médico. Las pruebas de imagen se abren en un visor especial. Si no ves una prueba reciente, consulta [cuándo están disponibles](../preguntas-frecuentes/cuando-estan-disponibles-las-pruebas.md).
 
 ## Ver todas tus pruebas <a href="#pruebas-todas" id="pruebas-todas"></a>
 

@@ -8,11 +8,16 @@
 #
 # tipo: portada | tarea | concepto | pregunta | referencia
 # temas: temas a los que pertenece la página (una pregunta puede tener varios)
-# faq_tema: tema del bloque de preguntas frecuentes que muestra la página (solo tareas)
+# faq_tema: tema del bloque de preguntas frecuentes que muestra la página (solo tareas). Se muestra solo si
+#   el tema tiene preguntas; sin faq_tema, la tarea no muestra preguntas (criterio C3, 02/10). Lo mantiene
+#   generar_faq.py: no se edita a mano la parte «Preguntas frecuentes» del cierre.
+# cierre: título y ancla del encabezado «Más sobre…» que generar_faq.py crea si el tema de una tarea sin
+#   cierre pasa a tener preguntas (criterio C1: sin preguntas ni tareas útiles, la tarea no lleva cierre).
 # resuelve: intenciones que resuelve la página; «ancla» vacía = la página entera
 
 temas:
-  acceso: Alta y acceso
+  alta: Alta
+  acceso: Acceso
   citas: Citas
   justificantes: Justificantes de asistencia
   historia-clinica: Historia clínica
@@ -29,6 +34,22 @@ temas:
   chat: Chat con el servicio médico
   videoconsulta: Videoconsulta
   rehabilitacion: Rehabilitación online
+
+# Portada de preguntas frecuentes (preguntas-frecuentes/README.md): secciones en orden. Cada sección
+# muestra los bloques de sus temas que tienen preguntas; una sección sin preguntas no aparece.
+# generar_faq.py reescribe la portada a partir de esta lista.
+portada_faq:
+  - {titulo: Alta y acceso, ancla: faq-acceso, temas: [alta, acceso]}
+  - {titulo: Citas, ancla: faq-citas, temas: [citas]}
+  - {titulo: Historia clínica, ancla: faq-historia-clinica, temas: [historia-clinica]}
+  - {titulo: Pruebas diagnósticas, ancla: faq-pruebas, temas: [pruebas]}
+  - {titulo: Segunda opinión médica, ancla: faq-segunda-opinion, temas: [segunda-opinion]}
+  - {titulo: Prestaciones económicas, ancla: faq-prestaciones, temas: [prestaciones]}
+  - {titulo: Riesgo durante el embarazo o la lactancia, ancla: faq-rel, temas: [rel]}
+  - {titulo: Autoliquidación, ancla: faq-autoliquidacion, temas: [autoliquidacion]}
+  - {titulo: Chat con el servicio médico, ancla: faq-chat, temas: [chat]}
+  - {titulo: Videoconsulta, ancla: faq-videoconsulta, temas: [videoconsulta]}
+  - {titulo: Rehabilitación online, ancla: faq-rehabilitacion, temas: [rehabilitacion]}
 
 paginas:
   README.md:
@@ -60,8 +81,8 @@ paginas:
 
   alta-y-acceso/darte-de-alta.md:
     tipo: tarea
-    temas: [acceso]
-    faq_tema: acceso
+    temas: [alta, acceso]
+    faq_tema: alta
     resuelve:
       - {ancla: "", intencion: darse de alta como paciente digital}
       - {ancla: alta-registro, intencion: registrarse en la web o en la app con DNI o certificado digital}
@@ -71,6 +92,7 @@ paginas:
     tipo: tarea
     temas: [acceso]
     faq_tema: acceso
+    cierre: {titulo: Más sobre el acceso, ancla: biometria-relacionado}
     resuelve:
       - {ancla: "", intencion: entrar en la app con biometría}
 
@@ -78,6 +100,7 @@ paginas:
     tipo: tarea
     temas: [acceso]
     faq_tema: acceso
+    cierre: {titulo: Más sobre el acceso, ancla: doble-factor-relacionado}
     resuelve:
       - {ancla: "", intencion: verificar la identidad con el código del doble factor}
       - {ancla: doble-factor-cuando, intencion: saber cuándo se pide el código y por dónde llega}
@@ -87,6 +110,7 @@ paginas:
     tipo: tarea
     temas: [acceso]
     faq_tema: acceso
+    cierre: {titulo: Más sobre el acceso, ancla: contrasena-relacionado}
     resuelve:
       - {ancla: "", intencion: cambiar la contraseña}
 
@@ -94,6 +118,7 @@ paginas:
     tipo: tarea
     temas: [acceso]
     faq_tema: acceso
+    cierre: {titulo: Más sobre el acceso, ancla: recuperar-relacionado}
     resuelve:
       - {ancla: "", intencion: recuperar la contraseña olvidada}
 
@@ -101,6 +126,7 @@ paginas:
     tipo: tarea
     temas: [acceso]
     faq_tema: acceso
+    cierre: {titulo: Más sobre el acceso, ancla: datos-relacionado}
     resuelve:
       - {ancla: "", intencion: cambiar el teléfono móvil o el correo electrónico}
 
@@ -279,14 +305,12 @@ paginas:
   prestaciones-economicas/descargar-el-certificado-de-retenciones.md:
     tipo: tarea
     temas: [pagos]
-    faq_tema: pagos
     resuelve:
       - {ancla: "", intencion: descargar el certificado de retenciones del IRPF}
 
   prestaciones-economicas/reclamar-una-resolucion.md:
     tipo: tarea
     temas: [prestaciones, rel, pago-directo]
-    faq_tema: prestaciones
     resuelve:
       - {ancla: "", intencion: reclamar una resolución de la mutua}
       - {ancla: reclamar-que, intencion: saber qué resoluciones se pueden reclamar y cómo}
@@ -333,13 +357,13 @@ paginas:
 
   preguntas-frecuentes/no-puedo-darme-de-alta.md:
     tipo: pregunta
-    temas: [acceso]
+    temas: [alta]
     resuelve:
       - {ancla: "", intencion: saber qué hacer si no se puede dar de alta con DNI ni certificado}
 
   preguntas-frecuentes/certificados-validos.md:
     tipo: pregunta
-    temas: [acceso]
+    temas: [alta]
     resuelve:
       - {ancla: "", intencion: saber qué certificados digitales sirven para el alta}
 
@@ -461,7 +485,7 @@ paginas:
 
   preguntas-frecuentes/cuando-recibo-la-autoliquidacion.md:
     tipo: pregunta
-    temas: [autoliquidacion]
+    temas: [autoliquidacion, pagos]
     resuelve:
       - {ancla: "", intencion: saber cuándo llega el ingreso de la autoliquidación}
       - {ancla: autoliquidacion-frecuencia, intencion: saber cada cuánto se puede pedir la autoliquidación}

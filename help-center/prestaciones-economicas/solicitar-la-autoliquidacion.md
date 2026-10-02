@@ -33,7 +33,7 @@ En **Periodo que puedes cobrar ahora** verás las fechas que se pagan y, en **Im
 
 <figure><img src="../.gitbook/assets/a114fc1c24c6-periodo-importe-recorte.webp" alt="Apartado de autoliquidación: periodo que puedes cobrar ahora, importe neto disponible, botón Transferir el importe y fecha prevista de ingreso."></figure>
 
-Si el periodo o el importe no son los que esperas, consulta a tu tramitador/a antes de seguir. En esta pantalla, su teléfono está a la derecha, en **Contacta con el tramitador de tu prestación económica**.
+Si el periodo o el importe no son los que esperas, consulta a tu tramitador/a antes de seguir. En esta pantalla, su teléfono está a la derecha, en **Contacta con el tramitador de tu prestación económica**. Para entender el periodo y el importe, puedes consultar [hasta qué fecha se paga](../preguntas-frecuentes/hasta-que-fecha-paga-la-autoliquidacion.md) y [cómo se calcula el importe](../preguntas-frecuentes/importe-de-la-autoliquidacion.md#autoliquidacion-calculo).
 
 {% include "../.gitbook/includes/contacto-tramitador.md" %}
 {% endstep %}

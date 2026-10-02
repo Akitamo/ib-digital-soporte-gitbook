@@ -21,9 +21,3 @@ Con el acceso biométrico entras en Ibermutua Digital Personas de forma rápida 
 A partir de entonces, podrás entrar con la biometría de tu dispositivo. Si tu dispositivo no tiene biometría, verás un mensaje que te lo indica.
 
 <figure><img width="300" src="../.gitbook/assets/app-captura-pendiente.webp" alt="Imagen de la app que falta: pantalla para activar el acceso biométrico."></figure>
-
-## Más sobre alta y acceso <a href="#biometria-relacionado" id="biometria-relacionado"></a>
-
-**Preguntas frecuentes**
-
-{% include "../.gitbook/includes/faq-acceso.md" %}

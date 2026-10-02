@@ -28,9 +28,3 @@ Pulsa **Cambiar contraseña**. Escribe tu contraseña actual y la nueva, y repit
 <figure><img src="../.gitbook/assets/249936225bbd-cambiar-contrasena-recorte.webp" alt="Mi cuenta, pestaña Cambiar contraseña, con los campos Contraseña actual, Nueva contraseña y Repetir nueva contraseña, los requisitos y el botón Cambiar contraseña."></figure>
 {% endstep %}
 {% endstepper %}
-
-## Más sobre alta y acceso <a href="#contrasena-relacionado" id="contrasena-relacionado"></a>
-
-**Preguntas frecuentes**
-
-{% include "../.gitbook/includes/faq-acceso.md" %}

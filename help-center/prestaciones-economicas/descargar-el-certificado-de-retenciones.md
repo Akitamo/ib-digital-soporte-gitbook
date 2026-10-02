@@ -31,10 +31,6 @@ También puedes descargarlo desde el navegador del móvil.
 
 ## Más sobre pagos y retenciones <a href="#retenciones-relacionado" id="retenciones-relacionado"></a>
 
-**Preguntas frecuentes**
-
-{% include "../.gitbook/includes/faq-pagos.md" %}
-
 **También te puede interesar**
 
 {% content-ref url="consultar-tus-pagos.md" %}

@@ -34,9 +34,3 @@ Escribe tu NIF o pasaporte, tu correo electrónico y tu teléfono móvil, los mi
 A partir de aquí, el proceso es el mismo que en el alta: recibirás una contraseña temporal para el primer acceso, que tendrás que cambiar después.
 {% endstep %}
 {% endstepper %}
-
-## Más sobre alta y acceso <a href="#recuperar-relacionado" id="recuperar-relacionado"></a>
-
-**Preguntas frecuentes**
-
-{% include "../.gitbook/includes/faq-acceso.md" %}

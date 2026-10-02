@@ -9,7 +9,7 @@ Después de iniciar la solicitud, el equipo médico y de prevención de Ibermutu
 
 ## Mientras se evalúa <a href="#certificacion-evaluacion" id="certificacion-evaluacion"></a>
 
-La certificación de riesgo aparece **Pendiente** y, en **Próximos pasos**, **En evaluación**. Mientras tanto, en **Otras acciones disponibles** puedes hacer gestiones como **Modificar fecha probable de parto o Enviar nuevo Informe Médico**, **Modificar tipo de embarazo** o **Modificar Declaración Empresarial de Riesgo**.
+La certificación de riesgo aparece **Pendiente** y, en **Próximos pasos**, **En evaluación**. Mientras tanto, en **Otras acciones disponibles** puedes hacer gestiones como **Modificar fecha probable de parto o Enviar nuevo Informe Médico**, **Modificar tipo de embarazo** o **Modificar Declaración Empresarial de Riesgo**. Consulta [cuánto tarda la certificación](../../preguntas-frecuentes/cuanto-tarda-la-certificacion.md).
 
 <figure><img src="../../.gitbook/assets/4a26a572bfb1-en-evaluacion-recorte.webp" alt="Solicitud enviada correctamente con la certificación de riesgo pendiente, el aviso En evaluación y, a la derecha, Otras acciones disponibles."></figure>
 
@@ -27,7 +27,7 @@ En la página de tu solicitud verás el resultado así:
 
 <figure><img src="../../.gitbook/assets/f18835d24e12-certificacion-negativa-recorte.webp" alt="Certificación de riesgo negativa: no existe riesgo en tu puesto, con el botón Finalizar solicitud deshabilitado."></figure>
 
-**Positiva**: ves la fecha de riesgo y ya puedes pulsar **Finalizar solicitud**.
+**Positiva**: ves la [fecha de riesgo](../../preguntas-frecuentes/fecha-de-riesgo-certificada.md) y ya puedes pulsar **Finalizar solicitud**.
 
 <figure><img src="../../.gitbook/assets/9d38cf441e18-certificacion-positiva-recorte.webp" alt="Certificación de riesgo positiva con la fecha de riesgo y el botón Finalizar solicitud habilitado."></figure>
 

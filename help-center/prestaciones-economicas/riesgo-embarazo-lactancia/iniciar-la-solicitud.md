@@ -31,6 +31,8 @@ En **Solicita tu prestación económica**, pulsa **Comenzar trámite** en **Ries
 
 En **¿Qué prestación quieres solicitar?**, elige **Riesgo durante el embarazo** o **Riesgo durante la lactancia natural**. En **¿Quién va a realizar la gestión?**, marca **Yo** y pulsa **Iniciar solicitud**.
 
+Por lactancia, puedes pedirla a partir de la <code class="expression">space.vars.rel_lactancia_semana</code> del parto, o de la <code class="expression">space.vars.rel_lactancia_semana_multiple</code> si fue un embarazo múltiple. Consulta [las demás diferencias de la lactancia](solicitar-la-prestacion.md#rel-lactancia).
+
 <figure><img src="../../.gitbook/assets/2c5bb86f5d96-rel-tipo-recorte.webp" alt="Apartado ¿Qué prestación quieres solicitar? con Riesgo durante el embarazo marcada, las opciones Yo y Un representante y el botón Iniciar solicitud."></figure>
 
 En esta pantalla también tienes las fases del trámite y, en **Sobre esta prestación**, una guía con la documentación, los pasos y el seguimiento.

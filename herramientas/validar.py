@@ -5,8 +5,9 @@ Comprueba:
   2. Enlaces internos, anclas, imágenes, bloques reutilizables y variables.
   3. Bloques GitBook abiertos y cerrados (tabs, stepper, hint, content-ref, details).
   4. Índice de contenidos: cada página está en el índice y viceversa; las anclas de «resuelve»
-     existen; cada tarea con faq_tema incluye su bloque faq-<tema>.
-  5. Bloques de preguntas frecuentes al día con el índice (generar_faq.py).
+     existen; los temas de las preguntas se muestran en alguna tarea y en la portada de preguntas.
+  5. Preguntas frecuentes al día con el índice (generar_faq.py): bloques, parte «Preguntas frecuentes»
+     del cierre de las tareas y portada; sin bloques sobrantes.
   6. Catálogo de enlaces contextuales: las anclas fijas existen.
   7. Pendientes: entradas de _editorial/pendientes.yaml correctas (su cita sigue en el texto) y
      _editorial/pendientes.md al día (generar_pendientes.py).
@@ -98,22 +99,31 @@ for p, datos in en_indice.items():
     for r in datos.get("resuelve", []):
         if r["ancla"] and r["ancla"] not in anclas(PAGS[p])[0]:
             errores.append(f"Índice: el ancla fija #{r['ancla']} de {p} no existe")
-    ft = datos.get("faq_tema")
-    if ft:
-        esperado = norm(os.path.relpath(f".gitbook/includes/faq-{ft}.md", os.path.dirname(p) or "."))
-        if f'{{% include "{esperado}" %}}' not in PAGS[p]:
-            errores.append(f"{p}: debe incluir el bloque de preguntas frecuentes faq-{ft}.md")
-    elif datos["tipo"] == "tarea" and "includes/faq-" in PAGS[p]:
-        errores.append(f"{p}: incluye preguntas frecuentes pero no tiene faq_tema en el índice")
-    if datos["tipo"] in ("pregunta", "concepto") and not any(
-            ft == t for d2 in en_indice.values() for ft in [d2.get("faq_tema")] for t in datos.get("temas", [])):
-        avisos.append(f"{p}: ninguna tarea muestra esta pregunta (sus temas no son faq_tema de ninguna tarea)")
+    if datos.get("faq_tema") and datos["faq_tema"] not in idx["temas"]:
+        errores.append(f"Índice: faq_tema desconocido «{datos['faq_tema']}» en {p}")
+    if datos["tipo"] in ("pregunta", "concepto"):
+        if not any(ft == t for d2 in en_indice.values() for ft in [d2.get("faq_tema")] for t in datos.get("temas", [])):
+            avisos.append(f"{p}: ninguna tarea muestra esta pregunta (sus temas no son faq_tema de ninguna tarea)")
+        if not any(t in s["temas"] for s in idx.get("portada_faq", []) for t in datos.get("temas", [])):
+            errores.append(f"{p}: no aparece en la portada de preguntas frecuentes (ninguno de sus temas está en portada_faq)")
+for s_ in idx.get("portada_faq", []):
+    for t in s_["temas"]:
+        if t not in idx["temas"]:
+            errores.append(f"Índice: tema desconocido «{t}» en portada_faq")
 
 # 5. Bloques de preguntas frecuentes al día
-for nombre, contenido in generar_faq.generar().items():
+bloques_faq = generar_faq.generar()
+for nombre, contenido in bloques_faq.items():
     ruta = os.path.join(HC, ".gitbook", "includes", nombre)
     if not os.path.exists(ruta) or leer(ruta) != contenido:
         errores.append(f"Bloque {nombre} desfasado: ejecuta herramientas/generar_faq.py")
+for nombre in generar_faq.sobrantes(bloques_faq):
+    errores.append(f"Bloque {nombre} sobrante (su tema no tiene preguntas o no se muestra): bórralo con git rm")
+paginas_faq, errores_faq = generar_faq.paginas_al_dia()
+errores.extend(errores_faq)
+for ruta, contenido in paginas_faq.items():
+    if PAGS.get(ruta) != contenido:
+        errores.append(f"{ruta}: preguntas frecuentes desfasadas: ejecuta herramientas/generar_faq.py")
 
 # 6. Catálogo de enlaces contextuales
 cat = os.path.join(EDITORIAL, "enlaces-contextuales.csv")

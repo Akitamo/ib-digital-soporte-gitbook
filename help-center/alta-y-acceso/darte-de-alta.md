@@ -89,7 +89,7 @@ Por seguridad, a veces te pediremos además un código de verificación: consult
 
 **Preguntas frecuentes**
 
-{% include "../.gitbook/includes/faq-acceso.md" %}
+{% include "../.gitbook/includes/faq-alta.md" %}
 
 **También te puede interesar**
 
@@ -97,6 +97,10 @@ Por seguridad, a veces te pediremos además un código de verificación: consult
 [Acceder con biometría](acceder-con-biometria.md)
 {% endcontent-ref %}
 
-{% content-ref url="cambiar-tus-datos-de-contacto.md" %}
-[Cambiar tus datos de contacto](cambiar-tus-datos-de-contacto.md)
+{% content-ref url="../citas-y-asistencias/consultar-tus-citas.md" %}
+[Consultar tus citas](../citas-y-asistencias/consultar-tus-citas.md)
+{% endcontent-ref %}
+
+{% content-ref url="../tu-historia-clinica/consultar-tu-historia-clinica.md" %}
+[Consultar tu historia clínica](../tu-historia-clinica/consultar-tu-historia-clinica.md)
 {% endcontent-ref %}

@@ -15,7 +15,7 @@ En la página de tu solicitud ves el estado de la prestación. Si se reconoce, a
 
 En **Histórico de mi solicitud** ves todos los pasos del trámite y puedes ver y descargar la documentación que se ha generado.
 
-Cuando empieces a cobrar, puedes [consultar tus pagos](../consultar-tus-pagos.md).
+Cuando empieces a cobrar, puedes [consultar tus pagos](../consultar-tus-pagos.md). Consulta también [cómo se calcula y se paga la prestación](../../preguntas-frecuentes/calculo-y-abono-rel.md) y [hasta cuándo dura](../../preguntas-frecuentes/hasta-cuando-dura-la-prestacion-rel.md).
 
 ## Si no estás de acuerdo <a href="#resolucion-reclamar" id="resolucion-reclamar"></a>
 

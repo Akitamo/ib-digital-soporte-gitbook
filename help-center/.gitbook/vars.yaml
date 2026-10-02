@@ -3,3 +3,5 @@ telefono_atencion: 900 23 33 33
 autoliquidacion_espera: 7 días
 autoliquidacion_plazo_abono: 2 días laborables
 rel_dias_finalizar: 7 días
+rel_lactancia_semana: semana 16
+rel_lactancia_semana_multiple: semana 18

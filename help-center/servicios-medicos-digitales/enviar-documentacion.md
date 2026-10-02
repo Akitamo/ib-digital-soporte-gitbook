@@ -82,3 +82,7 @@ Una vez validada, ya no puedes eliminarla de tu historia clínica desde Ibermutu
 {% content-ref url="../tu-historia-clinica/consultar-documentacion-administrativa.md" %}
 [Consultar la documentación administrativa](../tu-historia-clinica/consultar-documentacion-administrativa.md)
 {% endcontent-ref %}
+
+{% content-ref url="chat-con-el-servicio-medico.md" %}
+[Hablar con el servicio médico por chat](chat-con-el-servicio-medico.md)
+{% endcontent-ref %}

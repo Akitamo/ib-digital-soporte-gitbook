@@ -15,7 +15,7 @@ Si no estás de acuerdo con una resolución de la mutua sobre tu prestación, pu
 
 **A. La certificación de riesgo en el embarazo o la lactancia**
 
-Puedes reclamar si no estás de acuerdo con el tipo de certificación (positiva, positiva diferida o negativa) o con la fecha de riesgo.
+Puedes reclamar si no estás de acuerdo con el [tipo de certificación](riesgo-embarazo-lactancia/certificacion-de-riesgo.md#certificacion-tipos) (positiva, positiva diferida o negativa) o con la fecha de riesgo.
 
 1. En la página de tu solicitud, en **Otras acciones disponibles**, pulsa **Realizar reclamación sobre la certificación de riesgo**.
 2. Elige qué quieres que se modifique, revisa la información y el justificante que aportas y envíala.
@@ -26,7 +26,7 @@ Se crea una solicitud nueva: la mutua la resuelve y te avisa por correo electró
 
 **B. La resolución final de la prestación**
 
-Puedes presentar ante la mutua una reclamación previa a la vía judicial en un plazo de 30 días hábiles desde que recibes la resolución. Hazlo desde la página de tu solicitud, donde ves la resolución. Te avisamos por correo electrónico cuando la presentas y de cualquier resolución posterior.
+Puedes presentar ante la mutua una reclamación previa a la vía judicial en un plazo de 30 días hábiles desde que recibes la resolución. Hazlo desde la página de tu solicitud, donde ves la resolución. Consulta cómo [ver la resolución del pago directo](pago-directo/consultar-el-estado.md#estado-resolucion) y cómo [ver la de la prestación por riesgo durante el embarazo o la lactancia](riesgo-embarazo-lactancia/resolucion.md#resolucion-consultar). Te avisamos por correo electrónico cuando la presentas y de cualquier resolución posterior.
 
 ## Prepara tu reclamación <a href="#reclamar-consejos" id="reclamar-consejos"></a>
 
@@ -42,15 +42,3 @@ En el histórico de tu solicitud ves todos los pasos del trámite, también las 
 Para aclarar dudas antes o durante la reclamación, puedes usar el [chat con el servicio médico](../servicios-medicos-digitales/chat-con-el-servicio-medico.md) o las vías de contacto que indica tu notificación.
 
 {% include "../.gitbook/includes/contacto-tramitador.md" %}
-
-## Más sobre prestaciones económicas <a href="#reclamar-relacionado" id="reclamar-relacionado"></a>
-
-**Preguntas frecuentes**
-
-{% include "../.gitbook/includes/faq-prestaciones.md" %}
-
-**También te puede interesar**
-
-{% content-ref url="riesgo-embarazo-lactancia/certificacion-de-riesgo.md" %}
-[Certificación de riesgo](riesgo-embarazo-lactancia/certificacion-de-riesgo.md)
-{% endcontent-ref %}

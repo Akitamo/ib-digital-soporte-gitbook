@@ -24,9 +24,3 @@ Escribe el código que te hemos enviado y pulsa **Validar**.
 <figure><img src="../.gitbook/assets/43a83bf4528a-doble-factor-recorte.webp" alt="Pantalla Doble factor de autenticación con el destino del código enmascarado, el campo para el código y el botón Validar."></figure>
 
 Tienes tres intentos, y el código caduca en pocos minutos. Si te equivocas o caduca, puedes pedir uno nuevo. Para evitar ataques automatizados, hay un límite de envíos en un periodo de tiempo.
-
-## Más sobre alta y acceso <a href="#doble-factor-relacionado" id="doble-factor-relacionado"></a>
-
-**Preguntas frecuentes**
-
-{% include "../.gitbook/includes/faq-acceso.md" %}
