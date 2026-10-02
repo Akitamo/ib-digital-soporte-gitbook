@@ -11,17 +11,31 @@ Antes de la cita, comprueba [qué necesitas para la videoconsulta](../preguntas-
 
 ## Consulta los detalles de la cita <a href="#videoconsulta-detalles" id="videoconsulta-detalles"></a>
 
-Pulsa la cita para ver el día, la hora, el facultativo y lo que vas a necesitar. Desde ahí también puedes añadirla a tu calendario.
+Al pulsar la cita verás el día, la hora, el facultativo y lo que vas a necesitar. Desde ahí también puedes añadirla a tu calendario.
 
-<figure><img src="../.gitbook/assets/89864e7817d0-detalle-videoconsulta-recorte.webp" alt="Detalle de una cita de tipo Videoconsulta: día, hora, facultativo difuminado, descripción de la sesión y lo que vas a necesitar."></figure>
+{% tabs %}
+{% tab title="Web" %}
+En la página de inicio, pulsa la cita en **Tus próximas citas**.
+{% endtab %}
+
+{% tab title="App" %}
+En la pantalla de inicio, pulsa la cita en **Tus próximas citas**.
+
+<figure><img width="300" src="../.gitbook/assets/89864e7817d0-detalle-videoconsulta-recorte.webp" alt="Detalle de una cita de tipo Videoconsulta en la app: día, hora, facultativo difuminado, descripción de la sesión y lo que vas a necesitar."></figure>
+{% endtab %}
+{% endtabs %}
 
 ## Entra en la videoconsulta <a href="#videoconsulta-entrar" id="videoconsulta-entrar"></a>
 
+La sala se abre 5 minutos antes de la hora de la cita y te avisamos por SMS.
+
+{% tabs %}
+{% tab title="Web" %}
 {% stepper %}
 {% step %}
 ### Entra en la sala
 
-La sala se abre 5 minutos antes de la hora de la cita y te avisamos por SMS. En ese momento, entra en la sala desde la cita.
+Cuando se abra la sala, entra desde la cita.
 {% endstep %}
 
 {% step %}
@@ -40,6 +54,14 @@ Cuando tu médico/a te llame, verás **Videollamada entrante**: pulsa **Aceptar*
 <figure><img src="../.gitbook/assets/866867976fb7-videollamada-entrante-recorte.webp" alt="Aviso Videollamada entrante con los botones Rechazar y Aceptar."></figure>
 {% endstep %}
 {% endstepper %}
+{% endtab %}
+
+{% tab title="App" %}
+Pendiente de confirmar cómo se entra en la sala y se acepta la videollamada desde la app.
+
+<figure><img width="300" src="../.gitbook/assets/app-captura-pendiente.webp" alt="Imagen de la app que falta: sala de espera y videollamada entrante."></figure>
+{% endtab %}
+{% endtabs %}
 
 ## Más sobre la videoconsulta <a href="#videoconsulta-relacionado" id="videoconsulta-relacionado"></a>
 

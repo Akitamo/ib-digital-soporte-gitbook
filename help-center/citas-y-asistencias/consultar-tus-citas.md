@@ -39,7 +39,7 @@ Pulsa la cita que quieres consultar. A la derecha se abre el panel con su detall
 
 En la pantalla de inicio, en **Tus próximas citas**, verás cada cita con su fecha, su hora y si es presencial. Si tienes varias, desliza para ver las siguientes.
 
-<figure><img width="300" src="../.gitbook/assets/aef2768ce38a-image-20260525-072958.webp" alt="Inicio de la app: tarjeta de la próxima cita Control médico, de tipo presencial, resaltada dentro de Tus próximas citas."></figure>
+<figure><img width="300" src="../.gitbook/assets/aef2768ce38a-proximas-citas-app-recorte.webp" alt="Inicio de la app: tarjeta de la próxima cita Control médico, de tipo presencial, resaltada dentro de Tus próximas citas."></figure>
 {% endstep %}
 
 {% step %}

@@ -2,18 +2,18 @@
 
 Lista generada por `herramientas/generar_pendientes.py` a partir de `_editorial/pendientes.yaml` y de los marcadores de captura de la app. No se edita a mano: se corrige la fuente y se vuelve a generar. GitBook no importa esta carpeta.
 
-**111 pendientes**: 105 en páginas y 6 en bloques o variables compartidos, que se repiten en cada página donde se usan. 46 páginas afectadas.
+**104 pendientes**: 98 en páginas y 6 en bloques o variables compartidos, que se repiten en cada página donde se usan. 44 páginas afectadas.
 
 | Tipo | Qué significa | Número |
 |---|---|---|
 | contradicción | incoherencia de negocio del análisis de contenido, apartado 4 (con su número) | 18 |
 | valor provisional | dato que figura en la ayuda pero falta confirmar | 2 |
 | app | funcionamiento o texto de la app sin confirmar | 22 |
-| captura de la app | falta la captura de la app (marcador de imagen) | 8 |
-| captura dudosa | captura usada que conviene revisar | 9 |
+| captura de la app | falta la captura de la app (marcador de imagen) | 9 |
+| captura dudosa | captura usada que conviene revisar | 8 |
 | captura descartada | captura original no usada, con el motivo | 17 |
 | sin verificar | contenido funcional sin fuente o genérico | 25 |
-| decisión | decisión editorial o de estructura pendiente de Sergio | 10 |
+| decisión | decisión editorial o de estructura pendiente de Sergio | 3 |
 
 ## Bloques y variables compartidos
 
@@ -24,13 +24,13 @@ Lista generada por `herramientas/generar_pendientes.py` a partir de `_editorial/
 | contradicción 9 | Etiquetas del botón y del menú, tomadas de las capturas («Solicitar nueva prestación económica»; «Prestaciones económicas» > «Solicitudes»). P27 dice «Solicitar nueva prestación» y «Solicitar una nueva prestación»; P57, «Prestaciones» > «Solicitar nueva prestación». En P32 y su captura, «Solicitudes» lleva directamente a las tarjetas de las prestaciones. | [L11](../help-center/.gitbook/includes/abrir-solicitud-prestacion.md#L11) |
 | app | P19 y P27 dicen que «en este momento» la solicitud no está disponible en la app. Confirmar si sigue igual. | [L6](../help-center/.gitbook/includes/abrir-solicitud-prestacion.md#L6) |
 
-Páginas afectadas: [¿Qué prestaciones puedo pedir desde Ibermutua Digital Personas?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-prestaciones-puedo-pedir) › [Cómo empezar](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-prestaciones-puedo-pedir#prestaciones-empezar); [Solicitar el pago directo por incapacidad temporal](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-el-pago-directo) › [Empieza la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-el-pago-directo#pago-directo-empezar); [Iniciar la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/iniciar-la-solicitud) › [Abre el trámite](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/iniciar-la-solicitud#rel-iniciar-abrir).
+Páginas afectadas: [¿Qué prestaciones puedo pedir desde Ibermutua Digital Personas?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-prestaciones-puedo-pedir) › [Cómo empezar](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-prestaciones-puedo-pedir#prestaciones-empezar); [Solicitar el pago directo por incapacidad temporal](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-el-pago-directo) › [Empieza la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-el-pago-directo#pago-directo-empezar); [Iniciar la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud) › [Abre el trámite](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud#rel-iniciar-abrir).
 
 ### Bloque `aviso-cambio-cita`
 
 | Tipo | Pendiente | Línea |
 |---|---|---|
-| contradicción 1 | Canal para cambiar una cita. El aviso remite al teléfono; P52 dice teléfono o chat y P80, que el chat es solo para temas médicos. | [L6](../help-center/.gitbook/includes/aviso-cambio-cita.md#L6) |
+| contradicción 1 | Canal para cambiar una cita. El bloque remite al teléfono; P52 dice teléfono o chat y P80, que el chat es solo para temas médicos. | [L5](../help-center/.gitbook/includes/aviso-cambio-cita.md#L5) |
 
 Páginas afectadas: [¿Puedo cambiar las citas desde Ibermutua Digital?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cambiar-una-cita) › [Cómo pedir el cambio](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cambiar-una-cita#cita-cambio).
 
@@ -46,7 +46,7 @@ Páginas afectadas: [Canales de atención](https://app.gitbook.com/o/R2iiSe67DRk
 
 | Tipo | Pendiente | Línea |
 |---|---|---|
-| valor provisional | Días de espera desde la baja para pedir la autoliquidación (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
+| valor provisional | Días que tienen que pasar desde tu último pago o tu última autoliquidación para poder pedirla (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
 
 Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/aprobacion-de-la-autoliquidacion) › [Qué se comprueba antes](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/aprobacion-de-la-autoliquidacion#autoliquidacion-comprobacion-previa); [¿Cuándo recibo la autoliquidación?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-recibo-la-autoliquidacion) › [Cada cuánto puedes pedirla](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-recibo-la-autoliquidacion#autoliquidacion-frecuencia); [¿Por qué no puedo solicitar la autoliquidación?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion) › [Qué se comprueba](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion#autoliquidacion-que-se-comprueba); [¿Por qué no puedo solicitar la autoliquidación?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion); [¿Qué es la autoliquidación y qué condiciones tiene?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-es-la-autoliquidacion) › [Condiciones](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-es-la-autoliquidacion#autoliquidacion-condiciones); [Solicitar la autoliquidación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion).
 
@@ -154,14 +154,6 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 |---|---|---|---|
 | [Qué puedes hacer desde aquí](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/consultar-tu-historia-clinica#historia-gestiones) | app | Las opciones se describen solo para la web. En la app, H. Clínica muestra Descargar informe y Subir documentos (captura de P09); confirmar qué opciones tiene. | [L67](../help-center/tu-historia-clinica/consultar-tu-historia-clinica.md#L67) |
 
-### [Consultar episodios anteriores](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/consultar-episodios-anteriores)
-
-`tu-historia-clinica/consultar-episodios-anteriores.md`
-
-| Sección | Tipo | Pendiente | Línea |
-|---|---|---|---|
-| [Abre el histórico](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/consultar-episodios-anteriores#episodios-abrir) | captura dudosa | La tarjeta del episodio muestra un diagnóstico. Confirmar que son datos de demostración o difuminarlo. | [L28](../help-center/tu-historia-clinica/consultar-episodios-anteriores.md#L28) |
-
 ### [Ver tus pruebas diagnósticas](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/ver-tus-pruebas-diagnosticas)
 
 `tu-historia-clinica/ver-tus-pruebas-diagnosticas.md`
@@ -186,7 +178,6 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
-| Inicio de la página | decisión | El mapa prevé las variables portal_url y red_centros_url. En los enlaces se usa la dirección escrita, como en la copia aprobada de citas; comprobar si GitBook admite variables en la dirección de un enlace. | [L10](../help-center/tu-historia-clinica/solicitar-una-segunda-opinion.md#L10) |
 | Inicio de la página | contradicción 6 | Red de centros. P14 enlaza a /red-de-centros/ y otras páginas a /redcentros/. | [L10](../help-center/tu-historia-clinica/solicitar-una-segunda-opinion.md#L10) |
 | Inicio de la página | contradicción 3 | P14 y la confirmación dicen «3 a 10 días»; el formulario, «3 a 10 días hábiles»; P49 da los plazos de la norma. | [L10](../help-center/tu-historia-clinica/solicitar-una-segunda-opinion.md#L10) |
 | Inicio de la página | captura descartada | Original c73acdb96fb9 (composición web y móvil). Muestra un diagnóstico y un texto con datos de salud; el formulario ya aparece en cada paso. | [L12](../help-center/tu-historia-clinica/solicitar-una-segunda-opinion.md#L12) |
@@ -199,7 +190,6 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
-| Inicio de la página | decisión | Ubicación. En Confluence (P37) estaba en Servicios médicos digitales; aquí va en Tu historia clínica, donde se hace la gestión. | [L10](../help-center/tu-historia-clinica/enviar-documentacion.md#L10) |
 | [Envía la documentación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/enviar-documentacion#documentacion-enviar) | sin verificar | P37 indica este acceso, pero su captura (860e61dd68c1, no usada) solo muestra el filtro Documentos del histórico, sin el control para enviar. | [L20](../help-center/tu-historia-clinica/enviar-documentacion.md#L20) |
 | [Envía la documentación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/enviar-documentacion#documentacion-enviar) | sin verificar | Peso máximo del archivo. La captura web indica 0,5 MB y la de la app, 5 MB; no se menciona en el texto. | [L28](../help-center/tu-historia-clinica/enviar-documentacion.md#L28) |
 | [Envía la documentación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/enviar-documentacion#documentacion-enviar) | app | Tomado de las capturas de la ficha del episodio en la app (P14 y P15); P37 no lo describe. | [L46](../help-center/tu-historia-clinica/enviar-documentacion.md#L46) |
@@ -228,7 +218,6 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
-| Inicio de la página | decisión | El mapa prevé las variables portal_empresas_url y portal_digital_url. Los enlaces llevan la dirección escrita, como en portal_url y red_centros_url (pendiente de la sección 1). | [L10](../help-center/prestaciones-economicas/pago-directo/solicitar-como-representante.md#L10) |
 | Inicio de la página | sin verificar | P22 no explica dónde se revoca el código (solo «desde la propia prestación»). | [L13](../help-center/prestaciones-economicas/pago-directo/solicitar-como-representante.md#L13) |
 | [Accede como representante](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-como-representante#representante-acceder) | captura dudosa | Capturas de 2021 (acceso como representante y avisos de SMS, 4aa56c3fecb9). Confirmar que las pantallas siguen igual. No se usa ef56624f71d9 (inicio de sesión del portal de representantes, de 2021). | [L30](../help-center/prestaciones-economicas/pago-directo/solicitar-como-representante.md#L30) |
 | [Consigue el código de autorización](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-como-representante#representante-codigo) | sin verificar | Las capturas de P19 (marzo de 2026) muestran la tarjeta del pago directo solo con «Comenzar trámite» y, en «Tu solicitud», la opción «Un representante»; las de P22 (abril) añaden el botón «Gestión por representante». Confirmar la pantalla actual y el camino para generar el código. | [L46](../help-center/prestaciones-economicas/pago-directo/solicitar-como-representante.md#L46) |
@@ -262,49 +251,47 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
 | Inicio de la página | app | P27 dice que la solicitud no está disponible en la app. Confirmar si tampoco se pueden seguir las fases (certificación, finalizar y resolución). | [L8](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md#L8) |
-| Inicio de la página | decisión | Menú. Las cuatro fases van como páginas al mismo nivel, justo después de esta. Alternativa, subpáginas de esta página (prueba D de paginas-y-grupos.md, quedan plegadas en el menú). | [L10](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md#L10) |
 | [Fases del trámite](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion#rel-fases) | captura descartada | d4850c6c5b44, 3fab6bb323fc y 1c12de808964 (requisitos e informe médico de la lactancia), con la marca ✦. cc7af9527203 es la misma captura que d5fda311735e. | [L42](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md#L42) |
 | [Si la pides por lactancia](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion#rel-lactancia) | sin verificar | Redacción de P32 («a partir de la semana 16 del parto o de la 18 si es embarazo múltiple»). Confirmar el plazo. | [L46](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md#L46) |
 
-### [Iniciar la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/iniciar-la-solicitud)
+### [Iniciar la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud)
 
 `prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md`
 
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
-| [Abre el trámite](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/iniciar-la-solicitud#rel-iniciar-abrir) | contradicción 9 | Bloque `abrir-solicitud-prestacion`: Etiquetas del botón y del menú, tomadas de las capturas («Solicitar nueva prestación económica»; «Prestaciones económicas» > «Solicitudes»). P27 dice «Solicitar nueva prestación» y «Solicitar una nueva prestación»; P57, «Prestaciones» > «Solicitar nueva prestación». En P32 y su captura, «Solicitudes» lleva directamente a las tarjetas de las prestaciones. | [L11](../help-center/.gitbook/includes/abrir-solicitud-prestacion.md#L11) |
-| [Abre el trámite](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/iniciar-la-solicitud#rel-iniciar-abrir) | app | Bloque `abrir-solicitud-prestacion`: P19 y P27 dicen que «en este momento» la solicitud no está disponible en la app. Confirmar si sigue igual. | [L6](../help-center/.gitbook/includes/abrir-solicitud-prestacion.md#L6) |
-| [Abre el trámite](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/iniciar-la-solicitud#rel-iniciar-abrir) | sin verificar | La pantalla ofrece también «Un representante»; las fuentes solo explican la representación en el pago directo (P22). | [L32](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md#L32) |
-| [Completa la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/iniciar-la-solicitud#rel-iniciar-completar) | captura descartada | a259b3793bc9 (informe médico), 0be5668e99d7 (calculadora de fechas) y 5892e10da72b (datos bancarios), con la marca ✦. be00dbf0f033 muestra el explorador de archivos del equipo con un nombre de fichero que incluye un identificador; cba303738d8a y 0d0256e61fa8 tienen la marca ✦ y el mismo nombre de fichero. | [L54](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md#L54) |
-| [Completa la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/iniciar-la-solicitud#rel-iniciar-completar) | decisión | Variable portal_digital_url del mapa; el enlace lleva la dirección escrita (ver el pendiente de solicitar como representante). | [L70](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md#L70) |
-| [Completa la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/iniciar-la-solicitud#rel-iniciar-completar) | captura descartada | 1a4721f5d29f y 7241fb467526 (solicitud enviada e histórico), con la marca ✦. 7629f958b5de es el correo del justificante, no una pantalla del portal. | [L106](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md#L106) |
+| [Abre el trámite](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud#rel-iniciar-abrir) | contradicción 9 | Bloque `abrir-solicitud-prestacion`: Etiquetas del botón y del menú, tomadas de las capturas («Solicitar nueva prestación económica»; «Prestaciones económicas» > «Solicitudes»). P27 dice «Solicitar nueva prestación» y «Solicitar una nueva prestación»; P57, «Prestaciones» > «Solicitar nueva prestación». En P32 y su captura, «Solicitudes» lleva directamente a las tarjetas de las prestaciones. | [L11](../help-center/.gitbook/includes/abrir-solicitud-prestacion.md#L11) |
+| [Abre el trámite](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud#rel-iniciar-abrir) | app | Bloque `abrir-solicitud-prestacion`: P19 y P27 dicen que «en este momento» la solicitud no está disponible en la app. Confirmar si sigue igual. | [L6](../help-center/.gitbook/includes/abrir-solicitud-prestacion.md#L6) |
+| [Abre el trámite](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud#rel-iniciar-abrir) | sin verificar | La pantalla ofrece también «Un representante»; las fuentes solo explican la representación en el pago directo (P22). | [L32](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md#L32) |
+| [Completa la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud#rel-iniciar-completar) | captura descartada | a259b3793bc9 (informe médico), 0be5668e99d7 (calculadora de fechas) y 5892e10da72b (datos bancarios), con la marca ✦. be00dbf0f033 muestra el explorador de archivos del equipo con un nombre de fichero que incluye un identificador; cba303738d8a y 0d0256e61fa8 tienen la marca ✦ y el mismo nombre de fichero. | [L54](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md#L54) |
+| [Completa la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud#rel-iniciar-completar) | captura descartada | 1a4721f5d29f y 7241fb467526 (solicitud enviada e histórico), con la marca ✦. 7629f958b5de es el correo del justificante, no una pantalla del portal. | [L106](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md#L106) |
 
-### [Certificación de riesgo](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/certificacion-de-riesgo)
+### [Certificación de riesgo](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/certificacion-de-riesgo)
 
 `prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md`
 
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
-| [Mientras se evalúa](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/certificacion-de-riesgo#certificacion-evaluacion) | sin verificar | El desplegable «Más información sobre Otras acciones disponibles» de P29 está vacío en la extracción. La lista sale de la captura 4a26a572bfb1. | [L12](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md#L12) |
-| [Tipos de certificación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/certificacion-de-riesgo#certificacion-tipos) | captura dudosa | Captura de baja resolución (587 px de ancho); el texto se lee con dificultad. | [L36](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md#L36) |
+| [Mientras se evalúa](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/certificacion-de-riesgo#certificacion-evaluacion) | sin verificar | El desplegable «Más información sobre Otras acciones disponibles» de P29 está vacío en la extracción. La lista sale de la captura 4a26a572bfb1. | [L12](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md#L12) |
+| [Tipos de certificación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/certificacion-de-riesgo#certificacion-tipos) | captura dudosa | Captura de baja resolución (587 px de ancho); el texto se lee con dificultad. | [L36](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md#L36) |
 
-### [Finalizar la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/finalizar-la-solicitud)
+### [Finalizar la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/finalizar-la-solicitud)
 
 `prestaciones-economicas/riesgo-embarazo-lactancia/finalizar-la-solicitud.md`
 
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
-| [Completa y envía la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/finalizar-la-solicitud#finalizar-enviar) | sin verificar | El desplegable «Descubre aquí los pasos para realizar la solicitud online de esta documentación» de P30 está vacío en la extracción. | [L30](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/finalizar-la-solicitud.md#L30) |
-| [Completa y envía la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/finalizar-la-solicitud#finalizar-enviar) | captura descartada | cbca6915818c (modificar la declaración, con la marca ✦ y un nombre de fichero con identificador); 27ec26005514, 108c93f10e1d y aa924d334fd2, con la marca ✦; 4ab81515e4c7, con texto deformado («Contacta con nuestro de taler/Cese»). 1943708883f9 repite la certificación positiva y a6f50f561506 es el correo del justificante. | [L36](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/finalizar-la-solicitud.md#L36) |
+| [Completa y envía la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/finalizar-la-solicitud#finalizar-enviar) | sin verificar | El desplegable «Descubre aquí los pasos para realizar la solicitud online de esta documentación» de P30 está vacío en la extracción. | [L30](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/finalizar-la-solicitud.md#L30) |
+| [Completa y envía la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/finalizar-la-solicitud#finalizar-enviar) | captura descartada | cbca6915818c (modificar la declaración, con la marca ✦ y un nombre de fichero con identificador); 27ec26005514, 108c93f10e1d y aa924d334fd2, con la marca ✦; 4ab81515e4c7, con texto deformado («Contacta con nuestro de taler/Cese»). 1943708883f9 repite la certificación positiva y a6f50f561506 es el correo del justificante. | [L36](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/finalizar-la-solicitud.md#L36) |
 
-### [Resolución de la prestación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/resolucion)
+### [Resolución de la prestación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/resolucion)
 
 `prestaciones-economicas/riesgo-embarazo-lactancia/resolucion.md`
 
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
 | Inicio de la página | captura descartada | c15afa7b0dab (marca ✦ y texto «(nombre personale)») y fd8fc3b023ba (histórico con la carta de reconocimiento, marca ✦). | [L10](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/resolucion.md#L10) |
-| [Consulta la resolución](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/resolucion#resolucion-consultar) | captura dudosa | Captura de baja resolución (660 px de ancho). | [L14](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/resolucion.md#L14) |
+| [Consulta la resolución](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/resolucion#resolucion-consultar) | captura dudosa | Captura de baja resolución (660 px de ancho). | [L14](../help-center/prestaciones-economicas/riesgo-embarazo-lactancia/resolucion.md#L14) |
 
 ### [Consultar tus pagos](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/consultar-tus-pagos)
 
@@ -322,7 +309,7 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
 | Inicio de la página | contradicción 5 | Nombre de la opción. El menú de las capturas de marzo de 2026 (9e5f5f992ca2, d5fda311735e), usado en pagos y retenciones, dice «Autopagos»; esta página y la captura descartada 76b94cf13394, «Autoliquidación». | [L10](../help-center/prestaciones-economicas/solicitar-la-autoliquidacion.md#L10) |
-| Inicio de la página | valor provisional | Variable `autoliquidacion_espera`: Días de espera desde la baja para pedir la autoliquidación (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
+| Inicio de la página | valor provisional | Variable `autoliquidacion_espera`: Días que tienen que pasar desde tu último pago o tu última autoliquidación para poder pedirla (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
 | [Pide la autoliquidación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion#autoliquidacion-pedir) | app | Texto visible de la pestaña App en la página de prueba (P34 solo describe la web). | [L52](../help-center/prestaciones-economicas/solicitar-la-autoliquidacion.md#L52) |
 | [Pide la autoliquidación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion#autoliquidacion-pedir) | captura de la app | acceso a Autoliquidación. | [L54](../help-center/prestaciones-economicas/solicitar-la-autoliquidacion.md#L54) |
 | [Cuándo cobras y cómo sigues la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion#autoliquidacion-seguimiento) | contradicción 4 | Variable `autoliquidacion_plazo_abono`: Plazo de abono. P34 dice «en un máximo de 2 días laborables» y también «en 1-2 días». | [L4](../help-center/.gitbook/vars.yaml#L4) |
@@ -347,7 +334,7 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 |---|---|---|---|
 | [Qué puedes reclamar](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/reclamar-una-resolucion#reclamar-que) | sin verificar | P63 describe la reclamación de la certificación sin capturas de sus pantallas. | [L21](../help-center/prestaciones-economicas/reclamar-una-resolucion.md#L21) |
 | [Qué puedes reclamar](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/reclamar-una-resolucion#reclamar-que) | sin verificar | No hay captura de la opción para reclamar la resolución final; P63 dice que está «en la propia página de la resolución». | [L29](../help-center/prestaciones-economicas/reclamar-una-resolucion.md#L29) |
-| [Sigue tu reclamación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/reclamar-una-resolucion#reclamar-seguimiento) | contradicción 2 | P63 recomienda el chat con el servicio médico para las dudas de una reclamación; P80 dice que el chat no es para prestaciones. Se remite al tramitador/a. | [L42](../help-center/prestaciones-economicas/reclamar-una-resolucion.md#L42) |
+| [Sigue tu reclamación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/reclamar-una-resolucion#reclamar-seguimiento) | contradicción 2 | Texto de P63 (chat con el servicio médico o vías de contacto de la notificación); P80 dice que el chat no es para prestaciones. El bloque del tramitador/a va porque el mapa lo asigna a esta página, no como sustituto del chat. Lo resuelve negocio. | [L42](../help-center/prestaciones-economicas/reclamar-una-resolucion.md#L42) |
 
 ### [Hablar con el servicio médico por chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/chat-con-el-servicio-medico)
 
@@ -367,10 +354,11 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
-| Inicio de la página | captura descartada | 32478f0944c3 (marca ✦, nombre de la persona y diagnóstico del episodio) y a591a6ff977f (marca ✦ e imagen de la videollamada con personas). | [L12](../help-center/servicios-medicos-digitales/videoconsulta.md#L12) |
-| [Consulta los detalles de la cita](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/videoconsulta#videoconsulta-detalles) | app | P39 muestra la app solo en el detalle de la cita. Confirmar los pasos de la sala de espera en la app. | [L18](../help-center/servicios-medicos-digitales/videoconsulta.md#L18) |
-| [Entra en la videoconsulta](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/videoconsulta#videoconsulta-entrar) | sin verificar | P39 no da el nombre del botón para entrar en la sala y no hay captura. | [L24](../help-center/servicios-medicos-digitales/videoconsulta.md#L24) |
-| [Entra en la videoconsulta](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/videoconsulta#videoconsulta-entrar) | captura dudosa | Recortes de la sala de espera; se ha difuminado el nombre de la doctora. El resto de la captura muestra a una persona y el chat de la videoconsulta. | [L40](../help-center/servicios-medicos-digitales/videoconsulta.md#L40) |
+| Inicio de la página | captura descartada | 32478f0944c3 (página de inicio de la web con la marca ✦, el nombre de la persona y el diagnóstico del episodio), por eso la pestaña Web no lleva captura del detalle; a591a6ff977f (marca ✦ e imagen de la videollamada con personas). | [L12](../help-center/servicios-medicos-digitales/videoconsulta.md#L12) |
+| [Entra en la videoconsulta](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/videoconsulta#videoconsulta-entrar) | sin verificar | P39 no da el nombre del botón para entrar en la sala y no hay captura. | [L38](../help-center/servicios-medicos-digitales/videoconsulta.md#L38) |
+| [Entra en la videoconsulta](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/videoconsulta#videoconsulta-entrar) | captura dudosa | Recortes de la sala de espera; se ha difuminado el nombre de la doctora. El resto de la captura muestra a una persona y el chat de la videoconsulta. | [L54](../help-center/servicios-medicos-digitales/videoconsulta.md#L54) |
+| [Entra en la videoconsulta](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/videoconsulta#videoconsulta-entrar) | app | P39 muestra la app solo en el detalle de la cita; las capturas de la sala son del navegador (ordenador y móvil). Confirmar los pasos en la app. | [L60](../help-center/servicios-medicos-digitales/videoconsulta.md#L60) |
+| [Entra en la videoconsulta](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/videoconsulta#videoconsulta-entrar) | captura de la app | sala de espera y videollamada entrante. | [L62](../help-center/servicios-medicos-digitales/videoconsulta.md#L62) |
 
 ### [Hacer tu rehabilitación online](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/rehabilitacion-online)
 
@@ -380,14 +368,6 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 |---|---|---|---|
 | Inicio de la página | captura descartada | 3dc810a9efd1 (fotografía de una persona); 5162f9cf0155, ef14e18c1470, aea9e4c68c66 y 4ee4367b2fba (pantallas de ejercicio con personas); 7780dd43fc83 (nombre de la persona); f32be98e234e (lista de ejercicios con un comentario del personal médico); 91e19c2706d0, 960187fc9b84 y 5a82ab52b836 son versiones de mayo de 2025 de pantallas con captura más reciente. | [L14](../help-center/servicios-medicos-digitales/rehabilitacion-online.md#L14) |
 | [Haz los ejercicios de hoy](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/rehabilitacion-online#rehabilitacion-ejercicios) | app | P40 y P75 describen la web. Confirmar si los ejercicios se pueden hacer desde la app. | [L20](../help-center/servicios-medicos-digitales/rehabilitacion-online.md#L20) |
-
-### [Preguntas frecuentes](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/preguntas-frecuentes)
-
-`preguntas-frecuentes/README.md`
-
-| Sección | Tipo | Pendiente | Línea |
-|---|---|---|---|
-| [Prestaciones económicas](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/preguntas-frecuentes#faq-prestaciones) | decisión | Portada con un bloque faq-<tema> por tema. Se omiten faq-informes, faq-documentacion, faq-pago-directo y faq-pagos, porque sus preguntas ya salen en otros temas. «¿Qué prestaciones puedo pedir…?» aparece dos veces (prestaciones y riesgo). | [L34](../help-center/preguntas-frecuentes/README.md#L34) |
 
 ### [¿Qué hago si no puedo darme de alta con el DNI o no tengo certificado digital?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-darme-de-alta)
 
@@ -403,8 +383,7 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
-| Inicio de la página | decisión | Con la plantilla de pregunta, la respuesta directa y el aviso compartido repiten «No puedes cambiar una cita». Valorar si el aviso sobra en esta página. | [L12](../help-center/preguntas-frecuentes/cambiar-una-cita.md#L12) |
-| [Cómo pedir el cambio](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cambiar-una-cita#cita-cambio) | contradicción 1 | Bloque `aviso-cambio-cita`: Canal para cambiar una cita. El aviso remite al teléfono; P52 dice teléfono o chat y P80, que el chat es solo para temas médicos. | [L6](../help-center/.gitbook/includes/aviso-cambio-cita.md#L6) |
+| [Cómo pedir el cambio](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cambiar-una-cita#cita-cambio) | contradicción 1 | Bloque `aviso-cambio-cita`: Canal para cambiar una cita. El bloque remite al teléfono; P52 dice teléfono o chat y P80, que el chat es solo para temas médicos. | [L5](../help-center/.gitbook/includes/aviso-cambio-cita.md#L5) |
 | [Cómo pedir el cambio](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cambiar-una-cita#cita-cambio) | contradicción 1 | La respuesta usa el aviso compartido (teléfono, como P80) y mantiene la opción del chat de P52. Se resuelve junto con el canal del aviso. | [L16](../help-center/preguntas-frecuentes/cambiar-una-cita.md#L16) |
 
 ### [¿Qué prestaciones puedo pedir desde Ibermutua Digital Personas?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-prestaciones-puedo-pedir)
@@ -423,7 +402,7 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
-| [Condiciones](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-es-la-autoliquidacion#autoliquidacion-condiciones) | valor provisional | Variable `autoliquidacion_espera`: Días de espera desde la baja para pedir la autoliquidación (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
+| [Condiciones](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-es-la-autoliquidacion#autoliquidacion-condiciones) | valor provisional | Variable `autoliquidacion_espera`: Días que tienen que pasar desde tu último pago o tu última autoliquidación para poder pedirla (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
 | [Cómo se comprueban](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-es-la-autoliquidacion#autoliquidacion-comprobacion) | contradicción 4 | Variable `autoliquidacion_plazo_abono`: Plazo de abono. P34 dice «en un máximo de 2 días laborables» y también «en 1-2 días». | [L4](../help-center/.gitbook/vars.yaml#L4) |
 
 ### [¿Qué importe recibiré con la autoliquidación?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/importe-de-la-autoliquidacion)
@@ -441,7 +420,7 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
 | Inicio de la página | contradicción 4 | Variable `autoliquidacion_plazo_abono`: Plazo de abono. P34 dice «en un máximo de 2 días laborables» y también «en 1-2 días». | [L4](../help-center/.gitbook/vars.yaml#L4) |
-| [Qué se comprueba antes](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/aprobacion-de-la-autoliquidacion#autoliquidacion-comprobacion-previa) | valor provisional | Variable `autoliquidacion_espera`: Días de espera desde la baja para pedir la autoliquidación (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
+| [Qué se comprueba antes](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/aprobacion-de-la-autoliquidacion#autoliquidacion-comprobacion-previa) | valor provisional | Variable `autoliquidacion_espera`: Días que tienen que pasar desde tu último pago o tu última autoliquidación para poder pedirla (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
 
 ### [¿Cuándo recibo la autoliquidación?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-recibo-la-autoliquidacion)
 
@@ -451,7 +430,7 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 |---|---|---|---|
 | Inicio de la página | contradicción 4 | Variable `autoliquidacion_plazo_abono`: Plazo de abono. P34 dice «en un máximo de 2 días laborables» y también «en 1-2 días». | [L4](../help-center/.gitbook/vars.yaml#L4) |
 | [Plazo del ingreso](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-recibo-la-autoliquidacion#autoliquidacion-plazo) | contradicción 4 | Se omite el ejemplo del viernes de P71, mal redactado, hasta confirmar cómo se cuentan los días. | [L14](../help-center/preguntas-frecuentes/cuando-recibo-la-autoliquidacion.md#L14) |
-| [Cada cuánto puedes pedirla](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-recibo-la-autoliquidacion#autoliquidacion-frecuencia) | valor provisional | Variable `autoliquidacion_espera`: Días de espera desde la baja para pedir la autoliquidación (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
+| [Cada cuánto puedes pedirla](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-recibo-la-autoliquidacion#autoliquidacion-frecuencia) | valor provisional | Variable `autoliquidacion_espera`: Días que tienen que pasar desde tu último pago o tu última autoliquidación para poder pedirla (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
 
 ### [¿Por qué no puedo solicitar la autoliquidación?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion)
 
@@ -459,8 +438,8 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
-| Inicio de la página | valor provisional | Variable `autoliquidacion_espera`: Días de espera desde la baja para pedir la autoliquidación (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
-| [Qué se comprueba](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion#autoliquidacion-que-se-comprueba) | valor provisional | Variable `autoliquidacion_espera`: Días de espera desde la baja para pedir la autoliquidación (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
+| Inicio de la página | valor provisional | Variable `autoliquidacion_espera`: Días que tienen que pasar desde tu último pago o tu última autoliquidación para poder pedirla (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
+| [Qué se comprueba](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion#autoliquidacion-que-se-comprueba) | valor provisional | Variable `autoliquidacion_espera`: Días que tienen que pasar desde tu último pago o tu última autoliquidación para poder pedirla (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
 
 ### [¿El chat se responde al momento?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-responden-el-chat)
 

@@ -75,7 +75,7 @@ bloques:
     origen: [P58, P81]
     usado_en: [preguntas-frecuentes/que-es-el-pago-directo.md, glosario.md]
   # Existentes
-  aviso-cambio-cita: {usado_en: [citas-y-asistencias/consultar-tus-citas.md, preguntas-frecuentes/cambiar-una-cita.md], nota: texto pendiente de validar el canal}
+  aviso-cambio-cita: {contenido: solo el canal para cambiar una cita (02/10, sin aviso ni «No», para no repetir la respuesta), usado_en: [preguntas-frecuentes/cambiar-una-cita.md], nota: texto pendiente de validar el canal; la tarea de citas lleva su propio aviso, que enlaza a la pregunta}
   contacto: {nota: se retira de las páginas (contacto en la navegación); su contenido pasa a canales-de-atencion.md con canal-chat y contacto-tramitador}
 
 # Variables de sección (.gitbook/vars.yaml). Regla 16: un mismo dato, con el mismo significado, en frases distintas,
@@ -83,14 +83,14 @@ bloques:
 # rel_dias_finalizar valen 7 días y son distintas). La condición se escribe completa; solo el valor sale de la variable.
 # No funcionan en títulos: los títulos no llevan datos.
 variables:
-  portal_url: {valor: "https://personas.ibermutua.es/", origen: 15 páginas, estado: existe}
+  portal_url: {valor: "https://personas.ibermutua.es/", origen: 15 páginas, estado: "existe; no sirve para la dirección de un enlace (prueba del 02/10): los enlaces llevan la dirección escrita"}
   telefono_atencion: {valor: "900 23 33 33", origen: [P02, P41, P80], estado: existe}
   autoliquidacion_espera: {valor: "7 días", origen: [P34, P67, P70, P71, P72], estado: creada en la prueba (01/10), provisional}
   autoliquidacion_plazo_abono: {valor: "2 días laborables", origen: [P34, P67, P70, P71], nota: P34 dice también «1-2 días», estado: creada en la prueba (01/10), provisional}
   rel_dias_finalizar: {valor: "7 días", origen: [P29, P30, P60, P61, P64], estado: creada en el borrador (01/10)}
-  red_centros_url: {valor: "https://www.ibermutua.es/redcentros/", origen: [P14, P45, P81], nota: P14 usa /red-de-centros/}
-  portal_empresas_url: {valor: "https://empresas.ibermutua.es/", origen: [P22, P28], estado: no creada; los enlaces llevan la dirección escrita (decisión pendiente)}
-  portal_digital_url: {valor: "https://digital.ibermutua.es/", origen: [P22, P28], estado: no creada; los enlaces llevan la dirección escrita (decisión pendiente)}
+  red_centros_url: {valor: "https://www.ibermutua.es/redcentros/", origen: [P14, P45, P81], nota: P14 usa /red-de-centros/, estado: "no creada: GitBook no admite variables en la dirección de un enlace (prueba del 02/10)"}
+  portal_empresas_url: {valor: "https://empresas.ibermutua.es/", origen: [P22, P28], estado: "no creada: GitBook no admite variables en la dirección de un enlace (prueba del 02/10)"}
+  portal_digital_url: {valor: "https://digital.ibermutua.es/", origen: [P22, P28], estado: "no creada: GitBook no admite variables en la dirección de un enlace (prueba del 02/10)"}
   menu_gestiones: {valor: "Tus gestiones digitales", origen: [P02, P09, P16, P19, P27, P34, P37, P38, P55], estado: pospuesta (si la app usa otro nombre, puede haber una variable solo para la web)}
 
 paginas:
@@ -212,7 +212,7 @@ paginas:
     origen: [P37]
     relaciones: {siguiente: [tu-historia-clinica/consultar-documentacion-administrativa.md], alternativa: [citas-y-asistencias/consultar-tus-citas.md]}
     variables: [menu_gestiones]
-    notas: en Confluence estaba en Servicios médicos digitales; se hace desde Historia Clínica (ubicación a validar)
+    notas: en Confluence estaba en Servicios médicos digitales; se hace desde Historia Clínica (ubicación aprobada en la versión 1, apartado 3.1 del análisis)
 
   # --- Prestaciones: pago directo ---
   prestaciones-economicas/pago-directo/solicitar-el-pago-directo.md:

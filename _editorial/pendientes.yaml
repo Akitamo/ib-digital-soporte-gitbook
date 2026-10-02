@@ -10,7 +10,7 @@
 - bloque: aviso-cambio-cita
   cita: llama a la Línea de Atención Telefónica Integral 24 h
   tipo: contradicción 1
-  texto: Canal para cambiar una cita. El aviso remite al teléfono; P52 dice teléfono o chat y P80, que el chat es solo para temas médicos.
+  texto: Canal para cambiar una cita. El bloque remite al teléfono; P52 dice teléfono o chat y P80, que el chat es solo para temas médicos.
 
 - pagina: preguntas-frecuentes/cambiar-una-cita.md
   cita: también puedes pedirlo [por chat]
@@ -19,7 +19,7 @@
 
 - variable: autoliquidacion_espera
   tipo: valor provisional
-  texto: Días de espera desde la baja para pedir la autoliquidación (P34, P67, P70-P72); confirmar con negocio.
+  texto: Días que tienen que pasar desde tu último pago o tu última autoliquidación para poder pedirla (P34, P67, P70-P72); confirmar con negocio.
 
 - variable: autoliquidacion_plazo_abono
   tipo: contradicción 4
@@ -52,11 +52,6 @@
   tipo: app
   texto: Las opciones se describen solo para la web. En la app, H. Clínica muestra Descargar informe y Subir documentos (captura de P09); confirmar qué opciones tiene.
 
-- pagina: tu-historia-clinica/consultar-episodios-anteriores.md
-  cita: 16ed4c17ed69-historico-recorte.webp
-  tipo: captura dudosa
-  texto: La tarjeta del episodio muestra un diagnóstico. Confirmar que son datos de demostración o difuminarlo.
-
 - pagina: tu-historia-clinica/ver-tus-pruebas-diagnosticas.md
   cita: consulta sus pruebas en **Pruebas y documentos**
   tipo: app
@@ -88,11 +83,6 @@
   texto: Red de centros. P14 enlaza a /red-de-centros/ y otras páginas a /redcentros/.
 
 - pagina: tu-historia-clinica/solicitar-una-segunda-opinion.md
-  cita: "[centro de Ibermutua]("
-  tipo: decisión
-  texto: El mapa prevé las variables portal_url y red_centros_url. En los enlaces se usa la dirección escrita, como en la copia aprobada de citas; comprobar si GitBook admite variables en la dirección de un enlace.
-
-- pagina: tu-historia-clinica/solicitar-una-segunda-opinion.md
   cita: "## Solicita la segunda opinión"
   tipo: captura descartada
   texto: Original c73acdb96fb9 (composición web y móvil). Muestra un diagnóstico y un texto con datos de salud; el formulario ya aparece en cada paso.
@@ -101,11 +91,6 @@
   cita: Selecciona el episodio. Si quieres, explica
   tipo: app
   texto: P14 dice que se selecciona el episodio, pero la captura de la app lo muestra ya seleccionado. Falta el control intermedio.
-
-- pagina: tu-historia-clinica/enviar-documentacion.md
-  cita: Puedes enviar al servicio médico
-  tipo: decisión
-  texto: Ubicación. En Confluence (P37) estaba en Servicios médicos digitales; aquí va en Tu historia clínica, donde se hace la gestión.
 
 - pagina: tu-historia-clinica/enviar-documentacion.md
   cita: También puedes entrar desde un episodio médico activo
@@ -217,11 +202,6 @@
   texto: P20 identifica los documentos obligatorios con una etiqueta (imagen de 2021) cuyo texto no consta. Confirmar cómo se marcan en la pantalla actual.
 
 - pagina: prestaciones-economicas/pago-directo/solicitar-como-representante.md
-  cita: "[Ibermutua Digital Asesorías](https://empresas.ibermutua.es/)"
-  tipo: decisión
-  texto: El mapa prevé las variables portal_empresas_url y portal_digital_url. Los enlaces llevan la dirección escrita, como en portal_url y red_centros_url (pendiente de la sección 1).
-
-- pagina: prestaciones-economicas/pago-directo/solicitar-como-representante.md
   cita: pulsa **Gestión por representante**
   tipo: contradicción 9
   texto: P22 dice «Gestión por representación» y «Obtener código para representante»; las capturas, «Gestión por representante» y «Generar código». Se usan las de las capturas.
@@ -277,11 +257,6 @@
   texto: 7e8da3b19d42 (correo), e8352f18fdf2 (correo de justificante) y 84d3b37e0321 (histórico), con la marca ✦ de imagen generada o retocada con IA. 61357bf7da7e muestra un aviso temporal de mantenimiento de la firma y es de una solicitud de lactancia.
 
 - pagina: prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md
-  cita: "## Fases del trámite"
-  tipo: decisión
-  texto: Menú. Las cuatro fases van como páginas al mismo nivel, justo después de esta. Alternativa, subpáginas de esta página (prueba D de paginas-y-grupos.md, quedan plegadas en el menú).
-
-- pagina: prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md
   cita: Puedes solicitar online la
   tipo: app
   texto: P27 dice que la solicitud no está disponible en la app. Confirmar si tampoco se pueden seguir las fases (certificación, finalizar y resolución).
@@ -295,11 +270,6 @@
   cita: "## Si la pides por lactancia"
   tipo: captura descartada
   texto: d4850c6c5b44, 3fab6bb323fc y 1c12de808964 (requisitos e informe médico de la lactancia), con la marca ✦. cc7af9527203 es la misma captura que d5fda311735e.
-
-- pagina: prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md
-  cita: "[Ibermutua Digital](https://digital.ibermutua.es/)"
-  tipo: decisión
-  texto: Variable portal_digital_url del mapa; el enlace lleva la dirección escrita (ver el pendiente de solicitar como representante).
 
 - pagina: prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md
   cita: marca **Yo** y pulsa **Iniciar solicitud**
@@ -377,9 +347,9 @@
   texto: P35 dice que el portal se usa desde el navegador del móvil; no menciona la app.
 
 - pagina: prestaciones-economicas/reclamar-una-resolucion.md
-  cita: Si tienes dudas sobre tu reclamación, contacta con tu tramitador/a
+  cita: Para aclarar dudas antes o durante la reclamación
   tipo: contradicción 2
-  texto: P63 recomienda el chat con el servicio médico para las dudas de una reclamación; P80 dice que el chat no es para prestaciones. Se remite al tramitador/a.
+  texto: Texto de P63 (chat con el servicio médico o vías de contacto de la notificación); P80 dice que el chat no es para prestaciones. El bloque del tramitador/a va porque el mapa lo asigna a esta página, no como sustituto del chat. Lo resuelve negocio.
 
 - pagina: prestaciones-economicas/reclamar-una-resolucion.md
   cita: Elige qué quieres que se modifique
@@ -444,14 +414,14 @@
   texto: 32f7d6046783 (marca ✦ y nombres de chats con diagnósticos); 344e9b3ad1e6 (móvil, con diagnósticos y de baja resolución); 584541297a10 (marca ✦, nombre de una profesional y contenido de salud en la conversación); 117a11ec61f6 (app con diagnósticos y un nombre); 79896a7c87b4 repite la página de inicio.
 
 - pagina: servicios-medicos-digitales/videoconsulta.md
-  cita: entra en la sala desde la cita
+  cita: Cuando se abra la sala, entra desde la cita
   tipo: sin verificar
   texto: P39 no da el nombre del botón para entrar en la sala y no hay captura.
 
 - pagina: servicios-medicos-digitales/videoconsulta.md
-  cita: "## Entra en la videoconsulta"
+  cita: Pendiente de confirmar cómo se entra en la sala
   tipo: app
-  texto: P39 muestra la app solo en el detalle de la cita. Confirmar los pasos de la sala de espera en la app.
+  texto: P39 muestra la app solo en el detalle de la cita; las capturas de la sala son del navegador (ordenador y móvil). Confirmar los pasos en la app.
 
 - pagina: servicios-medicos-digitales/videoconsulta.md
   cita: 866867976fb7-videollamada-entrante-recorte.webp
@@ -461,7 +431,7 @@
 - pagina: servicios-medicos-digitales/videoconsulta.md
   cita: "## Consulta los detalles de la cita"
   tipo: captura descartada
-  texto: 32478f0944c3 (marca ✦, nombre de la persona y diagnóstico del episodio) y a591a6ff977f (marca ✦ e imagen de la videollamada con personas).
+  texto: 32478f0944c3 (página de inicio de la web con la marca ✦, el nombre de la persona y el diagnóstico del episodio), por eso la pestaña Web no lleva captura del detalle; a591a6ff977f (marca ✦ e imagen de la videollamada con personas).
 
 - pagina: servicios-medicos-digitales/rehabilitacion-online.md
   cita: En la página de inicio de [Ibermutua Digital Personas]
@@ -477,18 +447,6 @@
   cita: "## Principales ventajas"
   tipo: contradicción 10
   texto: P76 son unas 640 palabras genéricas; se ha reducido a lo esencial. Confirmar que no falta nada que negocio quiera mantener.
-
-# --- Sección 5: preguntas frecuentes ---
-
-- pagina: preguntas-frecuentes/README.md
-  cita: "## Riesgo durante el embarazo o la lactancia"
-  tipo: decisión
-  texto: Portada con un bloque faq-<tema> por tema. Se omiten faq-informes, faq-documentacion, faq-pago-directo y faq-pagos, porque sus preguntas ya salen en otros temas. «¿Qué prestaciones puedo pedir…?» aparece dos veces (prestaciones y riesgo).
-
-- pagina: preguntas-frecuentes/cambiar-una-cita.md
-  cita: "## Cómo pedir el cambio"
-  tipo: decisión
-  texto: Con la plantilla de pregunta, la respuesta directa y el aviso compartido repiten «No puedes cambiar una cita». Valorar si el aviso sobra en esta página.
 
 # --- Sección 6: portada, canales, glosario y cookies ---
 

@@ -39,7 +39,7 @@ Puedes presentar ante la mutua una reclamación previa a la vía judicial en un 
 
 En el histórico de tu solicitud ves todos los pasos del trámite, también las reclamaciones y los cambios. Ahí consultas el estado, los documentos y las comunicaciones, y la resolución final, que también recibes por correo electrónico.
 
-Si tienes dudas sobre tu reclamación, contacta con tu tramitador/a.
+Para aclarar dudas antes o durante la reclamación, puedes usar el [chat con el servicio médico](../servicios-medicos-digitales/chat-con-el-servicio-medico.md) o las vías de contacto que indica tu notificación.
 
 {% include "../.gitbook/includes/contacto-tramitador.md" %}
 

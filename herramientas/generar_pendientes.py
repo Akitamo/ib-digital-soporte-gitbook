@@ -69,15 +69,27 @@ def fuente():
     return yaml.safe_load(leer(FUENTE)) or []
 
 
+def slug_pagina(ruta):
+    """Slug de una página en GitBook: el nombre del archivo; un README de carpeta toma el de su título."""
+    if ruta.endswith("/README.md"):
+        return slug(titulo(leer(os.path.join(HC, ruta))))
+    return os.path.basename(ruta)[:-3]
+
+
 def grupos_menu():
-    """{ruta: slug del grupo de SUMMARY.md}. En GitBook la URL es grupo/página, no la carpeta."""
-    res, grupo = {}, ""
+    """{ruta: prefijo de su dirección en GitBook}. La dirección sigue el menú (grupo y páginas padre), no la carpeta."""
+    res, grupo, padres = {}, "", []
     for linea in leer(os.path.join(HC, "SUMMARY.md")).splitlines():
         if linea.startswith("## "):
-            grupo = slug(linea[3:])
-        m = re.match(r"\s*\* \[[^\]]*\]\(([^)\s]+\.md)", linea)
-        if m:
-            res[m.group(1)] = grupo
+            grupo, padres = slug(linea[3:]), []
+            continue
+        m = re.match(r"(\s*)\* \[[^\]]*\]\(([^)\s]+\.md)", linea)
+        if not m:
+            continue
+        nivel, ruta = len(m.group(1)) // 2, m.group(2)
+        padres = padres[:nivel]
+        res[ruta] = "/".join([x for x in [grupo] + padres if x])
+        padres.append(slug_pagina(ruta))
     return res
 
 
@@ -87,10 +99,8 @@ def url_pagina(ruta):
     grupos = grupos_menu()
     if ruta not in grupos:
         return GITBOOK + ruta[:-3]
-    grupo = grupos[ruta]
-    # Un README dentro de una carpeta toma el slug de su título (comprobado el 01/10/2026).
-    pagina = slug(titulo(leer(os.path.join(HC, ruta)))) if ruta.endswith("/README.md") else os.path.basename(ruta)[:-3]
-    return GITBOOK + (grupo + "/" if grupo else "") + pagina
+    prefijo = grupos[ruta]
+    return GITBOOK + (prefijo + "/" if prefijo else "") + slug_pagina(ruta)
 
 
 def seccion(ruta, texto, pos):
