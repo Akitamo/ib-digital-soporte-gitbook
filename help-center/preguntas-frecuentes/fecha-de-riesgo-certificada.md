@@ -6,7 +6,7 @@ hidden: true
 
 # ¿Qué implica la fecha de riesgo certificada?
 
-Es el día a partir del cual la mutua considera que existe riesgo para tu embarazo o tu lactancia natural. Desde esa fecha tienes derecho a la prestación económica: no se paga por días anteriores.
+Es el día a partir del cual la mutua considera que existe riesgo para tu embarazo o tu lactancia natural. Desde esa fecha tienes derecho a la prestación económica: no se paga por días anteriores. La ves en la página de tu solicitud cuando la [certificación de riesgo](../prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md#certificacion-tipos) es positiva.
 
 ## Efectos en tu trabajo <a href="#fecha-riesgo-trabajo" id="fecha-riesgo-trabajo"></a>
 

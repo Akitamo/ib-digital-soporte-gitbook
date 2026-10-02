@@ -5,7 +5,7 @@ icon: pen-to-square
 
 # Rellenar la solicitud de pago directo
 
-El formulario te pide la información según tu situación y la de tu proceso. No puedes pasar a un paso sin completar los datos obligatorios del anterior. Puedes guardar un borrador en cualquier momento y seguir más tarde donde lo dejaste.
+El formulario te pide la información según tu situación y la de tu proceso. No puedes pasar a un paso sin completar los datos obligatorios del anterior. Puedes guardar un borrador en cualquier momento y seguir más tarde donde lo dejaste. Si aún no la has empezado, consulta [cómo empezar la solicitud](solicitar-el-pago-directo.md#pago-directo-empezar).
 
 Los pasos son los mismos si la solicitud la hace un [representante](solicitar-como-representante.md).
 

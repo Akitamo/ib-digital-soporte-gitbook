@@ -7,7 +7,7 @@ icon: file-arrow-up
 
 # Enviar documentación a la mutua
 
-Puedes enviar al servicio médico de la mutua, de forma cómoda y segura, cualquier documento que te pidan o que quieras hacerle llegar. Se guarda en tu historia clínica, y tu médico/a y tú podéis consultarlo en todo momento.
+Puedes enviar al servicio médico de la mutua, de forma cómoda y segura, cualquier documento que te pidan o que quieras hacerle llegar. Se guarda en tu historia clínica, y tu médico/a y tú podéis consultarlo en todo momento. Si es para que lo revisen en una cita, también puedes hacerlo desde la propia cita: consulta [cómo aportar documentación para una cita](../citas-y-asistencias/consultar-tus-citas.md#citas-opciones).
 
 ## Envía la documentación <a href="#documentacion-enviar" id="documentacion-enviar"></a>
 

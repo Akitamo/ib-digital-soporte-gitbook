@@ -26,3 +26,5 @@ Hasta que se produce una de las causas de extinción que fija la ley. Tienes que
 * El fallecimiento de la madre o del bebé.
 
 Cuando empieza la prestación por nacimiento y cuidado de menor, la de riesgo se extingue y pasas a cobrar la nueva.
+
+Consulta [cómo se solicita la prestación](../prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md).

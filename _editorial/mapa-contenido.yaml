@@ -369,6 +369,7 @@ paginas:
   preguntas-frecuentes/fecha-de-riesgo-certificada.md:
     en_indice: true
     origen: [P61]
+    relaciones: {tarea: [prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md]}
     variables: [rel_dias_finalizar]
     notas: dejar solo lo propio (efectos en el contrato y en el cobro); el resto lo cubren P60, P64 y P65
 
@@ -391,6 +392,7 @@ paginas:
   preguntas-frecuentes/hasta-cuando-dura-la-prestacion-rel.md:
     en_indice: true
     origen: [P66]
+    relaciones: {tarea: [prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md]}
 
   preguntas-frecuentes/que-es-la-autoliquidacion.md:
     en_indice: true
@@ -441,6 +443,7 @@ paginas:
   preguntas-frecuentes/cuando-se-cierra-un-chat.md:
     en_indice: true
     origen: [P78]
+    relaciones: {tarea: [servicios-medicos-digitales/chat-con-el-servicio-medico.md]}
 
   preguntas-frecuentes/que-necesito-para-una-videoconsulta.md:
     en_indice: true
