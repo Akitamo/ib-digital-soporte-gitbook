@@ -1,9 +1,11 @@
-# Mapa de contenido de la sección Personas: las 82 páginas de Confluence y su destino en GitBook
+# Mapa de contenido de la sección Personas
 #
-# Es el plan de migración. Una entrada por página nueva, con los mismos campos que
-# indice-contenido.yaml para pasarla tal cual al índice cuando la página se migre.
-# Las páginas ya migradas (en_indice: true) solo llevan aquí origen y relaciones: sus temas y
-# su faq_tema están en el índice, que es la fuente.
+# Fuente de tres cosas (las demás están en indice-contenido.yaml):
+#  - de qué páginas de Confluence sale cada página nueva (origen);
+#  - qué otras páginas debe enlazar cada una (relaciones);
+#  - el catálogo de bloques reutilizables y de variables: contenido, origen, dónde se usan y estado.
+# Nació como plan de migración de las 82 páginas; desde el 01-02/10 todas están migradas (en_indice: true).
+# Una página nueva lleva aquí su entrada y, en el índice, su tipo, temas y preguntas.
 #
 # origen: páginas de Confluence (Pnn = orden de extracciones/…/indice.md). La primera es la
 #   principal; las demás se fusionan o se redirigen a esta página (ver correspondencia.csv).
@@ -18,8 +20,7 @@
 # bloques / variables: los del catálogo de abajo que usa la página (reglas 15 y 16).
 #
 # Estado: versión 1 validada por Sergio el 01/10/2026 (secciones, fusiones, bloques y variables), con valores
-# pendientes de negocio identificados. Criterios: reglas 13 a 16 de la plantilla de tarea.
-# No cambia ninguna página.
+# pendientes de negocio identificados en pendientes.yaml. Criterios: reglas 13 a 16 de la plantilla de tarea.
 
 temas_nuevos:
   alta: Alta (02/10, separado de acceso)
@@ -35,6 +36,8 @@ temas_nuevos:
 
 # Bloques reutilizables (.gitbook/includes). Regla 15: explicación breve que el lector necesita leer en ese punto
 # y que debe ser igual en varias páginas. Puede ir en un paso, junto a una opción o en un aviso.
+# Catálogo de todos los bloques salvo los faq-<tema>, que genera generar_faq.py. «estado» recoge la revisión de
+# su texto (sin responsable asignado todavía); los valores y canales por confirmar están en pendientes.yaml.
 bloques:
   abrir-solicitud-prestacion:
     contenido: aviso «no disponible en la App, usa la web desde el móvil» y las dos formas de abrir una solicitud (Tus gestiones digitales o Prestaciones económicas)
@@ -47,6 +50,7 @@ bloques:
   contacto-tramitador:
     contenido: dónde ves el correo y el teléfono de tu tramitador/a (en tu solicitud) y su horario
     origen: [P21, P34, P80]
+    estado: prueba (01/10); horario tomado de Confluence
     usado_en: [prestaciones-economicas/pago-directo/consultar-el-estado.md, prestaciones-economicas/solicitar-la-autoliquidacion.md, preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md, prestaciones-economicas/reclamar-una-resolucion.md, canales-de-atencion.md]
   rel-tipos-certificacion:
     contenido: tabla negativa / positiva / positiva diferida → qué significa → cuándo puedes finalizar la solicitud
@@ -55,6 +59,7 @@ bloques:
   autoliquidacion-requisitos:
     contenido: las cuatro condiciones (prestación activa, días de espera, sin embargos, último parte de confirmación) y qué pasa si no se cumplen
     origen: [P34, P67, P70, P71, P72]
+    estado: prueba (01/10); condiciones de Confluence sin validar
     usado_en: [prestaciones-economicas/solicitar-la-autoliquidacion.md, preguntas-frecuentes/que-es-la-autoliquidacion.md, preguntas-frecuentes/aprobacion-de-la-autoliquidacion.md, preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md]
   # Definiciones que se repiten en su página y en el glosario: si el resumen debe cambiar con la página,
   # es texto compartido (propuesta). Un bloque no cabe en una celda de tabla: la presentación del glosario
@@ -66,6 +71,7 @@ bloques:
   def-autoliquidacion:
     contenido: definición breve de la autoliquidación
     origen: [P67, P81]
+    estado: prueba (01/10)
     usado_en: [prestaciones-economicas/solicitar-la-autoliquidacion.md, preguntas-frecuentes/que-es-la-autoliquidacion.md, glosario.md]
   def-certificacion-riesgo:
     contenido: definición breve de la certificación de riesgo
@@ -77,7 +83,17 @@ bloques:
     usado_en: [preguntas-frecuentes/que-es-el-pago-directo.md, glosario.md]
   # Existentes
   aviso-cambio-cita: {contenido: solo el canal para cambiar una cita (02/10, sin aviso ni «No», para no repetir la respuesta), usado_en: [preguntas-frecuentes/cambiar-una-cita.md], nota: texto pendiente de validar el canal; la tarea de citas lleva su propio aviso, que enlaza a la pregunta}
-  contacto: {nota: se retira de las páginas (contacto en la navegación); su contenido pasa a canales-de-atencion.md con canal-chat y contacto-tramitador}
+  contacto: {nota: sin uso desde el borrador completo (contacto en la navegación); su contenido pasa a canales-de-atencion.md con canal-chat y contacto-tramitador, estado: pendiente de validar con Atención; retirar en la limpieza general}
+  limites-asistente:
+    contenido: qué puede y qué no puede hacer el asistente
+    usado_en: [README.md]
+    uso: portada y páginas con botón de asistente
+    estado: borrador
+  aviso-datos-salud:
+    contenido: aviso de que la historia clínica, los informes y las pruebas son datos de salud protegidos; no compartir credenciales y cerrar la sesión
+    usado_en: [tu-historia-clinica/consultar-tu-historia-clinica.md]
+    uso: páginas o portadas de grupo que muestran datos de salud
+    estado: borrador
 
 # Variables de sección (.gitbook/vars.yaml). Regla 16: un mismo dato, con el mismo significado, en frases distintas,
 # también dentro de los bloques. Se comparte porque significa lo mismo, no porque coincida (autoliquidacion_espera y

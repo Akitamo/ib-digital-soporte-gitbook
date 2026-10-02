@@ -6,25 +6,17 @@ icon: [icono Font Awesome sin «fa-», p. ej. calendar-check]
 ---
 
 <!--
-PLANTILLA DE TAREA – Ayuda de Ibermutua Digital Personas (v0.3, 01/10/2026)
-Página de referencia: citas-y-asistencias/consultar-tus-citas.md (copia aprobada, que sustituyó a la página original el 01/10/2026).
-Criterios: «Plantilla de página de tarea», reglas 1 a 16, en funcionalidades-gitbook/diseno-del-contenido.md
-  (fuera del repositorio). Redacción: _editorial/guia-estilo-gitbook.md (SG-n). Sintaxis: guía de edición.
+PLANTILLA DE TAREA – Ayuda de Ibermutua Digital Personas (v0.4, 02/10/2026)
+Esqueleto de una página de tarea. Los criterios no se repiten aquí: están en «Plantilla de página de tarea»,
+  reglas 1 a 16, de funcionalidades-gitbook/diseno-del-contenido.md (fuera del repositorio). Redacción:
+  _editorial/guia-estilo-gitbook.md (SG-n). Convenciones de ficheros y anclas: _editorial/guia-de-estilo.md.
+  Sintaxis: funcionalidades-gitbook/flujo-de-edicion-y-sincronizacion.md.
+Página de referencia: citas-y-asistencias/consultar-tus-citas.md.
 Una tarea que es una secuencia completa (enviar una solicitud) usa el mismo esquema sin descripción de
   pantalla ni opciones: el stepper es el cuerpo de la página.
-Cada cosa donde se necesita (regla 13): lo que condiciona toda la página, arriba; lo que afecta a un paso,
-  una zona o una opción, en ese punto; lo que sirve después de terminar, en el cierre.
-Mostrar o enlazar (regla 14): se muestra en ese punto lo mínimo necesario para continuar, no un bloque
-  completo porque contenga parte de la respuesta; otra tarea o una explicación extensa se enlaza. Una pregunta frecuente se enlaza donde surge la duda y además sale en el cierre.
-Texto compartido (regla 15): explicación breve que debe ser igual en varias páginas → bloque reutilizable
-  de .gitbook/includes/, en el punto donde se lee. Debe encajar en todas sus páginas: sin indicaciones de
-  una sola plataforma o pantalla si se usa fuera de ellas. Variables (regla 16): solo el valor sale de la variable;
-  la condición se escribe completa. No van en títulos.
-Relaciones, bloques y variables previstos para cada página: _editorial/mapa-contenido.yaml. Al migrar la
-  página, su entrada pasa a _editorial/indice-contenido.yaml (con faq_tema).
-Anclas fijas en los encabezados ##: <a href="#tema-parte" id="tema-parte"></a>, con el prefijo del tema.
-  Un ancla fija no se cambia; se registra en _editorial/enlaces-contextuales.csv si se usa fuera.
-Antes de subir: python herramientas/generar_faq.py y python herramientas/validar.py
+Página nueva: entrada en help-center/SUMMARY.md, en _editorial/indice-contenido.yaml (tipo, temas, faq_tema
+  y, si puede quedarse sin cierre, cierre) y en _editorial/mapa-contenido.yaml (origen y relaciones).
+Antes de subir: python herramientas/generar_faq.py y python herramientas/validar.py (README del repositorio).
 Borra estos comentarios y los textos entre corchetes.
 -->
 
@@ -112,16 +104,17 @@ Borra estos comentarios y los textos entre corchetes.
 {% endtab %}
 {% endtabs %}
 
+<!-- Cierre opcional (regla 11): solo si aporta preguntas del tema que ayuden, tareas útiles después o ambas.
+La parte «Preguntas frecuentes» la escribe herramientas/generar_faq.py según faq_tema del índice: no se edita a mano.
+«También te puede interesar»: hasta tres tareas o ampliaciones útiles, a mano. Sin bloque de contacto. -->
 ## Más sobre [tema] <a href="#[tema]-relacionado" id="[tema]-relacionado"></a>
 
 **Preguntas frecuentes**
 
-<!-- Bloque generado por herramientas/generar_faq.py desde el índice editorial (faq_tema de la página). No se edita a mano. -->
 {% include "../.gitbook/includes/faq-[tema].md" %}
 
 **También te puede interesar**
 
-<!-- Hasta tres tareas o ampliaciones útiles después de terminar. No sustituyen a los enlaces del texto. Sin bloque de contacto: el contacto está en la navegación del sitio. -->
 {% content-ref url="[pagina].md" %}
 [[Título de la página]]([pagina].md)
 {% endcontent-ref %}
