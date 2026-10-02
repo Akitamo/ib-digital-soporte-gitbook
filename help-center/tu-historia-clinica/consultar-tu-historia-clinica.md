@@ -76,7 +76,7 @@ Para dudas médicas sobre tu episodio. Consulta [cómo usar el chat](../servicio
 
 **C. Enviar documentación a la mutua**
 
-Consulta [cómo enviar documentación](enviar-documentacion.md).
+Consulta [cómo enviar documentación](../servicios-medicos-digitales/enviar-documentacion.md).
 
 {% include "../.gitbook/includes/aviso-datos-salud.md" %}
 

@@ -92,21 +92,6 @@
   tipo: app
   texto: P14 dice que se selecciona el episodio, pero la captura de la app lo muestra ya seleccionado. Falta el control intermedio.
 
-- pagina: tu-historia-clinica/enviar-documentacion.md
-  cita: También puedes entrar desde un episodio médico activo
-  tipo: sin verificar
-  texto: P37 indica este acceso, pero su captura (860e61dd68c1, no usada) solo muestra el filtro Documentos del histórico, sin el control para enviar.
-
-- pagina: tu-historia-clinica/enviar-documentacion.md
-  cita: pulsa **explorar**
-  tipo: sin verificar
-  texto: Peso máximo del archivo. La captura web indica 0,5 MB y la de la app, 5 MB; no se menciona en el texto.
-
-- pagina: tu-historia-clinica/enviar-documentacion.md
-  cita: Desde la ficha de un episodio, el botón es **Enviar documentos**.
-  tipo: app
-  texto: Tomado de las capturas de la ficha del episodio en la app (P14 y P15); P37 no lo describe.
-
 # --- Sección 2: alta y acceso ---
 
 - pagina: alta-y-acceso/darte-de-alta.md
@@ -412,6 +397,21 @@
   cita: "## Abre el chat"
   tipo: captura descartada
   texto: 32f7d6046783 (marca ✦ y nombres de chats con diagnósticos); 344e9b3ad1e6 (móvil, con diagnósticos y de baja resolución); 584541297a10 (marca ✦, nombre de una profesional y contenido de salud en la conversación); 117a11ec61f6 (app con diagnósticos y un nombre); 79896a7c87b4 repite la página de inicio.
+
+- pagina: servicios-medicos-digitales/enviar-documentacion.md
+  cita: También puedes entrar desde un episodio médico activo
+  tipo: sin verificar
+  texto: P37 indica este acceso, pero su captura (860e61dd68c1, no usada) solo muestra el filtro Documentos del histórico, sin el control para enviar.
+
+- pagina: servicios-medicos-digitales/enviar-documentacion.md
+  cita: pulsa **explorar**
+  tipo: sin verificar
+  texto: Peso máximo del archivo. La captura web indica 0,5 MB y la de la app, 5 MB; no se menciona en el texto.
+
+- pagina: servicios-medicos-digitales/enviar-documentacion.md
+  cita: Desde la ficha de un episodio, el botón es **Enviar documentos**.
+  tipo: app
+  texto: Tomado de las capturas de la ficha del episodio en la app (P14 y P15); P37 no lo describe.
 
 - pagina: servicios-medicos-digitales/videoconsulta.md
   cita: Cuando se abra la sala, entra desde la cita

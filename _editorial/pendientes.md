@@ -154,6 +154,16 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 |---|---|---|---|
 | [Qué puedes hacer desde aquí](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/consultar-tu-historia-clinica#historia-gestiones) | app | Las opciones se describen solo para la web. En la app, H. Clínica muestra Descargar informe y Subir documentos (captura de P09); confirmar qué opciones tiene. | [L67](../help-center/tu-historia-clinica/consultar-tu-historia-clinica.md#L67) |
 
+### [Descargar un informe](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/consultar-tu-historia-clinica/descargar-un-informe)
+
+`tu-historia-clinica/descargar-un-informe.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| Inicio de la página | app | P12 solo describe la web. La app muestra el botón Descargar informe en H. Clínica; confirmar el recorrido. | [L10](../help-center/tu-historia-clinica/descargar-un-informe.md#L10) |
+| [Descarga el informe](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/consultar-tu-historia-clinica/descargar-un-informe#informe-descargar) | sin verificar | P12 indica abrir el episodio y pulsar Descargar informe de historia. En las capturas, ese botón está en Historia clínica > General; en la ficha del episodio el botón es Descargar informe de episodio médico (ver P50). | [L26](../help-center/tu-historia-clinica/descargar-un-informe.md#L26) |
+| [Descarga el informe](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/consultar-tu-historia-clinica/descargar-un-informe#informe-descargar) | captura descartada | Original 84d336033c70 (ejemplo de informe en PDF). Muestra diagnósticos, medicación y antecedentes; hace falta un informe de demostración. | [L34](../help-center/tu-historia-clinica/descargar-un-informe.md#L34) |
+
 ### [Ver tus pruebas diagnósticas](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/ver-tus-pruebas-diagnosticas)
 
 `tu-historia-clinica/ver-tus-pruebas-diagnosticas.md`
@@ -161,16 +171,6 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
 | [Ver las pruebas de un episodio](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/ver-tus-pruebas-diagnosticas#pruebas-episodio) | app | En la app, la ficha del episodio muestra las pestañas Información e Histórico (captura de P15). Confirmar dónde se ven las pruebas de un episodio. | [L38](../help-center/tu-historia-clinica/ver-tus-pruebas-diagnosticas.md#L38) |
-
-### [Descargar un informe](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/descargar-un-informe)
-
-`tu-historia-clinica/descargar-un-informe.md`
-
-| Sección | Tipo | Pendiente | Línea |
-|---|---|---|---|
-| Inicio de la página | app | P12 solo describe la web. La app muestra el botón Descargar informe en H. Clínica; confirmar el recorrido. | [L10](../help-center/tu-historia-clinica/descargar-un-informe.md#L10) |
-| [Descarga el informe](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/descargar-un-informe#informe-descargar) | sin verificar | P12 indica abrir el episodio y pulsar Descargar informe de historia. En las capturas, ese botón está en Historia clínica > General; en la ficha del episodio el botón es Descargar informe de episodio médico (ver P50). | [L26](../help-center/tu-historia-clinica/descargar-un-informe.md#L26) |
-| [Descarga el informe](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/descargar-un-informe#informe-descargar) | captura descartada | Original 84d336033c70 (ejemplo de informe en PDF). Muestra diagnósticos, medicación y antecedentes; hace falta un informe de demostración. | [L34](../help-center/tu-historia-clinica/descargar-un-informe.md#L34) |
 
 ### [Solicitar una segunda opinión médica](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/solicitar-una-segunda-opinion)
 
@@ -183,16 +183,6 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 | Inicio de la página | captura descartada | Original c73acdb96fb9 (composición web y móvil). Muestra un diagnóstico y un texto con datos de salud; el formulario ya aparece en cada paso. | [L12](../help-center/tu-historia-clinica/solicitar-una-segunda-opinion.md#L12) |
 | [Solicita la segunda opinión](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/solicitar-una-segunda-opinion#segunda-opinion-solicitar) | app | P14 dice que se selecciona el episodio, pero la captura de la app lo muestra ya seleccionado. Falta el control intermedio. | [L52](../help-center/tu-historia-clinica/solicitar-una-segunda-opinion.md#L52) |
 | [Solicita la segunda opinión](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/solicitar-una-segunda-opinion#segunda-opinion-solicitar) | captura de la app | confirmación de la solicitud de segunda opinión. | [L58](../help-center/tu-historia-clinica/solicitar-una-segunda-opinion.md#L58) |
-
-### [Enviar documentación a la mutua](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/enviar-documentacion)
-
-`tu-historia-clinica/enviar-documentacion.md`
-
-| Sección | Tipo | Pendiente | Línea |
-|---|---|---|---|
-| [Envía la documentación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/enviar-documentacion#documentacion-enviar) | sin verificar | P37 indica este acceso, pero su captura (860e61dd68c1, no usada) solo muestra el filtro Documentos del histórico, sin el control para enviar. | [L20](../help-center/tu-historia-clinica/enviar-documentacion.md#L20) |
-| [Envía la documentación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/enviar-documentacion#documentacion-enviar) | sin verificar | Peso máximo del archivo. La captura web indica 0,5 MB y la de la app, 5 MB; no se menciona en el texto. | [L28](../help-center/tu-historia-clinica/enviar-documentacion.md#L28) |
-| [Envía la documentación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/tu-historia-clinica/enviar-documentacion#documentacion-enviar) | app | Tomado de las capturas de la ficha del episodio en la app (P14 y P15); P37 no lo describe. | [L46](../help-center/tu-historia-clinica/enviar-documentacion.md#L46) |
 
 ### [Solicitar el pago directo por incapacidad temporal](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-el-pago-directo)
 
@@ -347,6 +337,16 @@ Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gi
 | [Abre el chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/chat-con-el-servicio-medico#chat-abrir) | sin verificar | P38 no da el nombre de la opción. En las capturas se llama «Habla con el servicio médico» (32478f0944c3, descartada) y, con mensajes sin leer, «Tienes mensajes nuevos» (e4a40a28b488). | [L16](../help-center/servicios-medicos-digitales/chat-con-el-servicio-medico.md#L16) |
 | [Abre el chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/chat-con-el-servicio-medico#chat-abrir) | sin verificar | P38 lo dice, pero no hay captura del acceso al chat desde el episodio. | [L16](../help-center/servicios-medicos-digitales/chat-con-el-servicio-medico.md#L16) |
 | [Abre el chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/chat-con-el-servicio-medico#chat-abrir) | captura dudosa | En este recorte y en el de la app (25de37a4cc4e) se han difuminado los nombres de los chats, que son diagnósticos, y los textos de los mensajes. | [L22](../help-center/servicios-medicos-digitales/chat-con-el-servicio-medico.md#L22) |
+
+### [Enviar documentación a la mutua](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/enviar-documentacion)
+
+`servicios-medicos-digitales/enviar-documentacion.md`
+
+| Sección | Tipo | Pendiente | Línea |
+|---|---|---|---|
+| [Envía la documentación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/enviar-documentacion#documentacion-enviar) | sin verificar | P37 indica este acceso, pero su captura (860e61dd68c1, no usada) solo muestra el filtro Documentos del histórico, sin el control para enviar. | [L20](../help-center/servicios-medicos-digitales/enviar-documentacion.md#L20) |
+| [Envía la documentación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/enviar-documentacion#documentacion-enviar) | sin verificar | Peso máximo del archivo. La captura web indica 0,5 MB y la de la app, 5 MB; no se menciona en el texto. | [L28](../help-center/servicios-medicos-digitales/enviar-documentacion.md#L28) |
+| [Envía la documentación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/enviar-documentacion#documentacion-enviar) | app | Tomado de las capturas de la ficha del episodio en la app (P14 y P15); P37 no lo describe. | [L46](../help-center/servicios-medicos-digitales/enviar-documentacion.md#L46) |
 
 ### [Hacer una videoconsulta](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/videoconsulta)
 

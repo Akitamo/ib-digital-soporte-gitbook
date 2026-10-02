@@ -100,7 +100,7 @@ Pulsa **Abrir en Google Maps**, debajo del mapa de **Detalles de la cita**.
 Si tu médico/a tiene que revisar alguna prueba antes o durante la cita:
 
 1. Pulsa **Ir a mi episodio médico**.
-2. [Sube los documentos](../tu-historia-clinica/enviar-documentacion.md) en la sección **Documentos** del episodio. Así estarán disponibles en la consulta.
+2. [Sube los documentos](../servicios-medicos-digitales/enviar-documentacion.md) en la sección **Documentos** del episodio. Así estarán disponibles en la consulta.
 
 {% tabs %}
 {% tab title="Web" %}

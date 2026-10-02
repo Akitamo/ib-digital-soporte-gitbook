@@ -19,12 +19,11 @@
 ## Tu historia clínica
 
 * [Consultar tu historia clínica](tu-historia-clinica/consultar-tu-historia-clinica.md)
-* [Consultar episodios anteriores](tu-historia-clinica/consultar-episodios-anteriores.md)
+  * [Consultar episodios anteriores](tu-historia-clinica/consultar-episodios-anteriores.md)
+  * [Descargar un informe](tu-historia-clinica/descargar-un-informe.md)
 * [Ver tus pruebas diagnósticas](tu-historia-clinica/ver-tus-pruebas-diagnosticas.md)
-* [Descargar un informe](tu-historia-clinica/descargar-un-informe.md)
 * [Consultar la documentación administrativa](tu-historia-clinica/consultar-documentacion-administrativa.md)
 * [Solicitar una segunda opinión médica](tu-historia-clinica/solicitar-una-segunda-opinion.md)
-* [Enviar documentación a la mutua](tu-historia-clinica/enviar-documentacion.md)
 
 ## Prestaciones económicas
 
@@ -46,6 +45,7 @@
 ## Servicios médicos digitales
 
 * [Hablar con el servicio médico por chat](servicios-medicos-digitales/chat-con-el-servicio-medico.md "Chat con el servicio médico")
+* [Enviar documentación a la mutua](servicios-medicos-digitales/enviar-documentacion.md)
 * [Hacer una videoconsulta](servicios-medicos-digitales/videoconsulta.md)
 * [Hacer tu rehabilitación online](servicios-medicos-digitales/rehabilitacion-online.md "Rehabilitación online")
 

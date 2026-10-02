@@ -43,7 +43,7 @@ En el menú inferior, pulsa **H. Clínica** y, arriba, la pestaña **Pruebas y d
 
 ## Filtrar por quién ha subido el documento <a href="#documentacion-filtrar" id="documentacion-filtrar"></a>
 
-Si [tienes el alta como paciente digital](../alta-y-acceso/darte-de-alta.md), puedes [enviar documentación al servicio médico](enviar-documentacion.md) de la mutua. Queda archivada en tu historia clínica, y siempre puedes ver por separado la que ha incorporado el personal de la mutua y la que has adjuntado tú.
+Si [tienes el alta como paciente digital](../alta-y-acceso/darte-de-alta.md), puedes [enviar documentación al servicio médico](../servicios-medicos-digitales/enviar-documentacion.md) de la mutua. Queda archivada en tu historia clínica, y siempre puedes ver por separado la que ha incorporado el personal de la mutua y la que has adjuntado tú.
 
 {% tabs %}
 {% tab title="Web" %}
@@ -67,6 +67,6 @@ Usa el filtro **Subido** y elige **Mostrar todos**, **Subido por ti** o **Subido
 
 **También te puede interesar**
 
-{% content-ref url="enviar-documentacion.md" %}
-[Enviar documentación a la mutua](enviar-documentacion.md)
+{% content-ref url="../servicios-medicos-digitales/enviar-documentacion.md" %}
+[Enviar documentación a la mutua](../servicios-medicos-digitales/enviar-documentacion.md)
 {% endcontent-ref %}

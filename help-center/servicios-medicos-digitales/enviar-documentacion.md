@@ -67,7 +67,7 @@ Pulsa **Enviar solicitud**.
 
 ## Qué pasa después <a href="#documentacion-despues" id="documentacion-despues"></a>
 
-La documentación se carga en tu historia clínica para que el servicio médico de la mutua la valide. En tus documentos puedes ver por separado [la que has subido tú y la que ha incorporado la mutua](consultar-documentacion-administrativa.md#documentacion-filtrar).
+La documentación se carga en tu historia clínica para que el servicio médico de la mutua la valide. En tus documentos puedes ver por separado [la que has subido tú y la que ha incorporado la mutua](../tu-historia-clinica/consultar-documentacion-administrativa.md#documentacion-filtrar).
 
 Una vez validada, ya no puedes eliminarla de tu historia clínica desde Ibermutua Digital Personas.
 
@@ -79,6 +79,6 @@ Una vez validada, ya no puedes eliminarla de tu historia clínica desde Ibermutu
 
 **También te puede interesar**
 
-{% content-ref url="consultar-documentacion-administrativa.md" %}
-[Consultar la documentación administrativa](consultar-documentacion-administrativa.md)
+{% content-ref url="../tu-historia-clinica/consultar-documentacion-administrativa.md" %}
+[Consultar la documentación administrativa](../tu-historia-clinica/consultar-documentacion-administrativa.md)
 {% endcontent-ref %}

@@ -179,6 +179,7 @@ paginas:
     en_indice: true
     origen: [P09, P08]
     relaciones: {siguiente: [tu-historia-clinica/consultar-episodios-anteriores.md, tu-historia-clinica/descargar-un-informe.md]}
+    notas: desde el 02/10 es página padre en el menú de episodios anteriores y descargar un informe (decisión de Sergio); pruebas, documentación administrativa y segunda opinión siguen al mismo nivel
 
   tu-historia-clinica/consultar-episodios-anteriores.md:
     en_indice: true
@@ -198,7 +199,7 @@ paginas:
   tu-historia-clinica/consultar-documentacion-administrativa.md:
     en_indice: true
     origen: [P15]
-    relaciones: {alternativa: [tu-historia-clinica/enviar-documentacion.md]}
+    relaciones: {alternativa: [servicios-medicos-digitales/enviar-documentacion.md]}
 
   tu-historia-clinica/solicitar-una-segunda-opinion.md:
     en_indice: true
@@ -206,13 +207,6 @@ paginas:
     variables: [portal_url, red_centros_url]
     relaciones: {concepto: [preguntas-frecuentes/que-es-la-segunda-opinion.md]}
     notas: plazo por validar (ver informe); el enlace de acceso lleva parámetros de sesión → portal_url
-
-  tu-historia-clinica/enviar-documentacion.md:
-    en_indice: true
-    origen: [P37]
-    relaciones: {siguiente: [tu-historia-clinica/consultar-documentacion-administrativa.md], alternativa: [citas-y-asistencias/consultar-tus-citas.md]}
-    variables: [menu_gestiones]
-    notas: en Confluence estaba en Servicios médicos digitales; se hace desde Historia Clínica (ubicación aprobada en la versión 1, apartado 3.1 del análisis)
 
   # --- Prestaciones: pago directo ---
   prestaciones-economicas/pago-directo/solicitar-el-pago-directo.md:
@@ -316,6 +310,13 @@ paginas:
     bloques: [canal-chat]
     variables: [menu_gestiones]
     notas: P36 era índice de la sección
+
+  servicios-medicos-digitales/enviar-documentacion.md:
+    en_indice: true
+    origen: [P37]
+    relaciones: {siguiente: [tu-historia-clinica/consultar-documentacion-administrativa.md], alternativa: [citas-y-asistencias/consultar-tus-citas.md]}
+    variables: [menu_gestiones]
+    notas: en Confluence estaba en Servicios médicos digitales y ahí se queda (decisión de Sergio del 02/10, es un servicio médico digital). La historia clínica la enlaza en «Qué puedes hacer desde aquí» y en la documentación administrativa
 
   servicios-medicos-digitales/videoconsulta.md:
     en_indice: true

@@ -169,14 +169,6 @@ paginas:
     resuelve:
       - {ancla: "", intencion: solicitar una segunda opinión médica}
 
-  tu-historia-clinica/enviar-documentacion.md:
-    tipo: tarea
-    temas: [documentacion, historia-clinica]
-    faq_tema: documentacion
-    resuelve:
-      - {ancla: "", intencion: enviar documentación a la mutua}
-      - {ancla: documentacion-despues, intencion: saber dónde queda la documentación enviada y si se puede eliminar}
-
   # Prueba de la plantilla en autoliquidación (01/10/2026): tarea secuencial y dos preguntas.
   prestaciones-economicas/solicitar-la-autoliquidacion.md:
     tipo: tarea
@@ -308,6 +300,14 @@ paginas:
       - {ancla: "", intencion: hablar con el servicio médico por chat}
       - {ancla: chat-abrir, intencion: abrir el chat en la web o en la app}
       - {ancla: chat-escribir, intencion: escribir y enviar un mensaje al servicio médico}
+
+  servicios-medicos-digitales/enviar-documentacion.md:
+    tipo: tarea
+    temas: [documentacion, historia-clinica]
+    faq_tema: documentacion
+    resuelve:
+      - {ancla: "", intencion: enviar documentación a la mutua}
+      - {ancla: documentacion-despues, intencion: saber dónde queda la documentación enviada y si se puede eliminar}
 
   servicios-medicos-digitales/videoconsulta.md:
     tipo: tarea
