@@ -44,14 +44,22 @@ El resto del cierre («También te puede interesar») se edita a mano. Cuando un
 
 ## Entorno
 
-- Python 3.10 o superior y PyYAML: `python -m pip install -r herramientas/requirements.txt`.
-- Comprobado el 02/10/2026: en Windows, Python 3.12.8 con PyYAML 6.0.2; en el entorno Linux de Claude, Python 3.10.12 con PyYAML.
-- En la consola de Windows, `set PYTHONIOENCODING=utf-8` antes de ejecutar las herramientas para ver bien las tildes.
+- Python 3.10 o superior con PyYAML (`herramientas/requirements.txt`).
+- **Intérprete comprobado el 02/10/2026** en el equipo de Sergio: Python 3.12.8 con PyYAML 6.0.2, en `%LOCALAPPDATA%\Programs\Python\Python312\python.exe`. Funciona desde PowerShell 5.1 y desde CMD en la sesión de Sergio, también a través de Desktop Commander; ahí `python` y `py -3.12` llegan a ese intérprete. En el entorno Linux de Claude se usa `python3` (3.10.12 con PyYAML).
+- Si `python` no se encuentra (otro usuario o un entorno aislado sin ese PATH), usar la ruta completa. Si tampoco existe, ese entorno no tiene el intérprete: instalar Python 3.10 o superior y las dependencias, o ejecutar las comprobaciones en la sesión de Sergio.
 - **Git solo desde Windows,** en esta carpeta y con las credenciales de Sergio. Ejecutar git desde un entorno Linux que monta la carpeta deja `.git/index.lock` y bloquea el repositorio.
+
+Preparar la consola, desde la raíz del repositorio:
+
+| Consola | Tildes en la salida | Intérprete | Dependencias |
+|---|---|---|---|
+| PowerShell | `$env:PYTHONIOENCODING = "utf-8"` | `$py = "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe"`; se ejecuta con `& $py` | `& $py -m pip install -r herramientas\requirements.txt` |
+| CMD | `set PYTHONIOENCODING=utf-8` | `set PY=%LOCALAPPDATA%\Programs\Python\Python312\python.exe`; se ejecuta con `"%PY%"` | `"%PY%" -m pip install -r herramientas\requirements.txt` |
+| Linux (entorno de Claude) | No hace falta | `python3` | Instaladas |
 
 ## Comandos
 
-Desde la raíz del repositorio, en este orden:
+Desde la raíz del repositorio, en este orden. En la tabla, `python` es el intérprete de la consola: `& $py` en PowerShell, `"%PY%"` en CMD y `python3` en Linux.
 
 | Comando | Qué hace | ¿Modifica ficheros? |
 |---|---|---|
@@ -59,7 +67,25 @@ Desde la raíz del repositorio, en este orden:
 | `python herramientas/generar_pendientes.py` | `_editorial/pendientes.md` | Sí. Con `--comprobar`, solo comprueba |
 | `python herramientas/validar.py` | Menú, enlaces, imágenes, anclas, bloques y su estructura, variables, índice, preguntas al día, catálogo de enlaces y coherencia de pendientes | No. Sale con 1 si hay errores |
 
-Python crea `herramientas/__pycache__/`, que Git ignora; con `python -B` no se escribe nada.
+Python crea `herramientas/__pycache__/`, que Git ignora; con `-B` no se escribe nada. Comprobación completa sin escribir ficheros (probada el 02/10 en las dos consolas):
+
+```powershell
+# PowerShell
+$env:PYTHONIOENCODING = "utf-8"
+$py = "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe"
+& $py -B herramientas\generar_faq.py --comprobar
+& $py -B herramientas\generar_pendientes.py --comprobar
+& $py -B herramientas\validar.py
+```
+
+```bat
+:: CMD
+set PYTHONIOENCODING=utf-8
+set PY=%LOCALAPPDATA%\Programs\Python\Python312\python.exe
+"%PY%" -B herramientas\generar_faq.py --comprobar
+"%PY%" -B herramientas\generar_pendientes.py --comprobar
+"%PY%" -B herramientas\validar.py
+```
 
 Antes de cada subida, `validar.py` debe terminar en «Resultado: correcto» y `git diff --stat` solo debe mostrar los ficheros previstos.
 

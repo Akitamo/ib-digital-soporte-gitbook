@@ -17,8 +17,16 @@
 #   Las preguntas del tema ya salen en el cierre (bloque faq-<tema>); aquí solo se anotan si además deben
 #   enlazarse en el punto donde surge la duda. «También te puede interesar» lleva como máximo tres enlaces;
 #   ese límite no afecta a los enlaces del texto.
-# bloques / variables: los del catálogo de abajo que usa la página (reglas 15 y 16). En «variables», el plan de la
-#   versión 1 (incluye variables no creadas); el uso real se busca en help-center (README del repositorio).
+# bloques: los bloques del catálogo que incluye la página (reglas 15 y 16).
+# variables: las del catálogo previstas para la página en la versión 1 (incluye variables no creadas).
+#
+# Qué describe cada campo (validar.py no lee este fichero; lo implementado se comprobó a mano el 02/10):
+#  - Implementado, debe coincidir con help-center: en_indice; en las páginas, bloques; en el catálogo,
+#    usado_en de los bloques y estado de bloques y variables (existe / creada / no creada / pospuesta).
+#  - Previsto (plan o intención, no comprobado): relaciones (qué debe enlazar la página); variables de las
+#    páginas; valor de las variables no creadas o pospuestas; uso de un bloque.
+#    El uso real de una variable se busca en help-center (README del repositorio, fila de vars.yaml).
+#  - Procedencia y contexto: origen, contenido y notas.
 #
 # Estado: versión 1 validada por Sergio el 01/10/2026 (secciones, fusiones, bloques y variables), con valores
 # pendientes de negocio identificados en pendientes.yaml. Criterios: reglas 13 a 16 de la plantilla de tarea.
@@ -83,7 +91,7 @@ bloques:
     origen: [P58, P81]
     usado_en: [preguntas-frecuentes/que-es-el-pago-directo.md, glosario.md]
   # Existentes
-  aviso-cambio-cita: {contenido: solo el canal para cambiar una cita (02/10, sin aviso ni «No», para no repetir la respuesta), usado_en: [preguntas-frecuentes/cambiar-una-cita.md], nota: texto pendiente de validar el canal; la tarea de citas lleva su propio aviso, que enlaza a la pregunta}
+  aviso-cambio-cita: {contenido: "solo el canal para cambiar una cita (02/10, sin aviso ni «No», para no repetir la respuesta)", usado_en: [preguntas-frecuentes/cambiar-una-cita.md], nota: "texto pendiente de validar el canal; la tarea de citas lleva su propio aviso, que enlaza a la pregunta"}
   contacto: {nota: sin uso desde el borrador completo (contacto en la navegación); su contenido pasa a canales-de-atencion.md con canal-chat y contacto-tramitador, estado: pendiente de validar con Atención; retirar en la limpieza general}
   limites-asistente:
     contenido: qué puede y qué no puede hacer el asistente
@@ -104,21 +112,22 @@ bloques:
 variables:
   portal_url: {origen: 15 páginas, estado: "existe; no sirve para la dirección de un enlace (prueba del 02/10): los enlaces llevan la dirección escrita"}
   telefono_atencion: {origen: [P02, P41, P80], estado: existe}
-  autoliquidacion_espera: {origen: [P34, P67, P70, P71, P72], estado: creada en la prueba (01/10), provisional}
-  autoliquidacion_plazo_abono: {origen: [P34, P67, P70, P71], nota: P34 dice también «1-2 días», estado: creada en la prueba (01/10), provisional}
+  autoliquidacion_espera: {origen: [P34, P67, P70, P71, P72], estado: "creada en la prueba (01/10), provisional"}
+  autoliquidacion_plazo_abono: {origen: [P34, P67, P70, P71], nota: P34 dice también «1-2 días», estado: "creada en la prueba (01/10), provisional"}
   rel_dias_finalizar: {origen: [P29, P30, P60, P61, P64], estado: creada en el borrador (01/10)}
   red_centros_url: {valor: "https://www.ibermutua.es/redcentros/", origen: [P14, P45, P81], nota: P14 usa /red-de-centros/, estado: "no creada: GitBook no admite variables en la dirección de un enlace (prueba del 02/10)"}
   portal_empresas_url: {valor: "https://empresas.ibermutua.es/", origen: [P22, P28], estado: "no creada: GitBook no admite variables en la dirección de un enlace (prueba del 02/10)"}
   portal_digital_url: {valor: "https://digital.ibermutua.es/", origen: [P22, P28], estado: "no creada: GitBook no admite variables en la dirección de un enlace (prueba del 02/10)"}
   rel_lactancia_semana: {origen: [P32], estado: creada el 02/10 (sin verificar; ver pendientes)}
   rel_lactancia_semana_multiple: {origen: [P32], nota: embarazo múltiple, estado: creada el 02/10 (sin verificar; ver pendientes)}
-  menu_gestiones: {valor: "Tus gestiones digitales", origen: [P02, P09, P16, P19, P27, P34, P37, P38, P55], estado: pospuesta (si la app usa otro nombre, puede haber una variable solo para la web)}
+  menu_gestiones: {valor: "Tus gestiones digitales", origen: [P02, P09, P16, P19, P27, P34, P37, P38, P55], estado: "pospuesta (si la app usa otro nombre, puede haber una variable solo para la web)"}
 
 paginas:
   # --- Portada y referencia ---
   README.md:
     en_indice: true
     origen: [P01, P02]
+    bloques: [limites-asistente]
     notas: P02 (Bienvenida) se fusiona en la portada; se quitan el contacto (va en la navegación) y «Buscar en este espacio» (Confluence)
 
   preguntas-frecuentes/README.md:
@@ -186,7 +195,6 @@ paginas:
   citas-y-asistencias/consultar-tus-citas.md:
     en_indice: true
     origen: [P10]
-    bloques: [aviso-cambio-cita]
     relaciones: {incidencia: [preguntas-frecuentes/cambiar-una-cita.md], siguiente: [citas-y-asistencias/descargar-un-justificante.md, servicios-medicos-digitales/videoconsulta.md]}
 
   citas-y-asistencias/descargar-un-justificante.md:
@@ -200,6 +208,7 @@ paginas:
   tu-historia-clinica/consultar-tu-historia-clinica.md:
     en_indice: true
     origen: [P09, P08]
+    bloques: [aviso-datos-salud]
     relaciones: {siguiente: [tu-historia-clinica/consultar-episodios-anteriores.md, tu-historia-clinica/descargar-un-informe.md]}
     notas: desde el 02/10 es página padre en el menú de episodios anteriores y descargar un informe (decisión de Sergio); pruebas, documentación administrativa y segunda opinión siguen al mismo nivel
 
