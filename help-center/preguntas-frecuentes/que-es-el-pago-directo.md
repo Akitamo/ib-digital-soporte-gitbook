@@ -1,6 +1,7 @@
 ---
 description: "Qué es el pago directo de la prestación por incapacidad temporal y en qué casos se aplica."
 icon: circle-question
+hidden: true
 ---
 
 # ¿Qué es el pago directo?

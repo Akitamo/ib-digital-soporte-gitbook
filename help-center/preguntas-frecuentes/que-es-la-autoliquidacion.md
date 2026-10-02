@@ -1,6 +1,7 @@
 ---
 description: "Qué es la autoliquidación de tu prestación económica, qué condiciones tiene y cómo se comprueban."
 icon: circle-question
+hidden: true
 ---
 
 # ¿Qué es la autoliquidación y qué condiciones tiene?

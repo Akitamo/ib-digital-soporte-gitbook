@@ -3,6 +3,7 @@ description: >-
   Qué es la segunda opinión médica, cuándo está indicada, qué incluye y en qué
   plazos se resuelve.
 icon: circle-question
+hidden: true
 ---
 
 # ¿Qué es la segunda opinión médica?

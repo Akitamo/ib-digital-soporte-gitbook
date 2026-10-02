@@ -3,6 +3,7 @@ description: >-
   Qué certificados digitales sirven para darte de alta en Ibermutua Digital
   Personas.
 icon: circle-question
+hidden: true
 ---
 
 # ¿Qué certificados digitales sirven para darte de alta?

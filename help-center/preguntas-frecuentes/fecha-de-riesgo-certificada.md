@@ -1,6 +1,7 @@
 ---
 description: "Qué efectos tiene la fecha de riesgo certificada en tu contrato o tu actividad y en el cobro de la prestación."
 icon: circle-question
+hidden: true
 ---
 
 # ¿Qué implica la fecha de riesgo certificada?

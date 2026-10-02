@@ -1,6 +1,7 @@
 ---
 description: "Cómo se calcula la prestación por riesgo durante el embarazo o la lactancia y cuándo se paga."
 icon: circle-question
+hidden: true
 ---
 
 # ¿Cómo se calcula y se paga la prestación por riesgo durante el embarazo o la lactancia?

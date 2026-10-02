@@ -1,6 +1,7 @@
 ---
 description: "Qué días y qué importe cubre la autoliquidación y dónde lo ves antes de pedirla."
 icon: circle-question
+hidden: true
 ---
 
 # ¿Qué importe recibiré con la autoliquidación?

@@ -3,6 +3,7 @@ description: >-
   Las pruebas diagnósticas se publican tras la valoración del servicio médico,
   con un plazo mínimo de 24 horas.
 icon: circle-question
+hidden: true
 ---
 
 # ¿Cuándo están disponibles las pruebas diagnósticas?

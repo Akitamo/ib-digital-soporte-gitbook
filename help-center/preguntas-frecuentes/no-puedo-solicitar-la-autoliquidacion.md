@@ -1,6 +1,7 @@
 ---
 description: "Por qué no aparece o no se puede usar la opción de autoliquidación y qué hacer en cada caso."
 icon: circle-question
+hidden: true
 ---
 
 # ¿Por qué no puedo solicitar la autoliquidación?

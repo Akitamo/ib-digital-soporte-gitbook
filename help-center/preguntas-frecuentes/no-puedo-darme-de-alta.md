@@ -3,6 +3,7 @@ description: >-
   Qué hacer si no puedes darte de alta en Ibermutua Digital Personas con el DNI
   y no tienes certificado digital.
 icon: circle-question
+hidden: true
 ---
 
 # ¿Qué hago si no puedo darme de alta con el DNI o no tengo certificado digital?

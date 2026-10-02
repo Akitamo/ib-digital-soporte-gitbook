@@ -3,6 +3,7 @@ description: >-
   Ejemplos de documentos que encontrarás en tu historia clínica: declaración
   de accidente, partes de baja y confirmación, informes y más.
 icon: circle-question
+hidden: true
 ---
 
 # ¿Qué documentación incluye la historia clínica?

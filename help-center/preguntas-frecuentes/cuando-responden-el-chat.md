@@ -1,6 +1,7 @@
 ---
 description: "Por qué las respuestas del chat con el servicio médico no son inmediatas."
 icon: circle-question
+hidden: true
 ---
 
 # ¿El chat se responde al momento?

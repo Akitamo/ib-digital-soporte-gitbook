@@ -1,6 +1,7 @@
 ---
 description: "Qué dispositivo y qué permisos necesitas para hacer una videoconsulta con Ibermutua."
 icon: circle-question
+hidden: true
 ---
 
 # ¿Qué necesito para hacer una videoconsulta?

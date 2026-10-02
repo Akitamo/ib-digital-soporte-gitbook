@@ -1,6 +1,7 @@
 ---
 description: "Qué te aporta hacer la rehabilitación online con Fisio Digital."
 icon: circle-question
+hidden: true
 ---
 
 # ¿Qué ventajas tiene la rehabilitación online?

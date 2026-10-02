@@ -28,11 +28,11 @@
 
 ## Prestaciones económicas
 
-* [Solicitar el pago directo por incapacidad temporal](prestaciones-economicas/pago-directo/solicitar-el-pago-directo.md "Solicitar el pago directo")
-* [Rellenar la solicitud de pago directo](prestaciones-economicas/pago-directo/rellenar-la-solicitud.md)
-* [Solicitar el pago directo como representante](prestaciones-economicas/pago-directo/solicitar-como-representante.md "Solicitar como representante")
-* [Consultar el estado de tu solicitud](prestaciones-economicas/pago-directo/consultar-el-estado.md "Consultar el estado de la solicitud")
-* [Subsanar la documentación de tu solicitud](prestaciones-economicas/pago-directo/subsanar-documentacion.md "Subsanar la documentación")
+* [Solicitar el pago directo por incapacidad temporal](prestaciones-economicas/pago-directo/solicitar-el-pago-directo.md "Pago directo por incapacidad temporal")
+  * [Rellenar la solicitud de pago directo](prestaciones-economicas/pago-directo/rellenar-la-solicitud.md)
+  * [Solicitar el pago directo como representante](prestaciones-economicas/pago-directo/solicitar-como-representante.md "Solicitar como representante")
+  * [Consultar el estado de tu solicitud](prestaciones-economicas/pago-directo/consultar-el-estado.md "Consultar el estado de la solicitud")
+  * [Subsanar la documentación de tu solicitud](prestaciones-economicas/pago-directo/subsanar-documentacion.md "Subsanar la documentación")
 * [Solicitar la prestación por riesgo durante el embarazo o la lactancia](prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md "Riesgo durante el embarazo o la lactancia")
   * [Iniciar la solicitud](prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md)
   * [Certificación de riesgo](prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md)

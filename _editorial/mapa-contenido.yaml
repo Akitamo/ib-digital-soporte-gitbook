@@ -103,7 +103,7 @@ paginas:
   preguntas-frecuentes/README.md:
     en_indice: true
     origen: [P41, P42, P48, P56, P74]
-    notas: contenido = los bloques faq-<tema> bajo un encabezado por tema; sin mantenimiento propio. P42, P48, P56 y P74 eran índices por tema
+    notas: contenido = los bloques faq-<tema> bajo un encabezado por tema; sin mantenimiento propio. P42, P48, P56 y P74 eran índices por tema. Desde el 02/10 es la única entrada del grupo en el menú; las preguntas llevan «hidden» (prueba C de paginas-y-grupos.md) y se llega a ellas desde aquí, desde el cierre de cada tarea, el buscador y el asistente
 
   canales-de-atencion.md:
     en_indice: true
@@ -221,7 +221,7 @@ paginas:
     relaciones: {concepto: [preguntas-frecuentes/que-es-el-pago-directo.md], siguiente: [prestaciones-economicas/pago-directo/rellenar-la-solicitud.md], alternativa: [prestaciones-economicas/pago-directo/solicitar-como-representante.md]}
     bloques: [abrir-solicitud-prestacion]
     variables: [menu_gestiones]
-    notas: P18 era índice; su introducción pasa aquí
+    notas: P18 era índice; su introducción pasa aquí. Desde el 02/10 es página padre en el menú («Pago directo por incapacidad temporal») de rellenar, representante, estado y subsanar, como la página general de riesgo con sus fases
 
   prestaciones-economicas/pago-directo/rellenar-la-solicitud.md:
     en_indice: true

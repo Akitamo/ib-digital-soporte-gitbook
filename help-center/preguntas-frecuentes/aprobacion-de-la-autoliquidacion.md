@@ -1,6 +1,7 @@
 ---
 description: "Si la autoliquidación necesita una aprobación de la mutua y qué se comprueba antes de poder pedirla."
 icon: circle-question
+hidden: true
 ---
 
 # ¿La autoliquidación necesita aprobación?

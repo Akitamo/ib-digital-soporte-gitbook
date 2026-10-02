@@ -1,6 +1,7 @@
 ---
 description: "De qué depende el tiempo que tarda la mutua en emitir la certificación de riesgo en el embarazo o la lactancia."
 icon: circle-question
+hidden: true
 ---
 
 # ¿Cuánto tarda la mutua en emitir la certificación de riesgo?

@@ -1,6 +1,7 @@
 ---
 description: "Cuánto tarda en llegar el ingreso de la autoliquidación y cada cuánto puedes pedirla."
 icon: circle-question
+hidden: true
 ---
 
 # ¿Cuándo recibo la autoliquidación?

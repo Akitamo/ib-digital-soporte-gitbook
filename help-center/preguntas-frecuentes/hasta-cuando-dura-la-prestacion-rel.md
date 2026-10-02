@@ -1,6 +1,7 @@
 ---
 description: "Hasta cuándo se cobra la prestación por riesgo durante el embarazo o la lactancia natural y qué la extingue."
 icon: circle-question
+hidden: true
 ---
 
 # ¿Hasta cuándo dura la prestación por riesgo durante el embarazo o la lactancia?

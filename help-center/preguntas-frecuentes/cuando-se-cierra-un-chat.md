@@ -1,6 +1,7 @@
 ---
 description: "Cuándo se cierra un chat con el servicio médico y qué puedes hacer después."
 icon: circle-question
+hidden: true
 ---
 
 # ¿Cuándo se cierra un chat?

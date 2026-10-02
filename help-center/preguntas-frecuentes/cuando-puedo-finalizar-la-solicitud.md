@@ -1,6 +1,7 @@
 ---
 description: "Cuándo se habilita el paso Finalizar solicitud según el tipo de certificación de riesgo."
 icon: circle-question
+hidden: true
 ---
 
 # ¿Cuándo puedo finalizar la solicitud por riesgo durante el embarazo o la lactancia?

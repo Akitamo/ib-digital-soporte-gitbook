@@ -1,6 +1,7 @@
 ---
 description: "Qué prestaciones económicas puedes solicitar online desde Ibermutua Digital Personas y cómo empezar."
 icon: circle-question
+hidden: true
 ---
 
 # ¿Qué prestaciones puedo pedir desde Ibermutua Digital Personas?

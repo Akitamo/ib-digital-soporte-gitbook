@@ -3,6 +3,7 @@ description: >-
   Diferencia entre el informe de historia clínica (todos tus episodios) y el
   informe de un episodio médico concreto.
 icon: circle-question
+hidden: true
 ---
 
 # ¿Qué diferencia hay entre el informe de historia clínica y el de episodio médico?

@@ -1,6 +1,7 @@
 ---
 description: "Por qué el periodo que se paga en la autoliquidación termina en una fecha concreta, caso por caso."
 icon: circle-question
+hidden: true
 ---
 
 # ¿Hasta qué fecha se paga la autoliquidación?

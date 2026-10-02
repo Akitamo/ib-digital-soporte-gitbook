@@ -1,6 +1,7 @@
 ---
 description: "Qué es la certificación de riesgo en el embarazo o la lactancia, qué tipos hay y qué permite cada uno."
 icon: circle-question
+hidden: true
 ---
 
 # ¿Qué es la certificación de riesgo en el embarazo o la lactancia?
