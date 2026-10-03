@@ -93,10 +93,10 @@ Antes de cada subida, `validar.py` debe terminar en «Resultado: correcto» y `g
 ## Subir y comprobar
 
 1. Commit con un mensaje que explique qué cambia y por qué; `git push` a `main` desde Windows.
-2. Si el commit toca `help-center`, GitBook lo importa en alrededor de un minuto. Comprobar con el MCP de GitBook: `getSpaceById` (estado de `gitSync.operation`) y `get_page` de las páginas afectadas.
+2. Si el commit toca `help-center` o `gitbook-docs.yaml` (contenido, estructura o configuración sincronizada), GitBook lo importa en alrededor de un minuto. Comprobar con el MCP de GitBook: `getSpaceById` (estado de `gitSync.operation`) y `get_page` de las páginas afectadas; si cambia la estructura, también `get_site_structure`.
 3. En ese caso, revisar en app.gitbook.com: el enlace de vista previa caduca.
 
-Si el commit solo cambia `_editorial/`, `herramientas/` o este README, GitBook no recibe cambios de contenido (solo importa `help-center`) y no hace falta comprobarlo allí.
+Si el commit solo cambia `_editorial/`, `herramientas/` o este README, GitBook no recibe cambios (solo lee `help-center` y `gitbook-docs.yaml`) y no hace falta comprobarlo allí.
 
 ## Cambios desde GitBook
 

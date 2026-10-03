@@ -28,8 +28,7 @@
 # Estado: versión 1 validada por Sergio el 01/10/2026 (secciones, fusiones, bloques y variables), con valores
 # pendientes de negocio identificados en pendientes.yaml. Criterios: reglas 13 a 16 de la plantilla de tarea.
 
-# Bloques reutilizables (.gitbook/includes). Regla 15: explicación breve que el lector necesita leer en ese punto
-# y que debe ser igual en varias páginas. Puede ir en un paso, junto a una opción o en un aviso.
+# Bloques reutilizables (.gitbook/includes). Cuándo se usan: regla 15 del documento maestro.
 # Catálogo de todos los bloques salvo los faq-<tema>, que genera generar_faq.py. «estado» recoge la revisión de
 # su texto (sin responsable asignado todavía); los valores y canales por confirmar están en pendientes.yaml.
 bloques:
@@ -77,10 +76,7 @@ bloques:
     uso: páginas o portadas de grupo que muestran datos de salud
     estado: borrador
 
-# Variables de sección (.gitbook/vars.yaml). Regla 16: un mismo dato, con el mismo significado, en frases distintas,
-# también dentro de los bloques. Se comparte porque significa lo mismo, no porque coincida (autoliquidacion_espera y
-# rel_dias_finalizar valen 7 días y son distintas). La condición se escribe completa; solo el valor sale de la variable.
-# No funcionan en títulos: los títulos no llevan datos.
+# Variables de sección (.gitbook/vars.yaml). Cuándo se usan: regla 16 del documento maestro.
 # valor: solo en las no creadas o pospuestas; el de las creadas está en help-center/.gitbook/vars.yaml, que manda.
 variables:
   portal_url: {origen: 15 páginas, estado: "existe; no sirve para la dirección de un enlace (prueba del 02/10): los enlaces llevan la dirección escrita"}
