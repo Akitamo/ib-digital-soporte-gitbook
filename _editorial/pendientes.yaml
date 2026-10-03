@@ -33,6 +33,16 @@
   tipo: sin verificar
   texto: Semana del parto desde la que se puede pedir por lactancia si fue un embarazo múltiple. Redacción de P32 («o de la 18 si es embarazo múltiple»); confirmar el plazo.
 
+- bloque: contacto-tramitador
+  cita: de lunes a viernes, de 8:00 a 15:00
+  tipo: valor provisional
+  texto: Horario de atención del tramitador/a, tomado de Confluence (P21, P34, P80); confirmar con negocio.
+
+- bloque: autoliquidacion-requisitos
+  cita: Para pedir la autoliquidación tienen que cumplirse estas condiciones
+  tipo: sin verificar
+  texto: Las cuatro condiciones para pedir la autoliquidación proceden de Confluence (P34, P67, P70-P72) y están sin validar. El plazo de espera tiene su propio pendiente (variable autoliquidacion_espera).
+
 # --- Sección 1: citas e historia clínica ---
 
 - pagina: citas-y-asistencias/consultar-tus-citas.md

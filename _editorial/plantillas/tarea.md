@@ -6,7 +6,7 @@ icon: [icono Font Awesome sin «fa-», p. ej. calendar-check]
 ---
 
 <!--
-PLANTILLA DE TAREA – Ayuda de Ibermutua Digital Personas (v0.4, 02/10/2026)
+PLANTILLA DE TAREA – Ayuda de Ibermutua Digital Personas (v0.5, 03/10/2026)
 Esqueleto de una página de tarea. Los criterios no se repiten aquí: están en «Plantilla de página de tarea»,
   reglas 1 a 16, de funcionalidades-gitbook/diseno-del-contenido.md (fuera del repositorio). Redacción:
   _editorial/guia-estilo-gitbook.md (SG-n). Convenciones de ficheros y anclas: _editorial/guia-de-estilo.md.
@@ -14,9 +14,9 @@ Esqueleto de una página de tarea. Los criterios no se repiten aquí: están en 
 Página de referencia: citas-y-asistencias/consultar-tus-citas.md.
 Una tarea que es una secuencia completa (enviar una solicitud) usa el mismo esquema sin descripción de
   pantalla ni opciones: el stepper es el cuerpo de la página.
-Página nueva: entrada en help-center/SUMMARY.md, en _editorial/indice-contenido.yaml (tipo, temas, faq_tema
-  y, si puede quedarse sin cierre, cierre) y en _editorial/mapa-contenido.yaml (origen y relaciones).
-Antes de subir: python herramientas/generar_faq.py y python herramientas/validar.py (README del repositorio).
+Página nueva: entrada en help-center/SUMMARY.md, en _editorial/indice-contenido.yaml (tipo, temas, resuelve,
+  faq_tema y, si puede quedarse sin cierre, cierre) y en _editorial/mapa-contenido.yaml (origen y relaciones).
+Antes de subir: los comandos del README del repositorio, en su orden.
 Borra estos comentarios y los textos entre corchetes.
 -->
 
@@ -105,7 +105,7 @@ Borra estos comentarios y los textos entre corchetes.
 {% endtabs %}
 
 <!-- Cierre opcional (regla 11): solo si aporta preguntas del tema que ayuden, tareas útiles después o ambas.
-La parte «Preguntas frecuentes» la escribe herramientas/generar_faq.py según faq_tema del índice: no se edita a mano.
+La parte «Preguntas frecuentes» es generada («Partes generadas» del README del repositorio): no se edita a mano.
 «También te puede interesar»: hasta tres tareas o ampliaciones útiles, a mano. Sin bloque de contacto. -->
 ## Más sobre [tema] <a href="#[tema]-relacionado" id="[tema]-relacionado"></a>
 

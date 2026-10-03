@@ -17,10 +17,10 @@ Este README describe los ficheros del repositorio, el entorno y los comandos. La
 | `help-center/preguntas-frecuentes/README.md` | Portada de preguntas frecuentes | **Generada** |
 | `help-center/.gitbook/includes/faq-*.md` | Bloques de preguntas por tema | **Generados** |
 | `help-center/.gitbook/includes/*.md` (resto) | Bloques reutilizables: un texto compartido por varias páginas | A mano; su catálogo está en `_editorial/mapa-contenido.yaml` |
-| `help-center/.gitbook/vars.yaml` | Variables: un mismo dato usado en frases distintas | A mano. Al fusionar una solicitud de cambio en GitBook vuelve sin comentarios. Dónde sale un valor: `grep -rn "vars.<nombre>" help-center` y, si sale en un bloque, las páginas que lo incluyen |
+| `help-center/.gitbook/vars.yaml` | Variables: un mismo dato usado en frases distintas | A mano. Al fusionar una solicitud de cambio en GitBook vuelve sin comentarios. Dónde sale un valor: `grep -rn "vars.<nombre>" help-center` y, si sale en un bloque, las páginas que lo incluyen. Algunos datos figuran también fuera del contenido (instrucciones del asistente, cabecera): ver «Valores y textos compartidos» en el README de las fichas |
 | `help-center/.gitbook/assets/` | Imágenes | Recortes nuevos con nombre propio; no sobrescribir originales |
 | `_editorial/` | Material de trabajo; GitBook no lo importa | — |
-| `_editorial/indice-contenido.yaml` | Fuente: tipo, temas y preguntas que muestra cada página (`faq_tema`, `cierre`); secciones de la portada de preguntas (`portada_faq`) | A mano; después, `generar_faq.py` |
+| `_editorial/indice-contenido.yaml` | Fuente: tipo, temas, intenciones (`resuelve`) y preguntas que muestra cada página (`faq_tema`, `cierre`); secciones de la portada de preguntas (`portada_faq`) | A mano; después, `generar_faq.py` |
 | `_editorial/mapa-contenido.yaml` | Fuente: origen de cada página en Confluence, relaciones entre páginas y catálogo de bloques y variables | A mano |
 | `_editorial/pendientes.yaml` | Fuente de los pendientes de contenido | A mano; después, `generar_pendientes.py` |
 | `_editorial/pendientes.md` | Lista de pendientes con enlaces a GitBook | **Generada** |
@@ -33,6 +33,8 @@ Este README describe los ficheros del repositorio, el entorno y los comandos. La
 | `herramientas/` | Generadores y validador | — |
 
 ## Partes generadas: no se editan a mano
+
+Descripción de referencia de lo que hacen los generadores; los demás documentos remiten aquí.
 
 | Parte | Fuente | Comando |
 |---|---|---|
@@ -68,14 +70,12 @@ Desde la raíz del repositorio, en este orden. En la tabla, `python` es el inté
 | `python herramientas/generar_pendientes.py` | `_editorial/pendientes.md` | Sí. Con `--comprobar`, solo comprueba |
 | `python herramientas/validar.py` | Menú, enlaces, imágenes, anclas, bloques y su estructura, variables, índice, preguntas al día, catálogo de enlaces y coherencia de pendientes | No. Sale con 1 si hay errores |
 
-Python crea `herramientas/__pycache__/`, que Git ignora; con `-B` no se escribe nada. Comprobación completa sin escribir ficheros (probada el 02/10 en las dos consolas):
+Python crea `herramientas/__pycache__/`, que Git ignora; con `-B` no se escribe nada. Para comprobar sin escribir ficheros basta con `validar.py`: incluye las mismas comprobaciones que `generar_faq.py --comprobar` y `generar_pendientes.py --comprobar`, y su mensaje indica qué generador ejecutar si algo está desfasado.
 
 ```powershell
 # PowerShell
 $env:PYTHONIOENCODING = "utf-8"
 $py = "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe"
-& $py -B herramientas\generar_faq.py --comprobar
-& $py -B herramientas\generar_pendientes.py --comprobar
 & $py -B herramientas\validar.py
 ```
 
@@ -83,20 +83,20 @@ $py = "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe"
 :: CMD
 set PYTHONIOENCODING=utf-8
 set PY=%LOCALAPPDATA%\Programs\Python\Python312\python.exe
-"%PY%" -B herramientas\generar_faq.py --comprobar
-"%PY%" -B herramientas\generar_pendientes.py --comprobar
 "%PY%" -B herramientas\validar.py
 ```
 
 Antes de cada subida, `validar.py` debe terminar en «Resultado: correcto» y `git diff --stat` solo debe mostrar los ficheros previstos.
 
-`validar.py` no comprueba que las relaciones del mapa estén enlazadas, la pertinencia de un enlace o de un cierre, los destinos de `correspondencia.csv`, las imágenes sin uso ni el catálogo de `mapa-contenido.yaml` (dónde se usan bloques y variables).
+`validar.py` no lee `mapa-contenido.yaml` (no comprueba, por ejemplo, que sus relaciones estén enlazadas) ni comprueba la pertinencia de un enlace o de un cierre, los destinos de `correspondencia.csv` ni las imágenes sin uso.
 
 ## Subir y comprobar
 
 1. Commit con un mensaje que explique qué cambia y por qué; `git push` a `main` desde Windows.
-2. GitBook importa en alrededor de un minuto. Comprobar con el MCP de GitBook: `getSpaceById` (estado de `gitSync.operation`) y `get_page` de las páginas afectadas.
-3. Revisar en app.gitbook.com: el enlace de vista previa caduca.
+2. Si el commit toca `help-center`, GitBook lo importa en alrededor de un minuto. Comprobar con el MCP de GitBook: `getSpaceById` (estado de `gitSync.operation`) y `get_page` de las páginas afectadas.
+3. En ese caso, revisar en app.gitbook.com: el enlace de vista previa caduca.
+
+Si el commit solo cambia `_editorial/`, `herramientas/` o este README, GitBook no recibe cambios de contenido (solo importa `help-center`) y no hace falta comprobarlo allí.
 
 ## Cambios desde GitBook
 

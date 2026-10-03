@@ -1,47 +1,32 @@
 # Mapa de contenido de la sección Personas
 #
 # Fuente de tres cosas (las demás están en indice-contenido.yaml):
-#  - de qué páginas de Confluence sale cada página nueva (origen);
-#  - qué otras páginas debe enlazar cada una (relaciones);
-#  - el catálogo de bloques reutilizables y de variables: contenido, origen, dónde se usan y estado.
-# Nació como plan de migración de las 82 páginas; desde el 01-02/10 todas están migradas (en_indice: true).
-# Una página nueva lleva aquí su entrada y, en el índice, su tipo, temas y preguntas.
+#  - de qué páginas de Confluence sale cada página (origen);
+#  - qué otras páginas debe enlazar cada una y por qué (relaciones);
+#  - el catálogo de bloques reutilizables y de variables: contenido, origen y estado.
+# Nació como plan de migración de las 82 páginas; desde el 01-02/10 todas están migradas. Una página nueva lleva
+# aquí su entrada (origen y relaciones) y, en el índice, su tipo, temas, intenciones y preguntas.
+# Lo que se consulta en help-center no se repite aquí. Dónde se usa un bloque: grep -rn "includes/<nombre>.md" help-center.
+#   Dónde se usa una variable: fila de vars.yaml del README del repositorio.
 #
 # origen: páginas de Confluence (Pnn = orden de extracciones/…/indice.md). La primera es la
 #   principal; las demás se fusionan o se redirigen a esta página (ver correspondencia.csv).
-# tipo: portada | tarea | concepto | pregunta | referencia
-# temas / faq_tema: igual que en el índice (el bloque faq-<tema> que muestra la tarea).
 # relaciones: qué otras páginas debe enlazar esta y por qué. No dicen dónde va el enlace: lo decide
 #   la redacción con las reglas 13 y 14 de la plantilla (en el punto donde se necesita o en el cierre).
 #   Tipos: requisito | siguiente | alternativa | concepto | incidencia | tarea (desde una pregunta: dónde se hace).
 #   Las preguntas del tema ya salen en el cierre (bloque faq-<tema>); aquí solo se anotan si además deben
 #   enlazarse en el punto donde surge la duda. «También te puede interesar» lleva como máximo tres enlaces;
 #   ese límite no afecta a los enlaces del texto.
-# bloques: los bloques del catálogo que incluye la página (reglas 15 y 16).
 # variables: las del catálogo previstas para la página en la versión 1 (incluye variables no creadas).
 #
-# Qué describe cada campo (validar.py no lee este fichero; lo implementado se comprobó a mano el 02/10):
-#  - Implementado, debe coincidir con help-center: en_indice; en las páginas, bloques; en el catálogo,
-#    usado_en de los bloques y estado de bloques y variables (existe / creada / no creada / pospuesta).
+# Qué describe cada campo (validar.py no lee este fichero):
+#  - Comprobable en help-center: estado de bloques y variables (existe / creada / no creada / pospuesta).
 #  - Previsto (plan o intención, no comprobado): relaciones (qué debe enlazar la página); variables de las
-#    páginas; valor de las variables no creadas o pospuestas; uso de un bloque.
-#    El uso real de una variable se busca en help-center (README del repositorio, fila de vars.yaml).
-#  - Procedencia y contexto: origen, contenido y notas.
+#    páginas; valor de las variables no creadas o pospuestas; uso previsto de un bloque.
+#  - Procedencia y contexto: origen, contenido y notas. Los pendientes de contenido están en pendientes.yaml.
 #
 # Estado: versión 1 validada por Sergio el 01/10/2026 (secciones, fusiones, bloques y variables), con valores
 # pendientes de negocio identificados en pendientes.yaml. Criterios: reglas 13 a 16 de la plantilla de tarea.
-
-temas_nuevos:
-  alta: Alta (02/10, separado de acceso)
-  acceso: Acceso
-  prestaciones: Prestaciones económicas
-  pago-directo: Pago directo
-  rel: Riesgo durante el embarazo o la lactancia
-  pagos: Pagos y retenciones
-  autoliquidacion: Autoliquidación
-  chat: Chat con el servicio médico
-  videoconsulta: Videoconsulta
-  rehabilitacion: Rehabilitación online
 
 # Bloques reutilizables (.gitbook/includes). Regla 15: explicación breve que el lector necesita leer en ese punto
 # y que debe ser igual en varias páginas. Puede ir en un paso, junto a una opción o en un aviso.
@@ -51,56 +36,44 @@ bloques:
   abrir-solicitud-prestacion:
     contenido: aviso «no disponible en la App, usa la web desde el móvil» y las dos formas de abrir una solicitud (Tus gestiones digitales o Prestaciones económicas)
     origen: [P19, P27, P57]
-    usado_en: [prestaciones-economicas/pago-directo/solicitar-el-pago-directo.md, prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md, preguntas-frecuentes/que-prestaciones-puedo-pedir.md]
   canal-chat:
     contenido: para qué es el chat (solo dudas médicas, ligado a un episodio, no urgencias, respuesta en horario laboral)
     origen: [P02, P38, P77, P80]
-    usado_en: [servicios-medicos-digitales/chat-con-el-servicio-medico.md, canales-de-atencion.md, preguntas-frecuentes/cuando-responden-el-chat.md]
   contacto-tramitador:
     contenido: dónde ves el correo y el teléfono de tu tramitador/a (en tu solicitud) y su horario
     origen: [P21, P34, P80]
-    estado: prueba (01/10); horario tomado de Confluence
-    usado_en: [prestaciones-economicas/pago-directo/consultar-el-estado.md, prestaciones-economicas/solicitar-la-autoliquidacion.md, preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md, prestaciones-economicas/reclamar-una-resolucion.md, canales-de-atencion.md]
+    estado: prueba (01/10)
   rel-tipos-certificacion:
     contenido: tabla negativa / positiva / positiva diferida → qué significa → cuándo puedes finalizar la solicitud
     origen: [P29, P60, P61, P64]
-    usado_en: [prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md, preguntas-frecuentes/que-es-la-certificacion-de-riesgo.md, preguntas-frecuentes/cuando-puedo-finalizar-la-solicitud.md]
   autoliquidacion-requisitos:
     contenido: las cuatro condiciones (prestación activa, días de espera, sin embargos, último parte de confirmación) y qué pasa si no se cumplen
     origen: [P34, P67, P70, P71, P72]
-    estado: prueba (01/10); condiciones de Confluence sin validar
-    usado_en: [prestaciones-economicas/solicitar-la-autoliquidacion.md, preguntas-frecuentes/que-es-la-autoliquidacion.md, preguntas-frecuentes/aprobacion-de-la-autoliquidacion.md, preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md]
+    estado: prueba (01/10)
   # Definiciones que se repiten en su página y en el glosario: si el resumen debe cambiar con la página,
   # es texto compartido (propuesta). Un bloque no cabe en una celda de tabla: la presentación del glosario
   # completo se decide al trabajar esa página.
   def-segunda-opinion:
     contenido: definición breve de la segunda opinión médica
     origen: [P49, P81]
-    usado_en: [preguntas-frecuentes/que-es-la-segunda-opinion.md, glosario.md]
   def-autoliquidacion:
     contenido: definición breve de la autoliquidación
     origen: [P67, P81]
     estado: prueba (01/10)
-    usado_en: [prestaciones-economicas/solicitar-la-autoliquidacion.md, preguntas-frecuentes/que-es-la-autoliquidacion.md, glosario.md]
   def-certificacion-riesgo:
     contenido: definición breve de la certificación de riesgo
     origen: [P60, P81]
-    usado_en: [preguntas-frecuentes/que-es-la-certificacion-de-riesgo.md, glosario.md]
   def-pago-directo:
     contenido: definición breve del pago directo
     origen: [P58, P81]
-    usado_en: [preguntas-frecuentes/que-es-el-pago-directo.md, glosario.md]
   # Existentes
-  aviso-cambio-cita: {contenido: "solo el canal para cambiar una cita (02/10, sin aviso ni «No», para no repetir la respuesta)", usado_en: [preguntas-frecuentes/cambiar-una-cita.md], nota: "texto pendiente de validar el canal; la tarea de citas lleva su propio aviso, que enlaza a la pregunta"}
-  contacto: {nota: sin uso desde el borrador completo (contacto en la navegación); su contenido pasa a canales-de-atencion.md con canal-chat y contacto-tramitador, estado: pendiente de validar con Atención; retirar en la limpieza general}
+  aviso-cambio-cita: {contenido: "solo el canal para cambiar una cita (02/10, sin aviso ni «No», para no repetir la respuesta)", nota: "texto pendiente de validar el canal; la tarea de citas lleva su propio aviso, que enlaza a la pregunta"}
   limites-asistente:
     contenido: qué puede y qué no puede hacer el asistente
-    usado_en: [README.md]
     uso: portada y páginas con botón de asistente
     estado: borrador
   aviso-datos-salud:
     contenido: aviso de que la historia clínica, los informes y las pruebas son datos de salud protegidos; no compartir credenciales y cerrar la sesión
-    usado_en: [tu-historia-clinica/consultar-tu-historia-clinica.md]
     uso: páginas o portadas de grupo que muestran datos de salud
     estado: borrador
 
@@ -125,80 +98,64 @@ variables:
 paginas:
   # --- Portada y referencia ---
   README.md:
-    en_indice: true
     origen: [P01, P02]
-    bloques: [limites-asistente]
     notas: P02 (Bienvenida) se fusiona en la portada; se quitan el contacto (va en la navegación) y «Buscar en este espacio» (Confluence)
 
   preguntas-frecuentes/README.md:
-    en_indice: true
     origen: [P41, P42, P48, P56, P74]
     notas: contenido = los bloques faq-<tema> bajo un encabezado por tema; sin mantenimiento propio. P42, P48, P56 y P74 eran índices por tema. Desde el 02/10 es la única entrada del grupo en el menú; las preguntas llevan «hidden» (prueba C de paginas-y-grupos.md) y se llega a ellas desde aquí, desde el cierre de cada tarea, el buscador y el asistente
 
   canales-de-atencion.md:
-    en_indice: true
     origen: [P80]
-    bloques: [canal-chat, contacto-tramitador]
     variables: [telefono_atencion]
     notas: es el destino del enlace de contacto de la navegación
 
   glosario.md:
-    en_indice: true
     origen: [P81]
-    bloques: [def-segunda-opinion, def-autoliquidacion, def-certificacion-riesgo, def-pago-directo]
     variables: [red_centros_url]
     notas: decisión de Sergio del 02/10, se queda tal como está (secciones por letras, cada término en negrita y las cuatro definiciones compartidas) como página de consulta aparte, sin enlaces desde las páginas a sus términos
 
   politica-de-cookies.md:
-    en_indice: true
     origen: [P82]
     notas: reescribir; habla de Confluence. Validar con Legal
 
   # --- Alta y acceso ---
   alta-y-acceso/darte-de-alta.md:
-    en_indice: true
     origen: [P04, P05, P03]
     relaciones: {concepto: [preguntas-frecuentes/certificados-validos.md], incidencia: [preguntas-frecuentes/no-puedo-darme-de-alta.md], siguiente: [alta-y-acceso/acceder-con-biometria.md, alta-y-acceso/doble-factor-de-seguridad.md, citas-y-asistencias/consultar-tus-citas.md, tu-historia-clinica/consultar-tu-historia-clinica.md]}
     variables: [portal_url]
     notas: alta web y alta app en pestañas Web/App (regla aprobada); P03 era índice
 
   alta-y-acceso/acceder-con-biometria.md:
-    en_indice: true
     origen: [P06]
     relaciones: {requisito: [alta-y-acceso/darte-de-alta.md]}
     notas: solo App; sin pestañas, con la indicación «Solo en la App»
 
   alta-y-acceso/doble-factor-de-seguridad.md:
-    en_indice: true
     origen: [P07]
     relaciones: {incidencia: [alta-y-acceso/cambiar-tus-datos-de-contacto.md]}
 
   alta-y-acceso/cambiar-tu-contrasena.md:
-    en_indice: true
     origen: [P43]
     relaciones: {alternativa: [alta-y-acceso/recuperar-tu-contrasena.md]}
     notas: era pregunta frecuente; es una tarea
 
   alta-y-acceso/recuperar-tu-contrasena.md:
-    en_indice: true
     origen: [P44]
     relaciones: {alternativa: [alta-y-acceso/cambiar-tu-contrasena.md]}
     notas: era pregunta frecuente; es una tarea
 
   alta-y-acceso/cambiar-tus-datos-de-contacto.md:
-    en_indice: true
     origen: [P46]
     relaciones: {concepto: [alta-y-acceso/doble-factor-de-seguridad.md]}
     notas: era pregunta frecuente; es una tarea
 
   # --- Citas y asistencias ---
   citas-y-asistencias/consultar-tus-citas.md:
-    en_indice: true
     origen: [P10]
     relaciones: {incidencia: [preguntas-frecuentes/cambiar-una-cita.md], siguiente: [citas-y-asistencias/descargar-un-justificante.md, servicios-medicos-digitales/videoconsulta.md]}
 
   citas-y-asistencias/descargar-un-justificante.md:
-    en_indice: true
     origen: [P16, P55]
     relaciones: {incidencia: [canales-de-atencion.md]}
     variables: [menu_gestiones]
@@ -206,34 +163,27 @@ paginas:
 
   # --- Tu historia clínica ---
   tu-historia-clinica/consultar-tu-historia-clinica.md:
-    en_indice: true
     origen: [P09, P08]
-    bloques: [aviso-datos-salud]
     relaciones: {siguiente: [tu-historia-clinica/consultar-episodios-anteriores.md, tu-historia-clinica/descargar-un-informe.md]}
     notas: desde el 02/10 es página padre en el menú de episodios anteriores y descargar un informe (decisión de Sergio); pruebas, documentación administrativa y segunda opinión siguen al mismo nivel
 
   tu-historia-clinica/consultar-episodios-anteriores.md:
-    en_indice: true
     origen: [P11]
     relaciones: {siguiente: [tu-historia-clinica/descargar-un-informe.md]}
 
   tu-historia-clinica/ver-tus-pruebas-diagnosticas.md:
-    en_indice: true
     origen: [P13]
     relaciones: {siguiente: [tu-historia-clinica/descargar-un-informe.md], incidencia: [preguntas-frecuentes/cuando-estan-disponibles-las-pruebas.md]}
 
   tu-historia-clinica/descargar-un-informe.md:
-    en_indice: true
     origen: [P12]
     relaciones: {concepto: [tu-historia-clinica/consultar-episodios-anteriores.md, preguntas-frecuentes/informe-historia-clinica-o-episodio.md]}
 
   tu-historia-clinica/consultar-documentacion-administrativa.md:
-    en_indice: true
     origen: [P15]
     relaciones: {alternativa: [servicios-medicos-digitales/enviar-documentacion.md], concepto: [preguntas-frecuentes/que-incluye-la-historia-clinica.md], siguiente: [citas-y-asistencias/descargar-un-justificante.md]}
 
   tu-historia-clinica/solicitar-una-segunda-opinion.md:
-    en_indice: true
     origen: [P14]
     variables: [portal_url, red_centros_url]
     relaciones: {concepto: [preguntas-frecuentes/que-es-la-segunda-opinion.md]}
@@ -241,249 +191,196 @@ paginas:
 
   # --- Prestaciones: pago directo ---
   prestaciones-economicas/pago-directo/solicitar-el-pago-directo.md:
-    en_indice: true
     origen: [P19, P18]
     relaciones: {concepto: [preguntas-frecuentes/que-es-el-pago-directo.md], siguiente: [prestaciones-economicas/pago-directo/rellenar-la-solicitud.md], alternativa: [prestaciones-economicas/pago-directo/solicitar-como-representante.md]}
-    bloques: [abrir-solicitud-prestacion]
     variables: [menu_gestiones]
     notas: P18 era índice; su introducción pasa aquí. Desde el 02/10 es página padre en el menú («Pago directo por incapacidad temporal») de rellenar, representante, estado y subsanar, como la página general de riesgo con sus fases
 
   prestaciones-economicas/pago-directo/rellenar-la-solicitud.md:
-    en_indice: true
     origen: [P20]
     relaciones: {requisito: [prestaciones-economicas/pago-directo/solicitar-el-pago-directo.md], siguiente: [prestaciones-economicas/pago-directo/consultar-el-estado.md]}
     notas: común a la persona trabajadora y al representante. Las FAQ de REL la enlazaban por error
 
   prestaciones-economicas/pago-directo/solicitar-como-representante.md:
-    en_indice: true
     origen: [P22]
     relaciones: {siguiente: [prestaciones-economicas/pago-directo/rellenar-la-solicitud.md], alternativa: [prestaciones-economicas/pago-directo/solicitar-el-pago-directo.md]}
     variables: [portal_empresas_url, portal_digital_url]
     notas: sus 4 preguntas propias (código, revocar, SMS, información sanitaria) → candidatas a pregunta frecuente
 
   prestaciones-economicas/pago-directo/consultar-el-estado.md:
-    en_indice: true
     origen: [P21]
     relaciones: {siguiente: [prestaciones-economicas/consultar-tus-pagos.md], incidencia: [prestaciones-economicas/pago-directo/subsanar-documentacion.md, prestaciones-economicas/reclamar-una-resolucion.md]}
-    bloques: [contacto-tramitador]
 
   prestaciones-economicas/pago-directo/subsanar-documentacion.md:
-    en_indice: true
     origen: [P24]
     relaciones: {siguiente: [prestaciones-economicas/pago-directo/consultar-el-estado.md]}
 
   # --- Prestaciones: riesgo durante el embarazo o la lactancia (REL) ---
   prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md:
-    en_indice: true
     origen: [P26, P25, P32]
     relaciones: {siguiente: [prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md]}
     variables: [rel_lactancia_semana, rel_lactancia_semana_multiple]
     notas: stepper con las 4 fases que muestra la pantalla (iniciar, certificación, finalizar, resolución); las diferencias de la lactancia (P32) en una sección propia
 
   prestaciones-economicas/riesgo-embarazo-lactancia/iniciar-la-solicitud.md:
-    en_indice: true
     origen: [P28, P27]
     relaciones: {siguiente: [prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md], requisito: [prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md]}
-    bloques: [abrir-solicitud-prestacion]
     variables: [portal_empresas_url, portal_digital_url, menu_gestiones, rel_lactancia_semana, rel_lactancia_semana_multiple]
     notas: P27 (acceso) es el primer paso; queda en el bloque abrir-solicitud-prestacion
 
   prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md:
-    en_indice: true
     origen: [P29]
     relaciones: {siguiente: [prestaciones-economicas/riesgo-embarazo-lactancia/finalizar-la-solicitud.md], incidencia: [prestaciones-economicas/reclamar-una-resolucion.md, preguntas-frecuentes/cuanto-tarda-la-certificacion.md], concepto: [preguntas-frecuentes/fecha-de-riesgo-certificada.md]}
-    bloques: [rel-tipos-certificacion]
 
   prestaciones-economicas/riesgo-embarazo-lactancia/finalizar-la-solicitud.md:
-    en_indice: true
     origen: [P30]
     relaciones: {siguiente: [prestaciones-economicas/riesgo-embarazo-lactancia/resolucion.md], concepto: [preguntas-frecuentes/fecha-de-riesgo-certificada.md]}
     variables: [rel_dias_finalizar]
     notas: cuándo se habilita el paso es necesario para continuar; se muestra en una frase con la variable (positiva, de inmediato; diferida, desde los días previos a la fecha), no con el bloque de tipos de certificación
 
   prestaciones-economicas/riesgo-embarazo-lactancia/resolucion.md:
-    en_indice: true
     origen: [P31]
     relaciones: {siguiente: [prestaciones-economicas/consultar-tus-pagos.md], incidencia: [prestaciones-economicas/reclamar-una-resolucion.md], concepto: [preguntas-frecuentes/calculo-y-abono-rel.md, preguntas-frecuentes/hasta-cuando-dura-la-prestacion-rel.md]}
 
   # --- Prestaciones: pagos y gestiones ---
   prestaciones-economicas/consultar-tus-pagos.md:
-    en_indice: true
     origen: [P33, P23]
     relaciones: {siguiente: [prestaciones-economicas/descargar-el-certificado-de-retenciones.md], alternativa: [prestaciones-economicas/solicitar-la-autoliquidacion.md]}
     notas: P23 (información económica de pago directo) repite la misma pantalla
 
   prestaciones-economicas/solicitar-la-autoliquidacion.md:
-    en_indice: true
     origen: [P34]
-    bloques: [def-autoliquidacion, autoliquidacion-requisitos, contacto-tramitador]
     variables: [autoliquidacion_espera, autoliquidacion_plazo_abono]
     relaciones: {incidencia: [preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md], siguiente: [prestaciones-economicas/consultar-tus-pagos.md], concepto: [preguntas-frecuentes/hasta-que-fecha-paga-la-autoliquidacion.md, preguntas-frecuentes/importe-de-la-autoliquidacion.md]}
     notas: prueba de la plantilla (01/10). Sin sus 2 preguntas propias ni el enlace a «cobro anticipado»
 
   prestaciones-economicas/descargar-el-certificado-de-retenciones.md:
-    en_indice: true
     origen: [P35, P59]
     relaciones: {concepto: [prestaciones-economicas/consultar-tus-pagos.md]}
     notas: P59 es la misma respuesta. Revisar contenido genérico de P35 (ticket, NIF, enlace a sí misma)
 
   prestaciones-economicas/reclamar-una-resolucion.md:
-    en_indice: true
     origen: [P63]
     relaciones: {concepto: [prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md], requisito: [prestaciones-economicas/pago-directo/consultar-el-estado.md, prestaciones-economicas/riesgo-embarazo-lactancia/resolucion.md]}
-    bloques: [contacto-tramitador]
     notas: era pregunta frecuente; es una tarea. Sus 3 preguntas propias ya están en el texto
 
   # --- Servicios médicos digitales ---
   servicios-medicos-digitales/chat-con-el-servicio-medico.md:
-    en_indice: true
     origen: [P38, P36]
     relaciones: {concepto: [canales-de-atencion.md], incidencia: [preguntas-frecuentes/cuando-responden-el-chat.md], siguiente: [servicios-medicos-digitales/enviar-documentacion.md]}
-    bloques: [canal-chat]
     variables: [menu_gestiones]
     notas: P36 era índice de la sección
 
   servicios-medicos-digitales/enviar-documentacion.md:
-    en_indice: true
     origen: [P37]
     relaciones: {siguiente: [tu-historia-clinica/consultar-documentacion-administrativa.md, servicios-medicos-digitales/chat-con-el-servicio-medico.md], alternativa: [citas-y-asistencias/consultar-tus-citas.md]}
     variables: [menu_gestiones]
     notas: en Confluence estaba en Servicios médicos digitales y ahí se queda (decisión de Sergio del 02/10, es un servicio médico digital). La historia clínica la enlaza en «Qué puedes hacer desde aquí» y en la documentación administrativa
 
   servicios-medicos-digitales/videoconsulta.md:
-    en_indice: true
     origen: [P39]
     relaciones: {requisito: [citas-y-asistencias/consultar-tus-citas.md]}
 
   servicios-medicos-digitales/rehabilitacion-online.md:
-    en_indice: true
     origen: [P40, P75]
     notas: P75 son los pasos (stepper); P40 la introducción
 
   # --- Preguntas frecuentes (tipo pregunta o concepto; aparecen en las tareas por su tema) ---
-  preguntas-frecuentes/cambiar-una-cita.md: {en_indice: true, origen: [P52], relaciones: {tarea: [citas-y-asistencias/consultar-tus-citas.md]}, bloques: [aviso-cambio-cita], notas: canal por validar}
-  preguntas-frecuentes/que-es-la-segunda-opinion.md: {en_indice: true, origen: [P49], relaciones: {tarea: [tu-historia-clinica/solicitar-una-segunda-opinion.md]}, bloques: [def-segunda-opinion]}
-  preguntas-frecuentes/informe-historia-clinica-o-episodio.md: {en_indice: true, origen: [P50], relaciones: {tarea: [tu-historia-clinica/descargar-un-informe.md]}}
-  preguntas-frecuentes/cuando-estan-disponibles-las-pruebas.md: {en_indice: true, origen: [P51], relaciones: {tarea: [tu-historia-clinica/ver-tus-pruebas-diagnosticas.md]}}
-  preguntas-frecuentes/que-pruebas-puedo-ver.md: {en_indice: true, origen: [P53], relaciones: {tarea: [tu-historia-clinica/ver-tus-pruebas-diagnosticas.md]}}
-  preguntas-frecuentes/que-incluye-la-historia-clinica.md: {en_indice: true, origen: [P54], relaciones: {tarea: [tu-historia-clinica/consultar-documentacion-administrativa.md]}}
+  preguntas-frecuentes/cambiar-una-cita.md: {origen: [P52], relaciones: {tarea: [citas-y-asistencias/consultar-tus-citas.md]}, notas: canal por validar}
+  preguntas-frecuentes/que-es-la-segunda-opinion.md: {origen: [P49], relaciones: {tarea: [tu-historia-clinica/solicitar-una-segunda-opinion.md]}}
+  preguntas-frecuentes/informe-historia-clinica-o-episodio.md: {origen: [P50], relaciones: {tarea: [tu-historia-clinica/descargar-un-informe.md]}}
+  preguntas-frecuentes/cuando-estan-disponibles-las-pruebas.md: {origen: [P51], relaciones: {tarea: [tu-historia-clinica/ver-tus-pruebas-diagnosticas.md]}}
+  preguntas-frecuentes/que-pruebas-puedo-ver.md: {origen: [P53], relaciones: {tarea: [tu-historia-clinica/ver-tus-pruebas-diagnosticas.md]}}
+  preguntas-frecuentes/que-incluye-la-historia-clinica.md: {origen: [P54], relaciones: {tarea: [tu-historia-clinica/consultar-documentacion-administrativa.md]}}
 
   preguntas-frecuentes/no-puedo-darme-de-alta.md:
-    en_indice: true
     origen: [P45]
     relaciones: {tarea: [alta-y-acceso/darte-de-alta.md]}
     variables: [red_centros_url]
 
   preguntas-frecuentes/certificados-validos.md:
-    en_indice: true
     origen: [P47]
     relaciones: {tarea: [alta-y-acceso/darte-de-alta.md]}
 
   preguntas-frecuentes/que-prestaciones-puedo-pedir.md:
-    en_indice: true
     origen: [P57, P17]
     relaciones: {tarea: [prestaciones-economicas/pago-directo/solicitar-el-pago-directo.md, prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md]}
-    bloques: [abrir-solicitud-prestacion]
     notas: P17 era índice de Prestaciones
 
   preguntas-frecuentes/que-es-el-pago-directo.md:
-    en_indice: true
     origen: [P58]
     relaciones: {tarea: [prestaciones-economicas/pago-directo/solicitar-el-pago-directo.md]}
-    bloques: [def-pago-directo]
 
   preguntas-frecuentes/que-es-la-certificacion-de-riesgo.md:
-    en_indice: true
     origen: [P60]
     relaciones: {tarea: [prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md]}
-    bloques: [def-certificacion-riesgo, rel-tipos-certificacion]
 
   preguntas-frecuentes/fecha-de-riesgo-certificada.md:
-    en_indice: true
     origen: [P61]
     relaciones: {tarea: [prestaciones-economicas/riesgo-embarazo-lactancia/certificacion-de-riesgo.md]}
     variables: [rel_dias_finalizar]
     notas: dejar solo lo propio (efectos en el contrato y en el cobro); el resto lo cubren P60, P64 y P65
 
   preguntas-frecuentes/cuanto-tarda-la-certificacion.md:
-    en_indice: true
     origen: [P62]
 
   preguntas-frecuentes/cuando-puedo-finalizar-la-solicitud.md:
-    en_indice: true
     origen: [P64]
     relaciones: {tarea: [prestaciones-economicas/riesgo-embarazo-lactancia/finalizar-la-solicitud.md]}
-    bloques: [rel-tipos-certificacion]
 
   preguntas-frecuentes/calculo-y-abono-rel.md:
-    en_indice: true
     origen: [P65]
     relaciones: {tarea: [prestaciones-economicas/consultar-tus-pagos.md]}
     notas: quitar sus 3 preguntas propias (ya están en el texto)
 
   preguntas-frecuentes/hasta-cuando-dura-la-prestacion-rel.md:
-    en_indice: true
     origen: [P66]
     relaciones: {tarea: [prestaciones-economicas/riesgo-embarazo-lactancia/solicitar-la-prestacion.md]}
 
   preguntas-frecuentes/que-es-la-autoliquidacion.md:
-    en_indice: true
     origen: [P67]
-    bloques: [def-autoliquidacion, autoliquidacion-requisitos]
     variables: [autoliquidacion_espera, autoliquidacion_plazo_abono]
     relaciones: {tarea: [prestaciones-economicas/solicitar-la-autoliquidacion.md]}
 
   preguntas-frecuentes/importe-de-la-autoliquidacion.md:
-    en_indice: true
     origen: [P68, P69]
     relaciones: {tarea: [prestaciones-economicas/solicitar-la-autoliquidacion.md]}
     notas: P69 (cómo se cuentan los días) repite el cálculo y el ejemplo de P68
 
   preguntas-frecuentes/aprobacion-de-la-autoliquidacion.md:
-    en_indice: true
     origen: [P70]
     relaciones: {tarea: [prestaciones-economicas/solicitar-la-autoliquidacion.md]}
-    bloques: [autoliquidacion-requisitos]
     variables: [autoliquidacion_plazo_abono]
 
   preguntas-frecuentes/cuando-recibo-la-autoliquidacion.md:
-    en_indice: true
     origen: [P71]
     relaciones: {tarea: [prestaciones-economicas/solicitar-la-autoliquidacion.md]}
     variables: [autoliquidacion_espera, autoliquidacion_plazo_abono]
     notas: corregir el ejemplo del viernes y el enlace a Historia clínica
 
   preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion.md:
-    en_indice: true
     origen: [P72]
-    bloques: [autoliquidacion-requisitos, contacto-tramitador]
     variables: [autoliquidacion_espera]
     relaciones: {tarea: [prestaciones-economicas/solicitar-la-autoliquidacion.md]}
     notas: los «5 días» de P72 son los días que faltan en el ejemplo del aviso, no otra regla. Su captura parece retocada («Persenes», «6:00h»); no se usa
 
   preguntas-frecuentes/hasta-que-fecha-paga-la-autoliquidacion.md:
-    en_indice: true
     origen: [P73]
     relaciones: {tarea: [prestaciones-economicas/solicitar-la-autoliquidacion.md]}
 
   preguntas-frecuentes/ventajas-de-la-rehabilitacion-online.md:
-    en_indice: true
     origen: [P76]
     relaciones: {tarea: [servicios-medicos-digitales/rehabilitacion-online.md]}
     notas: 640 palabras genéricas; reducir a lo esencial
 
   preguntas-frecuentes/cuando-responden-el-chat.md:
-    en_indice: true
     origen: [P77]
     relaciones: {tarea: [servicios-medicos-digitales/chat-con-el-servicio-medico.md]}
-    bloques: [canal-chat]
 
   preguntas-frecuentes/cuando-se-cierra-un-chat.md:
-    en_indice: true
     origen: [P78]
     relaciones: {tarea: [servicios-medicos-digitales/chat-con-el-servicio-medico.md]}
 
   preguntas-frecuentes/que-necesito-para-una-videoconsulta.md:
-    en_indice: true
     origen: [P79]
     relaciones: {tarea: [servicios-medicos-digitales/videoconsulta.md]}

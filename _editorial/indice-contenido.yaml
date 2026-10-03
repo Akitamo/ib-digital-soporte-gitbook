@@ -1,19 +1,17 @@
 # Índice de contenidos de la sección Personas
 #
-# Una entrada por página. Lo usan:
-#  - herramientas/generar_faq.py: genera un bloque reutilizable de preguntas frecuentes por tema
-#    (.gitbook/includes/faq-<tema>.md) con las páginas de tipo «pregunta» o «concepto» de ese tema.
-#  - el análisis de enlaces por intención: «resuelve» dice qué problema resuelve cada página o ancla.
-#  - herramientas/validar.py: comprueba que el índice y las páginas coinciden.
+# Una entrada por página; toda página nueva lleva la suya. Lo usan generar_faq.py (bloques faq-<tema>, parte
+# «Preguntas frecuentes» del cierre y portada de preguntas: ver «Partes generadas» del README del repositorio)
+# y validar.py, que comprueba que el índice y las páginas coinciden y que existen las anclas de «resuelve».
 #
 # tipo: portada | tarea | concepto | pregunta | referencia
 # temas: temas a los que pertenece la página (una pregunta puede tener varios)
-# faq_tema: tema del bloque de preguntas frecuentes que muestra la página (solo tareas). Se muestra solo si
-#   el tema tiene preguntas; sin faq_tema, la tarea no muestra preguntas (criterio C3, 02/10). Lo mantiene
-#   generar_faq.py: no se edita a mano la parte «Preguntas frecuentes» del cierre.
-# cierre: título y ancla del encabezado «Más sobre…» que generar_faq.py crea si el tema de una tarea sin
-#   cierre pasa a tener preguntas (criterio C1: sin preguntas ni tareas útiles, la tarea no lleva cierre).
-# resuelve: intenciones que resuelve la página; «ancla» vacía = la página entera
+# faq_tema: tema del bloque de preguntas frecuentes que muestra la página (solo tareas); sin faq_tema, la tarea
+#   no muestra preguntas (criterio C3, 02/10).
+# cierre: título y ancla del encabezado «Más sobre…» que se crea si el tema de una tarea sin cierre pasa a
+#   tener preguntas (criterio C1: sin preguntas ni tareas útiles, la tarea no lleva cierre).
+# resuelve: intenciones que resuelve la página; «ancla» vacía = la página entera. Al crear una página se añade
+#   la intención de la página y, si procede, la de las anclas fijas que resuelven algo concreto.
 
 temas:
   alta: Alta

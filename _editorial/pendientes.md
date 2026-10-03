@@ -2,17 +2,17 @@
 
 Lista generada por `herramientas/generar_pendientes.py` a partir de `_editorial/pendientes.yaml` y de los marcadores de captura de la app. No se edita a mano: se corrige la fuente y se vuelve a generar. GitBook no importa esta carpeta.
 
-**105 pendientes**: 97 en páginas y 8 en bloques o variables compartidos, que se repiten en cada página donde se usan. 45 páginas afectadas.
+**107 pendientes**: 97 en páginas y 10 en bloques o variables compartidos, que se repiten en cada página donde se usan. 45 páginas afectadas.
 
 | Tipo | Qué significa | Número |
 |---|---|---|
 | contradicción | incoherencia de negocio del análisis de contenido, apartado 4 (con su número) | 18 |
-| valor provisional | dato que figura en la ayuda pero falta confirmar | 2 |
+| valor provisional | dato que figura en la ayuda pero falta confirmar | 3 |
 | app | funcionamiento o texto de la app sin confirmar | 23 |
 | captura de la app | falta la captura de la app (marcador de imagen) | 9 |
 | captura dudosa | captura usada que conviene revisar | 8 |
 | captura descartada | captura original no usada, con el motivo | 17 |
-| sin verificar | contenido funcional sin fuente o genérico | 26 |
+| sin verificar | contenido funcional sin fuente o genérico | 27 |
 | decisión | decisión editorial o de estructura pendiente de Sergio | 2 |
 
 ## Bloques y variables compartidos
@@ -25,6 +25,14 @@ Lista generada por `herramientas/generar_pendientes.py` a partir de `_editorial/
 | app | P19 y P27 dicen que «en este momento» la solicitud no está disponible en la app. Confirmar si sigue igual. | [L6](../help-center/.gitbook/includes/abrir-solicitud-prestacion.md#L6) |
 
 Páginas afectadas: [¿Qué prestaciones puedo pedir desde Ibermutua Digital Personas?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-prestaciones-puedo-pedir) › [Cómo empezar](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-prestaciones-puedo-pedir#prestaciones-empezar); [Solicitar el pago directo por incapacidad temporal](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-el-pago-directo) › [Empieza la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-el-pago-directo#pago-directo-empezar); [Iniciar la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud) › [Abre el trámite](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-prestacion/iniciar-la-solicitud#rel-iniciar-abrir).
+
+### Bloque `autoliquidacion-requisitos`
+
+| Tipo | Pendiente | Línea |
+|---|---|---|
+| sin verificar | Las cuatro condiciones para pedir la autoliquidación proceden de Confluence (P34, P67, P70-P72) y están sin validar. El plazo de espera tiene su propio pendiente (variable autoliquidacion_espera). | [L5](../help-center/.gitbook/includes/autoliquidacion-requisitos.md#L5) |
+
+Páginas afectadas: [¿La autoliquidación necesita aprobación?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/aprobacion-de-la-autoliquidacion) › [Qué se comprueba antes](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/aprobacion-de-la-autoliquidacion#autoliquidacion-comprobacion-previa); [¿Por qué no puedo solicitar la autoliquidación?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion) › [Qué se comprueba](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion#autoliquidacion-que-se-comprueba); [¿Qué es la autoliquidación y qué condiciones tiene?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-es-la-autoliquidacion) › [Condiciones](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-es-la-autoliquidacion#autoliquidacion-condiciones); [Solicitar la autoliquidación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion).
 
 ### Bloque `aviso-cambio-cita`
 
@@ -41,6 +49,14 @@ Páginas afectadas: [¿Puedo cambiar las citas desde Ibermutua Digital?](https:/
 | contradicción 1 | P38 incluye las citas entre las dudas que se pueden plantear por chat; P80 y el aviso de citas las remiten al teléfono. El bloque no menciona las citas. | [L6](../help-center/.gitbook/includes/canal-chat.md#L6) |
 
 Páginas afectadas: [Canales de atención](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/canales-de-atencion) › [Chat con el servicio médico](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/canales-de-atencion#canales-chat); [¿El chat se responde al momento?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-responden-el-chat) › [Para qué es el chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-responden-el-chat#chat-uso); [Hablar con el servicio médico por chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/chat-con-el-servicio-medico).
+
+### Bloque `contacto-tramitador`
+
+| Tipo | Pendiente | Línea |
+|---|---|---|
+| valor provisional | Horario de atención del tramitador/a, tomado de Confluence (P21, P34, P80); confirmar con negocio. | [L5](../help-center/.gitbook/includes/contacto-tramitador.md#L5) |
+
+Páginas afectadas: [Canales de atención](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/canales-de-atencion) › [Tu tramitador/a](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/canales-de-atencion#canales-tramitador); [¿Por qué no puedo solicitar la autoliquidación?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion) › [Qué verás](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion#autoliquidacion-aviso); [Reclamar una resolución de la mutua](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/reclamar-una-resolucion) › [Sigue tu reclamación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/reclamar-una-resolucion#reclamar-seguimiento); [Solicitar la autoliquidación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion) › [Pide la autoliquidación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion#autoliquidacion-pedir); [Consultar el estado de tu solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-el-pago-directo/consultar-el-estado) › [Contacta con tu tramitador/a](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-el-pago-directo/consultar-el-estado#estado-tramitador).
 
 ### Variable `autoliquidacion_espera`
 
@@ -239,6 +255,7 @@ Páginas afectadas: [Iniciar la solicitud](https://app.gitbook.com/o/R2iiSe67DRk
 | Inicio de la página | sin verificar | P21 no dice cómo se abre la solicitud. Se toma de la pantalla de Solicitudes (26ecaafc47b6, con «Abrir ficha de la prestación económica»), que no se usa como captura porque muestra importes y fechas de una prestación. | [L10](../help-center/prestaciones-economicas/pago-directo/consultar-el-estado.md#L10) |
 | Inicio de la página | captura descartada | 9420b05b11fd (página de la solicitud con nombres sin difuminar). 9b5014ad1939 y e3cc05cd6b8c son correos (justificante y resolución), no pantallas del portal. | [L12](../help-center/prestaciones-economicas/pago-directo/consultar-el-estado.md#L12) |
 | [Consulta la resolución](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-el-pago-directo/consultar-el-estado#estado-resolucion) | captura dudosa | El histórico muestra una fecha de 2020 y el título «Historico» sin tilde. Confirmar que es la pantalla actual. | [L28](../help-center/prestaciones-economicas/pago-directo/consultar-el-estado.md#L28) |
+| [Contacta con tu tramitador/a](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-el-pago-directo/consultar-el-estado#estado-tramitador) | valor provisional | Bloque `contacto-tramitador`: Horario de atención del tramitador/a, tomado de Confluence (P21, P34, P80); confirmar con negocio. | [L5](../help-center/.gitbook/includes/contacto-tramitador.md#L5) |
 
 ### [Subsanar la documentación de tu solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-el-pago-directo/subsanar-documentacion)
 
@@ -319,6 +336,8 @@ Páginas afectadas: [Iniciar la solicitud](https://app.gitbook.com/o/R2iiSe67DRk
 |---|---|---|---|
 | Inicio de la página | contradicción 5 | Nombre de la opción. El menú de las capturas de marzo de 2026 (9e5f5f992ca2, d5fda311735e), usado en pagos y retenciones, dice «Autopagos»; esta página y la captura descartada 76b94cf13394, «Autoliquidación». | [L10](../help-center/prestaciones-economicas/solicitar-la-autoliquidacion.md#L10) |
 | Inicio de la página | valor provisional | Variable `autoliquidacion_espera`: Días que tienen que pasar desde tu último pago o tu última autoliquidación para poder pedirla (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
+| Inicio de la página | sin verificar | Bloque `autoliquidacion-requisitos`: Las cuatro condiciones para pedir la autoliquidación proceden de Confluence (P34, P67, P70-P72) y están sin validar. El plazo de espera tiene su propio pendiente (variable autoliquidacion_espera). | [L5](../help-center/.gitbook/includes/autoliquidacion-requisitos.md#L5) |
+| [Pide la autoliquidación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion#autoliquidacion-pedir) | valor provisional | Bloque `contacto-tramitador`: Horario de atención del tramitador/a, tomado de Confluence (P21, P34, P80); confirmar con negocio. | [L5](../help-center/.gitbook/includes/contacto-tramitador.md#L5) |
 | [Pide la autoliquidación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion#autoliquidacion-pedir) | app | Texto visible de la pestaña App en la página de prueba (P34 solo describe la web). | [L52](../help-center/prestaciones-economicas/solicitar-la-autoliquidacion.md#L52) |
 | [Pide la autoliquidación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion#autoliquidacion-pedir) | captura de la app | acceso a Autoliquidación. | [L54](../help-center/prestaciones-economicas/solicitar-la-autoliquidacion.md#L54) |
 | [Cuándo cobras y cómo sigues la solicitud](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/solicitar-la-autoliquidacion#autoliquidacion-seguimiento) | contradicción 4 | Variable `autoliquidacion_plazo_abono`: Plazo de abono. P34 dice «en un máximo de 2 días laborables» y también «en 1-2 días». | [L4](../help-center/.gitbook/vars.yaml#L4) |
@@ -344,6 +363,7 @@ Páginas afectadas: [Iniciar la solicitud](https://app.gitbook.com/o/R2iiSe67DRk
 | [Qué puedes reclamar](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/reclamar-una-resolucion#reclamar-que) | sin verificar | P63 describe la reclamación de la certificación sin capturas de sus pantallas. | [L21](../help-center/prestaciones-economicas/reclamar-una-resolucion.md#L21) |
 | [Qué puedes reclamar](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/reclamar-una-resolucion#reclamar-que) | sin verificar | No hay captura de la opción para reclamar la resolución final; P63 dice que está «en la propia página de la resolución». | [L29](../help-center/prestaciones-economicas/reclamar-una-resolucion.md#L29) |
 | [Sigue tu reclamación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/reclamar-una-resolucion#reclamar-seguimiento) | contradicción 2 | Texto de P63 (chat con el servicio médico o vías de contacto de la notificación); P80 dice que el chat no es para prestaciones. El bloque del tramitador/a va porque el mapa lo asigna a esta página, no como sustituto del chat. Lo resuelve negocio. | [L42](../help-center/prestaciones-economicas/reclamar-una-resolucion.md#L42) |
+| [Sigue tu reclamación](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/prestaciones-economicas/reclamar-una-resolucion#reclamar-seguimiento) | valor provisional | Bloque `contacto-tramitador`: Horario de atención del tramitador/a, tomado de Confluence (P21, P34, P80); confirmar con negocio. | [L5](../help-center/.gitbook/includes/contacto-tramitador.md#L5) |
 
 ### [Hablar con el servicio médico por chat](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/servicios-medicos-digitales/chat-con-el-servicio-medico)
 
@@ -422,6 +442,7 @@ Páginas afectadas: [Iniciar la solicitud](https://app.gitbook.com/o/R2iiSe67DRk
 | Sección | Tipo | Pendiente | Línea |
 |---|---|---|---|
 | [Condiciones](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-es-la-autoliquidacion#autoliquidacion-condiciones) | valor provisional | Variable `autoliquidacion_espera`: Días que tienen que pasar desde tu último pago o tu última autoliquidación para poder pedirla (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
+| [Condiciones](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-es-la-autoliquidacion#autoliquidacion-condiciones) | sin verificar | Bloque `autoliquidacion-requisitos`: Las cuatro condiciones para pedir la autoliquidación proceden de Confluence (P34, P67, P70-P72) y están sin validar. El plazo de espera tiene su propio pendiente (variable autoliquidacion_espera). | [L5](../help-center/.gitbook/includes/autoliquidacion-requisitos.md#L5) |
 | [Cómo se comprueban](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/que-es-la-autoliquidacion#autoliquidacion-comprobacion) | contradicción 4 | Variable `autoliquidacion_plazo_abono`: Plazo de abono. P34 dice «en un máximo de 2 días laborables» y también «en 1-2 días». | [L4](../help-center/.gitbook/vars.yaml#L4) |
 
 ### [¿Qué importe recibiré con la autoliquidación?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/importe-de-la-autoliquidacion)
@@ -440,6 +461,7 @@ Páginas afectadas: [Iniciar la solicitud](https://app.gitbook.com/o/R2iiSe67DRk
 |---|---|---|---|
 | Inicio de la página | contradicción 4 | Variable `autoliquidacion_plazo_abono`: Plazo de abono. P34 dice «en un máximo de 2 días laborables» y también «en 1-2 días». | [L4](../help-center/.gitbook/vars.yaml#L4) |
 | [Qué se comprueba antes](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/aprobacion-de-la-autoliquidacion#autoliquidacion-comprobacion-previa) | valor provisional | Variable `autoliquidacion_espera`: Días que tienen que pasar desde tu último pago o tu última autoliquidación para poder pedirla (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
+| [Qué se comprueba antes](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/aprobacion-de-la-autoliquidacion#autoliquidacion-comprobacion-previa) | sin verificar | Bloque `autoliquidacion-requisitos`: Las cuatro condiciones para pedir la autoliquidación proceden de Confluence (P34, P67, P70-P72) y están sin validar. El plazo de espera tiene su propio pendiente (variable autoliquidacion_espera). | [L5](../help-center/.gitbook/includes/autoliquidacion-requisitos.md#L5) |
 
 ### [¿Cuándo recibo la autoliquidación?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-recibo-la-autoliquidacion)
 
@@ -459,6 +481,8 @@ Páginas afectadas: [Iniciar la solicitud](https://app.gitbook.com/o/R2iiSe67DRk
 |---|---|---|---|
 | Inicio de la página | valor provisional | Variable `autoliquidacion_espera`: Días que tienen que pasar desde tu último pago o tu última autoliquidación para poder pedirla (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
 | [Qué se comprueba](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion#autoliquidacion-que-se-comprueba) | valor provisional | Variable `autoliquidacion_espera`: Días que tienen que pasar desde tu último pago o tu última autoliquidación para poder pedirla (P34, P67, P70-P72); confirmar con negocio. | [L3](../help-center/.gitbook/vars.yaml#L3) |
+| [Qué se comprueba](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion#autoliquidacion-que-se-comprueba) | sin verificar | Bloque `autoliquidacion-requisitos`: Las cuatro condiciones para pedir la autoliquidación proceden de Confluence (P34, P67, P70-P72) y están sin validar. El plazo de espera tiene su propio pendiente (variable autoliquidacion_espera). | [L5](../help-center/.gitbook/includes/autoliquidacion-requisitos.md#L5) |
+| [Qué verás](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/no-puedo-solicitar-la-autoliquidacion#autoliquidacion-aviso) | valor provisional | Bloque `contacto-tramitador`: Horario de atención del tramitador/a, tomado de Confluence (P21, P34, P80); confirmar con negocio. | [L5](../help-center/.gitbook/includes/contacto-tramitador.md#L5) |
 
 ### [¿El chat se responde al momento?](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/preguntas-frecuentes/cuando-responden-el-chat)
 
@@ -492,6 +516,7 @@ Páginas afectadas: [Iniciar la solicitud](https://app.gitbook.com/o/R2iiSe67DRk
 |---|---|---|---|
 | Inicio de la página | decisión | Página de referencia sin muestra aprobada, para revisar aparte. Tabla de canales (P80) y una sección por canal con los bloques canal-chat y contacto-tramitador; recoge el contenido del bloque contacto de la portada. | [L10](../help-center/canales-de-atencion.md#L10) |
 | [Chat con el servicio médico](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/canales-de-atencion#canales-chat) | contradicción 1 | Bloque `canal-chat`: P38 incluye las citas entre las dudas que se pueden plantear por chat; P80 y el aviso de citas las remiten al teléfono. El bloque no menciona las citas. | [L6](../help-center/.gitbook/includes/canal-chat.md#L6) |
+| [Tu tramitador/a](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/canales-de-atencion#canales-tramitador) | valor provisional | Bloque `contacto-tramitador`: Horario de atención del tramitador/a, tomado de Confluence (P21, P34, P80); confirmar con negocio. | [L5](../help-center/.gitbook/includes/contacto-tramitador.md#L5) |
 | [Tu tramitador/a](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/canales-de-atencion#canales-tramitador) | captura descartada | No se usa 8795ab9cd23b, con datos del tramitador/a y de la persona solo en parte difuminados; se reutiliza el recorte de la página de estado de la solicitud. 74b500660222 repite la página de inicio con el chat. | [L30](../help-center/canales-de-atencion.md#L30) |
 | [Línea de Atención Telefónica Integral 24 h](https://app.gitbook.com/o/R2iiSe67DRkUjor1gjhY/s/Z5e2C4G5OriqT5L8gO9x/otros-temas/canales-de-atencion#canales-telefono) | sin verificar | P80 remite los cambios de datos al teléfono, pero el móvil y el correo se cambian en Mi cuenta (P46). Confirmar qué datos se cambian por teléfono. | [L34](../help-center/canales-de-atencion.md#L34) |
 
